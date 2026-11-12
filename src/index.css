@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@theme {
+  /* AutoLab Core Colour Tokens */
+  --color-ivory: #F3F0E9;
+  --color-paper: #FAF8F3;
+  --color-ink: #252425;
+  --color-graphite: #101114;
+  --color-cyan: #72C4E1;
+  --color-cyan-ink: #17596D;
+  --color-muted-grey: #65615B;
+  --color-fine-border: #D2CEC5;
+
+  /* Editorial Typography */
+  --font-serif: "Playfair Display", Georgia, "Times New Roman", serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+
+  /* Motion Timing */
+  --ease-atelier: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@layer base {
+  html {
+    background-color: var(--color-ivory);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: var(--color-ivory);
+    color: var(--color-ink);
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  button,
+  a,
+  [role="button"] {
+    transition-timing-function: var(--ease-atelier);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-cyan-ink);
+    outline-offset: 2px;
+  }
+
+  .bg-graphite :focus-visible,
+  .bg-graphite:focus-visible {
+    outline-color: var(--color-cyan);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

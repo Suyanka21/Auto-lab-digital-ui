@@ -26,3 +26,17 @@ test('normal build has real assets and no test diagnostics',async({page})=>{
  expect(errors).toEqual([]);await writeFile('docs/evidence/final/release-network.json',JSON.stringify({hashes,errors,testDiagnostics:false},null,2));
  const video=page.video();await page.close();await video?.saveAs('docs/evidence/final/showroom-interactions.webm');
 });
+
+test('cinematic owner preview fits desktop, tablet and mobile',async({page})=>{
+ test.setTimeout(120000);await page.goto('/studio');
+ await expect(page.getByTestId('spike-viewer')).toHaveAttribute('aria-busy','false',{timeout:60000});
+ await expect(page.getByTestId('viewer-status')).toHaveCount(0);
+ await page.getByRole('button',{name:'02 Colour',exact:true}).click();
+ await page.getByRole('radio',{name:'Sienna Brown',exact:true}).click();
+ for(const viewport of [{width:1440,height:900},{width:768,height:1024},{width:390,height:844}]){
+  await page.setViewportSize(viewport);
+  await page.screenshot({path:`docs/evidence/cinematic/owner-colour-${viewport.width}.png`});
+  const bounds=await page.locator('[data-component=CabinViewer]').boundingBox();expect(bounds!.y).toBeGreaterThanOrEqual(0);expect(bounds!.y+bounds!.height).toBeLessThan(viewport.height);
+  await expect.poll(()=>page.evaluate(()=>document.documentElement.scrollHeight)).toBeLessThanOrEqual(viewport.height);
+ }
+});

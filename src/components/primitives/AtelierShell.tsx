@@ -53,7 +53,7 @@ export function AtelierShell({ activeRoute, onNavigate, children }: AtelierShell
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-ivory text-ink">
+    <div data-route={activeRoute} className="min-h-screen flex flex-col bg-ivory text-ink">
       {/* 3-Zone Top Bar Contract (Desktop) · Left Menu + Brand (Mobile) */}
       <header className="sticky top-0 z-30 bg-ivory border-b border-fine-border">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-8 h-16 flex items-center justify-between gap-4 lg:gap-8">

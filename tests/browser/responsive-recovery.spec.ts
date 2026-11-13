@@ -31,7 +31,7 @@ test('mobile reduced motion, menu focus and narrow layouts',async({page})=>{
  const secondary=page.getByRole('radiogroup',{name:'Secondary hide colour',exact:true});await secondary.getByRole('radio',{checked:true}).focus();await page.keyboard.press('ArrowDown');
  await expect(secondary.getByRole('radio',{name:/Sienna Brown/})).toBeDisabled();
  const widths=[];for(const width of [320,390,768,1024,1440]){await page.setViewportSize({width,height:900});await expect.poll(()=>page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(width);widths.push(width);}
- await page.setViewportSize({width:390,height:844});await step(page,'Composition');await expect(page.getByText(/Seat centres remain/)).toBeVisible();
+ await page.setViewportSize({width:390,height:844});await step(page,'Composition');await expect(page.getByText(/Primary colour defines seat centres/)).toBeVisible();
  await page.screenshot({path:`${folder}/mobile-two-tone.png`,fullPage:true});
  expect(await page.evaluate(()=>getComputedStyle(document.querySelector('button')!).transitionDuration)).toBe('1e-05s');
  await writeFile(`${folder}/responsive.json`,JSON.stringify({widths,reducedMotion:true,physicalPhone:false,scene:await snap(page)},null,2));
@@ -49,7 +49,9 @@ test('failed GLB recovers and retains selected colour',async({page})=>{
 test('WebGL unavailable preserves usable controls and summary',async({page})=>{
  await page.addInitScript(()=>{const original=HTMLCanvasElement.prototype.getContext;HTMLCanvasElement.prototype.getContext=function(...args:Parameters<typeof original>){if(String(args[0]).startsWith('webgl'))return null;return original.apply(this,args);} as typeof original;});
  await page.goto('/studio');await expect(page.getByRole('button',{name:'Retry 3D'})).toBeVisible();
+ await page.getByRole('button',{name:'Your specification'}).click();
  await expect(page.locator('[data-component=SpecificationSummary]')).toBeVisible();
+ await page.getByRole('button',{name:'01 Material',exact:true}).click();
  await page.getByRole('radio',{name:/^Perforated/}).click();await expect(page.getByRole('radio',{name:/^Perforated/})).toHaveAttribute('aria-checked','true');
 });
 

@@ -1,0 +1,78 @@
+
+> autolab-independent-showroom@0.0.0 test:e2e
+> playwright test --project=runtime tests/browser/cinematic.spec.ts
+
+
+Running 2 tests using 1 worker
+
+(node:2152) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 [runtime] › tests\browser\cinematic.spec.ts:3:2 › cabin stays visible through the complete journey at 1440px (26.3s)
+(node:18648) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  2 [runtime] › tests\browser\cinematic.spec.ts:3:2 › cabin stays visible through the complete journey at 390px (21.3s)
+
+
+  1) [runtime] › tests\browser\cinematic.spec.ts:3:2 › cabin stays visible through the complete journey at 1440px 
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 0
+    Received:    -306.609375
+
+       8 |    await page.getByRole('button',{name:new RegExp('^0[1-6] '+step+'$')}).click();
+       9 |    const options=page.getByRole('radio');await options.last().click();
+    > 10 |    const box=await cabin.boundingBox();expect(box).not.toBeNull();expect(box!.y).toBeGreaterThanOrEqual(0);expect(box!.y+box!.height).toBeLessThan(viewport.height);
+         |                                                                                  ^
+      11 |    expect(await page.evaluate(()=>window.scrollY)).toBe(0);
+      12 |    expect(await page.evaluate(()=>document.documentElement.scrollHeight)).toBeLessThanOrEqual(viewport.height);
+      13 |   }
+        at C:\Users\user\OneDrive\Desktop\Auto-lab-digital-ui\tests\browser\cinematic.spec.ts:10:82
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\cinematic-cabin-stays-visi-2a7b6--complete-journey-at-1440px-runtime\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\cinematic-cabin-stays-visi-2a7b6--complete-journey-at-1440px-runtime\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\cinematic-cabin-stays-visi-2a7b6--complete-journey-at-1440px-runtime\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\cinematic-cabin-stays-visi-2a7b6--complete-journey-at-1440px-runtime\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [runtime] › tests\browser\cinematic.spec.ts:3:2 › cabin stays visible through the complete journey at 390px 
+
+    Error: expect(received).toBeGreaterThanOrEqual(expected)
+
+    Expected: >= 0
+    Received:    -281.140625
+
+       8 |    await page.getByRole('button',{name:new RegExp('^0[1-6] '+step+'$')}).click();
+       9 |    const options=page.getByRole('radio');await options.last().click();
+    > 10 |    const box=await cabin.boundingBox();expect(box).not.toBeNull();expect(box!.y).toBeGreaterThanOrEqual(0);expect(box!.y+box!.height).toBeLessThan(viewport.height);
+         |                                                                                  ^
+      11 |    expect(await page.evaluate(()=>window.scrollY)).toBe(0);
+      12 |    expect(await page.evaluate(()=>document.documentElement.scrollHeight)).toBeLessThanOrEqual(viewport.height);
+      13 |   }
+        at C:\Users\user\OneDrive\Desktop\Auto-lab-digital-ui\tests\browser\cinematic.spec.ts:10:82
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\cinematic-cabin-stays-visi-f7bfe-e-complete-journey-at-390px-runtime\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\cinematic-cabin-stays-visi-f7bfe-e-complete-journey-at-390px-runtime\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\cinematic-cabin-stays-visi-f7bfe-e-complete-journey-at-390px-runtime\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\cinematic-cabin-stays-visi-f7bfe-e-complete-journey-at-390px-runtime\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    [runtime] › tests\browser\cinematic.spec.ts:3:2 › cabin stays visible through the complete journey at 1440px 
+    [runtime] › tests\browser\cinematic.spec.ts:3:2 › cabin stays visible through the complete journey at 390px 

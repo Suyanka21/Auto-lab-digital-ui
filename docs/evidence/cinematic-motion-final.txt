@@ -1,0 +1,12 @@
+
+> autolab-independent-showroom@0.0.0 test:e2e
+> playwright test --project=runtime tests/browser/cinematic.spec.ts --grep swipe, back
+
+
+Running 1 test using 1 worker
+
+(node:16972) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 [runtime] › tests\browser\cinematic.spec.ts:28:1 › swipe, back and reduced motion keep one live stage (42.6s)
+
+  1 passed (45.8s)

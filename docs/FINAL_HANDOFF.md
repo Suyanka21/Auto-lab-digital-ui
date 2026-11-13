@@ -2,6 +2,8 @@
 
 Updated 2026-11-14. Branch: `codex/independent-3d-assessment`.
 
+Latest UI refinement: [Cinematic Studio](CINEMATIC_STUDIO.md) keeps the cabin visible, slides between selections and brings review into the same panel. Its screenshots and recordings are in `evidence/cinematic/`.
+
 ## Outcome
 
 The existing Editorial Atelier frontend now controls the actual committed cabin. Vite, React, TypeScript and Tailwind 4 are retained. Production stayed read-only. No source working-tree changes were imported; source Git object `12558846c5f3635539a45174530a6599dbdbff28` supplies the renderer, assets and camera contracts.

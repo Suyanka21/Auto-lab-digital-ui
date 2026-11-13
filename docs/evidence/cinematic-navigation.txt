@@ -1,0 +1,14 @@
+
+> autolab-independent-showroom@0.0.0 test:e2e
+> playwright test --project=runtime tests/browser/navigation.spec.ts
+
+
+Running 3 tests using 1 worker
+
+(node:6604) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 [runtime] › tests\browser\navigation.spec.ts:2:1 › direct studio URL and browser back/forward (20.5s)
+  ok 2 [runtime] › tests\browser\navigation.spec.ts:10:1 › material radios support arrow keys (16.7s)
+  ok 3 [runtime] › tests\browser\navigation.spec.ts:16:1 › mobile drawer releases background when resized to desktop (5.0s)
+
+  3 passed (51.9s)

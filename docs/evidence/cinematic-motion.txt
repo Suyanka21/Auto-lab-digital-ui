@@ -1,0 +1,55 @@
+
+> autolab-independent-showroom@0.0.0 test:e2e
+> playwright test --project=runtime tests/browser/cinematic.spec.ts --grep swipe, back
+
+
+Running 1 test using 1 worker
+
+(node:4968) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 [runtime] › tests\browser\cinematic.spec.ts:28:1 › swipe, back and reduced motion keep one live stage (17.6s)
+
+
+  1) [runtime] › tests\browser\cinematic.spec.ts:28:1 › swipe, back and reduced motion keep one live stage 
+
+    Error: locator.dispatchEvent: TypeError: Failed to construct 'Touch': Failed to read the 'identifier' property from 'TouchInit': Required member is undefined.
+        at <anonymous>:7936:45
+        at Array.map (<anonymous>)
+        at InjectedScript.dispatchEvent (<anonymous>:7934:78)
+        at eval (eval at eval (:7098:24), <anonymous>:2:26)
+        at eval (eval at eval (:7098:24), <anonymous>:4:28)
+        at eval (eval at evaluate (:370:30), <anonymous>:15:22)
+        at UtilityScript.evaluate (<anonymous>:372:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+    Call log:
+      - waiting for locator('.studio-panel-heading')
+
+        at <anonymous>:7936:45
+        at InjectedScript.dispatchEvent (<anonymous>:7934:78)
+        at eval (eval at eval (:7098:24), <anonymous>:2:26)
+        at eval (eval at eval (:7098:24), <anonymous>:4:28)
+        at eval (eval at evaluate (:370:30), <anonymous>:15:22)
+        at UtilityScript.evaluate (<anonymous>:372:16)
+        at UtilityScript.<anonymous> (<anonymous>:1:44)
+        at C:\Users\user\OneDrive\Desktop\Auto-lab-digital-ui\tests\browser\cinematic.spec.ts:33:15
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\cinematic-swipe-back-and-reduced-motion-keep-one-live-stage-runtime\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\cinematic-swipe-back-and-reduced-motion-keep-one-live-stage-runtime\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\cinematic-swipe-back-and-reduced-motion-keep-one-live-stage-runtime\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\cinematic-swipe-back-and-reduced-motion-keep-one-live-stage-runtime\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\cinematic-swipe-back-and-reduced-motion-keep-one-live-stage-runtime\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [runtime] › tests\browser\cinematic.spec.ts:28:1 › swipe, back and reduced motion keep one live stage 

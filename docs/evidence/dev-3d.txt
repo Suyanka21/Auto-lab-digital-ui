@@ -16,3 +16,31 @@
 5:45:52 PM [vite] (client) hmr update /src/index.css
 5:47:52 PM [vite] (client) hmr update /src/index.css
 5:48:31 PM [vite] (client) hmr update /src/index.css
+5:50:10 PM [vite] (client) hmr update /src/index.css
+5:50:18 PM [vite] (client) hmr update /src/index.css, /src/components/CabinViewer.tsx
+5:50:18 PM [vite] (client) hmr update /src/index.css, /src/components/CameraControls.tsx
+5:50:18 PM [vite] (client) hmr update /src/index.css, /src/components/ConfigurationPanel.tsx
+5:50:18 PM [vite] (client) hmr update /src/index.css, /src/components/LandingPage.tsx
+5:50:18 PM [vite] (client) hmr update /src/index.css, /src/components/SpecificationSummary.tsx
+5:50:18 PM [vite] (client) hmr update /src/index.css, /src/components/StudioPage.tsx
+5:50:18 PM [vite] (client) hmr update /src/index.css, /src/components/primitives/AtelierButton.tsx
+5:50:18 PM [vite] (client) hmr update /src/index.css, /src/components/primitives/AtelierShell.tsx
+5:50:18 PM [vite] (client) hmr update /src/index.css, /src/components/primitives/AutoLabLogo.tsx
+5:50:18 PM [vite] (client) hmr update /src/index.css, /src/components/primitives/EditorialHeading.tsx
+5:50:18 PM [vite] (client) hmr update /src/index.css, /src/components/primitives/SectionDivider.tsx
+5:50:18 PM [vite] (client) hmr update /src/index.css, /src/components/primitives/Surface.tsx
+5:50:18 PM [vite] (client) hmr update /src/index.css, /src/components/selectors/ColourSelector.tsx
+5:50:18 PM [vite] (client) hmr update /src/index.css, /src/components/selectors/CompositionSelector.tsx
+5:50:18 PM [vite] (client) hmr update /src/index.css, /src/components/selectors/IlluminationSelector.tsx
+5:50:18 PM [vite] (client) hmr update /src/index.css, /src/components/selectors/MaterialSelector.tsx
+5:50:18 PM [vite] (client) hmr update /src/index.css, /src/components/selectors/ThreadSelector.tsx
+5:50:18 PM [vite] (client) hmr update /src/index.css, /src/components/selectors/TrimSelector.tsx
+5:50:18 PM [vite] (client) hmr update /src/index.css, /src/components/LandingPage.tsx, /src/components/StudioPage.tsx, /src/state/ConfigurationContext.tsx, /src/components/CabinViewer.tsx, /src/components/CameraControls.tsx, /src/components/ConfigurationPanel.tsx, /src/components/SpecificationSummary.tsx, /src/components/selectors/ColourSelector.tsx, /src/components/selectors/CompositionSelector.tsx, /src/components/selectors/IlluminationSelector.tsx, /src/components/selectors/MaterialSelector.tsx and 2 more
+5:50:18 PM [vite] (client) hmr update /src/index.css
+5:50:18 PM [vite] (client) hmr update /src/index.css, /src/components/selectors/CompositionSelector.tsx
+5:50:18 PM [vite] (client) hmr update /src/index.css, /src/components/primitives/AutoLabLogo.tsx
+5:50:18 PM [vite] (client) hmr update /src/index.css, /src/components/CabinViewer.tsx
+5:50:18 PM [vite] (client) hmr update /src/index.css
+5:50:18 PM [vite] vite.config.ts changed, restarting server...
+5:50:18 PM [vite] server restarted.
+5:51:28 PM [vite] changed tsconfig file detected: C:/Users/user/OneDrive/Desktop/Auto-lab-digital-ui/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.

@@ -1,12 +1,12 @@
 # Independent integration execution
-Owner approval: 2026-11-13. Execute phases 2�6 on the experimental branch only.
+Owner approval: 2026-11-13. Execute phases 2-6 on the experimental branch only.
 Driver Hero remains initial. Exact source camera coordinates/orbit limits remain unchanged.
 Accurate GLB zone descriptions replace inaccurate copy; commercial claims become exploratory.
 Source snapshot: 12558846c5f3635539a45174530a6599dbdbff28. No uncommitted source import.
 Corpus palette/type/spacing and responsive Editorial Atelier direction retained.
 This implementation supersedes the assessment's pending approval and Cabin Pair recommendation.
 
-## Phase 2 � baseline and adapter (in progress)
+## Phase 2 - baseline and adapter (complete)
 Dependencies pinned; unused API/server/motion packages removed. Port uses Vite with React 19/Fiber 9.
 Distinct ports: experiment dev 5173, preview 4173; production port 3000 is untouched.
 
@@ -21,3 +21,5 @@ Phase 5: URL/history and accessible radio/mobile menu interactions follow observ
 
 Phase 4 gate PASS: presentation typecheck/lint and refined build pass; actual desktop/mobile screenshots in evidence/final. Original lighting and geometry deliberately retained. Authentic logo and neutral sample descriptions replace inherited claims.
 Phase 5 gate PASS: six browser checks (2.2m) cover routing, keyboard radios, desktop state retention, 320/390/768/1024/1440 widths, reduced motion/menu focus, GLB Retry/context loss and no-WebGL controls. Self-review added desktop-resize drawer cleanup; targeted regression pending final run.
+
+Phase 6 PASS (2026-11-14): normal build 5.11s, typecheck/lint, 34 unit tests, all three unchanged-asset gate reports, 11 distinct targeted browser scenarios. Decoder/trim 503 failures recover; normal build serves source SHA256 assets without diagnostics. Video, desktop/mobile screenshots and exact limits are in FINAL_HANDOFF.md. Separate runtime/release Playwright projects prevent testing a diagnostic contract against the normal bundle. No deploy/merge/push. Owner review checkpoint reached.

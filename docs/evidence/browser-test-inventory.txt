@@ -1,0 +1,18 @@
+
+> autolab-independent-showroom@0.0.0 test:e2e
+> playwright test --list
+
+Listing tests:
+  [runtime] › bindings.spec.ts:8:1 › all real materials, composition, thread, cameras, trim and lights
+  [runtime] › navigation.spec.ts:2:1 › direct studio URL and browser back/forward
+  [runtime] › navigation.spec.ts:10:1 › material radios support arrow keys
+  [runtime] › navigation.spec.ts:16:1 › mobile drawer releases background when resized to desktop
+  [runtime] › responsive-recovery.spec.ts:7:1 › desktop evidence and retained state after leaving Studio
+  [runtime] › responsive-recovery.spec.ts:21:1 › mobile reduced motion, menu focus and narrow layouts
+  [runtime] › responsive-recovery.spec.ts:39:1 › failed GLB recovers and retains selected colour
+  [runtime] › responsive-recovery.spec.ts:49:1 › WebGL unavailable preserves usable controls and summary
+  [runtime] › responsive-recovery.spec.ts:57:2 › KTX2 transcoder failure is explicit and Retry recovers
+  [runtime] › responsive-recovery.spec.ts:57:2 › trim texture failure is explicit and Retry recovers
+  [runtime] › viewer.spec.ts:3:1 › real cabin loads behind the existing controls
+  [release] › release.spec.ts:5:1 › normal build has real assets and no test diagnostics
+Total: 12 tests in 5 files

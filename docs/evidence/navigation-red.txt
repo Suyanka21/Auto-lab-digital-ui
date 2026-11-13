@@ -1,0 +1,93 @@
+
+> autolab-independent-showroom@0.0.0 test:e2e
+> playwright test tests/browser/navigation.spec.ts
+
+
+Running 2 tests using 1 worker
+
+(node:17508) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 tests\browser\navigation.spec.ts:2:1 › direct studio URL and browser back/forward (34.9s)
+(node:12164) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  2 tests\browser\navigation.spec.ts:10:1 › material radios support arrow keys (15.2s)
+
+
+  1) tests\browser\navigation.spec.ts:2:1 › direct studio URL and browser back/forward ─────────────
+
+    Error: expect(page).toHaveURL(expected) failed
+
+    Expected pattern: /\/$/
+    Received string:  "http://127.0.0.1:4174/studio"
+    Timeout: 30000ms
+
+    Call log:
+      - Expect "toHaveURL" with timeout 30000ms
+        60 × locator resolved to <html lang="en">…</html>
+           - unexpected value "http://127.0.0.1:4174/studio"
+
+
+      4 |  await expect(page.getByRole('heading',{name:'Make it personal.'})).toBeVisible({timeout:5000});
+      5 |  await page.getByRole('button',{name:'Showroom',exact:true}).first().click();
+    > 6 |  await expect(page).toHaveURL(/\/$/); await page.goBack();
+        |                     ^
+      7 |  await expect(page).toHaveURL(/\/studio$/);
+      8 |  await expect(page.getByRole('heading',{name:'Make it personal.'})).toBeVisible();
+      9 | });
+        at C:\Users\user\OneDrive\Desktop\Auto-lab-digital-ui\tests\browser\navigation.spec.ts:6:21
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\navigation-direct-studio-URL-and-browser-back-forward\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\navigation-direct-studio-URL-and-browser-back-forward\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\navigation-direct-studio-URL-and-browser-back-forward\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\navigation-direct-studio-URL-and-browser-back-forward\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests\browser\navigation.spec.ts:10:1 › material radios support arrow keys ────────────────────
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator:  getByRole('radio', { name: /^Diamond Quilted/ })
+    Expected: "true"
+    Received: "false"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveAttribute" getByRole('radio', { name: /^Diamond Quilted/ }) with timeout 5000ms
+      - waiting for getByRole('radio', { name: /^Diamond Quilted/ })
+        5 × locator resolved to <button role="radio" type="button" aria-checked="false" class="w-full min-h-[48px] sm:min-h-[52px] px-3.5 py-2.5 sm:py-3 text-left rounded-[2px] border transition-colors duration-150 cursor-pointer flex items-start gap-3 border-fine-border bg-paper hover:border-ink">…</button>
+          - unexpected value "false"
+
+
+      11 |  await page.goto('/');await page.getByRole('button',{name:'Enter the Studio',exact:true}).first().click();
+      12 |  const classic=page.getByRole('radio',{name:/^Classic/}); await classic.focus(); await classic.press('ArrowDown');
+    > 13 |  await expect(page.getByRole('radio',{name:/^Diamond Quilted/})).toHaveAttribute('aria-checked','true',{timeout:5000});
+         |                                                                  ^
+      14 | });
+      15 |
+        at C:\Users\user\OneDrive\Desktop\Auto-lab-digital-ui\tests\browser\navigation.spec.ts:13:66
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\navigation-material-radios-support-arrow-keys\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\navigation-material-radios-support-arrow-keys\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\navigation-material-radios-support-arrow-keys\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\navigation-material-radios-support-arrow-keys\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    tests\browser\navigation.spec.ts:2:1 › direct studio URL and browser back/forward ──────────────
+    tests\browser\navigation.spec.ts:10:1 › material radios support arrow keys ─────────────────────

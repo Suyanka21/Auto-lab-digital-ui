@@ -1,0 +1,157 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\user\\OneDrive\\Desktop\\Auto-lab-digital-ui\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "tests/browser/bindings.spec.ts"
+    ],
+    "configFile": "C:\\Users\\user\\OneDrive\\Desktop\\Auto-lab-digital-ui\\playwright.config.ts",
+    "rootDir": "C:/Users/user/OneDrive/Desktop/Auto-lab-digital-ui/tests/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/user/OneDrive/Desktop/Auto-lab-digital-ui/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "C:/Users/user/OneDrive/Desktop/Auto-lab-digital-ui/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 90000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "C:\\Users\\user\\OneDrive\\Desktop\\Auto-lab-digital-ui\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "C:\\Users\\user\\OneDrive\\Desktop\\Auto-lab-digital-ui\\tests\\browser",
+        "snapshotDir": "C:\\Users\\user\\OneDrive\\Desktop\\Auto-lab-digital-ui\\tests\\browser",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 90000,
+        "use": {
+          "baseURL": "http://127.0.0.1:4174",
+          "channel": "msedge",
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "launchOptions": {
+            "args": [
+              "--use-angle=swiftshader",
+              "--enable-unsafe-swiftshader"
+            ]
+          },
+          "screenshot": "only-on-failure",
+          "trace": "retain-on-failure"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "docs/evidence/browser-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "bindings.spec.ts",
+      "file": "bindings.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "all real materials, composition, thread, cameras, trim and lights",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 180000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 98438,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-11-13T14:46:11.574Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "aaf3ae045618f0b067a3-35e7e71039670a3c47b3",
+          "file": "bindings.spec.ts",
+          "line": 8,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-13T14:46:09.880Z",
+    "duration": 102679.08099999999,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

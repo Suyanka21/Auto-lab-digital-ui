@@ -1,0 +1,12 @@
+
+> autolab-independent-showroom@0.0.0 test:e2e
+> playwright test tests/browser/bindings.spec.ts
+
+
+Running 1 test using 1 worker
+
+(node:1048) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\bindings.spec.ts:8:1 › all real materials, composition, thread, cameras, trim and lights (1.6m)
+
+  1 passed (1.7m)

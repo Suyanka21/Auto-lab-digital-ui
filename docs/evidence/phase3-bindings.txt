@@ -1,0 +1,53 @@
+
+> autolab-independent-showroom@0.0.0 test:e2e
+> playwright test tests/browser/bindings.spec.ts
+
+
+Running 1 test using 1 worker
+
+(node:19588) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 tests\browser\bindings.spec.ts:8:1 › all real materials, composition, thread, cameras, trim and lights (20.6s)
+
+
+  1) tests\browser\bindings.spec.ts:8:1 › all real materials, composition, thread, cameras, trim and lights 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 3
+    + Received  + 3
+
+      Array [
+    -   1.45,
+    -   1.25,
+    -   0.95,
+    +   1.4499999999999997,
+    +   1.2499999999999998,
+    +   0.9499999999999995,
+      ]
+
+      11 |   await page.goto('/');await page.getByRole('button',{name:'Enter the Studio',exact:true}).first().click();await ready(page);
+      12 |   await expect(page.locator('canvas')).toHaveCount(1);
+    > 13 |   expect((await snap(page))?.cameraPosition).toEqual([1.45,1.25,.95]);
+         |                                              ^
+      14 |   await step(page,'Colour');await page.getByRole('radiogroup',{name:'Primary hide colour',exact:true}).getByRole('radio',{name:/Sienna Brown/}).click();
+      15 |   await colour(page,'MAT_Seat_Primary','#7B4A2D');await colour(page,'MAT_Seat_Secondary','#7B4A2D');
+      16 |   await page.getByRole('button',{name:'Enable Two-tone'}).click();
+        at C:\Users\user\OneDrive\Desktop\Auto-lab-digital-ui\tests\browser\bindings.spec.ts:13:46
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\bindings-all-real-material-c477f-ead-cameras-trim-and-lights\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\bindings-all-real-material-c477f-ead-cameras-trim-and-lights\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\bindings-all-real-material-c477f-ead-cameras-trim-and-lights\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\bindings-all-real-material-c477f-ead-cameras-trim-and-lights\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests\browser\bindings.spec.ts:8:1 › all real materials, composition, thread, cameras, trim and lights 

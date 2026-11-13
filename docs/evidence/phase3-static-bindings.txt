@@ -1,0 +1,46 @@
+
+> autolab-independent-showroom@0.0.0 test:e2e
+> playwright test tests/browser/bindings.spec.ts
+
+
+Running 1 test using 1 worker
+
+(node:11436) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 tests\browser\bindings.spec.ts:8:1 › all real materials, composition, thread, cameras, trim and lights (3.1m)
+
+
+  1) tests\browser\bindings.spec.ts:8:1 › all real materials, composition, thread, cameras, trim and lights 
+
+    Test timeout of 180000ms exceeded.
+
+    Error: locator.click: Test timeout of 180000ms exceeded.
+    Call log:
+      - waiting for getByRole('radio', { name: /^Walnut Wood/ })
+
+
+      27 |   await step(page,'Composition');await page.getByRole('radio',{name:/^Single-colour/}).click();await colour(page,'MAT_Seat_Secondary','#7B4A2D');
+      28 |   await step(page,'Cabin Trim');
+    > 29 |   for(const [name,id] of [['Walnut Wood','open-pore-walnut'],['Poplar Wood','open-pore-poplar'],['Piano Lacquer','piano-lacquer-flowing-lines'],['Carbon Fibre','autolab-twill-carbon']]){await page.getByRole('radio',{name:new RegExp(name)}).click();await expect.poll(async()=> (await snap(page))?.materialState?.trim?.id).toBe(id);}
+         |                                                                                                                                                                                                                                                     ^
+      30 |   await step(page,'Ambient Light');
+      31 |   for(const [name,hex] of [['Amber','#d8964b'],['Rose','#c98986'],['Ocean','#3b6f8a'],['Champagne','#d8c7a8'],['Cyan','#72c4e1']]){await page.getByRole('radio',{name:new RegExp(name)}).click();await expect.poll(async()=> (await snap(page))?.materialState?.ambient).toEqual([hex,hex,hex]);}
+      32 |   await page.getByRole('button',{name:/02 Cabin Pair/}).click();await page.screenshot({path:`${folder}/cabin-console.png`,fullPage:true});
+        at C:\Users\user\OneDrive\Desktop\Auto-lab-digital-ui\tests\browser\bindings.spec.ts:29:245
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\bindings-all-real-material-c477f-ead-cameras-trim-and-lights\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\bindings-all-real-material-c477f-ead-cameras-trim-and-lights\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\bindings-all-real-material-c477f-ead-cameras-trim-and-lights\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\bindings-all-real-material-c477f-ead-cameras-trim-and-lights\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests\browser\bindings.spec.ts:8:1 › all real materials, composition, thread, cameras, trim and lights 

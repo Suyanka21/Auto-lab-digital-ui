@@ -1,0 +1,2 @@
+import { defineConfig } from '@playwright/test';
+export default defineConfig({ testDir:'tests/browser', timeout:90000, workers:1, expect:{timeout:30000}, reporter:[['list'],['json',{outputFile:'docs/evidence/browser-results.json'}]], use:{baseURL: process.env.TEST_URL ?? 'http://127.0.0.1:5173', channel:'msedge', viewport:{width:1440,height:900}, launchOptions:{args:['--use-angle=swiftshader','--enable-unsafe-swiftshader']}, screenshot:'only-on-failure', trace:'retain-on-failure'}, outputDir:'test-results' });

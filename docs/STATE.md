@@ -1,15 +1,15 @@
 # Experimental showroom state
 Updated: 2026-11-13
-Repository: Auto-lab-digital-ui; production source remains read-only.
-Branch: codex/independent-3d-assessment; baseline 4634b1e.
-Done: corpus/source assessment in docs/INDEPENDENT_3D_ASSESSMENT.md.
-Source: b9f2556; viewer implementation from 1255884, inspected without changes.
-Proposal: retain Vite/React/Tailwind; port renderer behind CabinViewer via typed adapter.
-Approval pending: approach, accurate seat zoning, Cabin Pair default, offering-claim policy.
-No implementation, dependencies, GLB copies or production changes made.
-Validation: actual source GLB hashes/metadata inspected; no experiment build/browser run.
-Environment: Node 22.23.2/npm 11.6.0; experiment has no node_modules/lockfile/tests.
-Next after approval: reproducible baseline, adapter contracts and source manifest.
-Known risks: decoder lifecycle, thread shader, cache revisions, mobile performance.
-Human visual and physical offering acceptance remain open.
-No push, merge or deployment authorized.
+Branch: codex/independent-3d-assessment; experimental repository only.
+Approved: Vite/React/TypeScript/Tailwind, real source zones, Driver Hero initial.
+Production repository remains read-only; imported Git objects from 12558846c5f3635539a45174530a6599dbdbff28.
+Phase 2 PASS: pinned dependencies, pure adapter, 12 red-to-green contract tests.
+Phase 3 PASS: actual three GLBs and original loader/recovery architecture integrated.
+Validation: 34 tests, typecheck, lint, build, three GLB gates, real browser bindings PASS.
+Actual renderer: 24 calls / 66,260 triangles, compressed KTX2 mip chains.
+Browser: installed Edge with SwiftShader; no physical-phone or hardware-GPU performance claim.
+Known: soft GLB size target exceeded; hard gates pass; inherited geometry/shading limitations.
+Next: phases 4-6 truthful presentation, accessible responsive interaction, recovery/final evidence.
+Development HMR interrupted early checks; fixed builds used for reproducible verification.
+Audit: runtime zero; seven moderate development findings remain after Vite security patch.
+No merge, push or deployment. Human visual/physical offering acceptance remains open.

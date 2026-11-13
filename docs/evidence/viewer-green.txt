@@ -1,0 +1,59 @@
+
+> autolab-independent-showroom@0.0.0 test:e2e
+> playwright test
+
+
+Running 1 test using 1 worker
+
+(node:14944) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 tests\browser\viewer.spec.ts:2:1 › real cabin loads behind the existing controls (21.6s)
+
+
+  1) tests\browser\viewer.spec.ts:2:1 › real cabin loads behind the existing controls ──────────────
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('canvas')
+    Expected: 1
+    Received: 0
+    Timeout:  15000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('canvas') with timeout 15000ms
+      - waiting for locator('canvas')
+        19 × locator resolved to 0 elements
+           - unexpected value "0"
+        2 × waiting for "http://127.0.0.1:5173/" navigation to finish...
+          - navigated to "http://127.0.0.1:5173/"
+          - locator resolved to 0 elements
+          - unexpected value "0"
+        2 × locator resolved to 0 elements
+          - unexpected value "0"
+
+
+      3 |   await page.goto('/');
+      4 |   await page.getByRole('button',{name:'Enter the Studio',exact:true}).first().click();
+    > 5 |   await expect(page.locator('canvas')).toHaveCount(1,{timeout:15000});
+        |                                        ^
+      6 |   await expect(page.getByTestId('spike-viewer')).toHaveAttribute('aria-busy','false');
+      7 | });
+      8 |
+        at C:\Users\user\OneDrive\Desktop\Auto-lab-digital-ui\tests\browser\viewer.spec.ts:5:40
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\viewer-real-cabin-loads-behind-the-existing-controls\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\viewer-real-cabin-loads-behind-the-existing-controls\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\viewer-real-cabin-loads-behind-the-existing-controls\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\viewer-real-cabin-loads-behind-the-existing-controls\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests\browser\viewer.spec.ts:2:1 › real cabin loads behind the existing controls ───────────────

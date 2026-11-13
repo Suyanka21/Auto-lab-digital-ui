@@ -1,3 +1,4 @@
+import { navigateRadio } from './radio-navigation';
 import { Check } from 'lucide-react';
 import { THREAD_OPTIONS } from '@/src/data/catalog';
 import type { ThreadId } from '@/src/types/configuration';
@@ -17,7 +18,7 @@ export function ThreadSelector({ value, onChange }: ThreadSelectorProps) {
         <span className="text-[11px] text-muted-grey">Bolsters &amp; console seams</span>
       </div>
 
-      <div role="radiogroup" aria-label="Accent thread colour" className="space-y-2">
+      <div role="radiogroup" onKeyDown={navigateRadio} aria-label="Accent thread colour" className="space-y-2">
         {THREAD_OPTIONS.map((option) => {
           const isSelected = option.id === value;
           return (
@@ -26,6 +27,7 @@ export function ThreadSelector({ value, onChange }: ThreadSelectorProps) {
               type="button"
               role="radio"
               aria-checked={isSelected}
+              tabIndex={isSelected ? 0 : -1}
               onClick={() => onChange(option.id)}
               className={`w-full min-h-[56px] px-3.5 py-2.5 text-left rounded-[2px] border transition-colors duration-150 cursor-pointer flex items-center justify-between gap-3 ${
                 isSelected

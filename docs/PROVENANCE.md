@@ -28,3 +28,7 @@ The source export manifest will record exact source paths, commit and SHA256 for
 - Three GLTFLoader decoding extensions and resource handling: https://threejs.org/docs/pages/GLTFLoader.html
 - Vite asset paths: https://vite.dev/guide/assets.html
 - Vite exposed test-build variables: https://vite.dev/guide/env-and-mode
+
+Authentic logo reused as bytes from 1255884:public/brand/autolab-logo.png (SHA256 ef2da71ac1b447a80375a146f11d33d4bcd8e234503ee5b51711a87165b31234); original corpus PDF preserved. Replaced inherited approximate SVG.
+
+Bundled decoder license texts: https://raw.githubusercontent.com/BinomialLLC/basis_universal/master/LICENSE, https://raw.githubusercontent.com/google/draco/main/LICENSE, https://raw.githubusercontent.com/pmndrs/react-three-fiber/master/LICENSE. MIT notices copied from installed packages to public/licenses.

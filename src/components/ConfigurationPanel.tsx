@@ -80,7 +80,7 @@ export function ConfigurationPanel({
           <span className="text-[11px] text-muted-grey">
             {currentMeta.classification === 'illustrative'
               ? 'Illustrative preview'
-              : 'Workshop offering'}
+              : 'Sample selection'}
           </span>
         </div>
 

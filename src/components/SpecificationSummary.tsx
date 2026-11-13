@@ -110,7 +110,7 @@ export function SpecificationSummary({
           </EditorialType>
         </div>
         <span className="text-[11px] text-muted-grey">
-          Bespoke interior specification
+          Exploratory interior specification
         </span>
       </div>
 
@@ -152,8 +152,8 @@ export function SpecificationSummary({
       </dl>
 
       <p className="mt-3 text-[11px] leading-[1.5] text-muted-grey">
-        Cabin trim and ambient illumination are shown as illustrative previews and do not
-        imply commercial availability.
+        All colours and upholstery treatments are digital samples. Trim and lighting are
+        illustrative previews. Workshop availability and physical finish require consultation.
       </p>
     </Surface>
   );

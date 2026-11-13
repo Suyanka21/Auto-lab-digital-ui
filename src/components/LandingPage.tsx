@@ -33,11 +33,11 @@ const DISCIPLINES: DisciplineItem[] = [
     title: 'Material',
     kicker: '01 / Material',
     description:
-      'Classic smooth hides, diamond quilting, and micro-perforated panels tailored in-house.',
+      'Explore smooth grain, diamond quilting, and micro-perforated panel treatments.',
     image: materialLeatherImg,
     imageAlt:
       'Macro view of perforated sienna brown and matte black automotive leather with contrast saddle stitching',
-    classificationLabel: 'Workshop offering',
+    classificationLabel: 'Sample selection',
   },
   {
     id: 'colour',
@@ -48,7 +48,7 @@ const DISCIPLINES: DisciplineItem[] = [
     image: colourTrioImg,
     imageAlt:
       'Three automotive front seats upholstered in Exclusive Black, Sienna Brown, and Light Ivory leather',
-    classificationLabel: 'Workshop offering',
+    classificationLabel: 'Sample selection',
   },
   {
     id: 'trim',
@@ -66,7 +66,7 @@ const DISCIPLINES: DisciplineItem[] = [
     title: 'Ambient Illumination',
     kicker: '04 / Ambient Illumination',
     description:
-      'Illustrative perimeter lighting moods across Cyan, Amber, Rose, Ocean, and Champagne.',
+      'Illustrative light washes in Cyan, Amber, Rose, Ocean, and Champagne.',
     image: ambientIlluminationImg,
     imageAlt:
       'Illustrative black stitched leather door contour accented by a subtle cyan ambient light line',
@@ -79,7 +79,7 @@ const EXPERIENCE_STEPS = [
     index: '01',
     title: 'Choose Material & Hide Colour',
     detail:
-      'Start with confirmed upholstery textures — Classic, Diamond Quilted, or Perforated — paired with Exclusive Black, Sienna Brown, or Light Ivory.',
+      'Start with sample upholstery treatments — Classic, Diamond Quilted, or Perforated — paired with Exclusive Black, Sienna Brown, or Light Ivory.',
   },
   {
     index: '02',
@@ -198,7 +198,7 @@ export function LandingPage({ onEnterStudio }: LandingPageProps) {
           </div>
           <EditorialType variant="caption" tone="muted" className="max-w-md">
             Each discipline pairs tactile automotive surfaces with clear distinction between
-            confirmed workshop craft and illustrative previews.
+            sample upholstery and illustrative finish previews.
           </EditorialType>
         </div>
 
@@ -250,30 +250,30 @@ export function LandingPage({ onEnterStudio }: LandingPageProps) {
         </div>
       </section>
 
-      <SectionDivider label="Confirmed Offerings & Illustrative Previews" />
+      <SectionDivider label="Sample Upholstery & Illustrative Finishes" />
 
       {/* Asymmetric Editorial Breakdown: Hairline Typography without Box-in-Box Clutter */}
       <section className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start" aria-label="Material and Finish Catalogue">
         <div className="lg:col-span-5 space-y-4">
           <EditorialType variant="kicker" tone="muted">
-            Workshop Scope
+            Exploration Scope
           </EditorialType>
           <EditorialType variant="section">
-            Confirmed upholstery craft alongside illustrative previews.
+            Explore upholstery and illustrative finishes.
           </EditorialType>
           <EditorialType variant="body" tone="muted">
-            AutoLab’s Nairobi workshop executes leather grain, hide colour, contrast stitching,
-            and single or two-tone seat composition. Cabin trim inlays and ambient illumination
-            are presented as illustrative previews to help judge overall cabin balance.
+            Explore leather grain, sample colours, contrast stitching and single or two-tone seats.
+            These digital choices are a starting point for a conversation, not a stock catalogue
+            or a promise of workshop availability. Trim and lighting remain illustrative.
           </EditorialType>
         </div>
 
         <div className="lg:col-span-7 space-y-8">
           <div className="space-y-3">
             <div className="flex items-baseline justify-between gap-2 border-b border-ink pb-2.5">
-              <EditorialType variant="title">Confirmed Studio Selections</EditorialType>
+              <EditorialType variant="title">Sample Studio Selections</EditorialType>
               <span className="text-[12px] text-cyan-ink font-medium">
-                Workshop offering
+                Sample selection
               </span>
             </div>
 

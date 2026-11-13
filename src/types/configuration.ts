@@ -20,7 +20,7 @@ export type ConfigurationStepId =
   | 'trim'
   | 'illumination';
 
-export type OfferingClassification = 'confirmed' | 'illustrative';
+export type OfferingClassification = 'sample' | 'illustrative';
 
 export type AppRoute = 'landing' | 'studio';
 

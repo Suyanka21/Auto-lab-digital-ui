@@ -32,11 +32,11 @@ export function LandingPage({ onEnterStudio }: LandingPageProps) {
     <section id="experience" className="experience-edit" aria-labelledby="experience-title">
       <header><p className="editorial-kicker">03 / From feeling to specification</p><h2 id="experience-title">The cabin stays.<br/><em>The possibilities move.</em></h2></header>
       <div className="experience-steps">{[
-        ['Choose your surface','Explore three treatments and a palette of black, sienna and ivory.'],
+        ['Choose your surface','Explore three treatments and eight leather colours, from quiet neutrals to deep green, navy and burgundy.'],
         ['Make the details yours','Tune thread and composition; preview trim and ambient light.'],
         ['See the whole picture','Four camera views. One live cabin. Every choice gathered in your specification.'],
       ].map(([title,detail],i)=><article key={title}><span>0{i+1}</span><div><h3>{title}</h3><p>{detail}</p></div></article>)}</div>
     </section>
-    <section className="editorial-invitation" aria-label="Enter the Studio"><div><p className="editorial-kicker">AutoLab Digital Showroom</p><h2>Your interior.<br/><em>Your point of view.</em></h2><p>Explore the live cabin, then carry your choices into a conversation.</p></div><button className="editorial-cta" type="button" onClick={onEnterStudio}>Enter the Studio<ArrowRight size={18}/></button></section>
+    <section className="editorial-invitation" aria-label="Enter the Studio"><img className="invitation-background" src={EDITORIAL_IMAGES.workshop} alt="Illustrative upholstery cutting table with leather hides, tailoring tools and thread" width="1536" height="1024" loading="lazy"/><div className="invitation-copy"><p className="editorial-kicker">AutoLab Digital Showroom</p><h2>Your interior.<br/><em>Your point of view.</em></h2><p>Explore the live cabin, then carry your choices into a conversation.</p><span className="invitation-disclosure">AI-generated atelier study</span></div><button className="editorial-cta" type="button" onClick={onEnterStudio}>Enter the Studio<ArrowRight size={18}/></button></section>
   </div>;
 }

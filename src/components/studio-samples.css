@@ -48,3 +48,15 @@
  .sample-light .sample-surface { height:44px; }
 }
 @media (prefers-reduced-motion:reduce) { .treatment-study > img { animation:none; } }
+
+/* Eight swatches per zone, kept compact so the cabin remains visible. */
+.sample-colour { grid-template-columns:repeat(4,minmax(0,1fr)); gap:8px; }
+.sample-colour .sample-surface { height:44px; }
+.sample-colour .sample-label-row { padding:6px 0; min-height:36px; }
+.sample-colour .sample-number { display:none; }
+.sample-colour .studio-option-label { font-size:10px; line-height:1.3; }
+@media (max-width:1023px) {
+ .sample-colour .sample-surface { height:28px; }
+ .sample-colour .sample-label-row { min-height:32px; padding:4px 0; }
+ .colour-content { gap:8px; }
+}

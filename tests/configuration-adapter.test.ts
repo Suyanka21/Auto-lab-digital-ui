@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { DEFAULT_CONFIGURATION } from '../src/data/catalog';
+import { DEFAULT_CONFIGURATION, COLOUR_OPTIONS } from '../src/data/catalog';
 import { mapConfigurationToRuntime } from '../src/viewer/configuration-adapter';
 
 describe('configuration to real cabin', () => {
@@ -40,5 +40,26 @@ describe('configuration to real cabin', () => {
     expect(value.trimId).toBe('open-pore-walnut');
     expect(value.ambientHex).toBe('#D8964B');
     expect(value.primaryHex).toBe('#191A1E');
+  });
+});
+
+
+describe('expanded illustrative leather palette', () => {
+  it.each([
+    ['oxblood', '#602C39'], ['forest-green', '#294B40'], ['midnight-navy', '#293D58'],
+    ['saddle-tan', '#AD7950'], ['warm-stone', '#95897B'],
+  ])('maps %s to both live leather zones without changing console finishes', (id, expected) => {
+    const option = COLOUR_OPTIONS.find(colour => colour.id === id);
+    expect(option, 'the new swatch must exist in the actual catalogue').toBeDefined();
+    expect(option?.classification).toBe('illustrative');
+    const colour = option!.id;
+    const single = mapConfigurationToRuntime({ ...DEFAULT_CONFIGURATION, primaryColour: colour });
+    expect(single.primaryHex).toBe(expected);
+    expect(single.secondaryHex).toBe(expected);
+    const twoTone = mapConfigurationToRuntime({ ...DEFAULT_CONFIGURATION, composition: 'two-tone', secondaryColour: colour });
+    expect(twoTone.secondaryHex).toBe(expected);
+    expect(twoTone.steeringHex).toBe(expected);
+    expect(twoTone.primaryHex).toBe('#191A1E');
+    expect(twoTone.cockpitBlackHex).toBe('#121316');
   });
 });

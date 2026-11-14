@@ -54,6 +54,11 @@ export const COLOUR_OPTIONS: OptionMetadata<ColourId>[] = [
     classification: 'sample',
     swatchHex: '#DDD5C7',
   },
+  { id: 'oxblood', label: 'Oxblood Burgundy', swatchHex: '#602C39', description: 'Deep wine-red with a muted brown undertone.', classification: 'illustrative' },
+  { id: 'forest-green', label: 'Forest Green', swatchHex: '#294B40', description: 'A restrained evergreen leather colour study.', classification: 'illustrative' },
+  { id: 'midnight-navy', label: 'Midnight Navy', swatchHex: '#293D58', description: 'Deep ink-blue for a cool, tailored composition.', classification: 'illustrative' },
+  { id: 'saddle-tan', label: 'Saddle Tan', swatchHex: '#AD7950', description: 'Warm tobacco-tan for a lighter saddlery contrast.', classification: 'illustrative' },
+  { id: 'warm-stone', label: 'Warm Stone', swatchHex: '#95897B', description: 'Soft grey-taupe with a warm mineral undertone.', classification: 'illustrative' },
 ];
 
 export const THREAD_OPTIONS: OptionMetadata<ThreadId>[] = [

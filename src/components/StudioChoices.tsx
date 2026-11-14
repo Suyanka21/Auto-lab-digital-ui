@@ -28,8 +28,9 @@ export function StudioChoices(p:ConfigurationPanelProps & {step:ConfigurationSte
  const c=p.configuration;
  switch(p.step){
  case 'material':return <div className="studio-choice-content treatment-content"><TreatmentStudy material={c.material}/><Choices label="Upholstery material" options={MATERIAL_OPTIONS} value={c.material} onChange={p.onChangeMaterial} kind="material"/><p className="studio-note">{MATERIAL_OPTIONS.find(o=>o.id===c.material)?.description}</p><p className="studio-caption">AI texture studies · selected colours appear in the live cabin.</p></div>;
- case 'colour':return <div className="studio-choice-content">
+ case 'colour':return <div className="studio-choice-content colour-content">
    <div className="studio-choice-heading"><span>Primary · seat centres</span><button type="button" className="studio-tone-toggle" aria-pressed={c.composition==='two-tone'} onClick={()=>p.onChangeComposition(c.composition==='two-tone'?'single-colour':'two-tone')}>{c.composition==='two-tone'?'Two-tone On':'Enable Two-tone'}</button></div>
+   <p className="studio-caption">Eight digital colour studies · physical leather samples confirmed in consultation.</p>
    <Choices label="Primary hide colour" options={COLOUR_OPTIONS} value={c.primaryColour} onChange={p.onChangePrimaryColour} kind="colour"/>
    {c.composition==='two-tone'?<><p className="studio-caption">Secondary · bolsters, headrests & steering</p><Choices label="Secondary hide colour" options={COLOUR_OPTIONS} value={c.secondaryColour} disabled={c.primaryColour} onChange={p.onChangeSecondaryColour} kind="colour"/></>:<p className="studio-note">One colour across both seat zones and steering leather. Enable two-tone to separate them.</p>}
  </div>;

@@ -3,7 +3,7 @@ import { ArrowRight, ArrowDown, Pause, Play } from 'lucide-react';
 import { EDITORIAL_IMAGES } from '@/src/data/editorial-images';
 
 const SHOTS = [
-  { name: 'The palette', image: EDITORIAL_IMAGES.cover, caption: '01 / A study in contrast', alt: 'AI material study of black, sienna and ivory leather draped in sculptural folds' },
+  { name: 'The atelier', image: EDITORIAL_IMAGES.workshop, caption: '01 / The work behind the details', alt: 'Imagined upholstery atelier: draped leather hides, waxed thread, worn tailor shears and chalk patterns on a cutting table' },
   { name: 'Diamond Quilted', image: EDITORIAL_IMAGES.diamond, caption: '02 / The rhythm of a stitch', alt: 'AI macro study of softly padded black diamond quilting and fine double stitching' },
   { name: 'Finishing touches', image: EDITORIAL_IMAGES.trims, caption: '03 / Grain. Weave. Reflection.', alt: 'AI study of poplar, walnut, piano lacquer and twill carbon fibre samples' },
 ];
@@ -37,6 +37,6 @@ export function EditorialCover({ onEnterStudio }: { onEnterStudio: () => void })
         </div>
       </div>
     </div>
-    <div className="cover-caption"><span>Material / Colour / Character</span><span>AI-generated material studies · Illustrative, not finished commissions</span></div>
+    <div className="cover-caption"><span>Material / Colour / Character</span><span>AI-generated material studies · Imagined atelier</span></div>
   </section>;
 }

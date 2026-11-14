@@ -24,3 +24,21 @@ for (const width of [1440,390]) {
   const video=page.video();await page.close();await video?.saveAs(`docs/evidence/editorial/presentation-${width}.webm`);
  });
 }
+
+test('material gallery keyboard selection and intermediate layouts',async({page})=>{
+ const errors:string[]=[];page.on('pageerror',error=>errors.push(error.message));
+ await page.emulateMedia({reducedMotion:'reduce'});await page.goto('/');
+ const choices=page.getByRole('radiogroup',{name:'Explore material studies'});
+ await choices.getByRole('radio',{name:/Classic/}).click();
+ await expect(page.locator('.material-feature img')).toHaveAttribute('src',/classic-study/);
+ await choices.getByRole('radio',{name:/Classic/}).press('ArrowRight');
+ await expect(choices.getByRole('radio',{name:/Diamond Quilted/})).toHaveAttribute('aria-checked','true');
+ await expect.poll(()=>page.locator('.material-feature img').evaluate(el=>(el as HTMLImageElement).naturalWidth)).toBeGreaterThan(0);
+ for(const width of [320,768,1024]) {
+  await page.setViewportSize({width,height:900});
+  await expect.poll(()=>page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(width);
+  await page.getByRole('heading',{level:1}).scrollIntoViewIfNeeded();
+  await page.screenshot({path:`docs/evidence/editorial/cover-${width}.png`});
+ }
+ expect(errors).toEqual([]);await expect(page.locator('canvas')).toHaveCount(0);
+});

@@ -7,6 +7,7 @@ import { CabinViewer } from './CabinViewer';
 import { CameraControls } from './CameraControls';
 import { ConfigurationPanel } from './ConfigurationPanel';
 import './studio-experience.css';
+import './studio-samples.css';
 
 export function StudioPage() {
  const state=useConfiguration();

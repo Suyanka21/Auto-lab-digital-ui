@@ -2,7 +2,9 @@
 
 Updated 2026-11-14. Branch: `codex/independent-3d-assessment`.
 
-Latest presentation: [Editorial showroom refinement](EDITORIAL_REFINEMENT.md) adds original illustrative material imagery, a cinematic magazine cover and tactile Studio choices. Desktop/mobile screenshots and recordings are in `evidence/editorial/`.
+Latest refinement: [Atelier imagery and eight-colour palette](ATELIER_REFINEMENT.md) adds workshop atmosphere and five live leather colours. Evidence is in `evidence/atelier/`.
+
+Previous presentation: [Editorial showroom refinement](EDITORIAL_REFINEMENT.md) adds original illustrative material imagery, a cinematic magazine cover and tactile Studio choices. Desktop/mobile screenshots and recordings are in `evidence/editorial/`.
 
 Previous UI refinement: [Cinematic Studio](CINEMATIC_STUDIO.md) keeps the cabin visible, slides between selections and brings review into the same panel. Its screenshots and recordings are in `evidence/cinematic/`.
 

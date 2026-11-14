@@ -1,0 +1,111 @@
+{
+  "snapshot": {
+    "status": "success",
+    "assetUrl": "/assets/3d/lexus-rx350/interior-l4-classic.glb?v=e5bdde016348df34889ec4c0ff0e406caad7e368504308bd5a4f5b725a55c056",
+    "materialState": {
+      "bindings": {
+        "GEO_Console_Armrest": "MAT_Console_Black",
+        "GEO_Console_Body_1": "MAT_Console_Black",
+        "GEO_Console_Body_2": "MAT_Console_Carbon",
+        "GEO_Console_Body_3": "MAT_Console_Metal",
+        "GEO_Console_Cupholder_Front_1": "MAT_Console_Black",
+        "GEO_Console_Cupholder_Front_2": "MAT_Console_Metal",
+        "GEO_Console_Cupholder_Rear_1": "MAT_Console_Black",
+        "GEO_Console_Cupholder_Rear_2": "MAT_Console_Metal",
+        "GEO_Console_Selector_1": "MAT_Console_Carbon",
+        "GEO_Console_Selector_2": "MAT_Console_Black",
+        "GEO_Console_Selector_3": "MAT_Console_Metal",
+        "GEO_Dashboard_Lexus001": "MAT_Dashboard_Trim",
+        "GEO_Dashboard_Lexus001_1": "MAT_Console_Carbon",
+        "GEO_Dashboard_Lexus001_2": "MAT_Cockpit_Black",
+        "GEO_Dashboard_Lexus001_3": "MAT_Cockpit_Accent",
+        "GEO_Seat_Front_Driver_1": "MAT_Seat_Primary",
+        "GEO_Seat_Front_Driver_2": "MAT_Seat_Secondary",
+        "GEO_Seat_Front_Passenger001": "MAT_Seat_Primary",
+        "GEO_Seat_Front_Passenger001_1": "MAT_Seat_Secondary",
+        "GEO_Seat_Stitching_Front": "MAT_Seat_Stitching",
+        "GEO_Seat_Stitching_Front_Passenger": "MAT_Seat_Stitching",
+        "GEO_SteeringWheel_Lexus001": "MAT_Steering_Leather",
+        "GEO_SteeringWheel_Lexus001_1": "MAT_Cockpit_Accent",
+        "GEO_SteeringWheel_Lexus001_2": "MAT_Cockpit_Black"
+      },
+      "colors": {
+        "MAT_Console_Black": "#18191d",
+        "MAT_Console_Carbon": "#ffffff",
+        "MAT_Console_Metal": "#b5b8bc",
+        "MAT_Dashboard_Trim": "#2a2b2e",
+        "MAT_Cockpit_Black": "#121316",
+        "MAT_Cockpit_Accent": "#787d82",
+        "MAT_Seat_Primary": "#7b4a2d",
+        "MAT_Seat_Secondary": "#7b4a2d",
+        "MAT_Seat_Stitching": "#72c4e1",
+        "MAT_Steering_Leather": "#7b4a2d"
+      },
+      "textures": {
+        "MAT_Seat_Primary:map": {
+          "uuid": "cb94d3b6-5e7e-4d59-845c-4d28e1344a00",
+          "compressed": true,
+          "mips": 11
+        },
+        "MAT_Seat_Primary:normalMap": {
+          "uuid": "68726276-2566-470e-b604-ab6cda3c6893",
+          "compressed": true,
+          "mips": 11
+        },
+        "MAT_Seat_Primary:roughnessMap": {
+          "uuid": "afacd158-db59-49e5-a71d-e4e4a68565ed",
+          "compressed": true,
+          "mips": 11
+        },
+        "MAT_Seat_Secondary:map": {
+          "uuid": "17eab7e6-fe2d-4fbd-8d03-99e2dd794528",
+          "compressed": true,
+          "mips": 11
+        },
+        "MAT_Seat_Secondary:normalMap": {
+          "uuid": "ef3c75af-91d8-40a5-9def-8d6e3ffddba3",
+          "compressed": true,
+          "mips": 11
+        },
+        "MAT_Seat_Secondary:roughnessMap": {
+          "uuid": "31c09e7c-228b-4740-9f83-83ab079a3ff9",
+          "compressed": true,
+          "mips": 11
+        }
+      },
+      "quiltThread": false,
+      "trim": {
+        "id": "autolab-twill-carbon",
+        "map": "d504e5af-0890-48dc-8f40-c1c70a9c1fe7",
+        "compressed": true,
+        "surfaces": [
+          "GEO_Console_Body_2",
+          "GEO_Console_Selector_1",
+          "GEO_Dashboard_Lexus001_1"
+        ],
+        "roughness": 0.36,
+        "environment": 0.28
+      },
+      "ambient": [
+        "#72c4e1",
+        "#72c4e1",
+        "#72c4e1"
+      ]
+    },
+    "renderer": {
+      "calls": 24,
+      "triangles": 66260,
+      "textures": 34,
+      "geometries": 84
+    },
+    "error": null,
+    "cameraFov": 45,
+    "cameraPosition": [
+      1.5063155629512448e-16,
+      1.2500000000000002,
+      -1.0500000000000003
+    ],
+    "treatment": "classic"
+  },
+  "errors": []
+}

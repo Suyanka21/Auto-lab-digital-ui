@@ -1,4 +1,4 @@
-import { useEffect, useState, type ReactNode } from 'react';
+import { useEffect, useRef, useState, type ReactNode } from 'react';
 import { ArrowUpRight, Menu, X } from 'lucide-react';
 import type { AppRoute } from '@/src/types/configuration';
 import { AtelierButton } from './AtelierButton';
@@ -13,16 +13,39 @@ interface AtelierShellProps {
 export function AtelierShell({ activeRoute, onNavigate, children }: AtelierShellProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+  const menuButton = useRef<HTMLButtonElement>(null);
+  const mobileNavigation = useRef<HTMLElement>(null);
+
   useEffect(() => {
     if (!mobileMenuOpen) return;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    mobileNavigation.current?.querySelector<HTMLButtonElement>('button')?.focus();
     const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Tab') {
+        const buttons = [menuButton.current, ...Array.from(mobileNavigation.current?.querySelectorAll<HTMLButtonElement>('button') ?? [])].filter((button): button is HTMLButtonElement => Boolean(button));
+        const current = buttons.indexOf(document.activeElement as HTMLButtonElement);
+        event.preventDefault();
+        buttons[(current + (event.shiftKey ? -1 : 1) + buttons.length) % buttons.length]?.focus();
+      }
       if (event.key === 'Escape') {
         setMobileMenuOpen(false);
       }
     };
     window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown);
+      document.body.style.overflow = previousOverflow;
+      menuButton.current?.focus();
+    };
   }, [mobileMenuOpen]);
+
+  useEffect(() => {
+    const desktop = window.matchMedia('(min-width: 768px)');
+    const closeOnDesktop = () => { if (desktop.matches) setMobileMenuOpen(false); };
+    desktop.addEventListener('change', closeOnDesktop);
+    return () => desktop.removeEventListener('change', closeOnDesktop);
+  }, []);
 
   const navigateAndClose = (route: AppRoute, sectionId?: string) => {
     setMobileMenuOpen(false);
@@ -30,7 +53,7 @@ export function AtelierShell({ activeRoute, onNavigate, children }: AtelierShell
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-ivory text-ink">
+    <div data-route={activeRoute} className="min-h-screen flex flex-col bg-ivory text-ink">
       {/* 3-Zone Top Bar Contract (Desktop) · Left Menu + Brand (Mobile) */}
       <header className="sticky top-0 z-30 bg-ivory border-b border-fine-border">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-8 h-16 flex items-center justify-between gap-4 lg:gap-8">
@@ -39,6 +62,7 @@ export function AtelierShell({ activeRoute, onNavigate, children }: AtelierShell
             <button
               type="button"
               onClick={() => setMobileMenuOpen((prev) => !prev)}
+              ref={menuButton}
               aria-expanded={mobileMenuOpen}
               aria-controls="mobile-navigation"
               aria-label={mobileMenuOpen ? 'Close navigation menu' : 'Open navigation menu'}
@@ -127,6 +151,7 @@ export function AtelierShell({ activeRoute, onNavigate, children }: AtelierShell
               className="md:hidden fixed inset-0 top-16 z-20 bg-[#101114]/35"
             />
             <nav
+              ref={mobileNavigation}
               id="mobile-navigation"
               aria-label="Mobile navigation"
               className="md:hidden fixed left-0 top-16 bottom-0 z-30 w-64 bg-paper border-r border-fine-border px-4 py-3 divide-y divide-fine-border flex flex-col"
@@ -177,12 +202,12 @@ export function AtelierShell({ activeRoute, onNavigate, children }: AtelierShell
       </header>
 
       {/* Main Content Container */}
-      <main className="flex-1 w-full max-w-[1440px] mx-auto px-4 sm:px-8 py-5 sm:py-8">
+      <main inert={mobileMenuOpen || undefined} className="flex-1 w-full max-w-[1440px] mx-auto px-4 sm:px-8 py-5 sm:py-8">
         {children}
       </main>
 
       {/* Quiet Atelier Footer */}
-      <footer className="border-t border-fine-border bg-ivory">
+      <footer inert={mobileMenuOpen || undefined} className="border-t border-fine-border bg-ivory">
         <div className="max-w-[1440px] mx-auto px-4 sm:px-8 py-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 text-[12px] text-muted-grey">
           <div className="flex flex-wrap items-center gap-2">
             <span className="font-medium text-ink">AutoLab Interior Studio</span>

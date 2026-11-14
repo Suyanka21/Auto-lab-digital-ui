@@ -1,0 +1,39 @@
+
+> autolab-independent-showroom@0.0.0 test
+> vitest run --maxWorkers=1 tests/configuration-adapter.test.ts
+
+
+ RUN  v5.0.5 C:/Users/user/OneDrive/Desktop/Auto-lab-digital-ui
+
+ ❯ tests/configuration-adapter.test.ts (17 tests | 5 failed) 24ms
+   ❯ expanded illustrative leather palette (5)
+     × maps oxblood to both live leather zones without changing console finishes 8ms
+     × maps forest-green to both live leather zones without changing console finishes 1ms
+     × maps midnight-navy to both live leather zones without changing console finishes 0ms
+     × maps saddle-tan to both live leather zones without changing console finishes 0ms
+     × maps warm-stone to both live leather zones without changing console finishes 1ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 5 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/configuration-adapter.test.ts > expanded illustrative leather palette > maps oxblood to both live leather zones without changing console finishes
+ FAIL  tests/configuration-adapter.test.ts > expanded illustrative leather palette > maps forest-green to both live leather zones without changing console finishes
+ FAIL  tests/configuration-adapter.test.ts > expanded illustrative leather palette > maps midnight-navy to both live leather zones without changing console finishes
+ FAIL  tests/configuration-adapter.test.ts > expanded illustrative leather palette > maps saddle-tan to both live leather zones without changing console finishes
+ FAIL  tests/configuration-adapter.test.ts > expanded illustrative leather palette > maps warm-stone to both live leather zones without changing console finishes
+AssertionError: the new swatch must exist in the actual catalogue: expected undefined to be defined
+ ❯ tests/configuration-adapter.test.ts:53:73
+     51|   ])('maps %s to both live leather zones without changing console fini…
+     52|     const option = COLOUR_OPTIONS.find(colour => colour.id === id);
+     53|     expect(option, 'the new swatch must exist in the actual catalogue'…
+       |                                                                         ^
+     54|     expect(option?.classification).toBe('illustrative');
+     55|     const colour = option!.id;
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/5]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  5 failed | 12 passed (17)
+   Start at  16:56:29
+   Duration  1.70s (transform 48%, import 27%, tests 15%, worker 9%)
+

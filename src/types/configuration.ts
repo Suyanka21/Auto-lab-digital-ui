@@ -1,6 +1,6 @@
 export type MaterialId = 'classic' | 'diamond-quilted' | 'perforated';
 
-export type ColourId = 'exclusive-black' | 'sienna-brown' | 'light-ivory';
+export type ColourId = 'exclusive-black' | 'sienna-brown' | 'light-ivory' | 'oxblood' | 'forest-green' | 'midnight-navy' | 'saddle-tan' | 'warm-stone';
 
 export type ThreadId = 'amber-ochre' | 'cyan' | 'warm-ivory' | 'tonal-charcoal';
 
@@ -20,7 +20,7 @@ export type ConfigurationStepId =
   | 'trim'
   | 'illumination';
 
-export type OfferingClassification = 'confirmed' | 'illustrative';
+export type OfferingClassification = 'sample' | 'illustrative';
 
 export type AppRoute = 'landing' | 'studio';
 

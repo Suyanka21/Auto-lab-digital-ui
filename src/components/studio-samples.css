@@ -1,0 +1,62 @@
+/* Photographic studies belong to the UI; live renderer materials remain untouched. */
+.sample-options { gap:12px; }
+.sample-options button { padding:0; min-height:0; border:0; border-bottom:1px solid var(--color-fine-border); background:transparent; }
+.sample-options button[aria-checked="true"] { background:transparent; border-bottom:2px solid var(--color-cyan-ink); }
+.sample-options button:hover:not(:disabled) { border-color:var(--color-cyan-ink); }
+.sample-options button[aria-checked="true"] .studio-option-check { width:20px; height:20px; right:6px; top:6px; border:2px solid var(--color-paper); }
+.sample-label-row { display:flex; align-items:baseline; gap:6px; padding:10px 0; }
+.sample-number { font-size:9px; color:var(--color-muted-grey); }
+.sample-options .studio-option-label { font-size:11px; }
+.sample-material,.sample-colour { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.sample-thread,.sample-composition,.sample-trim { grid-template-columns:repeat(2,minmax(0,1fr)); }
+.sample-light { grid-template-columns:repeat(3,minmax(0,1fr)); }
+.treatment-study { height:clamp(140px,21dvh,210px); position:relative; overflow:hidden; background:var(--color-graphite); }
+.treatment-study > img { width:100%; height:100%; object-fit:cover; animation:sample-arrive 240ms ease-out; }
+.treatment-study figcaption { position:absolute; left:12px; bottom:12px; background:var(--color-graphite); color:var(--color-paper); padding:8px 12px; }
+.treatment-study figcaption span { display:block; font-size:8px; letter-spacing:.12em; text-transform:uppercase; margin-bottom:4px; }
+.treatment-study figcaption strong { display:block; font:400 18px/1.2 var(--font-serif); }
+.material-tab-image { width:100%; height:60px; object-fit:cover; }
+.sample-surface { display:block; position:relative; overflow:hidden; height:80px; background-color:var(--sample-colour,var(--color-graphite)); border:1px solid var(--color-fine-border); }
+.sample-colour .sample-surface { clip-path:polygon(0 0,88% 0,100% 16%,100% 100%,0 100%); }
+.sample-colour .sample-surface::before,.sample-composition .sample-surface::before { content:""; position:absolute; inset:0; background:url('../assets/editorial/classic-study.webp') center/cover; mix-blend-mode:luminosity; opacity:.32; }
+.sample-colour .sample-surface::after { content:""; position:absolute; inset:8px; border-bottom:1px dashed rgba(255,255,255,.55); }
+.sample-thread .sample-surface { height:68px; background-image:linear-gradient(#101114bb,#101114bb),url('../assets/editorial/classic-study.webp'); background-size:cover; }
+.sample-thread .sample-surface > span { position:absolute; top:28px; left:12px; right:12px; height:12px; border-top:2px dashed var(--sample-colour); border-bottom:2px dashed var(--sample-colour); transform:rotate(-8deg); }
+.sample-trim .sample-surface { height:128px; background-image:url('../assets/editorial/trim-studies.webp'); background-size:400% 100%; background-position:var(--sample-position) center; }
+.sample-composition .sample-surface { height:100px; }
+.sample-split > span { display:block; position:absolute; top:0; bottom:0; left:30%; right:30%; background:var(--color-ivory); border-left:1px dashed var(--color-graphite); border-right:1px dashed var(--color-graphite); }
+.sample-light .sample-surface { height:76px; background:var(--color-graphite); }
+.sample-light .sample-surface > span { position:absolute; inset:0; background:radial-gradient(ellipse at 50% 100%,var(--sample-colour),transparent 75%); }
+.sample-light .sample-surface::after { content:""; position:absolute; bottom:14px; left:12px; right:12px; border-top:2px solid var(--sample-colour); }
+@keyframes sample-arrive { from { opacity:.6; } to { opacity:1; } }
+@media (max-width:1023px) {
+ .sample-options { gap:8px; }
+ .treatment-study { height:88px; }
+ .treatment-study figcaption { bottom:8px; left:8px; padding:4px 8px; }
+ .treatment-study figcaption span { display:none; }
+ .treatment-study figcaption strong { font-size:16px; }
+ .material-tab-image { height:32px; }
+ .sample-label-row { padding:8px 0; gap:4px; }
+ .sample-options .studio-option-label { font-size:10px; }
+ .sample-options .sample-number { display:none; }
+ .sample-options button { padding:0; min-height:44px; }
+ .sample-colour .sample-surface { height:48px; }
+ .sample-thread .sample-surface { height:44px; }
+ .sample-thread .sample-surface > span { top:16px; height:8px; }
+ .sample-trim .sample-surface { height:64px; }
+ .sample-composition .sample-surface { height:60px; }
+ .sample-light .sample-surface { height:44px; }
+}
+@media (prefers-reduced-motion:reduce) { .treatment-study > img { animation:none; } }
+
+/* Eight swatches per zone, kept compact so the cabin remains visible. */
+.sample-colour { grid-template-columns:repeat(4,minmax(0,1fr)); gap:8px; }
+.sample-colour .sample-surface { height:44px; }
+.sample-colour .sample-label-row { padding:6px 0; min-height:36px; }
+.sample-colour .sample-number { display:none; }
+.sample-colour .studio-option-label { font-size:10px; line-height:1.3; }
+@media (max-width:1023px) {
+ .sample-colour .sample-surface { height:28px; }
+ .sample-colour .sample-label-row { min-height:32px; padding:4px 0; }
+ .colour-content { gap:8px; }
+}

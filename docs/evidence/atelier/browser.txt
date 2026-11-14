@@ -1,0 +1,9 @@
+
+Running 2 tests using 1 worker
+
+(node:14688) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 [runtime] › tests\browser\atelier.spec.ts:6:2 › atelier imagery and expanded live palette at 1440 (55.7s)
+  ok 2 [runtime] › tests\browser\atelier.spec.ts:6:2 › atelier imagery and expanded live palette at 390 (31.7s)
+
+  2 passed (1.5m)

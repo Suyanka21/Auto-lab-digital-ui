@@ -1,0 +1,1 @@
+Decoder and renderer licence notices. Source URLs recorded in docs/PROVENANCE.md. Original decoder files are unmodified. Basis Universal: Binomial LLC; Draco: Google; React Three Fiber and Drei: Poimandres. Installed package notices retained alongside their binaries.

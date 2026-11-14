@@ -1,3 +1,4 @@
+import { navigateRadio } from './radio-navigation';
 import { Check } from 'lucide-react';
 import carbonFibreImg from '@/src/assets/images/autolab_trim_carbon_fibre_1794511173303.jpg';
 import pianoLacquerImg from '@/src/assets/images/autolab_trim_piano_lacquer_1794511174129.jpg';
@@ -40,7 +41,7 @@ export function TrimSelector({ value, onChange }: TrimSelectorProps) {
         <span className="text-[11px] text-muted-grey">Visual direction only</span>
       </div>
 
-      <div role="radiogroup" aria-label="Cabin trim finish (illustrative preview)" className="grid grid-cols-2 gap-2.5">
+      <div role="radiogroup" onKeyDown={navigateRadio} aria-label="Cabin trim finish (illustrative preview)" className="grid grid-cols-2 gap-2.5">
         {TRIM_OPTIONS.map((option) => {
           const isSelected = option.id === value;
           const media = TRIM_MEDIA[option.id];
@@ -50,6 +51,7 @@ export function TrimSelector({ value, onChange }: TrimSelectorProps) {
               type="button"
               role="radio"
               aria-checked={isSelected}
+              tabIndex={isSelected ? 0 : -1}
               onClick={() => onChange(option.id)}
               className={`group text-left rounded-[2px] overflow-hidden border transition-colors duration-150 cursor-pointer flex flex-col ${
                 isSelected

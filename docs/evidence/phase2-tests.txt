@@ -1,0 +1,13 @@
+
+> autolab-independent-showroom@0.0.0 test
+> vitest run --maxWorkers=1
+
+
+ RUN  v5.0.5 C:/Users/user/OneDrive/Desktop/Auto-lab-digital-ui
+
+
+ Test Files  1 passed (1)
+      Tests  12 passed (12)
+   Start at  17:27:27
+   Duration  689ms (transform 49%, import 30%, worker 10%, tests 10%)
+

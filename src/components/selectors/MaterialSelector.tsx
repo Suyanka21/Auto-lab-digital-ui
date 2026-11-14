@@ -1,3 +1,4 @@
+import { navigateRadio } from './radio-navigation';
 import { Check, ChevronLeft, ChevronRight } from 'lucide-react';
 import classicLeatherImg from '@/src/assets/images/autolab_material_classic_1794511172047.jpg';
 import diamondQuiltedImg from '@/src/assets/images/autolab_material_diamond_quilted_1794511173024.jpg';
@@ -108,7 +109,7 @@ export function MaterialSelector({ value, onChange }: MaterialSelectorProps) {
       </div>
 
       {/* Radio List of Confirmed Materials */}
-      <div role="radiogroup" aria-label="Upholstery material" className="space-y-2">
+      <div role="radiogroup" onKeyDown={navigateRadio} aria-label="Upholstery material" className="space-y-2">
         {MATERIAL_OPTIONS.map((option) => {
           const isSelected = option.id === value;
           return (
@@ -117,6 +118,7 @@ export function MaterialSelector({ value, onChange }: MaterialSelectorProps) {
               type="button"
               role="radio"
               aria-checked={isSelected}
+              tabIndex={isSelected ? 0 : -1}
               onClick={() => onChange(option.id)}
               className={`w-full min-h-[48px] sm:min-h-[52px] px-3.5 py-2.5 sm:py-3 text-left rounded-[2px] border transition-colors duration-150 cursor-pointer flex items-start gap-3 ${
                 isSelected

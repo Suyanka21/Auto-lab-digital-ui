@@ -1,3 +1,4 @@
+import { navigateRadio } from './radio-navigation';
 import { Check } from 'lucide-react';
 import { ILLUMINATION_OPTIONS } from '@/src/data/catalog';
 import type { IlluminationId } from '@/src/types/configuration';
@@ -22,7 +23,7 @@ export function IlluminationSelector({ value, onChange }: IlluminationSelectorPr
       {/* Restrained Perimeter Light Line Preview on Graphite */}
       <div className="rounded-[2px] bg-graphite border border-[#2A2B30] p-4 space-y-2.5">
         <div className="flex items-center justify-between text-[11px] text-[#B8B4AC]">
-          <span className="uppercase tracking-[0.12em]">Perimeter Line Tone</span>
+          <span className="uppercase tracking-[0.12em]">Ambient Wash Tone</span>
           <span className="text-paper font-medium">{activeOption.label}</span>
         </div>
         <div className="h-[2px] w-full rounded-[2px] bg-[#22242A] overflow-hidden">
@@ -34,7 +35,7 @@ export function IlluminationSelector({ value, onChange }: IlluminationSelectorPr
       </div>
 
       <div
-        role="radiogroup"
+        role="radiogroup" onKeyDown={navigateRadio}
         aria-label="Ambient illumination mood (illustrative preview)"
         className="space-y-2"
       >
@@ -46,6 +47,7 @@ export function IlluminationSelector({ value, onChange }: IlluminationSelectorPr
               type="button"
               role="radio"
               aria-checked={isSelected}
+              tabIndex={isSelected ? 0 : -1}
               onClick={() => onChange(option.id)}
               className={`w-full min-h-[50px] px-3.5 py-2.5 text-left rounded-[2px] border transition-colors duration-150 cursor-pointer flex items-center justify-between gap-3 ${
                 isSelected

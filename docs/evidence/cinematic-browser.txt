@@ -1,0 +1,16 @@
+
+> autolab-independent-showroom@0.0.0 test:e2e
+> playwright test --project=runtime tests/browser/cinematic.spec.ts tests/browser/bindings.spec.ts
+
+
+Running 3 tests using 1 worker
+
+(node:16992) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 [runtime] › tests\browser\bindings.spec.ts:8:1 › all real materials, composition, thread, cameras, trim and lights (2.9m)
+(node:4132) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 2 [runtime] › tests\browser\cinematic.spec.ts:5:2 › cabin stays visible through the complete journey at 1440px (1.4m)
+  ok 3 [runtime] › tests\browser\cinematic.spec.ts:5:2 › cabin stays visible through the complete journey at 390px (41.2s)
+
+  3 passed (5.3m)

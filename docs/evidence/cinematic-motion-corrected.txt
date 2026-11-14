@@ -1,0 +1,48 @@
+
+> autolab-independent-showroom@0.0.0 test:e2e
+> playwright test --project=runtime tests/browser/cinematic.spec.ts --grep swipe, back
+
+
+Running 1 test using 1 worker
+
+(node:2064) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 [runtime] › tests\browser\cinematic.spec.ts:28:1 › swipe, back and reduced motion keep one live stage (29.4s)
+
+
+  1) [runtime] › tests\browser\cinematic.spec.ts:28:1 › swipe, back and reduced motion keep one live stage 
+
+    Error: expect(received).toBeLessThanOrEqual(expected)
+
+    Expected: <= 568
+    Received:    844
+
+      51 |   await page.setViewportSize(size);
+      52 |   expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(size.width);
+    > 53 |   expect(await page.evaluate(()=>document.documentElement.scrollHeight)).toBeLessThanOrEqual(size.height);
+         |                                                                          ^
+      54 |  }
+      55 | });
+      56 |
+        at C:\Users\user\OneDrive\Desktop\Auto-lab-digital-ui\tests\browser\cinematic.spec.ts:53:74
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\cinematic-swipe-back-and-reduced-motion-keep-one-live-stage-runtime\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\cinematic-swipe-back-and-reduced-motion-keep-one-live-stage-runtime\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\cinematic-swipe-back-and-reduced-motion-keep-one-live-stage-runtime\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\cinematic-swipe-back-and-reduced-motion-keep-one-live-stage-runtime\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\cinematic-swipe-back-and-reduced-motion-keep-one-live-stage-runtime\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [runtime] › tests\browser\cinematic.spec.ts:28:1 › swipe, back and reduced motion keep one live stage 

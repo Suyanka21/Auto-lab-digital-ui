@@ -1,0 +1,31 @@
+
+> autolab-independent-showroom@0.0.0 build
+> vite build --outDir dist-e2e
+
+vite v8.3.8 building client environment for production...
+transforming...
+✓ 2257 modules transformed.
+rendering chunks...
+computing gzip size...
+dist-e2e/index.html                                                              1.25 kB │ gzip:   0.55 kB
+dist-e2e/assets/autolab_trim_piano_lacquer_1794511174129-CeH7wIE7.jpg          550.83 kB
+dist-e2e/assets/autolab_ambient_illumination_1794510358781-Dm9rvX9d.jpg        562.98 kB
+dist-e2e/assets/autolab_cabin_trim_1794510359528-DCoB3l3M.jpg                  599.43 kB
+dist-e2e/assets/autolab_colour_trio_1794510358860-DsfFUwax.jpg                 601.56 kB
+dist-e2e/assets/autolab_trim_walnut_wood_1794511174478-VbtP76fF.jpg            655.95 kB
+dist-e2e/assets/autolab_hero_cabin_1794510358513-DU5aqYuI.jpg                  665.87 kB
+dist-e2e/assets/autolab_material_classic_1794511172047-BmtLAGx4.jpg            675.48 kB
+dist-e2e/assets/autolab_trim_poplar_wood_1794511173150-wit_WVPN.jpg            684.12 kB
+dist-e2e/assets/autolab_trim_carbon_fibre_1794511173303-DPnTDCVf.jpg           777.13 kB
+dist-e2e/assets/autolab_material_diamond_quilted_1794511173024-J19pL0IL.jpg    797.53 kB
+dist-e2e/assets/autolab_material_leather_1794510358246-DZoK20bG.jpg            921.90 kB
+dist-e2e/assets/index-BSgAKVKD.css                                              33.30 kB │ gzip:   6.80 kB
+dist-e2e/assets/index-DScu0s5o.js                                              287.72 kB │ gzip:  84.20 kB
+dist-e2e/assets/RuntimeViewer-BN9fl_KM.js                                    1,073.17 kB │ gzip: 297.49 kB
+
+✓ built in 3.20s
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.

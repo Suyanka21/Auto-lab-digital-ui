@@ -1,3 +1,4 @@
+import { navigateRadio } from './radio-navigation';
 import { Check } from 'lucide-react';
 import { COLOUR_OPTIONS, COMPOSITION_OPTIONS } from '@/src/data/catalog';
 import type { ColourId, CompositionId } from '@/src/types/configuration';
@@ -18,7 +19,7 @@ function SeatZoneDiagram({
   primaryHex: string;
   secondaryHex: string;
 }) {
-  const insertFill = mode === 'two-tone' ? secondaryHex : primaryHex;
+  const bolsterFill = mode === 'two-tone' ? secondaryHex : primaryHex;
   return (
     <svg
       width="44"
@@ -36,7 +37,7 @@ function SeatZoneDiagram({
         width="16"
         height="9"
         rx="2"
-        fill={insertFill}
+        fill={bolsterFill}
         stroke="#65615B"
         strokeWidth="1"
       />
@@ -47,7 +48,7 @@ function SeatZoneDiagram({
         width="30"
         height="22"
         rx="3"
-        fill={primaryHex}
+        fill={bolsterFill}
         stroke="#65615B"
         strokeWidth="1"
       />
@@ -58,7 +59,7 @@ function SeatZoneDiagram({
         width="18"
         height="18"
         rx="1.5"
-        fill={insertFill}
+        fill={primaryHex}
         stroke="#65615B"
         strokeWidth="0.75"
       />
@@ -69,7 +70,7 @@ function SeatZoneDiagram({
         width="30"
         height="9"
         rx="2"
-        fill={primaryHex}
+        fill={bolsterFill}
         stroke="#65615B"
         strokeWidth="1"
       />
@@ -79,7 +80,7 @@ function SeatZoneDiagram({
         width="18"
         height="6"
         rx="1"
-        fill={insertFill}
+        fill={primaryHex}
         stroke="#65615B"
         strokeWidth="0.75"
       />
@@ -100,7 +101,7 @@ export function CompositionSelector({
 
   return (
     <div className="space-y-4" data-component="CompositionSelector">
-      <div role="radiogroup" aria-label="Upholstery composition" className="space-y-2.5">
+      <div role="radiogroup" onKeyDown={navigateRadio} aria-label="Upholstery composition" className="space-y-2.5">
         {COMPOSITION_OPTIONS.map((option) => {
           const isSelected = option.id === value;
           return (
@@ -109,6 +110,7 @@ export function CompositionSelector({
               type="button"
               role="radio"
               aria-checked={isSelected}
+              tabIndex={isSelected ? 0 : -1}
               onClick={() => onChange(option.id)}
               className={`w-full min-h-[82px] p-3.5 text-left rounded-[2px] border transition-colors duration-150 cursor-pointer flex items-start justify-between gap-3.5 ${
                 isSelected
@@ -152,8 +154,8 @@ export function CompositionSelector({
         <p className="font-medium text-ink">Surface zoning</p>
         <p className="text-muted-grey leading-[1.5]">
           {value === 'two-tone'
-            ? `Outer seat bolsters and centre console remain ${primaryMeta?.label ?? 'Primary'}; inner seat inserts and headrests switch to ${secondaryMeta?.label ?? 'Secondary'} (editable in Colour).`
-            : `All bolsters, central seat panels, headrests, and console armrest are tailored in ${primaryMeta?.label ?? 'Primary'}.`}
+            ? `Seat centres remain ${primaryMeta?.label ?? 'Primary'}; bolsters, headrests and steering leather switch to ${secondaryMeta?.label ?? 'Secondary'}. Dashboard and console keep their existing finishes.`
+            : `Seat centres, bolsters, headrests and steering leather share ${primaryMeta?.label ?? 'Primary'}. Dashboard and console keep their existing finishes.`}
         </p>
       </div>
     </div>

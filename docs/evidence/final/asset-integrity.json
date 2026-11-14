@@ -1,0 +1,47 @@
+[
+  {
+    "path": "public\\assets\\3d\\lexus-rx350\\interior-l4-classic.glb",
+    "sha256": "e5bdde016348df34889ec4c0ff0e406caad7e368504308bd5a4f5b725a55c056",
+    "matchesCommittedSource": true
+  },
+  {
+    "path": "public\\assets\\3d\\lexus-rx350\\interior-l4-diamond.glb",
+    "sha256": "4c217dd00d86d8bae3925d735beddb63b225d24c5f1bafd60726f501bfcba8ad",
+    "matchesCommittedSource": true
+  },
+  {
+    "path": "public\\assets\\3d\\lexus-rx350\\interior-l4-perforated.glb",
+    "sha256": "d53f55546232db473ecadee08be9bff6454b5d3a510ee30e88415f2477ca9f9e",
+    "matchesCommittedSource": true
+  },
+  {
+    "path": "public\\assets\\3d\\trim-preview\\poplar.ktx2",
+    "sha256": "7e695f3637b36b026f102bb55d262963e9e2d784842528ede0c9ab9376b7482d",
+    "matchesCommittedSource": true
+  },
+  {
+    "path": "public\\assets\\3d\\trim-preview\\walnut.ktx2",
+    "sha256": "c7c10c65e2e2577fddc2aad70b0879026e0c983b70a08f8f0e5ec41316a3f812",
+    "matchesCommittedSource": true
+  },
+  {
+    "path": "public\\assets\\3d\\trim-preview\\lacquer.ktx2",
+    "sha256": "2b674759eba273901331aded1ef483bb913cd3ef6378dd3e5fda6ded0c6cc84b",
+    "matchesCommittedSource": true
+  },
+  {
+    "path": "public\\assets\\3d\\trim-preview\\normal.ktx2",
+    "sha256": "210164f1513239f704736970eaa0c384e0d7975440bc49e247a68522cadef84e",
+    "matchesCommittedSource": true
+  },
+  {
+    "path": "public\\basis\\basis_transcoder.wasm",
+    "sha256": "6cf17dc889352c42e9acf8897107978d127005fe3386c36a0e3845e27967630a",
+    "matchesCommittedSource": true
+  },
+  {
+    "path": "public\\draco\\draco_decoder.wasm",
+    "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac",
+    "matchesCommittedSource": true
+  }
+]

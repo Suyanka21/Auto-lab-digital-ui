@@ -1,0 +1,16 @@
+
+> autolab-independent-showroom@0.0.0 test
+> vitest run --maxWorkers=1
+
+
+ RUN  v5.0.5 C:/Users/user/OneDrive/Desktop/Auto-lab-digital-ui
+
+
+ Test Files  5 passed (5)
+      Tests  39 passed (39)
+   Start at  17:24:21
+   Duration  5.65s (import 48%, tests 46%, transform 4%, worker 2%)
+
+    Isolate  5 workers spawned · ~378ms startup each (spawn + environment, per file)
+             at least ~1.51s faster with isolate: false — reuses workers across files instead of one per file
+

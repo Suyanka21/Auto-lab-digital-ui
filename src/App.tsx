@@ -6,10 +6,12 @@ import { ConfigurationProvider } from '@/src/state/ConfigurationContext';
 import type { AppRoute } from '@/src/types/configuration';
 
 function ShowroomRoot() {
-  const [route, setRoute] = useState<AppRoute>('landing');
+  const [route, setRoute] = useState<AppRoute>(() => window.location.pathname.replace(/\/$/, '').endsWith('/studio') ? 'studio' : 'landing');
   const [pendingSection, setPendingSection] = useState<string | null>(null);
 
   const handleNavigate = useCallback((nextRoute: AppRoute, sectionId?: string) => {
+    const path = import.meta.env.BASE_URL + (nextRoute === 'studio' ? 'studio' : '');
+    if (window.location.pathname !== path) window.history.pushState(null, '', path);
     setRoute(nextRoute);
     if (sectionId) {
       setPendingSection(sectionId);
@@ -18,6 +20,12 @@ function ShowroomRoot() {
       const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
       window.scrollTo({ top: 0, behavior: prefersReduced ? 'auto' : 'smooth' });
     }
+  }, []);
+
+  useEffect(() => {
+    const restore = () => setRoute(window.location.pathname.replace(/\/$/, '').endsWith('/studio') ? 'studio' : 'landing');
+    window.addEventListener('popstate', restore);
+    return () => window.removeEventListener('popstate', restore);
   }, []);
 
   useEffect(() => {

@@ -1,0 +1,13 @@
+
+> autolab-independent-showroom@0.0.0 test:e2e
+> playwright test --project=runtime tests/browser/responsive-recovery.spec.ts --grep WebGL unavailable|failed GLB recovers
+
+
+Running 2 tests using 1 worker
+
+(node:10224) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 [runtime] › tests\browser\responsive-recovery.spec.ts:39:1 › failed GLB recovers and retains selected colour (50.0s)
+  ok 2 [runtime] › tests\browser\responsive-recovery.spec.ts:49:1 › WebGL unavailable preserves usable controls and summary (5.4s)
+
+  2 passed (59.4s)

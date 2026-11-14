@@ -1,0 +1,100 @@
+
+> autolab-independent-showroom@0.0.0 test:e2e
+> playwright test --project=runtime tests/browser/editorial.spec.ts
+
+
+Running 2 tests using 1 worker
+
+(node:19952) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 [runtime] › tests\browser\editorial.spec.ts:5:2 › editorial presentation and navigation at 1440 (11.3s)
+(node:18936) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  2 [runtime] › tests\browser\editorial.spec.ts:5:2 › editorial presentation and navigation at 390 (9.5s)
+
+
+  1) [runtime] › tests\browser\editorial.spec.ts:5:2 › editorial presentation and navigation at 1440 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('[data-component=EditorialCover]').getByRole('button', { name: 'Pause motion' })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" locator('[data-component=EditorialCover]').getByRole('button', { name: 'Pause motion' }) with timeout 5000ms
+      - waiting for locator('[data-component=EditorialCover]').getByRole('button', { name: 'Pause motion' })
+
+
+       8 |   await page.screenshot({path:`docs/evidence/editorial/before-or-after-${width}.png`});
+       9 |   const cover=page.locator('[data-component=EditorialCover]');
+    > 10 |   await expect(cover.getByRole('button',{name:'Pause motion'})).toBeVisible({timeout:5000});
+         |                                                                 ^
+      11 |   await cover.getByRole('button',{name:'Pause motion'}).click();
+      12 |   await expect(cover).toHaveAttribute('data-motion','still');
+      13 |   await cover.getByRole('button',{name:'View study: Diamond Quilted'}).click();
+        at C:\Users\user\OneDrive\Desktop\Auto-lab-digital-ui\tests\browser\editorial.spec.ts:10:65
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\editorial-editorial-presentation-and-navigation-at-1440-runtime\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\editorial-editorial-presentation-and-navigation-at-1440-runtime\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\editorial-editorial-presentation-and-navigation-at-1440-runtime\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\editorial-editorial-presentation-and-navigation-at-1440-runtime\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\editorial-editorial-presentation-and-navigation-at-1440-runtime\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [runtime] › tests\browser\editorial.spec.ts:5:2 › editorial presentation and navigation at 390 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: locator('[data-component=EditorialCover]').getByRole('button', { name: 'Pause motion' })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" locator('[data-component=EditorialCover]').getByRole('button', { name: 'Pause motion' }) with timeout 5000ms
+      - waiting for locator('[data-component=EditorialCover]').getByRole('button', { name: 'Pause motion' })
+
+
+       8 |   await page.screenshot({path:`docs/evidence/editorial/before-or-after-${width}.png`});
+       9 |   const cover=page.locator('[data-component=EditorialCover]');
+    > 10 |   await expect(cover.getByRole('button',{name:'Pause motion'})).toBeVisible({timeout:5000});
+         |                                                                 ^
+      11 |   await cover.getByRole('button',{name:'Pause motion'}).click();
+      12 |   await expect(cover).toHaveAttribute('data-motion','still');
+      13 |   await cover.getByRole('button',{name:'View study: Diamond Quilted'}).click();
+        at C:\Users\user\OneDrive\Desktop\Auto-lab-digital-ui\tests\browser\editorial.spec.ts:10:65
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\editorial-editorial-presentation-and-navigation-at-390-runtime\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\editorial-editorial-presentation-and-navigation-at-390-runtime\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\editorial-editorial-presentation-and-navigation-at-390-runtime\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\editorial-editorial-presentation-and-navigation-at-390-runtime\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\editorial-editorial-presentation-and-navigation-at-390-runtime\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    [runtime] › tests\browser\editorial.spec.ts:5:2 › editorial presentation and navigation at 1440 
+    [runtime] › tests\browser\editorial.spec.ts:5:2 › editorial presentation and navigation at 390 ─

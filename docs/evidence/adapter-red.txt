@@ -1,0 +1,6 @@
+
+> autolab-independent-showroom@0.0.0 test
+> vitest run --maxWorkers=1 tests/configuration-adapter.test.ts
+
+'vitest' is not recognized as an internal or external command,
+operable program or batch file.

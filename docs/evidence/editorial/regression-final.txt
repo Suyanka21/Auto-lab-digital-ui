@@ -1,0 +1,16 @@
+
+> autolab-independent-showroom@0.0.0 test:e2e
+> playwright test --project=runtime tests/browser/bindings.spec.ts tests/browser/cinematic.spec.ts tests/browser/responsive-recovery.spec.ts --grep all real materials|swipe, back|WebGL unavailable
+
+
+Running 3 tests using 1 worker
+
+(node:15548) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 [runtime] › tests\browser\bindings.spec.ts:8:1 › all real materials, composition, thread, cameras, trim and lights (2.0m)
+  ok 2 [runtime] › tests\browser\responsive-recovery.spec.ts:49:1 › WebGL unavailable preserves usable controls and summary (5.0s)
+(node:17424) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 3 [runtime] › tests\browser\cinematic.spec.ts:28:1 › swipe, back and reduced motion keep one live stage (35.8s)
+
+  3 passed (2.9m)

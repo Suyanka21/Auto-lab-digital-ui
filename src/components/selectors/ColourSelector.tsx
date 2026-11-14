@@ -1,3 +1,4 @@
+import { navigateRadio } from './radio-navigation';
 import { Check } from 'lucide-react';
 import { COLOUR_OPTIONS } from '@/src/data/catalog';
 import type { ColourId, CompositionId } from '@/src/types/configuration';
@@ -27,10 +28,10 @@ export function ColourSelector({
           <span className="text-[11px] font-medium uppercase tracking-[0.12em] text-ink">
             Primary Colour
           </span>
-          <span className="text-[11px] text-muted-grey">Workshop hide palette</span>
+          <span className="text-[11px] text-muted-grey">Sample hide palette</span>
         </div>
 
-        <div role="radiogroup" aria-label="Primary hide colour" className="space-y-2">
+        <div role="radiogroup" onKeyDown={navigateRadio} aria-label="Primary hide colour" className="space-y-2">
           {COLOUR_OPTIONS.map((option) => {
             const isSelected = option.id === primaryColour;
             return (
@@ -39,6 +40,7 @@ export function ColourSelector({
                 type="button"
                 role="radio"
                 aria-checked={isSelected}
+              tabIndex={isSelected ? 0 : -1}
                 onClick={() => onPrimaryChange(option.id)}
                 className={`w-full min-h-[54px] px-3.5 py-2.5 text-left rounded-[2px] border transition-colors duration-150 cursor-pointer flex items-center justify-between gap-3 ${
                   isSelected
@@ -87,7 +89,7 @@ export function ColourSelector({
             </span>
             <span className="block text-[12px] leading-[1.4] text-muted-grey">
               {composition === 'two-tone'
-                ? 'Applied to central seat panels & headrests.'
+                ? 'Applied to bolsters, headrests and steering leather.'
                 : 'Available when Two-tone composition is active.'}
             </span>
           </div>
@@ -111,7 +113,7 @@ export function ColourSelector({
         </div>
 
         {composition === 'two-tone' && (
-          <div role="radiogroup" aria-label="Secondary hide colour" className="space-y-2 pt-1">
+          <div role="radiogroup" onKeyDown={navigateRadio} aria-label="Secondary hide colour" className="space-y-2 pt-1">
             {COLOUR_OPTIONS.map((option) => {
               const isSelected = option.id === secondaryColour;
               const matchesPrimary = option.id === primaryColour;
@@ -121,6 +123,7 @@ export function ColourSelector({
                   type="button"
                   role="radio"
                   aria-checked={isSelected}
+              tabIndex={isSelected ? 0 : -1}
                   disabled={matchesPrimary}
                   aria-disabled={matchesPrimary || undefined}
                   onClick={() => onSecondaryChange(option.id)}

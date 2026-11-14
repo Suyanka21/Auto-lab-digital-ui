@@ -1,0 +1,78 @@
+
+> autolab-independent-showroom@0.0.0 test:e2e
+> playwright test tests/browser/responsive-recovery.spec.ts --grep failure is explicit
+
+
+Running 2 tests using 1 worker
+
+(node:2888) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 tests\browser\responsive-recovery.spec.ts:57:2 › KTX2 transcoder failure is explicit and Retry recovers (2.3s)
+(node:15440) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  2 tests\browser\responsive-recovery.spec.ts:57:2 › trim texture failure is explicit and Retry recovers (2.5s)
+
+
+  1) tests\browser\responsive-recovery.spec.ts:57:2 › KTX2 transcoder failure is explicit and Retry recovers 
+
+    Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4174/studio
+    Call log:
+      - navigating to "http://127.0.0.1:4174/studio", waiting until "load"
+
+
+      57 |  test(`${label} failure is explicit and Retry recovers`, async ({page})=>{
+      58 |   test.setTimeout(120000); await page.route(pattern,r=>r.fulfill({status:503,body:'intentional dependency failure'}));
+    > 59 |   await page.goto('/studio');await expect(page.getByRole('button',{name:'Retry 3D'})).toBeVisible({timeout:60000});
+         |              ^
+      60 |   await expect(page.getByTestId('viewer-status')).toContainText('unavailable');
+      61 |   await page.unroute(pattern);await page.getByRole('button',{name:'Retry 3D'}).click();await ready(page);
+      62 |   await expect(page.locator('canvas')).toHaveCount(1);
+        at C:\Users\user\OneDrive\Desktop\Auto-lab-digital-ui\tests\browser\responsive-recovery.spec.ts:59:14
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\responsive-recovery-KTX2-t-8bfbd-explicit-and-Retry-recovers\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\responsive-recovery-KTX2-t-8bfbd-explicit-and-Retry-recovers\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\responsive-recovery-KTX2-t-8bfbd-explicit-and-Retry-recovers\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\responsive-recovery-KTX2-t-8bfbd-explicit-and-Retry-recovers\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) tests\browser\responsive-recovery.spec.ts:57:2 › trim texture failure is explicit and Retry recovers 
+
+    Error: page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:4174/studio
+    Call log:
+      - navigating to "http://127.0.0.1:4174/studio", waiting until "load"
+
+
+      57 |  test(`${label} failure is explicit and Retry recovers`, async ({page})=>{
+      58 |   test.setTimeout(120000); await page.route(pattern,r=>r.fulfill({status:503,body:'intentional dependency failure'}));
+    > 59 |   await page.goto('/studio');await expect(page.getByRole('button',{name:'Retry 3D'})).toBeVisible({timeout:60000});
+         |              ^
+      60 |   await expect(page.getByTestId('viewer-status')).toContainText('unavailable');
+      61 |   await page.unroute(pattern);await page.getByRole('button',{name:'Retry 3D'}).click();await ready(page);
+      62 |   await expect(page.locator('canvas')).toHaveCount(1);
+        at C:\Users\user\OneDrive\Desktop\Auto-lab-digital-ui\tests\browser\responsive-recovery.spec.ts:59:14
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\responsive-recovery-trim-t-ffb8f-explicit-and-Retry-recovers\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\responsive-recovery-trim-t-ffb8f-explicit-and-Retry-recovers\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\responsive-recovery-trim-t-ffb8f-explicit-and-Retry-recovers\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\responsive-recovery-trim-t-ffb8f-explicit-and-Retry-recovers\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    tests\browser\responsive-recovery.spec.ts:57:2 › KTX2 transcoder failure is explicit and Retry recovers 
+    tests\browser\responsive-recovery.spec.ts:57:2 › trim texture failure is explicit and Retry recovers 

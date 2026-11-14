@@ -1,0 +1,193 @@
+{
+  "repository": "https://github.com/Suyanka21/AUTOLAB-DIGITAL-SHOWROOM",
+  "commit": "12558846c5f3635539a45174530a6599dbdbff28",
+  "note": "Original exported bytes before documented Vite adaptations; binary files remain unchanged.",
+  "files": [
+    {
+      "source": "src/components/configurator/SpikeViewer.tsx",
+      "destination": "src/viewer/RuntimeViewer.tsx",
+      "sha256": "bfefa887b864698df3c53e0725569a05e635c08de7c0b67fa566c9e0d4ca3f7a",
+      "bytes": 23764
+    },
+    {
+      "source": "src/lib/three/ktx2-runtime.ts",
+      "destination": "src/lib/three/ktx2-runtime.ts",
+      "sha256": "c75302ccb0b2ab68a0bfee577c6ec11ff152ea1b03c029ebff117bc9d6cdaf8f",
+      "bytes": 3288
+    },
+    {
+      "source": "src/lib/three/thread-mask.ts",
+      "destination": "src/lib/three/thread-mask.ts",
+      "sha256": "11ce532e27a3176f1d3d27c53d5e3612d2aa24c19f1f159556154c4283b40859",
+      "bytes": 2037
+    },
+    {
+      "source": "src/lib/three/cabin-trim.ts",
+      "destination": "src/lib/three/cabin-trim.ts",
+      "sha256": "4f571078f576ef5a11ac29454c87a6c77c5c53291830bf2e5e485686fb699899",
+      "bytes": 4540
+    },
+    {
+      "source": "src/lib/trim-specification.ts",
+      "destination": "src/lib/trim-specification.ts",
+      "sha256": "5266df79ab3da8d2863a2497c60011de92e86ddf3ab25c0b6c8e3035033e9f28",
+      "bytes": 294
+    },
+    {
+      "source": "src/config/lexus-camera-presets.ts",
+      "destination": "src/config/lexus-camera-presets.ts",
+      "sha256": "0cd4edee16413ed131273df08bc605756e07c1a0e9b3e140c65670518f0e2314",
+      "bytes": 1767
+    },
+    {
+      "source": "src/config/lexus-runtime-assets.ts",
+      "destination": "src/config/lexus-runtime-assets.ts",
+      "sha256": "6af25f5a7d5142fa005bf3b34391f4a8a80291fcd248ef017aa17830b563f5b5",
+      "bytes": 818
+    },
+    {
+      "source": "src/config/trim-preview-assets.json",
+      "destination": "src/config/trim-preview-assets.json",
+      "sha256": "6c1261e22662d91c9fb11988b2e7e047c5b16de058ea5288cf4f76520ffb22bb",
+      "bytes": 956
+    },
+    {
+      "source": "src/config/scene-manifest.front-cabin.json",
+      "destination": "src/config/scene-manifest.front-cabin.json",
+      "sha256": "c3a226f9555db798a907d3452deb86e9f46986a73b137b718846238d305f6528",
+      "bytes": 8348
+    },
+    {
+      "source": "src/config/scene-manifest.lexus-rx350.json",
+      "destination": "src/config/scene-manifest.lexus-rx350.json",
+      "sha256": "eb0318b31ab60b415309d5207bb1bd49da795ce6e09676debb74358ed484015e",
+      "bytes": 4838
+    },
+    {
+      "source": "src/config/vehicles/lexus-rx350-2020.json",
+      "destination": "src/config/vehicles/lexus-rx350-2020.json",
+      "sha256": "0c8c361420506906505dc67c120786e42b4d317dbaf93f714fbcf8c324e06af6",
+      "bytes": 4355
+    },
+    {
+      "source": "scripts/validate-glb.mjs",
+      "destination": "scripts/validate-glb.mjs",
+      "sha256": "95ff9c5090aeae7ffe3487fe6c1c1a8db676a38e1ec8dfc5ddce8ba9e73ff471",
+      "bytes": 28338
+    },
+    {
+      "source": "scripts/make-fixture.mjs",
+      "destination": "scripts/make-fixture.mjs",
+      "sha256": "01096aef713df819327129065f7806e8690c789aad4a608c26ae4f92287ebd0e",
+      "bytes": 10773
+    },
+    {
+      "source": "docs/schemas/scene-manifest.schema.json",
+      "destination": "docs/schemas/scene-manifest.schema.json",
+      "sha256": "50c6f3e0aef6ad7e782ec415758aa97f9b19d3afdeb7f7ab32b002c53fef41e0",
+      "bytes": 2128
+    },
+    {
+      "source": "docs/3d-assets/lexus-l2b-budgets.json",
+      "destination": "docs/3d-assets/lexus-l2b-budgets.json",
+      "sha256": "e3b958da220461356a16e44f2b7eed648905a52a5ddd934ac93525de30cc9aec",
+      "bytes": 559
+    },
+    {
+      "source": "tests/ktx2-runtime.test.ts",
+      "destination": "tests/ktx2-runtime.test.ts",
+      "sha256": "d67572251dce4b16f34c57850798f1ab8d33bbea89a6d2faaa962bf132fbab36",
+      "bytes": 4955
+    },
+    {
+      "source": "tests/lexus-thread-lifecycle.test.ts",
+      "destination": "tests/lexus-thread-lifecycle.test.ts",
+      "sha256": "3812277b37e309c0a646da48b61fe654ebfc9df163dcc87b23d251c17a3f4340",
+      "bytes": 2821
+    },
+    {
+      "source": "tests/cabin-trim.test.ts",
+      "destination": "tests/cabin-trim.test.ts",
+      "sha256": "7ecb7919feea0c85db2e2a256fc1942fde66dc1e1223501da0c48c76e93a07be",
+      "bytes": 3410
+    },
+    {
+      "source": "tests/front-cabin-gate.test.ts",
+      "destination": "tests/front-cabin-gate.test.ts",
+      "sha256": "463f2887c508bfd35d7053ad90d4518fc2b74b47cd23371bd5c9d9f17f932402",
+      "bytes": 3978
+    },
+    {
+      "source": "public/assets/3d/lexus-rx350/interior-l4-classic.glb",
+      "destination": "public/assets/3d/lexus-rx350/interior-l4-classic.glb",
+      "sha256": "e5bdde016348df34889ec4c0ff0e406caad7e368504308bd5a4f5b725a55c056",
+      "bytes": 3650764
+    },
+    {
+      "source": "public/assets/3d/lexus-rx350/interior-l4-diamond.glb",
+      "destination": "public/assets/3d/lexus-rx350/interior-l4-diamond.glb",
+      "sha256": "4c217dd00d86d8bae3925d735beddb63b225d24c5f1bafd60726f501bfcba8ad",
+      "bytes": 3787228
+    },
+    {
+      "source": "public/assets/3d/lexus-rx350/interior-l4-perforated.glb",
+      "destination": "public/assets/3d/lexus-rx350/interior-l4-perforated.glb",
+      "sha256": "d53f55546232db473ecadee08be9bff6454b5d3a510ee30e88415f2477ca9f9e",
+      "bytes": 3509764
+    },
+    {
+      "source": "public/assets/3d/trim-preview/poplar.ktx2",
+      "destination": "public/assets/3d/trim-preview/poplar.ktx2",
+      "sha256": "7e695f3637b36b026f102bb55d262963e9e2d784842528ede0c9ab9376b7482d",
+      "bytes": 136854
+    },
+    {
+      "source": "public/assets/3d/trim-preview/walnut.ktx2",
+      "destination": "public/assets/3d/trim-preview/walnut.ktx2",
+      "sha256": "c7c10c65e2e2577fddc2aad70b0879026e0c983b70a08f8f0e5ec41316a3f812",
+      "bytes": 190857
+    },
+    {
+      "source": "public/assets/3d/trim-preview/lacquer.ktx2",
+      "destination": "public/assets/3d/trim-preview/lacquer.ktx2",
+      "sha256": "2b674759eba273901331aded1ef483bb913cd3ef6378dd3e5fda6ded0c6cc84b",
+      "bytes": 10739
+    },
+    {
+      "source": "public/assets/3d/trim-preview/normal.ktx2",
+      "destination": "public/assets/3d/trim-preview/normal.ktx2",
+      "sha256": "210164f1513239f704736970eaa0c384e0d7975440bc49e247a68522cadef84e",
+      "bytes": 108562
+    },
+    {
+      "source": "public/basis/basis_transcoder.js",
+      "destination": "public/basis/basis_transcoder.js",
+      "sha256": "8478b5b6d6b74e7d3082b89f6417321d8d1dc0307f2b30d4484bb11b441696a1",
+      "bytes": 57529
+    },
+    {
+      "source": "public/basis/basis_transcoder.wasm",
+      "destination": "public/basis/basis_transcoder.wasm",
+      "sha256": "6cf17dc889352c42e9acf8897107978d127005fe3386c36a0e3845e27967630a",
+      "bytes": 527333
+    },
+    {
+      "source": "public/draco/draco_decoder.js",
+      "destination": "public/draco/draco_decoder.js",
+      "sha256": "8625489da79a805f4f2a7d511c3e52d8b4085608a9d2a4d5f4f9de5db0aea04f",
+      "bytes": 512465
+    },
+    {
+      "source": "public/draco/draco_decoder.wasm",
+      "destination": "public/draco/draco_decoder.wasm",
+      "sha256": "a680d927bed9cb864ddbd63521868891af2bfbe755092761b4837487618df8ac",
+      "bytes": 192420
+    },
+    {
+      "source": "public/draco/draco_wasm_wrapper.js",
+      "destination": "public/draco/draco_wasm_wrapper.js",
+      "sha256": "8bb2952d2ba7d67e1414f8df819410cb0434a666be53f671fff75f68843d76f6",
+      "bytes": 58456
+    }
+  ]
+}

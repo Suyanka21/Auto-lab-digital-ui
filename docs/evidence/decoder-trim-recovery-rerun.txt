@@ -1,0 +1,13 @@
+
+> autolab-independent-showroom@0.0.0 test:e2e
+> playwright test tests/browser/responsive-recovery.spec.ts --grep failure is explicit
+
+
+Running 2 tests using 1 worker
+
+(node:19576) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 tests\browser\responsive-recovery.spec.ts:57:2 › KTX2 transcoder failure is explicit and Retry recovers (31.9s)
+  ok 2 tests\browser\responsive-recovery.spec.ts:57:2 › trim texture failure is explicit and Retry recovers (31.2s)
+
+  2 passed (1.1m)

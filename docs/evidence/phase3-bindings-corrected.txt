@@ -1,0 +1,53 @@
+
+> autolab-independent-showroom@0.0.0 test:e2e
+> playwright test tests/browser/bindings.spec.ts
+
+
+Running 1 test using 1 worker
+
+(node:20884) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 tests\browser\bindings.spec.ts:8:1 › all real materials, composition, thread, cameras, trim and lights (3.0m)
+
+
+  1) tests\browser\bindings.spec.ts:8:1 › all real materials, composition, thread, cameras, trim and lights 
+
+    Test timeout of 180000ms exceeded.
+
+    Error: locator.click: Test timeout of 180000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: /^0[1-6] Colour/ })
+        - locator resolved to <button type="button" class="relative min-h-[44px] px-2 py-2 text-left transition-colors duration-150 cursor-pointer flex items-center gap-1.5 text-muted-grey hover:text-ink font-normal">…</button>
+      - attempting click action
+        - waiting for element to be visible, enabled and stable
+      - element was detached from the DOM, retrying
+        - waiting for "http://127.0.0.1:5173/" navigation to finish...
+        - navigated to "http://127.0.0.1:5173/"
+
+
+      3 | const folder='docs/evidence/interactions';
+      4 | const snap=(page:Page)=>page.evaluate(()=>window.__autolab?.snapshot());
+    > 5 | const step=(page:Page,name:string)=>page.getByRole('button',{name:new RegExp('^0[1-6] '+name)}).click();
+        |                                                                                                 ^
+      6 | async function ready(page:Page){await expect.poll(async()=> (await snap(page))?.status,{timeout:60000}).toBe('success');}
+      7 | async function colour(page:Page,slot:string,hex:string){await expect.poll(async()=> (await snap(page))?.materialState?.colors[slot]).toBe(hex.toLowerCase());}
+      8 | test('all real materials, composition, thread, cameras, trim and lights',async({page})=>{
+        at step (C:\Users\user\OneDrive\Desktop\Auto-lab-digital-ui\tests\browser\bindings.spec.ts:5:97)
+        at C:\Users\user\OneDrive\Desktop\Auto-lab-digital-ui\tests\browser\bindings.spec.ts:14:9
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\bindings-all-real-material-c477f-ead-cameras-trim-and-lights\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\bindings-all-real-material-c477f-ead-cameras-trim-and-lights\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\bindings-all-real-material-c477f-ead-cameras-trim-and-lights\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\bindings-all-real-material-c477f-ead-cameras-trim-and-lights\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    tests\browser\bindings.spec.ts:8:1 › all real materials, composition, thread, cameras, trim and lights 

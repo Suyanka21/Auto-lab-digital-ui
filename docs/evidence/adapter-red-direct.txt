@@ -1,0 +1,146 @@
+
+ RUN  v5.0.5 C:/Users/user/OneDrive/Desktop/Auto-lab-digital-ui
+
+ ❯ tests/configuration-adapter.test.ts (12 tests | 12 failed) 42ms
+   ❯ configuration to real cabin (12)
+     × starts with Driver Hero and leaves source cockpit/console colours fixed 12ms
+     × maps single colour to both seats even with stale secondary input 2ms
+     × maps two-tone inserts and bolsters independently, with steering following bolsters 2ms
+     × safely renders an incomplete two-tone selection without an invented colour 1ms
+     × maps treatment classic 1ms
+     × maps treatment diamond-quilted 1ms
+     × maps treatment perforated 1ms
+     × maps camera driver-hero 1ms
+     × maps camera cabin-pair 2ms
+     × maps camera cockpit-dash 5ms
+     × maps camera stitch-detail 1ms
+     × carries thread, trim and ambient sample values without changing leather 2ms
+
+⎯⎯⎯⎯⎯⎯ Failed Tests 12 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/configuration-adapter.test.ts > configuration to real cabin > starts with Driver Hero and leaves source cockpit/console colours fixed
+Error: Adapter not implemented for classic
+ ❯ mapConfigurationToRuntime src/viewer/configuration-adapter.ts:3:9
+      1| import type { CabinViewerProps } from '../types/configuration';
+      2| export function mapConfigurationToRuntime(configuration: CabinViewerPr…
+      3|   throw new Error(`Adapter not implemented for ${configuration.materia…
+       |         ^
+      4| }
+      5|
+ ❯ tests/configuration-adapter.test.ts:7:20
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/12]⎯
+
+ FAIL  tests/configuration-adapter.test.ts > configuration to real cabin > maps single colour to both seats even with stale secondary input
+Error: Adapter not implemented for classic
+ ❯ mapConfigurationToRuntime src/viewer/configuration-adapter.ts:3:9
+      1| import type { CabinViewerProps } from '../types/configuration';
+      2| export function mapConfigurationToRuntime(configuration: CabinViewerPr…
+      3|   throw new Error(`Adapter not implemented for ${configuration.materia…
+       |         ^
+      4| }
+      5|
+ ❯ tests/configuration-adapter.test.ts:17:19
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/12]⎯
+
+ FAIL  tests/configuration-adapter.test.ts > configuration to real cabin > maps two-tone inserts and bolsters independently, with steering following bolsters
+Error: Adapter not implemented for classic
+ ❯ mapConfigurationToRuntime src/viewer/configuration-adapter.ts:3:9
+      1| import type { CabinViewerProps } from '../types/configuration';
+      2| export function mapConfigurationToRuntime(configuration: CabinViewerPr…
+      3|   throw new Error(`Adapter not implemented for ${configuration.materia…
+       |         ^
+      4| }
+      5|
+ ❯ tests/configuration-adapter.test.ts:21:19
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/12]⎯
+
+ FAIL  tests/configuration-adapter.test.ts > configuration to real cabin > safely renders an incomplete two-tone selection without an invented colour
+Error: Adapter not implemented for classic
+ ❯ mapConfigurationToRuntime src/viewer/configuration-adapter.ts:3:9
+      1| import type { CabinViewerProps } from '../types/configuration';
+      2| export function mapConfigurationToRuntime(configuration: CabinViewerPr…
+      3|   throw new Error(`Adapter not implemented for ${configuration.materia…
+       |         ^
+      4| }
+      5|
+ ❯ tests/configuration-adapter.test.ts:28:19
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/12]⎯
+
+ FAIL  tests/configuration-adapter.test.ts > configuration to real cabin > maps treatment classic
+Error: Adapter not implemented for classic
+ ❯ mapConfigurationToRuntime src/viewer/configuration-adapter.ts:3:9
+      1| import type { CabinViewerProps } from '../types/configuration';
+      2| export function mapConfigurationToRuntime(configuration: CabinViewerPr…
+      3|   throw new Error(`Adapter not implemented for ${configuration.materia…
+       |         ^
+      4| }
+      5|
+ ❯ tests/configuration-adapter.test.ts:32:12
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/12]⎯
+
+ FAIL  tests/configuration-adapter.test.ts > configuration to real cabin > maps treatment diamond-quilted
+Error: Adapter not implemented for diamond-quilted
+ ❯ mapConfigurationToRuntime src/viewer/configuration-adapter.ts:3:9
+      1| import type { CabinViewerProps } from '../types/configuration';
+      2| export function mapConfigurationToRuntime(configuration: CabinViewerPr…
+      3|   throw new Error(`Adapter not implemented for ${configuration.materia…
+       |         ^
+      4| }
+      5|
+ ❯ tests/configuration-adapter.test.ts:32:12
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/12]⎯
+
+ FAIL  tests/configuration-adapter.test.ts > configuration to real cabin > maps treatment perforated
+Error: Adapter not implemented for perforated
+ ❯ mapConfigurationToRuntime src/viewer/configuration-adapter.ts:3:9
+      1| import type { CabinViewerProps } from '../types/configuration';
+      2| export function mapConfigurationToRuntime(configuration: CabinViewerPr…
+      3|   throw new Error(`Adapter not implemented for ${configuration.materia…
+       |         ^
+      4| }
+      5|
+ ❯ tests/configuration-adapter.test.ts:32:12
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/12]⎯
+
+ FAIL  tests/configuration-adapter.test.ts > configuration to real cabin > maps camera driver-hero
+ FAIL  tests/configuration-adapter.test.ts > configuration to real cabin > maps camera cabin-pair
+ FAIL  tests/configuration-adapter.test.ts > configuration to real cabin > maps camera cockpit-dash
+ FAIL  tests/configuration-adapter.test.ts > configuration to real cabin > maps camera stitch-detail
+Error: Adapter not implemented for classic
+ ❯ mapConfigurationToRuntime src/viewer/configuration-adapter.ts:3:9
+      1| import type { CabinViewerProps } from '../types/configuration';
+      2| export function mapConfigurationToRuntime(configuration: CabinViewerPr…
+      3|   throw new Error(`Adapter not implemented for ${configuration.materia…
+       |         ^
+      4| }
+      5|
+ ❯ tests/configuration-adapter.test.ts:35:12
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/12]⎯
+
+ FAIL  tests/configuration-adapter.test.ts > configuration to real cabin > carries thread, trim and ambient sample values without changing leather
+Error: Adapter not implemented for classic
+ ❯ mapConfigurationToRuntime src/viewer/configuration-adapter.ts:3:9
+      1| import type { CabinViewerProps } from '../types/configuration';
+      2| export function mapConfigurationToRuntime(configuration: CabinViewerPr…
+      3|   throw new Error(`Adapter not implemented for ${configuration.materia…
+       |         ^
+      4| }
+      5|
+ ❯ tests/configuration-adapter.test.ts:38:19
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/12]⎯
+
+
+ Test Files  1 failed (1)
+      Tests  12 failed (12)
+   Start at  17:26:46
+   Duration  3.61s (transform 48%, worker 24%, import 15%, tests 13%)
+

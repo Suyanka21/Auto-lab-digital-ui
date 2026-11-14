@@ -1,26 +1,13 @@
+import { useRef, type TouchEvent } from 'react';
 import { ArrowLeft, ArrowRight, RotateCcw } from 'lucide-react';
 import { CONFIGURATION_STEPS } from '@/src/data/catalog';
-import type {
-  CabinConfiguration,
-  ColourId,
-  CompositionId,
-  ConfigurationStepId,
-  IlluminationId,
-  MaterialId,
-  ThreadId,
-  TrimId,
-} from '@/src/types/configuration';
-import { AtelierButton, EditorialType, Surface } from './primitives';
-import {
-  ColourSelector,
-  CompositionSelector,
-  IlluminationSelector,
-  MaterialSelector,
-  ThreadSelector,
-  TrimSelector,
-} from './selectors';
+import type { CabinConfiguration, ColourId, CompositionId, ConfigurationStepId, IlluminationId, MaterialId, ThreadId, TrimId } from '@/src/types/configuration';
+import { StudioChoices } from './StudioChoices';
+import { SpecificationSummary } from './SpecificationSummary';
 
 export interface ConfigurationPanelProps {
+  review: boolean;
+  onCloseReview: () => void;
   configuration: CabinConfiguration;
   activeStep: ConfigurationStepId;
   onSelectStep: (step: ConfigurationStepId) => void;
@@ -37,210 +24,52 @@ export interface ConfigurationPanelProps {
   onChangeIllumination: (illumination: IlluminationId) => void;
 }
 
-/**
- * Focused right-side (desktop) / below-viewer (mobile) configuration panel.
- * On mobile (< lg), top step tabs live above the viewer stage per Reference 03,
- * while this panel leads directly with the active step header, controls, and full-width Continue CTA.
- */
-export function ConfigurationPanel({
-  configuration,
-  activeStep,
-  onSelectStep,
-  onNextStep,
-  onPreviousStep,
-  onReset,
-  onOpenSpecification,
-  onChangeMaterial,
-  onChangePrimaryColour,
-  onChangeSecondaryColour,
-  onChangeThread,
-  onChangeComposition,
-  onChangeTrim,
-  onChangeIllumination,
-}: ConfigurationPanelProps) {
-  const currentIndex = CONFIGURATION_STEPS.findIndex((s) => s.id === activeStep);
-  const currentMeta = CONFIGURATION_STEPS[currentIndex] ?? CONFIGURATION_STEPS[0];
-  const isFirst = currentIndex <= 0;
-  const isLast = currentIndex >= CONFIGURATION_STEPS.length - 1;
-  const nextMeta = !isLast ? CONFIGURATION_STEPS[currentIndex + 1] : null;
-  const progressRatio = ((currentIndex + 1) / CONFIGURATION_STEPS.length) * 100;
 
-  return (
-    <Surface
-      tone="paper"
-      className="rounded-[2px] flex flex-col justify-between"
-      data-component="ConfigurationPanel"
-    >
-      {/* Desktop Step Navigation Tabs (hidden on < lg where StudioPage renders top step strip above viewer) */}
-      <div className="hidden lg:block border-b border-fine-border px-4 pt-3">
-        <div className="flex items-center justify-between gap-2 pb-2">
-          <span className="font-sans text-[11px] font-medium tracking-[0.06em] text-muted-grey tabular-nums">
-            STEP {currentMeta.index} / 0{CONFIGURATION_STEPS.length}
-          </span>
-          <span className="text-[11px] text-muted-grey">
-            {currentMeta.classification === 'illustrative'
-              ? 'Illustrative preview'
-              : 'Workshop offering'}
-          </span>
-        </div>
-
-        {/* Hairline progress rule */}
-        <div className="h-[2px] w-full bg-fine-border/70 mb-2 overflow-hidden">
-          <div
-            className="h-full bg-cyan-ink transition-all duration-200 ease-out"
-            style={{ width: `${progressRatio}%` }}
-          />
-        </div>
-
-        <nav
-          aria-label="Configuration steps"
-          className="grid grid-cols-2 gap-1"
-        >
-          {CONFIGURATION_STEPS.map((step) => {
-            const isActive = step.id === activeStep;
-            return (
-              <button
-                key={step.id}
-                type="button"
-                onClick={() => onSelectStep(step.id)}
-                aria-current={isActive ? 'step' : undefined}
-                className={`relative min-h-[44px] px-2 py-2 text-left transition-colors duration-150 cursor-pointer flex items-center gap-1.5 ${
-                  isActive
-                    ? 'text-ink font-medium'
-                    : 'text-muted-grey hover:text-ink font-normal'
-                }`}
-              >
-                <span className="font-sans text-[10px] font-medium tabular-nums text-cyan-ink shrink-0">
-                  {step.index}
-                </span>
-                <span className="text-[12px] whitespace-nowrap truncate">{step.label}</span>
-                {isActive && (
-                  <span
-                    aria-hidden="true"
-                    className="absolute bottom-0 left-1 right-1 h-[2px] bg-cyan"
-                  />
-                )}
-              </button>
-            );
-          })}
-        </nav>
+/** A single sliding control rail. The live cabin is its stable sibling, never remounted. */
+export function ConfigurationPanel(props: ConfigurationPanelProps) {
+  const {configuration, activeStep, review, onSelectStep, onNextStep, onPreviousStep, onReset, onOpenSpecification, onCloseReview} = props;
+  const index = review ? CONFIGURATION_STEPS.length : Math.max(0, CONFIGURATION_STEPS.findIndex(s=>s.id===activeStep));
+  const heading = useRef<HTMLHeadingElement>(null);
+  const resetDialog = useRef<HTMLDialogElement>(null);
+  const gesture = useRef<{x:number;y:number}|null>(null);
+  const next = () => index < 5 ? onNextStep() : onOpenSpecification();
+  const previous = () => review ? onCloseReview() : onPreviousStep();
+  const startSwipe = (event:TouchEvent) => {
+    if (event.touches.length !== 1 || (event.target as HTMLElement).closest('button,a,input')) { gesture.current=null; return; }
+    gesture.current={x:event.touches[0].clientX,y:event.touches[0].clientY};
+  };
+  const endSwipe = (event:TouchEvent) => {
+    const start=gesture.current;gesture.current=null;
+    if(!start || !event.changedTouches.length)return;
+    const dx=event.changedTouches[0].clientX-start.x,dy=event.changedTouches[0].clientY-start.y;
+    if(Math.abs(dx)<60 || Math.abs(dx)<Math.abs(dy)*1.5)return;
+    if(dx<0 && !review)next(); else if(dx>0 && index>0)previous();
+  };
+  const edit = (step:ConfigurationStepId) => {onSelectStep(step);heading.current?.focus({preventScroll:true});};
+  return <section className="studio-panel" data-component="ConfigurationPanel" aria-label="Interior configuration">
+    <nav className="studio-chapters" aria-label="Configuration steps">
+      {CONFIGURATION_STEPS.map((step,i)=><button key={step.id} type="button" aria-label={`${step.index} ${step.label}`} title={step.label} aria-current={index===i?'step':undefined} onClick={()=>onSelectStep(step.id)}><span>{step.index}</span><span className="chapter-label">{step.label}</span></button>)}
+    </nav>
+    <header className="studio-panel-heading" onTouchStart={startSwipe} onTouchEnd={endSwipe} onTouchCancel={()=>{gesture.current=null;}}>
+      <div><p className="studio-eyebrow">{review?'Your interior':`${CONFIGURATION_STEPS[index].classification==='illustrative'?'Illustrative preview':'Sample selection'} · ${index+1} / 6`}</p><h2 ref={heading} tabIndex={-1}>{review?'The final composition.':CONFIGURATION_STEPS[index].label}</h2></div>
+      <button className="studio-reset" type="button" onClick={()=>resetDialog.current?.showModal()} aria-label="Reset configuration" title="Reset configuration"><RotateCcw size={16}/><span>Reset</span></button>
+      <dialog ref={resetDialog} className="studio-reset-dialog" aria-labelledby="reset-title" aria-describedby="reset-description">
+        <h3 id="reset-title">Start a new composition?</h3>
+        <p id="reset-description">This clears all your choices and returns to the original cabin. To revisit a selection, use Back instead.</p>
+        <div><button type="button" onClick={()=>resetDialog.current?.close()}>Keep my design</button><button type="button" onClick={()=>{resetDialog.current?.close();onReset();onCloseReview();}}>Reset all choices</button></div>
+      </dialog>
+    </header>
+    <div className="studio-slide-window" onTouchStart={startSwipe} onTouchEnd={endSwipe} onTouchCancel={()=>{gesture.current=null;}}>
+      <div className="studio-slide-track" style={{transform:`translateX(-${index*100}%)`}}>
+        {CONFIGURATION_STEPS.map((step,i)=><section key={step.id} className="studio-slide" aria-label={`${step.label} choices`} aria-hidden={index!==i} inert={index!==i || undefined}>
+          <StudioChoices {...props} step={step.id}/>
+        </section>)}
+        <section className="studio-slide studio-review" aria-label="Review specification" aria-hidden={!review} inert={!review || undefined}><SpecificationSummary configuration={configuration} onEditStep={edit}/></section>
       </div>
-
-      {/* Active Step Header & Selector Body */}
-      <div className="p-4 sm:p-6 space-y-4 flex-1">
-        <div className="flex items-baseline justify-between gap-3 border-b border-fine-border pb-2.5 lg:border-b-0 lg:pb-0">
-          <EditorialType variant="kicker" tone="muted">
-            {currentMeta.label}
-          </EditorialType>
-          <span className="lg:hidden font-sans text-[11px] font-medium text-muted-grey tabular-nums">
-            {currentMeta.index} / 0{CONFIGURATION_STEPS.length}
-          </span>
-        </div>
-
-        <EditorialType variant="caption" tone="muted" className="hidden lg:block">
-          {currentMeta.summary}
-        </EditorialType>
-
-        {activeStep === 'material' && (
-          <MaterialSelector value={configuration.material} onChange={onChangeMaterial} />
-        )}
-
-        {activeStep === 'colour' && (
-          <ColourSelector
-            primaryColour={configuration.primaryColour}
-            secondaryColour={configuration.secondaryColour}
-            composition={configuration.composition}
-            onPrimaryChange={onChangePrimaryColour}
-            onSecondaryChange={onChangeSecondaryColour}
-            onCompositionChange={onChangeComposition}
-          />
-        )}
-
-        {activeStep === 'thread' && (
-          <ThreadSelector value={configuration.accentThread} onChange={onChangeThread} />
-        )}
-
-        {activeStep === 'composition' && (
-          <CompositionSelector
-            value={configuration.composition}
-            primaryColour={configuration.primaryColour}
-            secondaryColour={configuration.secondaryColour}
-            onChange={onChangeComposition}
-          />
-        )}
-
-        {activeStep === 'trim' && (
-          <TrimSelector value={configuration.trim} onChange={onChangeTrim} />
-        )}
-
-        {activeStep === 'illumination' && (
-          <IlluminationSelector
-            value={configuration.ambientIllumination}
-            onChange={onChangeIllumination}
-          />
-        )}
-      </div>
-
-      {/* Step Footer Navigation — Reference 03 full-width Continue CTA on mobile; side-by-side on sm+ */}
-      <div className="border-t border-fine-border p-4 sm:p-5 space-y-2.5 bg-paper">
-        <div className="flex flex-col sm:flex-row sm:items-center gap-2.5">
-          {!isFirst && (
-            <AtelierButton
-              variant="secondary"
-              onClick={onPreviousStep}
-              aria-label="Previous step"
-              className="hidden sm:inline-flex px-3.5 shrink-0"
-            >
-              <ArrowLeft className="w-4 h-4" aria-hidden="true" />
-              <span>Previous</span>
-            </AtelierButton>
-          )}
-
-          {!isLast && nextMeta ? (
-            <AtelierButton
-              variant="primary"
-              onClick={onNextStep}
-              className="w-full sm:w-auto sm:flex-1 min-h-[48px] justify-between px-5"
-            >
-              <span className="truncate">Continue to {nextMeta.label}</span>
-              <ArrowRight className="w-4 h-4 text-cyan shrink-0" aria-hidden="true" />
-            </AtelierButton>
-          ) : (
-            <AtelierButton
-              variant="primary"
-              onClick={onOpenSpecification}
-              className="w-full sm:w-auto sm:flex-1 min-h-[48px] justify-between px-5"
-            >
-              <span>Review Specification</span>
-              <ArrowRight className="w-4 h-4 text-cyan shrink-0" aria-hidden="true" />
-            </AtelierButton>
-          )}
-        </div>
-
-        <div className="flex items-center justify-between gap-2 text-[12px] text-muted-grey">
-          {!isFirst ? (
-            <button
-              type="button"
-              onClick={onPreviousStep}
-              className="sm:hidden inline-flex items-center gap-1.5 min-h-[44px] px-1 text-ink hover:text-cyan-ink transition-colors duration-150 cursor-pointer"
-            >
-              <ArrowLeft className="w-3.5 h-3.5" aria-hidden="true" />
-              <span>Previous step</span>
-            </button>
-          ) : (
-            <span>Selections remain editable.</span>
-          )}
-
-          <button
-            type="button"
-            onClick={onReset}
-            className="inline-flex items-center gap-1.5 min-h-[44px] px-1 text-muted-grey hover:text-ink transition-colors duration-150 cursor-pointer ml-auto"
-          >
-            <RotateCcw className="w-3.5 h-3.5" aria-hidden="true" />
-            <span>Reset</span>
-          </button>
-        </div>
-      </div>
-    </Surface>
-  );
+    </div>
+    <footer className="studio-panel-footer">
+      <button type="button" className="studio-back" onClick={previous} disabled={index===0} aria-label="Previous step"><ArrowLeft size={18}/><span>Back</span></button>
+      {review?<button type="button" className="studio-next" onClick={()=>onSelectStep('material')}>Keep exploring<ArrowRight size={18}/></button>:<button type="button" className="studio-next" onClick={next}>{index===5?'Review Specification':`Continue to ${CONFIGURATION_STEPS[index+1].label}`}<ArrowRight size={18}/></button>}
+    </footer>
+  </section>;
 }

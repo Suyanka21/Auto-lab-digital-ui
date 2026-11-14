@@ -1,108 +1,107 @@
 # AutoLab Digital Showroom
 
-Interactive frontend-only prototype for **AutoLab Interior Studio** (Nairobi, Kenya), presenting an editorial showroom landing experience (`LandingPage`) and a two-column cabin configurator (`StudioPage`) structured for straightforward drop-in replacement of the illustrative viewer stage with AutoLab’s real GLB assets and Three.js / React Three Fiber rendering engine.
+An interactive automotive interior demonstrator: an editorial, ivory-and-graphite showroom built around a real 3D front cabin. This is the **independent experimental UI**, not the authoritative AutoLab production application.
 
-> **Prototype status:** This repository is a frontend demonstrator prototype, not a production system. It contains no backend, authentication, database, pricing, availability, or order-submission logic.
+![AutoLab atelier showroom](docs/evidence/atelier/hero-1440.png)
 
----
+## What is implemented
 
-## Running the Prototype
+### Showroom and Studio experience
 
-**Prerequisites:** Node.js 18+ (or Bun)
+- Authentic AutoLab branding, editorial typography and responsive desktop/mobile layouts.
+- Original AI-generated material studies and a warm, work-in-progress upholstery atelier hero.
+- Photographic closing invitation, restrained text/image motion, pause controls and reduced-motion support.
+- A live cabin that stays visible while the configuration panel slides between selections.
+- Tactile material, leather-colour, thread, composition, trim and ambient-light selectors.
+- Back preserves choices and the current camera view. Reset is clearly labelled and requires confirmation.
+- A specification summary reflecting the current configuration, with links back to edit selections.
 
-```bash
-# Install dependencies
-npm install
+### Actual 3D interaction
 
-# Start the development server (port 3000)
+| Control | Live behaviour |
+| --- | --- |
+| Upholstery | Classic, Diamond Quilted and Perforated load three actual KTX2/Draco GLBs. |
+| Leather colour | Eight options: Exclusive Black, Sienna Brown, Light Ivory, Oxblood Burgundy, Forest Green, Midnight Navy, Saddle Tan and Warm Stone. |
+| Composition | Single-colour applies primary to both seat zones. Two-tone separates seat centres from bolsters/headrests; steering leather follows the secondary zone. |
+| Accent thread | Recolours stitching, including the Diamond quilting thread shader. |
+| Cameras | Driver Hero, Cabin Pair, Cockpit & Dash and Stitch Detail use the original source presets and orbit limits. |
+| Trim | Illustrative wood, lacquer and carbon previews affect dashboard and console inserts together; console black/metal parts retain their finishes. |
+| Ambient light | Five illustrative coloured-light previews; these are not modelled LED installations. |
+
+The viewer uses one WebGL canvas, seven material bindings, KTX2/Draco decoding, loading/error states and Retry recovery. No backend, pricing, orders or commercial approvals are implied.
+
+![Live two-tone cabin and expanded palette](docs/evidence/atelier/studio-palette-1440.png)
+
+## Run locally
+
+Requires **Node.js >=22.12** and npm.
+
+```sh
+npm ci
 npm run dev
+```
 
-# Run TypeScript typechecking
+Development: http://127.0.0.1:5173/ . Open `/studio` for the cabin.
+
+```sh
+npm run build
+npm run preview
+```
+
+Build preview: **http://127.0.0.1:4173/** . Port 3000 belongs to the separate production project and will not show this experiment.
+
+Configuration is held in React memory: in-app navigation retains choices, but a full reload starts a fresh configuration. No account or API key is required.
+
+## Validation
+
+```sh
+npm test
+npm run typecheck
 npm run lint
-
-# Create a production static bundle in dist/
 npm run build
 ```
 
----
+Latest repair: **39 unit tests passed**, typecheck/lint/build passed, and two desktop/mobile browser regression journeys passed. They inspect actual material state, preserved camera/viewer state, reset cancellation and intentional reset. Earlier recorded checks cover all three GLBs, bindings, decoding, camera presets, responsive layouts and loader recovery; see the reports below for their exact scope and dates.
 
-## Architecture Overview
+Browser tests use installed Microsoft Edge and Playwright with software WebGL. Keep a normal preview running on 4173. In a separate PowerShell terminal, prepare and serve the diagnostic build:
 
-- **Centralized typed state (`src/state/ConfigurationContext.tsx`, `src/types/configuration.ts`):** All configuration selections (`material`, `primaryColour`, `secondaryColour`, `accentThread`, `composition`, `trim`, `ambientIllumination`, `activeCamera`) and active step state (`activeStep`) live in `ConfigurationProvider`. State invariants—such as clearing `secondaryColour` in `single-colour` mode and keeping primary/secondary hides distinct in `two-tone` mode—are enforced inside context callbacks.
-- **Catalog metadata (`src/data/catalog.ts`):** Single source of truth for option labels, descriptions, swatches, camera definitions, configuration steps, and `confirmed` vs. `illustrative` classifications.
-- **Pure presentation components (`src/components/`):** `StudioPage` reads `useConfiguration()` and passes explicit typed values and callbacks to `CabinViewer`, `CameraControls`, `ConfigurationPanel`, the six selector components, and `SpecificationSummary`. Presentation components contain no configuration business logic and zero 3D engine dependencies.
-- **Reusable design tokens & primitives (`src/index.css`, `src/components/primitives/`):** Tailwind CSS v4 `@theme` tokens define the Editorial Atelier palette (`ivory` `#F3F0E9`, `paper` `#FAF8F3`, `ink` `#252425`, `graphite` `#101114`, `cyan` `#72C4E1`, `cyan-ink` `#17596D`, `muted-grey` `#65615B`, `fine-border` `#D2CEC5`), typography (`Playfair Display`, `Plus Jakarta Sans`), and motion curve (`--ease-atelier`).
-
----
-
-## File Map
-
-```text
-index.html                              # Document metadata and Google Fonts (Playfair Display, Plus Jakarta Sans)
-src/
-  index.css                             # Tailwind v4 @theme design tokens, focus-visible contrast, reduced-motion fallback
-  main.tsx                              # React entry point
-  App.tsx                               # Route controller ('landing' | 'studio') wrapped in ConfigurationProvider
-  types/
-    configuration.ts                    # Domain IDs, CabinConfiguration, CabinViewerProps, OptionMetadata types
-  data/
-    catalog.ts                          # Workshop & illustrative option lists, camera presets, step metadata, defaults
-  state/
-    ConfigurationContext.tsx            # Centralized state provider, step navigation, two-tone hide invariants
-  assets/
-    images/                             # Local bundled editorial, camera-angle, material, and trim photographs
-  components/
-    LandingPage.tsx                     # Editorial hero, 4 craft discipline cards, confirmed vs. illustrative scope, walkthrough
-    StudioPage.tsx                      # Desktop (2/3 viewer + 1/3 panel) & mobile (step strip + dominant viewer + controls)
-    CabinViewer.tsx                     # Replaceable presentation stage accepting CabinViewerProps (illustrative fallback)
-    CameraControls.tsx                  # External 4-view camera switcher mounted beneath CabinViewer
-    ConfigurationPanel.tsx              # Desktop step tabs, active selector routing, Previous/Continue/Reset footer
-    SpecificationSummary.tsx            # Structured specification readout with click-to-edit step links & illustrative labels
-    primitives/
-      AtelierShell.tsx                  # Sticky header, left mobile drawer (Escape-closable), main frame, footer
-      AtelierButton.tsx                 # Primary, secondary, outline-cyan, and ghost button variants (44px+ touch targets)
-      AutoLabLogo.tsx                   # Geometric SVG monogram traced from AUTOLAB LOGO .pdf
-      EditorialHeading.tsx              # EditorialType typography component with explicit contrast handling
-      SectionDivider.tsx                # Hairline section rule with optional centered label
-      Surface.tsx                       # Ivory, paper, and graphite surface container primitive
-      index.ts                          # Primitive barrel exports
-    selectors/
-      MaterialSelector.tsx              # Classic · Diamond Quilted · Perforated (distinct texture previews)
-      ColourSelector.tsx                # Exclusive Black · Sienna Brown · Light Ivory + two-tone secondary selector
-      ThreadSelector.tsx                # Seam stitch colour selector with tactile double-stitch plates
-      CompositionSelector.tsx           # Single-colour vs. Two-tone surface zoning diagram and mapping notes
-      TrimSelector.tsx                  # Illustrative preview: Carbon Fibre, Poplar Wood, Walnut Wood, Piano Lacquer
-      IlluminationSelector.tsx          # Illustrative preview: Cyan, Amber, Rose, Ocean, Champagne perimeter lighting
-      index.ts                          # Selector barrel exports
+```powershell
+$env:VITE_E2E='1'
+npm run build -- --outDir dist-e2e
+Remove-Item Env:VITE_E2E
+npx vite preview --host 127.0.0.1 --outDir dist-e2e --port 4174 --strictPort
 ```
 
----
+In another terminal:
 
-## Replacing `CabinViewer` with the 3D R3F Stage
-
-`src/components/CabinViewer.tsx` is isolated as a strict presentation boundary. Replace its internals—or swap the component export—without changing `StudioPage`, `CameraControls`, `ConfigurationPanel`, `ConfigurationContext`, or `SpecificationSummary`.
-
-### 1. Preserve the props contract (`src/types/configuration.ts`)
-
-```ts
-export interface CabinViewerProps {
-  material: MaterialId;                    // 'classic' | 'diamond-quilted' | 'perforated'
-  primaryColour: ColourId;                 // 'exclusive-black' | 'sienna-brown' | 'light-ivory'
-  secondaryColour?: ColourId;              // Defined only when composition === 'two-tone' (guaranteed != primaryColour)
-  accentThread: ThreadId;                  // 'amber-ochre' | 'cyan' | 'warm-ivory' | 'tonal-charcoal'
-  composition: CompositionId;              // 'single-colour' | 'two-tone'
-  trim?: TrimId;                           // 'carbon-fibre' | 'poplar-wood' | 'walnut-wood' | 'piano-lacquer' (illustrative)
-  ambientIllumination?: IlluminationId;    // 'cyan' | 'amber' | 'rose' | 'ocean' | 'champagne' (illustrative)
-  activeCamera: CameraId;                  // 'driver-hero' | 'cabin-pair' | 'cockpit-dash' | 'stitch-detail'
-}
+```sh
+npm run test:e2e -- --project=runtime
+npm run test:e2e -- --project=release
 ```
 
-### 2. Preserve container sizing and stage separation
+The runtime project targets 4174; the release project targets the normal build on 4173 and checks that diagnostics are absent. Do not use the diagnostic build for the owner preview. Tests write screenshots, recordings and reports under `docs/evidence/`.
 
-In `StudioPage.tsx`, `<CabinViewer />` sits directly above `<CameraControls />` inside a dark `#101114` (`bg-graphite`) stage wrapper (`lg:col-span-8`). Keep these behaviors in the replacement:
+## Implementation and evidence
 
-- Maintain the responsive stage box (`relative w-full aspect-[4/3] sm:aspect-[16/9] bg-graphite overflow-hidden`) so the desktop 2/3 stage and mobile dominant viewer proportions remain intact.
-- Drive camera rig transitions reactively from `props.activeCamera` (interpolating camera position/target to match `driver-hero`, `cabin-pair`, `cockpit-dash`, and `stitch-detail`) while allowing `CameraControls` to remain external to the canvas.
-- Map `material` (normal/roughness/bump maps), `primaryColour` (outer bolsters & console), `secondaryColour` (seat inserts & headrests when `composition === 'two-tone'`, otherwise `primaryColour`), and `accentThread` onto the GLB material slots.
-- Continue marking `trim` and `ambientIllumination` as illustrative previews unless AutoLab confirms commercial inclusion.
-- Respect `prefers-reduced-motion` when animating camera lerps or post-processing transitions.
+| Work | Report |
+| --- | --- |
+| Integration architecture and execution | [Implementation record](docs/IMPLEMENTATION.md) |
+| Viewer, assets, validation and known defects | [Original integration handoff](docs/FINAL_HANDOFF.md) |
+| Cinematic, cabin-first configuration flow | [Cinematic Studio](docs/CINEMATIC_STUDIO.md) |
+| Generated imagery and tactile selectors | [Editorial refinement](docs/EDITORIAL_REFINEMENT.md) |
+| Atelier atmosphere and eight-colour palette | [Atelier refinement](docs/ATELIER_REFINEMENT.md) |
+| Back and reset repair | [Navigation fix](docs/BACK_NAVIGATION_FIX.md) |
+| Current continuation notes | [State](docs/STATE.md) |
+
+[Watch the recorded selector interactions](docs/evidence/editorial/selectors-1440.webm). This recording predates the expanded palette; the screenshots above show the newer colours.
+
+## Provenance and limitations
+
+- Reused first-party viewer/assets come from production source commit `12558846c5f3635539a45174530a6599dbdbff28`, exported from committed Git objects. The production working tree remained read-only. See [provenance](docs/PROVENANCE.md) and [source manifest](docs/SOURCE_MANIFEST.json).
+- Current editorial imagery is generated illustration, not photography of AutoLab commissions or the actual workshop. Prompts, asset hashes and screenshots are retained. Legacy inherited image provenance still needs clearance before public use.
+- All colours/treatments are digital samples. Physical finish, stock, service availability and calibrated colour matching require consultation.
+- Existing seat shading, geometry/UV and simplified cockpit limitations remain. This UI work does not certify visual fidelity.
+- Browser results use Edge/SwiftShader; physical-phone, Safari and hardware GPU performance remain unverified. The existing large renderer-chunk warning remains; seven previously recorded moderate development-dependency audit findings remain unresolved.
+- Dependencies and decoder notices are retained in `public/licenses/`. Their licences do not grant ownership of AutoLab's branding or assets.
+
+**Ready for a controlled owner demonstration, with the limitations above. No production deployment or merge has been performed.**

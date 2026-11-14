@@ -1,0 +1,12 @@
+
+> autolab-independent-showroom@0.0.0 test:e2e
+> playwright test --project=runtime tests/browser/editorial.spec.ts --grep material gallery
+
+
+Running 1 test using 1 worker
+
+(node:6364) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 [runtime] › tests\browser\editorial.spec.ts:28:1 › material gallery keyboard selection and intermediate layouts (7.7s)
+
+  1 passed (12.9s)

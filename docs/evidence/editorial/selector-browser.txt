@@ -1,0 +1,82 @@
+
+> autolab-independent-showroom@0.0.0 test:e2e
+> playwright test --project=runtime tests/browser/editorial-studio.spec.ts
+
+
+Running 2 tests using 1 worker
+
+(node:14116) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 [runtime] › tests\browser\editorial-studio.spec.ts:4:2 › tactile selectors retain a visible live cabin at 1440 (2.6m)
+(node:3608) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  2 [runtime] › tests\browser\editorial-studio.spec.ts:4:2 › tactile selectors retain a visible live cabin at 390 (2.5m)
+
+
+  1) [runtime] › tests\browser\editorial-studio.spec.ts:4:2 › tactile selectors retain a visible live cabin at 1440 
+
+    Test timeout of 150000ms exceeded.
+
+    Error: locator.click: Test timeout of 150000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: '06 Ambient Illumination', exact: true })
+
+
+      17 |   await page.screenshot({path:`docs/evidence/editorial/studio-colour-${width}.png`});
+      18 |   for(const name of ['03 Accent Thread','04 Composition','05 Cabin Trim','06 Ambient Light']) {
+    > 19 |    await page.getByRole('button',{name,exact:true}).click();
+         |                                                     ^
+      20 |    await active.getByRole('radio').last().click();
+      21 |    await expect(active.getByRole('radio').last()).toHaveAttribute('aria-checked','true');
+      22 |    const box=await page.locator('[data-component=CabinViewer]').boundingBox();expect(box!.y).toBeGreaterThanOrEqual(0);expect(box!.y+box!.height).toBeLessThanOrEqual(900);
+        at C:\Users\user\OneDrive\Desktop\Auto-lab-digital-ui\tests\browser\editorial-studio.spec.ts:19:53
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\editorial-studio-tactile-s-f1473--visible-live-cabin-at-1440-runtime\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\editorial-studio-tactile-s-f1473--visible-live-cabin-at-1440-runtime\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\editorial-studio-tactile-s-f1473--visible-live-cabin-at-1440-runtime\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\editorial-studio-tactile-s-f1473--visible-live-cabin-at-1440-runtime\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [runtime] › tests\browser\editorial-studio.spec.ts:4:2 › tactile selectors retain a visible live cabin at 390 
+
+    Test timeout of 150000ms exceeded.
+
+    Error: locator.click: Test timeout of 150000ms exceeded.
+    Call log:
+      - waiting for getByRole('button', { name: '06 Ambient Illumination', exact: true })
+
+
+      17 |   await page.screenshot({path:`docs/evidence/editorial/studio-colour-${width}.png`});
+      18 |   for(const name of ['03 Accent Thread','04 Composition','05 Cabin Trim','06 Ambient Light']) {
+    > 19 |    await page.getByRole('button',{name,exact:true}).click();
+         |                                                     ^
+      20 |    await active.getByRole('radio').last().click();
+      21 |    await expect(active.getByRole('radio').last()).toHaveAttribute('aria-checked','true');
+      22 |    const box=await page.locator('[data-component=CabinViewer]').boundingBox();expect(box!.y).toBeGreaterThanOrEqual(0);expect(box!.y+box!.height).toBeLessThanOrEqual(900);
+        at C:\Users\user\OneDrive\Desktop\Auto-lab-digital-ui\tests\browser\editorial-studio.spec.ts:19:53
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\editorial-studio-tactile-s-cc351-a-visible-live-cabin-at-390-runtime\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\editorial-studio-tactile-s-cc351-a-visible-live-cabin-at-390-runtime\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\editorial-studio-tactile-s-cc351-a-visible-live-cabin-at-390-runtime\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\editorial-studio-tactile-s-cc351-a-visible-live-cabin-at-390-runtime\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    [runtime] › tests\browser\editorial-studio.spec.ts:4:2 › tactile selectors retain a visible live cabin at 1440 
+    [runtime] › tests\browser\editorial-studio.spec.ts:4:2 › tactile selectors retain a visible live cabin at 390 

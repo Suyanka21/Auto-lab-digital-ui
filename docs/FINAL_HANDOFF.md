@@ -2,7 +2,9 @@
 
 Updated 2026-11-14. Branch: `codex/independent-3d-assessment`.
 
-Latest UI refinement: [Cinematic Studio](CINEMATIC_STUDIO.md) keeps the cabin visible, slides between selections and brings review into the same panel. Its screenshots and recordings are in `evidence/cinematic/`.
+Latest presentation: [Editorial showroom refinement](EDITORIAL_REFINEMENT.md) adds original illustrative material imagery, a cinematic magazine cover and tactile Studio choices. Desktop/mobile screenshots and recordings are in `evidence/editorial/`.
+
+Previous UI refinement: [Cinematic Studio](CINEMATIC_STUDIO.md) keeps the cabin visible, slides between selections and brings review into the same panel. Its screenshots and recordings are in `evidence/cinematic/`.
 
 ## Outcome
 

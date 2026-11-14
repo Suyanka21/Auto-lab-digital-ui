@@ -1,0 +1,37 @@
+{
+  "generator": "Built-in image_gen",
+  "encoding": "WebP quality 84, method 6; no creative postprocessing",
+  "totalBytes": 1356276,
+  "assets": [
+    {
+      "file": "src/assets/editorial/atelier-cover.webp",
+      "bytes": 187982,
+      "sha256": "9a87f4047969d530284f4a2fabc2248c2d32892c745cb07290a4ffa8e1264c1e",
+      "role": "Illustrative AI-generated UI study; never a model texture"
+    },
+    {
+      "file": "src/assets/editorial/classic-study.webp",
+      "bytes": 225840,
+      "sha256": "c329503128da7b5421a8450ebfbb309ead5f76a07459a5a7688a9ba5b6593756",
+      "role": "Illustrative AI-generated UI study; never a model texture"
+    },
+    {
+      "file": "src/assets/editorial/diamond-study.webp",
+      "bytes": 353518,
+      "sha256": "9decc21e0ad217177701af1585a9047a8cd1d74d7215738f2327283e42f9a4f8",
+      "role": "Illustrative AI-generated UI study; never a model texture"
+    },
+    {
+      "file": "src/assets/editorial/perforated-study.webp",
+      "bytes": 374732,
+      "sha256": "75492b1a6cc434c8906576b8d816cb286bfe25f939ff91b8e1e31c1b8e81c688",
+      "role": "Illustrative AI-generated UI study; never a model texture"
+    },
+    {
+      "file": "src/assets/editorial/trim-studies.webp",
+      "bytes": 214204,
+      "sha256": "3a9fef18752916535c59c4f02adc0c42acc2b1fdc074594da5a8b646ce8788c5",
+      "role": "Illustrative AI-generated UI study; never a model texture"
+    }
+  ]
+}

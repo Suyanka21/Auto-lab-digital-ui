@@ -30,6 +30,7 @@ export function ConfigurationPanel(props: ConfigurationPanelProps) {
   const {configuration, activeStep, review, onSelectStep, onNextStep, onPreviousStep, onReset, onOpenSpecification, onCloseReview} = props;
   const index = review ? CONFIGURATION_STEPS.length : Math.max(0, CONFIGURATION_STEPS.findIndex(s=>s.id===activeStep));
   const heading = useRef<HTMLHeadingElement>(null);
+  const resetDialog = useRef<HTMLDialogElement>(null);
   const gesture = useRef<{x:number;y:number}|null>(null);
   const next = () => index < 5 ? onNextStep() : onOpenSpecification();
   const previous = () => review ? onCloseReview() : onPreviousStep();
@@ -51,7 +52,12 @@ export function ConfigurationPanel(props: ConfigurationPanelProps) {
     </nav>
     <header className="studio-panel-heading" onTouchStart={startSwipe} onTouchEnd={endSwipe} onTouchCancel={()=>{gesture.current=null;}}>
       <div><p className="studio-eyebrow">{review?'Your interior':`${CONFIGURATION_STEPS[index].classification==='illustrative'?'Illustrative preview':'Sample selection'} · ${index+1} / 6`}</p><h2 ref={heading} tabIndex={-1}>{review?'The final composition.':CONFIGURATION_STEPS[index].label}</h2></div>
-      <button className="studio-reset" type="button" onClick={()=>{onReset();onCloseReview();}} aria-label="Reset configuration" title="Reset configuration"><RotateCcw size={16}/></button>
+      <button className="studio-reset" type="button" onClick={()=>resetDialog.current?.showModal()} aria-label="Reset configuration" title="Reset configuration"><RotateCcw size={16}/><span>Reset</span></button>
+      <dialog ref={resetDialog} className="studio-reset-dialog" aria-labelledby="reset-title" aria-describedby="reset-description">
+        <h3 id="reset-title">Start a new composition?</h3>
+        <p id="reset-description">This clears all your choices and returns to the original cabin. To revisit a selection, use Back instead.</p>
+        <div><button type="button" onClick={()=>resetDialog.current?.close()}>Keep my design</button><button type="button" onClick={()=>{resetDialog.current?.close();onReset();onCloseReview();}}>Reset all choices</button></div>
+      </dialog>
     </header>
     <div className="studio-slide-window" onTouchStart={startSwipe} onTouchEnd={endSwipe} onTouchCancel={()=>{gesture.current=null;}}>
       <div className="studio-slide-track" style={{transform:`translateX(-${index*100}%)`}}>

@@ -1,0 +1,84 @@
+
+Running 1 test using 1 worker
+
+(node:9924) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 [runtime] › tests\browser\back-preservation.spec.ts:4:2 › Back and reset preserve work until explicitly discarded at 1440 (44.6s)
+
+
+  1) [runtime] › tests\browser\back-preservation.spec.ts:4:2 › Back and reset preserve work until explicitly discarded at 1440 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  - 3
+    + Received  + 3
+
+      Array [
+    -   0.68,
+    -   0.8500000000000001,
+    -   0.4500000000000001,
+    +   1.4499999999999997,
+    +   1.2499999999999998,
+    +   0.9499999999999995,
+      ]
+
+      20 |   await expect(page.getByRole('button',{name:'02 Colour',exact:true})).toHaveAttribute('aria-current','step');
+      21 |   await expect.poll(async()=>(await snap())?.materialState).toEqual(before?.materialState);
+    > 22 |   expect.soft((await snap())?.cameraPosition).toEqual(before?.cameraPosition);
+         |                                               ^
+      23 |   await page.getByRole('button',{name:'Reset configuration',exact:true}).click();
+      24 |   await expect.soft(page.getByRole('button',{name:'Keep my design',exact:true})).toBeVisible({timeout:3000});
+      25 |   expect.soft((await snap())?.assetUrl).toEqual(before?.assetUrl);
+        at C:\Users\user\OneDrive\Desktop\Auto-lab-digital-ui\tests\browser\back-preservation.spec.ts:22:47
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('button', { name: 'Keep my design', exact: true })
+    Expected: visible
+    Timeout: 3000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "soft toBeVisible" getByRole('button', { name: 'Keep my design', exact: true }) with timeout 3000ms
+      - waiting for getByRole('button', { name: 'Keep my design', exact: true })
+
+
+      22 |   expect.soft((await snap())?.cameraPosition).toEqual(before?.cameraPosition);
+      23 |   await page.getByRole('button',{name:'Reset configuration',exact:true}).click();
+    > 24 |   await expect.soft(page.getByRole('button',{name:'Keep my design',exact:true})).toBeVisible({timeout:3000});
+         |                                                                                  ^
+      25 |   expect.soft((await snap())?.assetUrl).toEqual(before?.assetUrl);
+      26 |   if(await page.getByRole('button',{name:'Keep my design',exact:true}).isVisible()) {
+      27 |    await page.getByRole('button',{name:'Keep my design',exact:true}).click();
+        at C:\Users\user\OneDrive\Desktop\Auto-lab-digital-ui\tests\browser\back-preservation.spec.ts:24:82
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    Expected: "/assets/3d/lexus-rx350/interior-l4-diamond.glb?v=4c217dd00d86d8bae3925d735beddb63b225d24c5f1bafd60726f501bfcba8ad"
+    Received: "/assets/3d/lexus-rx350/interior-l4-classic.glb?v=e5bdde016348df34889ec4c0ff0e406caad7e368504308bd5a4f5b725a55c056"
+
+      23 |   await page.getByRole('button',{name:'Reset configuration',exact:true}).click();
+      24 |   await expect.soft(page.getByRole('button',{name:'Keep my design',exact:true})).toBeVisible({timeout:3000});
+    > 25 |   expect.soft((await snap())?.assetUrl).toEqual(before?.assetUrl);
+         |                                         ^
+      26 |   if(await page.getByRole('button',{name:'Keep my design',exact:true}).isVisible()) {
+      27 |    await page.getByRole('button',{name:'Keep my design',exact:true}).click();
+      28 |    expect((await snap())?.materialState).toEqual(before?.materialState);
+        at C:\Users\user\OneDrive\Desktop\Auto-lab-digital-ui\tests\browser\back-preservation.spec.ts:25:41
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\back-preservation-Back-and-09099-xplicitly-discarded-at-1440-runtime\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\back-preservation-Back-and-09099-xplicitly-discarded-at-1440-runtime\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\back-preservation-Back-and-09099-xplicitly-discarded-at-1440-runtime\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\back-preservation-Back-and-09099-xplicitly-discarded-at-1440-runtime\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [runtime] › tests\browser\back-preservation.spec.ts:4:2 › Back and reset preserve work until explicitly discarded at 1440 

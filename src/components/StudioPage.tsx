@@ -13,8 +13,11 @@ export function StudioPage() {
  const state=useConfiguration();
  const [review,setReview]=useState(false);
  const selectStep=(step:ConfigurationStepId)=>{
+   const currentIndex=CONFIGURATION_STEPS.findIndex(item=>item.id===state.activeStep);
+   const nextIndex=CONFIGURATION_STEPS.findIndex(item=>item.id===step);
    setReview(false);state.setActiveStep(step);
-   state.setActiveCamera(step==='thread'?'stitch-detail':step==='trim'||step==='illumination'?'cabin-pair':'driver-hero');
+   // Revisiting a choice must not move the cabin away from the user's current view.
+   if(nextIndex>currentIndex)state.setActiveCamera(step==='thread'?'stitch-detail':step==='trim'||step==='illumination'?'cabin-pair':'driver-hero');
  };
  const move=(direction:number)=>{
    const index=CONFIGURATION_STEPS.findIndex(step=>step.id===state.activeStep);

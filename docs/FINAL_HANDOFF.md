@@ -2,7 +2,9 @@
 
 Updated 2026-11-14. Branch: `codex/independent-3d-assessment`.
 
-Latest refinement: [Atelier imagery and eight-colour palette](ATELIER_REFINEMENT.md) adds workshop atmosphere and five live leather colours. Evidence is in `evidence/atelier/`.
+Latest repair: [Back/reset preservation](BACK_NAVIGATION_FIX.md) keeps the view when revisiting steps and requires confirmation before clearing choices. Current unit suite: 39 passing tests.
+
+Previous refinement: [Atelier imagery and eight-colour palette](ATELIER_REFINEMENT.md) adds workshop atmosphere and five live leather colours. Evidence is in `evidence/atelier/`.
 
 Previous presentation: [Editorial showroom refinement](EDITORIAL_REFINEMENT.md) adds original illustrative material imagery, a cinematic magazine cover and tactile Studio choices. Desktop/mobile screenshots and recordings are in `evidence/editorial/`.
 

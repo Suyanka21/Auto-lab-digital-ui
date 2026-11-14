@@ -14,5 +14,5 @@ Images are AI-generated illustrations; new colours are not confirmed workshop of
 Mobile two-tone can scroll inside controls while cabin and navigation remain visible.
 Limits: inherited model defects; real-phone, Safari and hardware GPU testing remain open.
 Audit unchanged: seven previously recorded moderate development findings unresolved.
-No new dependencies, production changes, merge, push or deployment.
-Next: owner review; no production, dependency or asset changes.
+Owner authorized publishing all experimental commits to origin; no merge or deployment.
+README updated for current features, setup, evidence and limits; remote push verification follows.

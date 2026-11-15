@@ -88,7 +88,7 @@ No `AGENTS.md`, Husky or pre-commit configuration exists in the new repo.
 |---|---|---|---|
 | D1 | Grey dashboard end fills the left of Driver Hero | Dashboard outer ends are flat capped surfaces with no door or A-pillar to hide them; camera sat inside that line of sight | Verified in original (PR #4). New repo still uses the old preset; the visual result there is inferred, not rendered. |
 | D2 | Seat shading looks faceted | Low seat-shell density for a hero object; normals not baked from a high-poly source | Inherited (`INDEPENDENT_3D_ASSESSMENT.md`) |
-| D3 | Console reads as plastic and strongly reflective | `RoomEnvironment` PMREM plus clearcoat on `MAT_Console_Carbon` at roughness 0.28; flat untextured black and metal | Material factors verified; look inherited |
+| D3 | Console reads as plastic and strongly reflective | `RoomEnvironment` PMREM reflections. The GLB exports `MAT_Console_Carbon` at roughness 0.28, but at runtime `applyCabinTrim` (`cabin-trim.ts`) overrides it: carbon roughness 0.36, `envMapIntensity` 0.28, clearcoat 0.5. `MAT_Console_Black` and `MAT_Console_Metal` are flat and untextured | Export and runtime values verified in code; look inherited |
 | D4 | Half the cabin has no surface detail | 5 of 10 materials are flat colours with no maps | Verified |
 | D5 | Duotone's second colour also covers seat backs, headrests and steering wheel | Material zoning of `MAT_Seat_Secondary` and adapter rule that steering follows the secondary colour | Verified in original during the visual proposal; same bindings documented in the new repo |
 | D6 | Trim choices barely change the view | Trim lives on small `MAT_Console_Carbon` areas; at most 2.3 % of pixels change between trims | Measured in original |

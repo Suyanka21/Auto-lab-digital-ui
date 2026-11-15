@@ -10,7 +10,7 @@ Copying a GLB is not enough. The live cabin depends on seven contracts below.
 |---|---|---|
 | Material names | Viewer finds `MeshStandardMaterial`s by name and throws if `MAT_Seat_Primary` exists without `MAT_Seat_Secondary` and `MAT_Seat_Stitching` | Keep all 10 names. New surfaces get new names; never rename existing ones. |
 | Required textures | Viewer throws if seat textures fail to decode | Seat slots keep base, ORM and normal maps |
-| Thread mask | `thread-mask.ts` patches `MAT_Seat_Primary` via `onBeforeCompile`, reading the ORM alpha in Diamond; cache key `autolab-l4a-thread-v1` | Keep the mask channel, or bump the cache key and its test |
+| Thread mask | `thread-mask.ts` patches `MAT_Seat_Primary` via `onBeforeCompile`, reading the ORM alpha in Diamond; cache key `autolab-l4a-thread-v1` | Keep the mask in ORM alpha. Moving it means changing the hard-coded `texture2D( roughnessMap, … ).a` sampler in `thread-mask.ts`, bumping the cache key and updating its test |
 | Trim | `cabin-trim.ts` swaps maps on `MAT_Console_Carbon` from four KTX2 files and shares the PMREM | Trim surfaces keep the same UV scale, or the trim KTX2 files are rebaked |
 | Decoders | Draco and Basis decoders served locally from `public/` | No CDN; keep extension set |
 | Cache revisions | `lexus-runtime-assets.ts` appends `?v=<sha256>`; a test checks it against the file | Update hashes in the same commit as the asset |

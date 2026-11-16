@@ -58,6 +58,18 @@ describe("GLB structural comparison", () => {
     const [base, cand] = await mutated(doc => doc.getRoot().listMaterials()[0].setEmissiveFactor([0.5, 0, 0]));
     expect((await compareGlbBytes(base, cand)).materialDiffs.length).toBe(1);
   });
+  it("ignores material property order", async () => {
+    const bytes = new Uint8Array(await createLexusSyntheticFixture());
+    const view = new DataView(bytes.buffer, bytes.byteOffset, bytes.byteLength);
+    const length = view.getUint32(12, true);
+    const json = JSON.parse(new TextDecoder().decode(bytes.subarray(20, 20 + length)));
+    json.materials = json.materials.map((m: Record<string, unknown>) => Object.fromEntries(Object.entries(m).reverse()));
+    const text = new TextEncoder().encode(JSON.stringify(json).padEnd(length, " "));
+    expect(text.length).toBe(length);
+    const reordered = bytes.slice();
+    reordered.set(text, 20);
+    expect((await compareGlbBytes(bytes, reordered)).materialDiffs).toEqual([]);
+  });
   it("treats reversed winding as a geometry change", async () => {
     const [base, cand] = await mutated(doc => {
       const indices = doc.getRoot().listMeshes().flatMap(m => m.listPrimitives()).find(p => p.getIndices())!.getIndices()!;

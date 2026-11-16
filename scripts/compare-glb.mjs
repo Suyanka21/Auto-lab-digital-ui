@@ -47,10 +47,13 @@ function materialSummary(json, material) {
     const source = texture.source ?? texture.extensions?.KHR_texture_basisu?.source;
     return texture.name ?? json.images?.[source]?.name ?? `texture:${index}`;
   };
-  return JSON.parse(JSON.stringify(material, (key, value) =>
-    value && typeof value === "object" && !Array.isArray(value) && Number.isInteger(value.index) && /Texture$/.test(key)
-      ? { ...value, index: textureName(value.index) }
-      : value));
+  const canonical = (value, key = "") => {
+    if (Array.isArray(value)) return value.map((item) => canonical(item));
+    if (!value || typeof value !== "object") return value;
+    const named = Number.isInteger(value.index) && /Texture$/.test(key) ? { ...value, index: textureName(value.index) } : value;
+    return Object.fromEntries(Object.keys(named).sort().map((k) => [k, canonical(named[k], k)]));
+  };
+  return canonical(material);
 }
 
 function glbJson(bytes) {

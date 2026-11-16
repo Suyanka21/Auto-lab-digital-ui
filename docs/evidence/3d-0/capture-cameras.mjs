@@ -1,5 +1,8 @@
 import { chromium } from '@playwright/test';
-const out = '/home/ubuntu/scratch/shots';
+import { mkdir } from 'node:fs/promises';
+// Run from the repository root against `npm run preview`.
+const out = 'docs/evidence/3d-0';
+await mkdir(out, { recursive: true });
 const browser = await chromium.launch({ headless: true, args: ['--use-angle=swiftshader','--enable-unsafe-swiftshader'] });
 const errors = [];
 try {

@@ -45,7 +45,7 @@ Evidence that this chain produced the shipped files:
 ## 5. Exact rebuild procedure (scratch only)
 
 ```bash
-S=~/scratch/repro
+S=~/scratch/repro && mkdir -p $S
 git -C AUTOLAB-DIGITAL-SHOWROOM archive origin/main | tar x -C $S           # no change to the original checkout
 git -C AUTOLAB-DIGITAL-SHOWROOM bundle create ~/scratch/orig.bundle origin/main
 cd $S && git init -q && git fetch -q ~/scratch/orig.bundle origin/main      # makes `git show fa3d62a:` work
@@ -122,7 +122,7 @@ New tests (independent fixtures, generated in memory):
 Captured from this repository's production build at 1440×900 and 390×844 (headless Chromium, SwiftShader software rendering), with the default settings. The Studio opens on Driver Hero.
 - `docs/evidence/3d-0/desktop-driver-hero.png`, `desktop-cabin-pair.png`
 - `docs/evidence/3d-0/mobile-driver-hero.png`, `mobile-cabin-pair.png`
-- Script: `docs/evidence/3d-0/capture-cameras.mjs`
+- Script: `docs/evidence/3d-0/capture-cameras.mjs` (run from the repo root while `npm run preview` is serving)
 
 Observation: in desktop Driver Hero the flat grey end of the dashboard fills roughly the left third of the stage. This is the obstruction that original-repo PR #4 reduced by moving the camera to `[1.9, 1.25, 0.2]`. Cabin Pair shows the dashboard, console, selector and cupholders, with seat backs at both edges.
 

@@ -10,7 +10,8 @@
     "typecheck": "tsc --noEmit",
     "lint": "eslint src tests vite.config.ts",
     "test": "vitest run --maxWorkers=1",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "asset:gate": "node scripts/validate-glb.mjs --asset public/assets/3d/lexus-rx350/interior-l4-classic.glb --report reports/front-cabin-classic.json && node scripts/validate-glb.mjs --asset public/assets/3d/lexus-rx350/interior-l4-diamond.glb --report reports/front-cabin-diamond.json && node scripts/validate-glb.mjs --asset public/assets/3d/lexus-rx350/interior-l4-perforated.glb --report reports/front-cabin-perforated.json"
   },
   "dependencies": {
     "@react-three/drei": "10.7.9",

@@ -1,0 +1,397 @@
+{
+  "byteIdentical": false,
+  "baseline": {
+    "sha256": "d53f55546232db473ecadee08be9bff6454b5d3a510ee30e88415f2477ca9f9e",
+    "bytes": 3509764
+  },
+  "candidate": {
+    "sha256": "0994f738d30c6ab6a1463917e3fbde9bc69b71d096927b5268b9598d1190de86",
+    "bytes": 3510884
+  },
+  "nodesEqual": true,
+  "extensionsEqual": true,
+  "primitiveCount": [
+    24,
+    24
+  ],
+  "primitiveDiffs": [
+    {
+      "key": "GEO_Console_Armrest#0",
+      "geometryEquivalent": true,
+      "uvEquivalent": false,
+      "material": [
+        "MAT_Console_Black",
+        "MAT_Console_Black"
+      ],
+      "vertices": [
+        470,
+        470
+      ],
+      "triangles": [
+        488,
+        488
+      ],
+      "indicesEqual": true,
+      "attributeDelta": {
+        "POSITION": 0,
+        "NORMAL": 0,
+        "TEXCOORD_0": 0.3881458640098572,
+        "TANGENT": 0.0004884004592895508
+      }
+    },
+    {
+      "key": "GEO_Console_Body#0",
+      "geometryEquivalent": false,
+      "uvEquivalent": false,
+      "material": [
+        "MAT_Console_Black",
+        "MAT_Console_Black"
+      ],
+      "vertices": [
+        1772,
+        1780
+      ],
+      "triangles": [
+        1396,
+        1396
+      ],
+      "indicesEqual": false,
+      "attributeDelta": {
+        "POSITION": null,
+        "NORMAL": null,
+        "TEXCOORD_0": null,
+        "TANGENT": null
+      }
+    },
+    {
+      "key": "GEO_Console_Body#1",
+      "geometryEquivalent": false,
+      "uvEquivalent": false,
+      "material": [
+        "MAT_Console_Carbon",
+        "MAT_Console_Carbon"
+      ],
+      "vertices": [
+        746,
+        746
+      ],
+      "triangles": [
+        582,
+        582
+      ],
+      "indicesEqual": false,
+      "attributeDelta": {
+        "POSITION": 0,
+        "NORMAL": 0,
+        "TEXCOORD_0": 0,
+        "TANGENT": 0
+      }
+    },
+    {
+      "key": "GEO_Console_Body#2",
+      "geometryEquivalent": true,
+      "uvEquivalent": false,
+      "material": [
+        "MAT_Console_Metal",
+        "MAT_Console_Metal"
+      ],
+      "vertices": [
+        292,
+        292
+      ],
+      "triangles": [
+        232,
+        232
+      ],
+      "indicesEqual": false,
+      "attributeDelta": {
+        "POSITION": 0.4001355916261673,
+        "NORMAL": 1.752037763595581,
+        "TEXCOORD_0": 0.9111258536577225,
+        "TANGENT": 1.9902321100234985
+      }
+    },
+    {
+      "key": "GEO_Console_Cupholder_Front#0",
+      "geometryEquivalent": true,
+      "uvEquivalent": true,
+      "material": [
+        "MAT_Console_Black",
+        "MAT_Console_Black"
+      ],
+      "vertices": [
+        445,
+        445
+      ],
+      "triangles": [
+        466,
+        466
+      ],
+      "indicesEqual": true,
+      "attributeDelta": {
+        "POSITION": 0,
+        "NORMAL": 0,
+        "TEXCOORD_0": 7.450580596923828e-9,
+        "TANGENT": 0
+      }
+    },
+    {
+      "key": "GEO_Console_Cupholder_Front#1",
+      "geometryEquivalent": true,
+      "uvEquivalent": false,
+      "material": [
+        "MAT_Console_Metal",
+        "MAT_Console_Metal"
+      ],
+      "vertices": [
+        550,
+        550
+      ],
+      "triangles": [
+        576,
+        576
+      ],
+      "indicesEqual": true,
+      "attributeDelta": {
+        "POSITION": 0,
+        "NORMAL": 0,
+        "TEXCOORD_0": 0.5564471781253815,
+        "TANGENT": 0
+      }
+    },
+    {
+      "key": "GEO_Console_Cupholder_Rear#1",
+      "geometryEquivalent": true,
+      "uvEquivalent": false,
+      "material": [
+        "MAT_Console_Metal",
+        "MAT_Console_Metal"
+      ],
+      "vertices": [
+        550,
+        550
+      ],
+      "triangles": [
+        576,
+        576
+      ],
+      "indicesEqual": true,
+      "attributeDelta": {
+        "POSITION": 0,
+        "NORMAL": 0,
+        "TEXCOORD_0": 0.3710455298423767,
+        "TANGENT": 0
+      }
+    },
+    {
+      "key": "GEO_Console_Selector#1",
+      "geometryEquivalent": true,
+      "uvEquivalent": false,
+      "material": [
+        "MAT_Console_Black",
+        "MAT_Console_Black"
+      ],
+      "vertices": [
+        517,
+        517
+      ],
+      "triangles": [
+        528,
+        528
+      ],
+      "indicesEqual": true,
+      "attributeDelta": {
+        "POSITION": 0,
+        "NORMAL": 0,
+        "TEXCOORD_0": 0.0002416372299194336,
+        "TANGENT": 0
+      }
+    },
+    {
+      "key": "GEO_Console_Selector#2",
+      "geometryEquivalent": true,
+      "uvEquivalent": true,
+      "material": [
+        "MAT_Console_Metal",
+        "MAT_Console_Metal"
+      ],
+      "vertices": [
+        72,
+        72
+      ],
+      "triangles": [
+        44,
+        44
+      ],
+      "indicesEqual": true,
+      "attributeDelta": {
+        "POSITION": 0,
+        "NORMAL": 0,
+        "TEXCOORD_0": 1.7881393432617188e-7,
+        "TANGENT": 0.0004884004592895508
+      }
+    },
+    {
+      "key": "GEO_Dashboard_Lexus#0",
+      "geometryEquivalent": true,
+      "uvEquivalent": true,
+      "material": [
+        "MAT_Dashboard_Trim",
+        "MAT_Dashboard_Trim"
+      ],
+      "vertices": [
+        1692,
+        1690
+      ],
+      "triangles": [
+        1926,
+        1926
+      ],
+      "indicesEqual": false,
+      "attributeDelta": {
+        "POSITION": null,
+        "NORMAL": null,
+        "TEXCOORD_0": null,
+        "TANGENT": null
+      }
+    },
+    {
+      "key": "GEO_Dashboard_Lexus#2",
+      "geometryEquivalent": true,
+      "uvEquivalent": false,
+      "material": [
+        "MAT_Cockpit_Black",
+        "MAT_Cockpit_Black"
+      ],
+      "vertices": [
+        5530,
+        5526
+      ],
+      "triangles": [
+        3928,
+        3928
+      ],
+      "indicesEqual": false,
+      "attributeDelta": {
+        "POSITION": null,
+        "NORMAL": null,
+        "TEXCOORD_0": null,
+        "TANGENT": null
+      }
+    },
+    {
+      "key": "GEO_Dashboard_Lexus#3",
+      "geometryEquivalent": true,
+      "uvEquivalent": false,
+      "material": [
+        "MAT_Cockpit_Accent",
+        "MAT_Cockpit_Accent"
+      ],
+      "vertices": [
+        2220,
+        2220
+      ],
+      "triangles": [
+        1868,
+        1868
+      ],
+      "indicesEqual": false,
+      "attributeDelta": {
+        "POSITION": 0.023523032665252686,
+        "NORMAL": 2,
+        "TEXCOORD_0": 2.734670341014862,
+        "TANGENT": 2
+      }
+    },
+    {
+      "key": "GEO_SteeringWheel_Lexus#1",
+      "geometryEquivalent": true,
+      "uvEquivalent": true,
+      "material": [
+        "MAT_Cockpit_Accent",
+        "MAT_Cockpit_Accent"
+      ],
+      "vertices": [
+        585,
+        585
+      ],
+      "triangles": [
+        492,
+        492
+      ],
+      "indicesEqual": true,
+      "attributeDelta": {
+        "POSITION": 0,
+        "NORMAL": 0,
+        "TEXCOORD_0": 0,
+        "TANGENT": 0.0004884004592895508
+      }
+    },
+    {
+      "key": "GEO_SteeringWheel_Lexus#2",
+      "geometryEquivalent": true,
+      "uvEquivalent": true,
+      "material": [
+        "MAT_Cockpit_Black",
+        "MAT_Cockpit_Black"
+      ],
+      "vertices": [
+        538,
+        538
+      ],
+      "triangles": [
+        448,
+        448
+      ],
+      "indicesEqual": true,
+      "attributeDelta": {
+        "POSITION": 0,
+        "NORMAL": 0,
+        "TEXCOORD_0": 9.5367431640625e-7,
+        "TANGENT": 0.0004884004592895508
+      }
+    }
+  ],
+  "materialDiffs": [],
+  "textureDiffs": [
+    {
+      "name": "front-cabin-carbon-normal",
+      "baseline": {
+        "mime": "image/ktx2",
+        "bytes": 8413,
+        "sha256": "b3f872b8345697a314481b268b7990048ce497cb2ecdfc87b979573b0c670f9e"
+      },
+      "candidate": {
+        "mime": "image/ktx2",
+        "bytes": 9169,
+        "sha256": "6c5c601e5182357bea7b93db674c1af402744e4a34321868b5df60aeaca23058"
+      }
+    },
+    {
+      "name": "front-cabin-carbon-base",
+      "baseline": {
+        "mime": "image/ktx2",
+        "bytes": 4711,
+        "sha256": "66436641ebbdf0a4fc3bb668811cb78096370b555d06a82a7d910bf56f386b56"
+      },
+      "candidate": {
+        "mime": "image/ktx2",
+        "bytes": 5108,
+        "sha256": "e2cae53a7eeeee593d8a81cd07ef12f487ecec54f8a037df7ecb9202d3381a2b"
+      }
+    },
+    {
+      "name": "front-cabin-carbon-roughness",
+      "baseline": {
+        "mime": "image/ktx2",
+        "bytes": 3118,
+        "sha256": "232922b6a1df52e40d58c3ff373b422348a0c0f5eb7ff539bfdd6c5cc2d211ee"
+      },
+      "candidate": {
+        "mime": "image/ktx2",
+        "bytes": 3135,
+        "sha256": "da19df3be20e6c15bd17953a2bb21d72f2f030fb63a1ae8cd72b6e3a7226febb"
+      }
+    }
+  ]
+}

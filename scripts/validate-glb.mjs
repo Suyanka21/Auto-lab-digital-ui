@@ -8,7 +8,7 @@ import draco3d from "draco3dgltf";
 import validator from "gltf-validator";
 import Ajv from "ajv";
 import { createHash } from "node:crypto";
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -46,6 +46,20 @@ function numberFrom(text, pattern, label) {
 }
 
 const componentBudgets = readJson(resolve(root, "docs/3d-assets/lexus-l2b-budgets.json"));
+const knownScopes = ["full", "spike", "lexus", "lexus-front-cabin", "lexus-l2a", "l2a", ...Object.keys(componentBudgets)];
+// The S-Class scopes were inherited from AUTOLAB-DIGITAL-SHOWROOM; their inputs were not migrated here.
+const scopeInputs = {
+  full: [sClassManifestPath, sClassVehiclePath, performancePath],
+  spike: [sClassManifestPath, sClassVehiclePath, planPath],
+};
+
+export function assertScopeAvailable(scope) {
+  if (!knownScopes.includes(scope)) throw new Error(`Unknown scope: ${scope}`);
+  const missing = (scopeInputs[scope] ?? []).filter((path) => !existsSync(path)).map((path) => relative(root, path));
+  if (missing.length) {
+    throw new Error(`Scope "${scope}" is not available in this repository (missing ${missing.join(", ")}); use --scope lexus-front-cabin`);
+  }
+}
 
 function loadBudgets(scope, manifest) {
   if (componentBudgets[scope]) return componentBudgets[scope];
@@ -167,10 +181,8 @@ function activeDisplayDiagonal(node) {
     Math.hypot(...a.map((v, axis) => v - b[axis]))))) * 1000;
 }
 
-export async function validateGlbBytes(bytes, { scope = "full", synthetic = false, feasibilityWebp = false } = {}) {
-  if (!["full", "spike", "lexus", "lexus-front-cabin", "lexus-l2a", "l2a", ...Object.keys(componentBudgets)].includes(scope)) {
-    throw new Error(`Unknown scope: ${scope}`);
-  }
+export async function validateGlbBytes(bytes, { scope = "lexus-front-cabin", synthetic = false, feasibilityWebp = false } = {}) {
+  assertScopeAvailable(scope);
   const isL2A = scope === "lexus-l2a" || scope === "l2a";
   const isComponent = Boolean(componentBudgets[scope]);
   const isLexus = (scope === "lexus" || scope === "lexus-front-cabin") || isL2A || isComponent;
@@ -442,8 +454,12 @@ function defaultReportFor(scope, synthetic) {
   return resolve(root, "reports/glb-report.json");
 }
 
+const usage = `Usage: node scripts/validate-glb.mjs [--scope lexus-front-cabin] [--asset <file.glb>] [--report <out.json>] [--synthetic] [--manifest-only]
+Defaults: --scope lexus-front-cabin --asset public/assets/3d/lexus-rx350/interior-l4-classic.glb --report reports/front-cabin.json
+Scopes: ${knownScopes.join(", ")}`;
+
 function parseArgs(args) {
-  const options = { scope: "full", synthetic: false, manifestOnly: false, feasibilityWebp: false, asset: null, report: null };
+  const options = { scope: "lexus-front-cabin", help: false, synthetic: false, manifestOnly: false, feasibilityWebp: false, asset: null, report: null };
   for (let index = 0; index < args.length; index++) {
     if (args[index] === "--scope") options.scope = args[++index];
     else if (args[index] === "--asset") options.asset = resolve(args[++index]);
@@ -451,11 +467,11 @@ function parseArgs(args) {
     else if (args[index] === "--synthetic") options.synthetic = true;
     else if (args[index] === "--feasibility-webp") options.feasibilityWebp = true;
     else if (args[index] === "--manifest-only") options.manifestOnly = true;
+    else if (args[index] === "--help" || args[index] === "-h") options.help = true;
     else throw new Error(`Unknown argument: ${args[index]}`);
   }
-  if (!["full", "spike", "lexus", "lexus-front-cabin", "lexus-l2a", "l2a", ...Object.keys(componentBudgets)].includes(options.scope)) {
-    throw new Error(`Unknown scope: ${options.scope}`);
-  }
+  if (options.help) return options;
+  assertScopeAvailable(options.scope);
   if (!options.asset) {
     if (options.scope === "lexus-front-cabin") {
       if (options.synthetic && !options.manifestOnly) throw new Error("Front-cabin synthetic validation requires an explicit --asset");
@@ -476,6 +492,10 @@ async function main() {
   let report;
   try {
     const options = parseArgs(process.argv.slice(2));
+    if (options.help) {
+      console.log(usage);
+      return;
+    }
     output = options.report ?? defaultReportFor(options.scope, options.synthetic);
     if (options.manifestOnly) {
       const activeManifest = options.scope === "lexus-front-cabin" ? frontCabinManifestPath : (options.scope === "lexus" || options.scope === "lexus-l2a" || options.scope === "l2a" || componentBudgets[options.scope])

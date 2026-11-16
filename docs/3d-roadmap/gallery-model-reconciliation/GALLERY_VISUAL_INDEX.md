@@ -27,7 +27,9 @@ Gallery 11 is the B-pillar certification label of the photographed car. The full
 
 Visual consistency: the same silver car, dealer floor and lighting appear in 01–35 except 03 (marketing slide) and 28 (manual cover, shot in the same car). Gallery 04 and 14 show the `RX350` badge; 12 and 13 show the short two-row body; 06 shows the non-F SPORT twin analogue meters; 17 shows a light-grey headliner (F SPORT has a black headliner per the brochure). **Inference:** this is a single conventional two-row RX 350, very probably AWD, non-F SPORT. A VIN decode from Lexus or the window sticker would make AWD and trim certain.
 
-Rights: neither `SOURCE_AND_RIGHTS_REGISTER.csv` mentions `00_GALLERY_ORIGINALS`. Origin, photographer and reuse rights for these 35 photos are unrecorded. Until the owner confirms they are AutoLab's own photos, treat them as reference-only.
+Rights (owner statement, 2026-11-16): the 35 photos are publicly accessible research photographs collected by a separate research agent. They are not AutoLab-owned. Photographer, source-specific licence and commercial reuse permission are all unverified. Approved use is internal visual reference for modelling only. Customer-facing display, marketing use, redistribution and embedding in the commercial showroom are not approved. Public accessibility does not grant commercial reuse rights. The record is in `AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY/00_GALLERY_ORIGINALS/RIGHTS_AND_USE.md` and both rights registers. At the time of assessment neither register mentioned the gallery.
+
+Branding: Lexus logos, badges, wordmarks, emblems, branded screens and marketing artwork visible in these photos are noted below only to identify the car. They must not be reproduced in AutoLab models, textures or interface.
 
 ## Gallery 01–35
 
@@ -88,7 +90,7 @@ Gallery 09, 10, 12 and 13 together confirm the 18-inch non-F SPORT V6 build but 
 
 ## Library-wide findings
 
-1. **The gallery is the strongest interior evidence in the library.** It is one car, photographed from repeatable dealer angles, with an identity label. The second research round says no "VIN-confirmed donor build with multi-angle photography" was found; the gallery largely fills that gap, subject to rights confirmation and an exact VIN decode.
+1. **The gallery is the strongest interior evidence in the library.** It is one car, photographed from repeatable dealer angles, with an identity label. The second research round says no "VIN-confirmed donor build with multi-angle photography" was found; the gallery largely fills that gap, for internal modelling reference only, and subject to an exact VIN decode.
 2. **The three "official" interior images contain no interior.** 0049, 0051 and 0052 are exterior shots. Any research conclusion that cites them for cockpit, console or seat evidence is unsupported by those files.
 3. **Observed equipment on the donor:** heated and ventilated front seats (19), perforated seat inserts (8, 27, 29, 30, 34), heated steering wheel (20), wide display with analogue clock (7, 16, 35), single-panel moonroof (17), Remote Touchpad (34), gloss reddish-brown wood (7, 19, 24, 33, 34), light-grey headliner (17), black seats and carpet. **Inference:** consistent with the brochure's Luxury Package plus navigation. Whether the covering is semi-aniline leather or perforated NuLuxe cannot be decided from photos.
 4. **Wood species is unresolved.** The brochure lists Matte Walnut, Matte Bamboo, Open-Pore Brown Walnut and Gray Sapele. The donor's wood looks glossy and reddish-brown, which matches none of these names by eye. Confirm from the window sticker.

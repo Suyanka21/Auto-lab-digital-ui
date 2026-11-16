@@ -1,6 +1,13 @@
-# First implementation experiment (proposal — not started)
+# First implementation experiment (approved, gated — not started)
 
-Needs owner approval. Depends on 3D-0 ([PR #3](https://github.com/Suyanka21/Auto-lab-digital-ui/pull/3)) being accepted.
+Owner approved on 2026-11-16. Work must not start until 3D-0 ([PR #3](https://github.com/Suyanka21/Auto-lab-digital-ui/pull/3)) is accepted and merged.
+
+Owner conditions:
+- Scope is limited to `GEO_Seat_Front_Driver` and `GEO_Seat_Stitching_Front`. The passenger seat, dashboard, console, doors, rear cabin, cameras and UI are out of scope.
+- Follow the photographed comfort-seat profile: separate perforated insert zones, softer bolsters, light-grey stitching. Primary references are Gallery 08, 23, 27, 29 and 30.
+- No seat dimensions were supplied. The geometry is a visual reconstruction from photographs and is provisional; no dimensional accuracy is claimed.
+- Gallery photographs are internal modelling references only (see `00_GALLERY_ORIGINALS/RIGHTS_AND_USE.md` in the reference library). No Lexus logo, emblem, wordmark or other branded element is reproduced.
+- Required outputs: before/after fixed-camera renders at Driver Hero and Stitch Detail; comparisons against Gallery 08 and 30; results for Classic, Diamond and Perforated; triangle, draw-call and file-size measurements; validation results and a list of deviations; a reviewable implementation PR with production assets unchanged until the owner approves.
 
 ## Experiment: re-zone the driver front seat to the photographed RX 350 seat
 

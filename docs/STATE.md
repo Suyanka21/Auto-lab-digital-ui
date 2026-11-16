@@ -1,18 +1,15 @@
 # Experimental showroom state
-Updated: 2026-11-14
-Repository: Auto-lab-digital-ui; branch codex/independent-3d-assessment.
-Current: Studio Back/reset repair complete for owner review.
-Done: earlier-step navigation preserves camera and choices; explicit Reset requires confirmation.
-Verified: desktop/mobile Back, reset cancellation, summary and explicit reset browser scenarios PASS.
-Preserved: live cabin, seven bindings, three treatments, cameras, state, summary and KTX2/Draco/Retry.
-Validated: 39 unit tests, two Back/reset browser journeys, typecheck, lint and normal build PASS.
-Browser evidence: actual new colour material states, two-tone/steering and treatment persistence PASS.
-Responsive: desktop/mobile screenshots; 320/768/1024 normal-build checks; reduced motion PASS.
-Latest evidence: docs/BACK_NAVIGATION_FIX.md and docs/evidence/back-fix/.
-Preview: http://127.0.0.1:4173/ ; refresh older tabs for current build.
-Images are AI-generated illustrations; new colours are not confirmed workshop offerings.
-Mobile two-tone can scroll inside controls while cabin and navigation remain visible.
-Limits: inherited model defects; real-phone, Safari and hardware GPU testing remain open.
-Audit unchanged: seven previously recorded moderate development findings unresolved.
-Owner authorized publishing all experimental commits to origin; no merge or deployment.
-README updated for current features, setup, evidence and limits; remote push verification follows.
+Updated: 2026-11-16
+Repository: Auto-lab-digital-ui; branch devin/1794835282-3d-0-reproducibility.
+Current: 3D-0 (reproducibility and asset validation) complete for owner review.
+Done: provenance chain traced; Linux rebuild with Blender 5.2.2 + KTX 4.4.2 in scratch; asset gate fixed.
+Result: rebuild is structurally equal and gate-clean but not byte-identical; shipped GLBs stay the baseline.
+Report: docs/3d-roadmap/3D-0_REPRODUCIBILITY_REPORT.md; evidence in docs/evidence/3d-0/.
+Validated: typecheck, lint, 6 test files, npm run asset:gate (3 PASS), build.
+Unchanged: src/, public/ GLBs (hashes pinned by test), original repository.
+Gaps: fa3d62a seat/cockpit inputs lack editable sources; Windows toolchain bytes not reproducible on Linux.
+Budgets unchanged: 80,000 triangles, 24 draw calls, 5 MB per model.
+Next (needs approval): portable build PR, candidate-vs-baseline render review, then 3D-1.
+Default camera unchanged (Driver Hero); Driver Hero vs Cabin Pair screenshots await owner decision.
+Dilum retry: X post confirmed as creator claim; YouTube/CodePen not readable; research incomplete.
+No merge or deployment.

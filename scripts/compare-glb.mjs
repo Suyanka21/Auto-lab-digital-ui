@@ -24,34 +24,41 @@ function maxAbsDelta(a, b) {
 }
 
 // Draco may renumber vertices, so equivalence is tested on an order-free triangle soup.
+// Each triangle is rotated to start at its smallest corner, keeping winding (face orientation) significant.
 function triangleSoupHash(positions, uvs, indices, quantum) {
-  if (!positions || !indices) return null;
+  if (!positions) return null;
   const q = (v) => Math.round(v / quantum);
   const corner = (i) => [q(positions[i * 3]), q(positions[i * 3 + 1]), q(positions[i * 3 + 2]),
     ...(uvs ? [q(uvs[i * 2]), q(uvs[i * 2 + 1])] : [])].join(",");
+  const index = indices ?? Array.from({ length: positions.length / 3 }, (_, i) => i);
   const triangles = [];
-  for (let t = 0; t < indices.length; t += 3) {
-    triangles.push([corner(indices[t]), corner(indices[t + 1]), corner(indices[t + 2])].sort().join("|"));
+  for (let t = 0; t < index.length; t += 3) {
+    const c = [corner(index[t]), corner(index[t + 1]), corner(index[t + 2])];
+    const start = c.indexOf([...c].sort()[0]);
+    triangles.push([c[start], c[(start + 1) % 3], c[(start + 2) % 3]].join("|"));
   }
   return sha(triangles.sort().join("\n"));
 }
 
-function materialSummary(material) {
-  const ext = Object.fromEntries(material.listExtensions().map((e) => [e.extensionName, true]));
-  return {
-    baseColor: material.getBaseColorFactor().map((v) => Number(v.toFixed(6))),
-    roughness: Number(material.getRoughnessFactor().toFixed(6)),
-    metallic: Number(material.getMetallicFactor().toFixed(6)),
-    textures: {
-      base: material.getBaseColorTexture()?.getName() ?? null,
-      normal: material.getNormalTexture()?.getName() ?? null,
-      orm: material.getMetallicRoughnessTexture()?.getName() ?? null,
-    },
-    extensions: Object.keys(ext).sort(),
+// Compares the material exactly as written in the GLB JSON, with texture indices replaced by names.
+function materialSummary(json, material) {
+  const textureName = (index) => {
+    const texture = json.textures?.[index] ?? {};
+    const source = texture.source ?? texture.extensions?.KHR_texture_basisu?.source;
+    return texture.name ?? json.images?.[source]?.name ?? `texture:${index}`;
   };
+  return JSON.parse(JSON.stringify(material, (key, value) =>
+    value && typeof value === "object" && !Array.isArray(value) && Number.isInteger(value.index) && /Texture$/.test(key)
+      ? { ...value, index: textureName(value.index) }
+      : value));
 }
 
-function inspect(doc) {
+function glbJson(bytes) {
+  const view = new DataView(bytes.buffer, bytes.byteOffset, bytes.byteLength);
+  return JSON.parse(new TextDecoder().decode(bytes.subarray(20, 20 + view.getUint32(12, true))));
+}
+
+function inspect(doc, json) {
   const root = doc.getRoot();
   const primitives = [];
   for (const node of root.listNodes()) {
@@ -64,7 +71,7 @@ function inspect(doc) {
         key: `${node.getName()}#${index}`,
         material: primitive.getMaterial()?.getName() ?? null,
         vertices: primitive.getAttribute("POSITION")?.getCount() ?? 0,
-        triangles: (primitive.getIndices()?.getCount() ?? 0) / 3,
+        triangles: (primitive.getIndices()?.getCount() ?? primitive.getAttribute("POSITION")?.getCount() ?? 0) / 3,
         attributes,
         indices: primitive.getIndices()?.getArray() ?? null,
         soup: triangleSoupHash(attributes.POSITION, null, primitive.getIndices()?.getArray(), SOUP_QUANTUM_METRES),
@@ -74,7 +81,8 @@ function inspect(doc) {
   }
   return {
     nodes: root.listNodes().map((n) => n.getName()).sort(),
-    materials: Object.fromEntries(root.listMaterials().map((m) => [m.getName(), materialSummary(m)])),
+    transforms: Object.fromEntries(root.listNodes().map((n) => [n.getName(), n.getWorldMatrix().map((v) => Number(v.toFixed(6)))])),
+    materials: Object.fromEntries((json.materials ?? []).map((m, i) => [m.name ?? `material:${i}`, materialSummary(json, m)])),
     textures: Object.fromEntries(root.listTextures().map((t) => [t.getName(), { mime: t.getMimeType(), bytes: t.getImage()?.byteLength ?? 0, sha256: sha(t.getImage() ?? new Uint8Array()) }])),
     extensions: root.listExtensionsUsed().map((e) => e.extensionName).sort(),
     primitives,
@@ -83,8 +91,9 @@ function inspect(doc) {
 
 export async function compareGlbBytes(baselineBytes, candidateBytes) {
   const io = await createIO();
-  const a = inspect(await io.readBinary(new Uint8Array(baselineBytes)));
-  const b = inspect(await io.readBinary(new Uint8Array(candidateBytes)));
+  const [baseline, candidate] = [new Uint8Array(baselineBytes), new Uint8Array(candidateBytes)];
+  const a = inspect(await io.readBinary(baseline), glbJson(baseline));
+  const b = inspect(await io.readBinary(candidate), glbJson(candidate));
   const primitiveDiffs = [];
   const candidateByKey = new Map(b.primitives.map((p) => [p.key, p]));
   for (const base of a.primitives) {
@@ -94,8 +103,8 @@ export async function compareGlbBytes(baselineBytes, candidateBytes) {
     for (const semantic of new Set([...Object.keys(base.attributes), ...Object.keys(cand.attributes)])) {
       attributeDelta[semantic] = maxAbsDelta(base.attributes[semantic], cand.attributes[semantic]);
     }
-    const indicesEqual = base.indices && cand.indices && base.indices.length === cand.indices.length
-      && base.indices.every((v, i) => v === cand.indices[i]);
+    const indicesEqual = (!base.indices && !cand.indices) || (base.indices && cand.indices && base.indices.length === cand.indices.length
+      && base.indices.every((v, i) => v === cand.indices[i]));
     const same = base.material === cand.material && base.vertices === cand.vertices && base.triangles === cand.triangles
       && indicesEqual && Object.values(attributeDelta).every((d) => d === 0);
     if (!same) primitiveDiffs.push({ key: base.key, geometryEquivalent: base.soup === cand.soup, uvEquivalent: base.soupWithUv === cand.soupWithUv, material: [base.material, cand.material], vertices: [base.vertices, cand.vertices], triangles: [base.triangles, cand.triangles], indicesEqual, attributeDelta });
@@ -105,6 +114,10 @@ export async function compareGlbBytes(baselineBytes, candidateBytes) {
   for (const name of new Set([...Object.keys(a.textures), ...Object.keys(b.textures)])) {
     const [x, y] = [a.textures[name], b.textures[name]];
     if (!x || !y || x.sha256 !== y.sha256) textureDiffs.push({ name, baseline: x ?? null, candidate: y ?? null });
+  }
+  const transformDiffs = [];
+  for (const name of new Set([...Object.keys(a.transforms), ...Object.keys(b.transforms)])) {
+    if (JSON.stringify(a.transforms[name]) !== JSON.stringify(b.transforms[name])) transformDiffs.push({ name, baseline: a.transforms[name] ?? null, candidate: b.transforms[name] ?? null });
   }
   const materialDiffs = [];
   for (const name of new Set([...Object.keys(a.materials), ...Object.keys(b.materials)])) {
@@ -117,7 +130,7 @@ export async function compareGlbBytes(baselineBytes, candidateBytes) {
     nodesEqual: JSON.stringify(a.nodes) === JSON.stringify(b.nodes),
     extensionsEqual: JSON.stringify(a.extensions) === JSON.stringify(b.extensions),
     primitiveCount: [a.primitives.length, b.primitives.length],
-    primitiveDiffs, materialDiffs, textureDiffs,
+    primitiveDiffs, transformDiffs, materialDiffs, textureDiffs,
   };
 }
 
@@ -137,6 +150,7 @@ async function main() {
     primitiveDiffs: report.primitiveDiffs.length,
     geometryNotEquivalent: report.primitiveDiffs.filter((d) => !d.geometryEquivalent).map((d) => d.key),
     uvNotEquivalent: report.primitiveDiffs.filter((d) => !d.uvEquivalent).map((d) => d.key),
+    transformDiffs: report.transformDiffs.map((d) => d.name),
     materialDiffs: report.materialDiffs.map((d) => d.name),
     textureDiffs: report.textureDiffs.map((d) => d.name),
   }, null, 2));

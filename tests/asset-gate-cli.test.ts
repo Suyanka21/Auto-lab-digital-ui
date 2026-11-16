@@ -4,7 +4,18 @@ import { createHash } from "node:crypto";
 import { mkdtempSync, readFileSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
+import { NodeIO } from "@gltf-transform/core";
+import { ALL_EXTENSIONS } from "@gltf-transform/extensions";
 import { compareGlbBytes } from "../scripts/compare-glb.mjs";
+import { createLexusSyntheticFixture } from "../scripts/make-fixture.mjs";
+
+async function mutated(change: (doc: Awaited<ReturnType<NodeIO["readBinary"]>>) => void) {
+  const io = new NodeIO().registerExtensions(ALL_EXTENSIONS);
+  const base = await createLexusSyntheticFixture();
+  const doc = await io.readBinary(base);
+  change(doc);
+  return [base, await io.writeBinary(doc)] as const;
+}
 
 const glb = (kind: string) => `public/assets/3d/lexus-rx350/interior-l4-${kind}.glb`;
 const run = (args: string[]) => spawnSync(process.execPath, ["scripts/validate-glb.mjs", ...args], { encoding: "utf8", timeout: 120_000 });
@@ -37,6 +48,26 @@ describe("asset gate CLI", () => {
 });
 
 describe("GLB structural comparison", () => {
+  it("reports a node moved by its transform", async () => {
+    const [base, cand] = await mutated(doc => doc.getRoot().listNodes().find(n => n.getMesh())!.setTranslation([0.01, 0, 0]));
+    const report = await compareGlbBytes(base, cand);
+    expect(report.nodesEqual).toBe(true);
+    expect(report.transformDiffs.length).toBeGreaterThan(0);
+  });
+  it("reports a changed material parameter", async () => {
+    const [base, cand] = await mutated(doc => doc.getRoot().listMaterials()[0].setEmissiveFactor([0.5, 0, 0]));
+    expect((await compareGlbBytes(base, cand)).materialDiffs.length).toBe(1);
+  });
+  it("treats reversed winding as a geometry change", async () => {
+    const [base, cand] = await mutated(doc => {
+      const indices = doc.getRoot().listMeshes().flatMap(m => m.listPrimitives()).find(p => p.getIndices())!.getIndices()!;
+      const array = indices.getArray()!.slice();
+      for (let t = 0; t < array.length; t += 3) [array[t + 1], array[t + 2]] = [array[t + 2], array[t + 1]];
+      indices.setArray(array);
+    });
+    const report = await compareGlbBytes(base, cand);
+    expect(report.primitiveDiffs.some((d: { geometryEquivalent?: boolean }) => d.geometryEquivalent === false)).toBe(true);
+  });
   it("reports a delivered GLB as identical to itself", async () => {
     const bytes = readFileSync(glb("classic"));
     const report = await compareGlbBytes(bytes, bytes);

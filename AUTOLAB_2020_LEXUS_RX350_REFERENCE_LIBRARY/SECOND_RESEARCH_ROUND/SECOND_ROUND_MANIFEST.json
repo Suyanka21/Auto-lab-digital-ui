@@ -1,0 +1,222 @@
+{
+  "research_date": "2026-11-16",
+  "target": "2020 Lexus RX 350 AWD five-seat interior",
+  "local_files": [
+    {
+      "path": "NEW_FINDINGS_AND_CORRECTIONS.md",
+      "bytes": 2695,
+      "sha256": "2d3153bc075442197977a97e9c847b8d539c3a36269e544efb436c565767cff0",
+      "availability": "local"
+    },
+    {
+      "path": "REFERENCE_COVERAGE_MATRIX.md",
+      "bytes": 3619,
+      "sha256": "15d46b326a68cfe069122f7d84f8aff35561e2fef62129722ee6fb9c4a429de4",
+      "availability": "local"
+    },
+    {
+      "path": "REMAINING_EVIDENCE_GAPS.md",
+      "bytes": 3361,
+      "sha256": "4ecd9ca87ca5056488e3ff624de508c1c97e766640e539924b693528c881b5b4",
+      "availability": "local"
+    },
+    {
+      "path": "SECOND_RESEARCH_REPORT.md",
+      "bytes": 10969,
+      "sha256": "31f14f665eea13685376f11051adb933bfddd0f70490732739064b1c39a627c1",
+      "availability": "local"
+    },
+    {
+      "path": "SECOND_ROUND_MANIFEST.json",
+      "bytes": 9810,
+      "sha256": "7a74c01f7a871f27fcf7b966dc06e8f6f8a0ab01dcafaf9cf006f893ac3559b3",
+      "availability": "local"
+    },
+    {
+      "path": "SOURCE_AND_RIGHTS_REGISTER.csv",
+      "bytes": 81064,
+      "sha256": "708340aebc0c26efdea241f1700862db4d46596a9636946eb4c422b6de152950",
+      "availability": "local"
+    },
+    {
+      "path": "TECHNICAL_DOCUMENTATION_INDEX.md",
+      "bytes": 4633,
+      "sha256": "09ac0b5f1dd0490154df22dbb7277a216e9c67bae7a912aa41510df3ca7be608",
+      "availability": "local"
+    },
+    {
+      "path": "VIDEO_REFERENCE_INDEX.md",
+      "bytes": 3768,
+      "sha256": "f20c221699313b35281818bf022ce2d092923ca7cbfbd1b9b0a91ea2b5453e66",
+      "availability": "local"
+    },
+    {
+      "path": "VISUAL_REFERENCE_INDEX.md",
+      "bytes": 5818,
+      "sha256": "226393803b4ebfc04453ec8d9f1414bf982cfdb233fb18f5f2ca4d6555090007",
+      "availability": "local"
+    },
+    {
+      "path": "agent_memos/01-front-seats.md",
+      "bytes": 23099,
+      "sha256": "ad15562173d7d7eff2de96f011fd6aa1fe6db1a5c7314bf455b0cf188e81d324",
+      "availability": "local"
+    },
+    {
+      "path": "agent_memos/02-rear-seats.md",
+      "bytes": 17304,
+      "sha256": "bc88c8346c9629ab44569858e754cc721248b59daf1b56d19284505b41d8ceca",
+      "availability": "local"
+    },
+    {
+      "path": "agent_memos/03-dashboard-cockpit.md",
+      "bytes": 13405,
+      "sha256": "7d9cdea8f5b48be0963d9b0930eade592107cdff81c1bc94b8977f6130ff9db5",
+      "availability": "local"
+    },
+    {
+      "path": "agent_memos/04-centre-console.md",
+      "bytes": 19476,
+      "sha256": "fea82058428d26353be55a897916b3c1d01ebbb3bf875b3c655ff6f42571a911",
+      "availability": "local"
+    },
+    {
+      "path": "agent_memos/05-door-panels.md",
+      "bytes": 21573,
+      "sha256": "ee46e2fc790b694bb47f47cba9c1e49281006125c5656dac224c2a95f14bf478",
+      "availability": "local"
+    },
+    {
+      "path": "agent_memos/06-roof-headliner.md",
+      "bytes": 18989,
+      "sha256": "2b464e21664cefc37f99870c16703018427a43c1025715b9a22fd35374c8a685",
+      "availability": "local"
+    },
+    {
+      "path": "agent_memos/07-floor-lower-cabin.md",
+      "bytes": 18681,
+      "sha256": "6a5a7a7e3ce998f3926f4d05d7bfdecef2e1e70676bd9bd3e0fc412a153c9eaa",
+      "availability": "local"
+    },
+    {
+      "path": "agent_memos/08-steering-controls.md",
+      "bytes": 17326,
+      "sha256": "ed010990a22cb3cc43b3bad50681559403276b071d115501f720d46eb32edbe9",
+      "availability": "local"
+    },
+    {
+      "path": "agent_memos/09-technical-documentation.md",
+      "bytes": 21629,
+      "sha256": "cbbc00587f911f593076fd9ad09a43b24ad99596cd1f5b6a59ecc43423e717f6",
+      "availability": "local"
+    },
+    {
+      "path": "agent_memos/10-videos.md",
+      "bytes": 19409,
+      "sha256": "7fb783c15fe9f45a2c4b14c2147e49e21208dfbe46ed052af26367e38b6aee9a",
+      "availability": "local"
+    },
+    {
+      "path": "agent_memos/11-synthesis.md",
+      "bytes": 18142,
+      "sha256": "6578d95f9f4a5b5bde61eb56bb71f3bcfa2fa16a976f0fdb9d77ec08f8ddc5af",
+      "availability": "local"
+    },
+    {
+      "path": "source_assets/official_media/2020_Lexus_RX_350_0049.jpg",
+      "bytes": 19390976,
+      "sha256": "0fa21600ecba40a71e2264410bd132f316f4cb94d28007d003026fbf2356142c",
+      "availability": "local"
+    },
+    {
+      "path": "source_assets/official_media/2020_Lexus_RX_350_0051.jpg",
+      "bytes": 18423343,
+      "sha256": "d587bf3965bc759bf4f0eee7d0a5d9904517917d1a039e690bf8abecb1a0f9cc",
+      "availability": "local"
+    },
+    {
+      "path": "source_assets/official_media/2020_Lexus_RX_350_0052.jpg",
+      "bytes": 25885088,
+      "sha256": "400a8985e1e5d3d6bc18de8de7b6998ef8029ddb45dfe1d1cc0d340707ad0c8f",
+      "availability": "local"
+    },
+    {
+      "path": "source_assets/official_media/2020_Lexus_RX_Reveal.jpg",
+      "bytes": 2849494,
+      "sha256": "0c69642700fdde6beb9540ef1f58d31c78fa065b6b192f6c2872aee225ca6ac4",
+      "availability": "local"
+    },
+    {
+      "path": "source_assets/technical_documents/2020_Lexus_RX_350_Specifications.pdf",
+      "bytes": 78928,
+      "sha256": "6092356b6b29c11980fe231d1d8d96f7b015ee7d91349b74f05b08d52a7c2a0b",
+      "availability": "local"
+    },
+    {
+      "path": "source_assets/technical_documents/2020_Lexus_RX_Brochure.pdf",
+      "bytes": 7306269,
+      "sha256": "ad24d1c2a1e4ede561f43d7dabb393594bbcfbffdf65fd7229cd24d2cdcae5c2",
+      "availability": "local"
+    }
+  ],
+  "external_only_source_urls": [
+    "https://assets.sia.toyota.com/publications/en/om-s/OM48566U/pdf/OM48566U.pdf",
+    "https://assets.sia.toyota.com/publications/en/om-s/OM48845U/pdf/OM48845U.pdf",
+    "https://cars.usnews.com/cars-trucks/lexus/rx-350/2020/interior",
+    "https://cars.usnews.com/cars-trucks/lexus/rx-350/2020/photos-interior",
+    "https://cdn.dealereprocess.org/cdn/brochures/lexus/2020-rx350.pdf",
+    "https://cdn.dealereprocess.org/cdn/servicemanuals/lexus/2020-rx350.pdf",
+    "https://lexus.oempartsonline.com/v-2020-lexus-rx350--base--3-5l-v6-gas/body--center-console",
+    "https://lexus.oempartsonline.com/v-2020-lexus-rx350--base--3-5l-v6-gas/body--center-pillar-and-rocker",
+    "https://lexus.oempartsonline.com/v-2020-lexus-rx350--base--3-5l-v6-gas/body--dashboard",
+    "https://lexus.oempartsonline.com/v-2020-lexus-rx350--base--3-5l-v6-gas/body--driver-seat-components",
+    "https://lexus.oempartsonline.com/v-2020-lexus-rx350--base--3-5l-v6-gas/body--floor",
+    "https://lexus.oempartsonline.com/v-2020-lexus-rx350--base--3-5l-v6-gas/body--floor-and-rails",
+    "https://lexus.oempartsonline.com/v-2020-lexus-rx350--base--3-5l-v6-gas/body--interior-trim-front-door",
+    "https://lexus.oempartsonline.com/v-2020-lexus-rx350--base--3-5l-v6-gas/body--rear-seat-components",
+    "https://lexus.oempartsonline.com/v-2020-lexus-rx350--base--3-5l-v6-gas/interior--floor-mats",
+    "https://lexusofnaperville.com/2020-lexus-rx-350-interior",
+    "https://parts.keyeslexus.com/p/Lexus_2020_RX-350/Carpet-Floor-Mats---Black--AWD/69522218/PT2082415122.html",
+    "https://parts.lexus.com/p/Lexus_2020_RX-350/Door-Interior-Trim-Panel-Left--Rear/73247348/6764006P30C8.html",
+    "https://parts.lexusstevenscreek.com/v-2020-lexus-rx350--f-sport--3-5l-v6-gas/body--door-and-components",
+    "https://pressroom.lexus.com/vehicle/2020-lexus-rx/",
+    "https://support.lexus.com/s/article/Whom-can-I-contact-to-8352",
+    "https://techinfo.toyota.com/",
+    "https://toyotacanada.scene7.com/is/content/toyotacanada/2020_RX_and_RX_hpdf?bfc=off&$?cdh=attachment",
+    "https://www.carpro.com/vehicle-reviews/2020-lexus-rx-350-f-sport-awd-review",
+    "https://www.carpro.com/vehicle-reviews/tech-updates-highlight-2020-lexus-rx-350-f-sport-awd",
+    "https://www.cars.com/articles/2020-lexus-rx-6-things-we-like-and-3-not-so-much-416311/",
+    "https://www.cars.com/articles/2020-lexus-rx-review-just-what-the-doctor-ordered-412443/",
+    "https://www.cars.com/research/lexus-rx_350-2020/",
+    "https://www.carsdirect.com/lexus/rx/2020/pictures/interior",
+    "https://www.clublexus.com/forums/rx-4th-gen-2016-2022/931047-2020-rx-birch-interior-anyone-2.html",
+    "https://www.clublexus.com/forums/rx-4th-gen-2016-2022/973396-how-to-remove-center-console-side-trim-cover.html",
+    "https://www.edmunds.com/lexus/rx-350/2020/features-specs/",
+    "https://www.edmunds.com/lexus/rx-350/2020/pictures/",
+    "https://www.lexusofcherryhill.com/2020-lexus-rx-350-interior/",
+    "https://www.lexusofclearwater.com/2020-lexus-rx-350-interior/",
+    "https://www.lexusofhighlandpark.com/cc-2020-lexus-rx-350-key-features-near-deerfield-il/",
+    "https://www.lexusstevenscreek.com/blog/review-2020-lexus-rx-350",
+    "https://www.thecarconnection.com/overview/lexus_rx_2020",
+    "https://www.thecarconnection.com/photos/lexus_rx_2020",
+    "https://www.thecarconnection.com/specifications/lexus_rx_2020",
+    "https://www.youtube.com/watch?v=2DBtRdtrZUA",
+    "https://www.youtube.com/watch?v=6m7g_pQmNjw",
+    "https://www.youtube.com/watch?v=KwbWD2aFUTk",
+    "https://www.youtube.com/watch?v=MVTKCr4xxiE",
+    "https://www.youtube.com/watch?v=RavhpfXeB4g",
+    "https://www.youtube.com/watch?v=W81OU2mRWH0",
+    "https://www.youtube.com/watch?v=ZqXCS-3jN0w",
+    "https://www.youtube.com/watch?v=__xQqeT_WWI",
+    "https://www.youtube.com/watch?v=e3wSjglLJcA",
+    "https://www.youtube.com/watch?v=mngbZXRbgo4",
+    "https://www.youtube.com/watch?v=qDTMbZOpji8",
+    "https://www.youtube.com/watch?v=uQjFBNUlJJU",
+    "https://www.youtube.com/watch?v=z14iTgG5Tyk"
+  ],
+  "failed_or_uninspectable_notes": [
+    "Several gallery pages exposed labels but not image pixels through text extraction.",
+    "Some YouTube pages were unavailable or transcript/metadata-only; no frame review is claimed.",
+    "TIS/service information is controlled/subscription-based and was not bypassed."
+  ]
+}

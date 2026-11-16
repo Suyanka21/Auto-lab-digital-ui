@@ -6,8 +6,8 @@
   },
   {
     "path": "00_README/COLLECTION_OVERVIEW.md",
-    "bytes": 2808,
-    "sha256": "85b1302104aed3366b85a7d73e4991ade6d7d1b47c46a00678998ea3502f5da5"
+    "bytes": 3607,
+    "sha256": "67740a16b1e142b367ee5dea8a7df16b6c7c3e3fa594ee08eab4102c7d6fe46b"
   },
   {
     "path": "00_README/SOURCE_AND_RIGHTS_REGISTER.csv",
@@ -20,19 +20,9 @@
     "sha256": "fdc66d6f3a2ed46e962092778e517bd4b1d4cdc03300ef11d4ee78639d29b759"
   },
   {
-    "path": "01_VEHICLE_INTERIOR/Centre_Console/2020_Lexus_RX_350_0051.jpg",
-    "bytes": 18423343,
-    "sha256": "d587bf3965bc759bf4f0eee7d0a5d9904517917d1a039e690bf8abecb1a0f9cc"
-  },
-  {
     "path": "01_VEHICLE_INTERIOR/Centre_Console/search_01_2020_RX_console.jpg",
     "bytes": 85095,
     "sha256": "4cc4933ee94471c1f5e48a153d3ce7e1521f25d7f52bb8348a3fda656efb1abe"
-  },
-  {
-    "path": "01_VEHICLE_INTERIOR/Cockpit/2020_Lexus_RX_350_0049.jpg",
-    "bytes": 19390976,
-    "sha256": "0fa21600ecba40a71e2264410bd132f316f4cb94d28007d003026fbf2356142c"
   },
   {
     "path": "01_VEHICLE_INTERIOR/Cockpit/2020_Lexus_RX_Reveal.jpg",
@@ -43,11 +33,6 @@
     "path": "01_VEHICLE_INTERIOR/Door_Panels/search_03_rx_door_panel.webp",
     "bytes": 86302,
     "sha256": "d0302e9286d8b42dd41c7f0acdb057b49954f7ef34fb978a4eba4a1bff557e93"
-  },
-  {
-    "path": "01_VEHICLE_INTERIOR/Front_Seats/2020_Lexus_RX_350_0052.jpg",
-    "bytes": 25885088,
-    "sha256": "400a8985e1e5d3d6bc18de8de7b6998ef8029ddb45dfe1d1cc0d340707ad0c8f"
   },
   {
     "path": "01_VEHICLE_INTERIOR/Front_Seats/search_04_2020_RX_red_interior.jpg",
@@ -136,7 +121,22 @@
   },
   {
     "path": "05_RESEARCH_NOTES/VISUAL_REFERENCE_INDEX.md",
-    "bytes": 2355,
-    "sha256": "e245e0f8c1dd0dd25d6d83e865205935497d7b590038c186df999283ca5ec1ca"
+    "bytes": 2653,
+    "sha256": "ce3c0bd3751bef5207f7fdf4ea49b5b8b8846076b7224f659e5787186cb9fc65"
+  },
+  {
+    "path": "06_VEHICLE_EXTERIOR/2020_Lexus_RX_350_0049.jpg",
+    "bytes": 19390976,
+    "sha256": "0fa21600ecba40a71e2264410bd132f316f4cb94d28007d003026fbf2356142c"
+  },
+  {
+    "path": "06_VEHICLE_EXTERIOR/2020_Lexus_RX_350_0051.jpg",
+    "bytes": 18423343,
+    "sha256": "d587bf3965bc759bf4f0eee7d0a5d9904517917d1a039e690bf8abecb1a0f9cc"
+  },
+  {
+    "path": "06_VEHICLE_EXTERIOR/2020_Lexus_RX_350_0052.jpg",
+    "bytes": 25885088,
+    "sha256": "400a8985e1e5d3d6bc18de8de7b6998ef8029ddb45dfe1d1cc0d340707ad0c8f"
   }
 ]

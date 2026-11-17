@@ -34,8 +34,8 @@
     },
     {
       "path": "SOURCE_AND_RIGHTS_REGISTER.csv",
-      "bytes": 81064,
-      "sha256": "708340aebc0c26efdea241f1700862db4d46596a9636946eb4c422b6de152950",
+      "bytes": 82031,
+      "sha256": "16697b390aba7903ceaaa359235e4bdd11a72d87f499753574fe6e7861ced100",
       "availability": "local"
     },
     {
@@ -76,8 +76,8 @@
     },
     {
       "path": "agent_memos/04-centre-console.md",
-      "bytes": 19476,
-      "sha256": "fea82058428d26353be55a897916b3c1d01ebbb3bf875b3c655ff6f42571a911",
+      "bytes": 20209,
+      "sha256": "8b9ed36eab55fbe175c5ce2af34c455e2d33630b388d13f90b8adcb037e56a7a",
       "availability": "local"
     },
     {

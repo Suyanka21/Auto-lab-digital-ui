@@ -26,7 +26,7 @@ The heights and widths are coordinates of the existing model, not vehicle measur
 - Draw calls: 24 (limit 24). No new primitive or material.
 - File size: classic 3,651,324 B, diamond 3,787,788 B, perforated 3,510,324 B (each 560 B larger than production; limit 5 MB).
 - Material names and bindings, textures (KTX2), Draco settings: unchanged.
-- UVs, indices and vertex colours of the edited primitives are identical, so the roughness-alpha thread mask still lines up. `tests/driver-seat-experiment.test.ts` checks this by hash for all three treatments.
+- UVs, indices and vertex colours of the edited primitives are identical, so the roughness-alpha thread mask still lines up. `tests/driver-seat-experiment.test.ts` checks this by hash before the file is written, and per triangle in the written (Draco re-encoded) file, for all three treatments.
 - `scripts/compare-glb.mjs` reports geometry differences only in `GEO_Seat_Front_Driver#0`, `GEO_Seat_Front_Driver#1` and `GEO_Seat_Stitching_Front#0`, and no transform, material or texture difference (`docs/evidence/3d-1/compare-*.json`). Its `uvNotEquivalent` list names the same three because that check hashes UVs together with positions.
 - `scripts/validate-glb.mjs` passes on all three candidates (`docs/evidence/3d-1/gate-*.json`).
 - Production GLB SHA-256 values are unchanged; `tests/front-cabin-gate.test.ts` still pins them.

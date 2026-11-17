@@ -102,6 +102,14 @@ export async function createIO() {
     'draco3d.decoder': await draco.createDecoderModule(), 'draco3d.encoder': await draco.createEncoderModule() });
 }
 
+/** Production GLB bytes in, candidate GLB bytes out: the exact path used for the candidate files. */
+export async function buildCandidateBytes(io, sourceBytes) {
+  const doc = await io.readBinary(sourceBytes);
+  const stats = applyDriverSeatExperiment(doc);
+  doc.getRoot().listExtensionsUsed().find((e) => e.extensionName === 'KHR_draco_mesh_compression').setEncoderOptions(DRACO);
+  return { bytes: await io.writeBinary(doc), stats };
+}
+
 async function main() {
   const out = resolve('reports/3d-1/candidates');
   await mkdir(out, { recursive: true });
@@ -109,10 +117,7 @@ async function main() {
   for (const kind of KINDS) {
     const source = `public/assets/3d/lexus-rx350/interior-l4-${kind}.glb`;
     const sourceBytes = await readFile(source);
-    const doc = await io.readBinary(sourceBytes);
-    const stats = applyDriverSeatExperiment(doc);
-    doc.getRoot().listExtensionsUsed().find((e) => e.extensionName === 'KHR_draco_mesh_compression').setEncoderOptions(DRACO);
-    const bytes = await io.writeBinary(doc), target = resolve(out, `interior-l4-${kind}.glb`);
+    const { bytes, stats } = await buildCandidateBytes(io, sourceBytes), target = resolve(out, `interior-l4-${kind}.glb`);
     await writeFile(target, bytes);
     records.push({ kind, source, sourceSha256: createHash('sha256').update(sourceBytes).digest('hex'), sourceBytes: sourceBytes.length,
       candidate: `reports/3d-1/candidates/interior-l4-${kind}.glb`, candidateSha256: createHash('sha256').update(bytes).digest('hex'), candidateBytes: bytes.length, stats });

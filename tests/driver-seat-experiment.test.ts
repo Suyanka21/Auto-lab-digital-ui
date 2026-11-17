@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import type { Document, Primitive } from "@gltf-transform/core";
 import { createHash } from "node:crypto";
 import { readFileSync } from "node:fs";
-import { applyDriverSeatExperiment, createIO, EDITED_NODES, KINDS } from "../scripts/experiments/3d-1-driver-seat/build-candidates.mjs";
+import { applyDriverSeatExperiment, buildCandidateBytes, createIO, EDITED_NODES, KINDS } from "../scripts/experiments/3d-1-driver-seat/build-candidates.mjs";
 import { deformBackrest, SEAT_CENTRE_X } from "../scripts/experiments/3d-1-driver-seat/seat-profile.mjs";
 
 const assetPath = (kind: string) => `public/assets/3d/lexus-rx350/interior-l4-${kind}.glb`;
@@ -70,4 +70,36 @@ describe("3D-1 driver-seat candidate build", () => {
       });
     }
   }, 60000);
+
+  // Draco renumbers vertices, so the written file is checked per triangle, not per vertex.
+  // UVs are compared as whole steps of a 14-bit grid, the precision they are stored at.
+  const uvTriangles = (primitive: Primitive, min: number[], step: number[]) => {
+    const uv = primitive.getAttribute("TEXCOORD_0")!, index = primitive.getIndices()!.getArray()!, keys: string[] = [];
+    const corner = (i: number) => { const [u, v] = uv.getElement(i, [0, 0]); return `${Math.round((u - min[0]) / step[0])}:${Math.round((v - min[1]) / step[1])}`; };
+    for (let i = 0; i < index.length; i += 3) {
+      const c = [corner(index[i]), corner(index[i + 1]), corner(index[i + 2])];
+      // Draco may rotate a triangle's corners; take the smallest rotation so equal corners cannot change the key.
+      keys.push([0, 1, 2].map(r => [c[r], c[(r + 1) % 3], c[(r + 2) % 3]].join("|")).sort()[0]);
+    }
+    return keys.sort();
+  };
+
+  it.each(KINDS)("keeps every triangle's UVs in the written %s candidate file", async kind => {
+    const io = await createIO(), bytes = readFileSync(assetPath(kind));
+    const production = await io.readBinary(bytes);
+    const written = await io.readBinary((await buildCandidateBytes(io, bytes)).bytes);
+    const meshes = (doc: Document) => doc.getRoot().listNodes().filter(n => n.getMesh());
+    expect(meshes(written).map(n => n.getName())).toEqual(meshes(production).map(n => n.getName()));
+    meshes(production).forEach((node, n) => {
+      const candidates = meshes(written)[n].getMesh()!.listPrimitives();
+      node.getMesh()!.listPrimitives().forEach((primitive, i) => {
+        expect(candidates[i].getMaterial()!.getName()).toBe(primitive.getMaterial()!.getName());
+        expect(candidates[i].getIndices()!.getCount()).toBe(primitive.getIndices()!.getCount());
+        if (!EDITED_NODES.includes(node.getName())) return;
+        const uv = primitive.getAttribute("TEXCOORD_0")!, min = uv.getMin([0, 0]), max = uv.getMax([0, 0]);
+        const size = Math.max(max[0] - min[0], max[1] - min[1]) / 16383, step = [size, size];
+        expect(uvTriangles(candidates[i], min, step)).toEqual(uvTriangles(primitive, min, step));
+      });
+    });
+  }, 120000);
 });

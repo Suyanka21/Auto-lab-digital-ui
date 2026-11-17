@@ -1,0 +1,31 @@
+{
+  "byteIdentical": false,
+  "baseline": {
+    "sha256": "4c217dd00d86d8bae3925d735beddb63b225d24c5f1bafd60726f501bfcba8ad",
+    "bytes": 3787228
+  },
+  "candidate": {
+    "sha256": "5d230de58d2c195dafb1c239749b0e179dc3e43cc1baa741142b98df25b659d9",
+    "bytes": 3787788
+  },
+  "nodesEqual": true,
+  "extensionsEqual": true,
+  "primitiveCount": [
+    24,
+    24
+  ],
+  "primitiveDiffs": 24,
+  "geometryNotEquivalent": [
+    "GEO_Seat_Front_Driver#0",
+    "GEO_Seat_Front_Driver#1",
+    "GEO_Seat_Stitching_Front#0"
+  ],
+  "uvNotEquivalent": [
+    "GEO_Seat_Front_Driver#0",
+    "GEO_Seat_Front_Driver#1",
+    "GEO_Seat_Stitching_Front#0"
+  ],
+  "transformDiffs": [],
+  "materialDiffs": [],
+  "textureDiffs": []
+}

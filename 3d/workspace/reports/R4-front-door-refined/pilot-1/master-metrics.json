@@ -1,0 +1,509 @@
+{
+  "checkpoint": "R4-front-door-refined",
+  "sourceMasterSha256": "22e916bd897c6a5164ef19c6f0cac50ed631534346d58067ae2fd60b47b2285f",
+  "runtimeExport": false,
+  "originalBaseGeometryRetained": [
+    "Structural_carrier",
+    "Leading_side_sculpted_molding",
+    "Upper_padded_roll",
+    "Upper_roll_lower_welt",
+    "Integrated_fascia_base",
+    "Walnut_decorative_insert",
+    "Thin_decorative_reveal",
+    "Memory_control_recess",
+    "Memory_button_1",
+    "Memory_button_2",
+    "Memory_button_3",
+    "Insert_top_rolled_seam",
+    "Switch_deck",
+    "Driver_switch_tray",
+    "Window_switch_1",
+    "Window_switch_mark_1",
+    "Window_switch_2",
+    "Window_switch_mark_2",
+    "Window_switch_3",
+    "Window_switch_mark_3",
+    "Window_switch_4",
+    "Window_switch_mark_4",
+    "Speaker_satin_ring",
+    "Speaker_seal",
+    "Acoustic_backing",
+    "Speaker_perforated_screen",
+    "Courtesy_lamp_recess",
+    "Courtesy_lamp_lens"
+  ],
+  "replacedComponents": [
+    "Continuous_grip_and_armrest_upholstery",
+    "Supported_under_grip_return",
+    "Armrest_rear_support",
+    "Armrest_upper_double_stitch_A",
+    "Armrest_upper_double_stitch_B",
+    "Armrest_front_join",
+    "Insert_double_stitch_A",
+    "Insert_double_stitch_B",
+    "Pocket_interior_back",
+    "Pocket_front_moulded_wall",
+    "Pocket_open_mouth_lip",
+    "Pocket_inner_floor_and_front_return",
+    "Pocket_Leading_end_wall",
+    "Pocket_Trailing_end_wall",
+    "Integrated_speaker_shoulder",
+    "Release_housing_satin_bezel",
+    "Release_recess_walls_and_back",
+    "Sculpted_release_lever",
+    "Window_weatherseal"
+  ],
+  "objects": [
+    {
+      "name": "Structural_carrier",
+      "sourceVertices": 192,
+      "evaluatedTriangles": 1788,
+      "material": "R4_MASTER_Textured_Structural_Plastic",
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Leading_side_sculpted_molding",
+      "sourceVertices": 1368,
+      "evaluatedTriangles": 21160,
+      "material": "R4_MASTER_Textured_Structural_Plastic",
+      "modifiers": [
+        "SUBSURF",
+        "SOLIDIFY"
+      ]
+    },
+    {
+      "name": "Upper_padded_roll",
+      "sourceVertices": 2016,
+      "evaluatedTriangles": 134512,
+      "material": "R4_MASTER_Black_Padded_Leather",
+      "modifiers": [
+        "SUBSURF",
+        "SOLIDIFY",
+        "BEVEL"
+      ]
+    },
+    {
+      "name": "Upper_roll_lower_welt",
+      "sourceVertices": 800,
+      "evaluatedTriangles": 6368,
+      "material": "R4_MASTER_Black_Padded_Leather",
+      "modifiers": [
+        "SUBSURF"
+      ]
+    },
+    {
+      "name": "Integrated_fascia_base",
+      "sourceVertices": 1200,
+      "evaluatedTriangles": 18440,
+      "material": "R4_MASTER_Black_Padded_Leather",
+      "modifiers": [
+        "SUBSURF",
+        "SOLIDIFY"
+      ]
+    },
+    {
+      "name": "Walnut_decorative_insert",
+      "sourceVertices": 1320,
+      "evaluatedTriangles": 79568,
+      "material": "R4_MASTER_Walnut_Trim",
+      "modifiers": [
+        "SUBSURF",
+        "SOLIDIFY"
+      ]
+    },
+    {
+      "name": "Thin_decorative_reveal",
+      "sourceVertices": 1400,
+      "evaluatedTriangles": 11160,
+      "material": "R4_MASTER_Satin_Aluminium",
+      "modifiers": [
+        "SUBSURF"
+      ]
+    },
+    {
+      "name": "Memory_control_recess",
+      "sourceVertices": 192,
+      "evaluatedTriangles": 1532,
+      "material": "R4_MASTER_Soft_Black_Recess",
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Memory_button_1",
+      "sourceVertices": 192,
+      "evaluatedTriangles": 1532,
+      "material": "R4_MASTER_Textured_Structural_Plastic",
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Memory_button_2",
+      "sourceVertices": 192,
+      "evaluatedTriangles": 1532,
+      "material": "R4_MASTER_Textured_Structural_Plastic",
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Memory_button_3",
+      "sourceVertices": 192,
+      "evaluatedTriangles": 1532,
+      "material": "R4_MASTER_Textured_Structural_Plastic",
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Sculpted_upholstery_insert",
+      "sourceVertices": 2800,
+      "evaluatedTriangles": 172656,
+      "material": "R4_MASTER_Cognac_Padded_Leather",
+      "modifiers": [
+        "SUBSURF",
+        "SOLIDIFY"
+      ]
+    },
+    {
+      "name": "Insert_top_rolled_seam",
+      "sourceVertices": 1800,
+      "evaluatedTriangles": 14360,
+      "material": "R4_MASTER_Cognac_Padded_Leather",
+      "modifiers": [
+        "SUBSURF"
+      ]
+    },
+    {
+      "name": "Switch_deck",
+      "sourceVertices": 528,
+      "evaluatedTriangles": 7976,
+      "material": "R4_MASTER_Cognac_Padded_Leather",
+      "modifiers": [
+        "SUBSURF",
+        "SOLIDIFY"
+      ]
+    },
+    {
+      "name": "Driver_switch_tray",
+      "sourceVertices": 192,
+      "evaluatedTriangles": 1532,
+      "material": "R4_MASTER_Soft_Black_Recess",
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Window_switch_1",
+      "sourceVertices": 192,
+      "evaluatedTriangles": 1532,
+      "material": "R4_MASTER_Textured_Structural_Plastic",
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Window_switch_mark_1",
+      "sourceVertices": 16,
+      "evaluatedTriangles": 112,
+      "material": "R4_MASTER_Satin_Aluminium",
+      "modifiers": [
+        "SUBSURF"
+      ]
+    },
+    {
+      "name": "Window_switch_2",
+      "sourceVertices": 192,
+      "evaluatedTriangles": 1532,
+      "material": "R4_MASTER_Textured_Structural_Plastic",
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Window_switch_mark_2",
+      "sourceVertices": 16,
+      "evaluatedTriangles": 112,
+      "material": "R4_MASTER_Satin_Aluminium",
+      "modifiers": [
+        "SUBSURF"
+      ]
+    },
+    {
+      "name": "Window_switch_3",
+      "sourceVertices": 192,
+      "evaluatedTriangles": 1532,
+      "material": "R4_MASTER_Textured_Structural_Plastic",
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Window_switch_mark_3",
+      "sourceVertices": 16,
+      "evaluatedTriangles": 112,
+      "material": "R4_MASTER_Satin_Aluminium",
+      "modifiers": [
+        "SUBSURF"
+      ]
+    },
+    {
+      "name": "Window_switch_4",
+      "sourceVertices": 192,
+      "evaluatedTriangles": 1532,
+      "material": "R4_MASTER_Textured_Structural_Plastic",
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Window_switch_mark_4",
+      "sourceVertices": 16,
+      "evaluatedTriangles": 112,
+      "material": "R4_MASTER_Satin_Aluminium",
+      "modifiers": [
+        "SUBSURF"
+      ]
+    },
+    {
+      "name": "Speaker_satin_ring",
+      "sourceVertices": 3072,
+      "evaluatedTriangles": 24528,
+      "material": "R4_MASTER_Satin_Aluminium",
+      "modifiers": [
+        "SUBSURF"
+      ]
+    },
+    {
+      "name": "Speaker_seal",
+      "sourceVertices": 3072,
+      "evaluatedTriangles": 24528,
+      "material": "R4_MASTER_Soft_Black_Recess",
+      "modifiers": [
+        "SUBSURF"
+      ]
+    },
+    {
+      "name": "Acoustic_backing",
+      "sourceVertices": 1537,
+      "evaluatedTriangles": 2944,
+      "material": "R4_MASTER_Soft_Black_Recess",
+      "modifiers": []
+    },
+    {
+      "name": "Speaker_perforated_screen",
+      "sourceVertices": 1537,
+      "evaluatedTriangles": 2944,
+      "material": "R4_MASTER_Perforated_Speaker_Metal",
+      "modifiers": []
+    },
+    {
+      "name": "Courtesy_lamp_recess",
+      "sourceVertices": 192,
+      "evaluatedTriangles": 1532,
+      "material": "R4_MASTER_Soft_Black_Recess",
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Courtesy_lamp_lens",
+      "sourceVertices": 192,
+      "evaluatedTriangles": 1532,
+      "material": "R4_MASTER_Courtesy_Diffuser",
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Continuous_grip_and_armrest_upholstery",
+      "sourceVertices": 3552,
+      "evaluatedTriangles": 28320,
+      "material": "R4_MASTER_Cognac_Padded_Leather",
+      "modifiers": [
+        "SUBSURF"
+      ]
+    },
+    {
+      "name": "Supported_under_grip_return",
+      "sourceVertices": 792,
+      "evaluatedTriangles": 12008,
+      "material": "R4_MASTER_Cognac_Padded_Leather",
+      "modifiers": [
+        "SUBSURF",
+        "SOLIDIFY"
+      ]
+    },
+    {
+      "name": "Armrest_rear_support",
+      "sourceVertices": 522,
+      "evaluatedTriangles": 7816,
+      "material": "R4_MASTER_Cognac_Padded_Leather",
+      "modifiers": [
+        "SUBSURF",
+        "SOLIDIFY"
+      ]
+    },
+    {
+      "name": "Armrest_upper_double_stitch_A",
+      "sourceVertices": 2664,
+      "evaluatedTriangles": 2664,
+      "material": "R4_MASTER_Cognac_Thread",
+      "modifiers": []
+    },
+    {
+      "name": "Armrest_upper_double_stitch_B",
+      "sourceVertices": 2688,
+      "evaluatedTriangles": 2688,
+      "material": "R4_MASTER_Cognac_Thread",
+      "modifiers": []
+    },
+    {
+      "name": "Armrest_front_join",
+      "sourceVertices": 144,
+      "evaluatedTriangles": 1128,
+      "material": "R4_MASTER_Cognac_Thread",
+      "modifiers": [
+        "SUBSURF"
+      ]
+    },
+    {
+      "name": "Insert_double_stitch_A",
+      "sourceVertices": 3060,
+      "evaluatedTriangles": 3060,
+      "material": "R4_MASTER_Cognac_Thread",
+      "modifiers": []
+    },
+    {
+      "name": "Insert_double_stitch_B",
+      "sourceVertices": 3060,
+      "evaluatedTriangles": 3060,
+      "material": "R4_MASTER_Cognac_Thread",
+      "modifiers": []
+    },
+    {
+      "name": "Pocket_front_moulded_wall",
+      "sourceVertices": 2610,
+      "evaluatedTriangles": 40808,
+      "material": "R4_MASTER_Textured_Structural_Plastic",
+      "modifiers": [
+        "SUBSURF",
+        "SOLIDIFY"
+      ]
+    },
+    {
+      "name": "Integrated_speaker_shoulder",
+      "sourceVertices": 960,
+      "evaluatedTriangles": 6400,
+      "material": "R4_MASTER_Textured_Structural_Plastic",
+      "modifiers": [
+        "SUBSURF"
+      ]
+    },
+    {
+      "name": "Pocket_open_mouth_lip",
+      "sourceVertices": 1200,
+      "evaluatedTriangles": 9552,
+      "material": "R4_MASTER_Textured_Structural_Plastic",
+      "modifiers": [
+        "SUBSURF"
+      ]
+    },
+    {
+      "name": "Pocket_interior_back",
+      "sourceVertices": 780,
+      "evaluatedTriangles": 11896,
+      "material": "R4_MASTER_Soft_Black_Recess",
+      "modifiers": [
+        "SUBSURF",
+        "SOLIDIFY"
+      ]
+    },
+    {
+      "name": "Pocket_Trailing_end_wall",
+      "sourceVertices": 1122,
+      "evaluatedTriangles": 17288,
+      "material": "R4_MASTER_Textured_Structural_Plastic",
+      "modifiers": [
+        "SUBSURF",
+        "SOLIDIFY"
+      ]
+    },
+    {
+      "name": "Pocket_Leading_end_wall",
+      "sourceVertices": 72,
+      "evaluatedTriangles": 848,
+      "material": "R4_MASTER_Textured_Structural_Plastic",
+      "modifiers": [
+        "SUBSURF",
+        "SOLIDIFY"
+      ]
+    },
+    {
+      "name": "Pocket_inner_floor_and_front_return",
+      "sourceVertices": 120,
+      "evaluatedTriangles": 1424,
+      "material": "R4_MASTER_Soft_Black_Recess",
+      "modifiers": [
+        "SUBSURF",
+        "SOLIDIFY"
+      ]
+    },
+    {
+      "name": "Release_housing_satin_bezel",
+      "sourceVertices": 480,
+      "evaluatedTriangles": 6720,
+      "material": "R4_MASTER_Satin_Aluminium",
+      "modifiers": [
+        "SUBSURF",
+        "SOLIDIFY"
+      ]
+    },
+    {
+      "name": "Release_recess_walls_and_back",
+      "sourceVertices": 240,
+      "evaluatedTriangles": 1200,
+      "material": "R4_MASTER_Soft_Black_Recess",
+      "modifiers": [
+        "SUBSURF"
+      ]
+    },
+    {
+      "name": "Sculpted_release_lever",
+      "sourceVertices": 832,
+      "evaluatedTriangles": 12696,
+      "material": "R4_MASTER_Satin_Aluminium",
+      "modifiers": [
+        "SUBSURF",
+        "SOLIDIFY"
+      ]
+    },
+    {
+      "name": "Window_weatherseal",
+      "sourceVertices": 1200,
+      "evaluatedTriangles": 9552,
+      "material": "R4_MASTER_Soft_Black_Recess",
+      "modifiers": [
+        "SUBSURF"
+      ]
+    }
+  ],
+  "evaluatedTriangles": 719360,
+  "dimensionStatus": "AI design alignment and inferred depth; not manufacturer dimensions",
+  "cameraStatus": "Existing front/overview cameras and studio lighting retained; one new trim close-up"
+}

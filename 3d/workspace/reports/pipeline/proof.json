@@ -1,0 +1,74 @@
+{
+  "purpose": "Pipeline proof only; no cabin geometry added",
+  "before": [
+    {
+      "kind": "classic",
+      "sha256": "e5bdde016348df34889ec4c0ff0e406caad7e368504308bd5a4f5b725a55c056",
+      "unchanged": true
+    },
+    {
+      "kind": "diamond",
+      "sha256": "4c217dd00d86d8bae3925d735beddb63b225d24c5f1bafd60726f501bfcba8ad",
+      "unchanged": true
+    },
+    {
+      "kind": "perforated",
+      "sha256": "d53f55546232db473ecadee08be9bff6454b5d3a510ee30e88415f2477ca9f9e",
+      "unchanged": true
+    }
+  ],
+  "after": [
+    {
+      "kind": "classic",
+      "sha256": "e5bdde016348df34889ec4c0ff0e406caad7e368504308bd5a4f5b725a55c056",
+      "unchanged": true
+    },
+    {
+      "kind": "diamond",
+      "sha256": "4c217dd00d86d8bae3925d735beddb63b225d24c5f1bafd60726f501bfcba8ad",
+      "unchanged": true
+    },
+    {
+      "kind": "perforated",
+      "sha256": "d53f55546232db473ecadee08be9bff6454b5d3a510ee30e88415f2477ca9f9e",
+      "unchanged": true
+    }
+  ],
+  "negativeTests": [
+    "protected baseline output rejected",
+    "workspace escape rejected",
+    "malformed GLB rejected"
+  ],
+  "reports": [
+    {
+      "kind": "classic",
+      "baselinePassed": true,
+      "triangles": 66260,
+      "primitives": 24,
+      "bytes": 3650764,
+      "decodedRoundtripExact": true,
+      "decodedBytes": 7008700,
+      "warningCount": 18
+    },
+    {
+      "kind": "diamond",
+      "baselinePassed": true,
+      "triangles": 66260,
+      "primitives": 24,
+      "bytes": 3787228,
+      "decodedRoundtripExact": true,
+      "decodedBytes": 7145164,
+      "warningCount": 18
+    },
+    {
+      "kind": "perforated",
+      "baselinePassed": true,
+      "triangles": 66260,
+      "primitives": 24,
+      "bytes": 3509764,
+      "decodedRoundtripExact": true,
+      "decodedBytes": 6867700,
+      "warningCount": 18
+    }
+  ]
+}

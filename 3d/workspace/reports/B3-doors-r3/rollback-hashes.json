@@ -1,0 +1,30 @@
+[
+  {
+    "path": "exports\\B3-doors-r2\\classic.glb",
+    "sha256": "b60a638e593f7eae54aecf2a26cd2f775953346ac36438c5d9081f8eaf2f48d6"
+  },
+  {
+    "path": "exports\\B3-doors-r2\\diamond.glb",
+    "sha256": "c8ba07d2f49fe5e8a0c56997f6b758372a269599942814a9ea8ccf4808405e8a"
+  },
+  {
+    "path": "exports\\B3-doors-r2\\perforated.glb",
+    "sha256": "43601c71be6b5d59faa090b3ede356b0fffc3694b728652c066679dce1ef963f"
+  },
+  {
+    "path": "working_models\\B3-doors-r2.blend",
+    "sha256": "55627072c0a5b4662769fadeb8eb93f644cb74564ce5f2d21e2d17c7537713da"
+  },
+  {
+    "path": "build_pipeline\\isolated\\build_cabin_r2.py",
+    "sha256": "5286b31d73ebb1d1d738d7193ef28c22ef565a2954f6389e89eaebf1d0768d8e"
+  },
+  {
+    "path": "build_pipeline\\isolated\\doors_r2.py",
+    "sha256": "c71a07413b1d1d1ae08038803310a9b7c874bfd375e7386b0cfdf293cc9f7351"
+  },
+  {
+    "path": "reports\\B3-doors-r2\\REVIEW.md",
+    "sha256": "1a64f57e91bd257f6dae3ae92a0f68a02792e00f65f3bd7884aca7f329972d18"
+  }
+]

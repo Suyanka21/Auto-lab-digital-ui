@@ -1,0 +1,4 @@
+3d/workspace/**/*.blend filter=lfs diff=lfs merge=lfs -text
+3d/workspace/**/*.blend1 filter=lfs diff=lfs merge=lfs -text
+3d/workspace/**/*.glb filter=lfs diff=lfs merge=lfs -text
+3d/workspace/** -text

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "scope": "Offline review packaging only",
+  "imagesVerified": 7,
+  "localLinksChecked": 23,
+  "missingLinks": [],
+  "stateLines": 19,
+  "protectedFilesUnchanged": 177,
+  "masterStructuralCheck": true,
+  "browserTested": false,
+  "runtimeExported": false,
+  "humanVisualApproval": false
+}

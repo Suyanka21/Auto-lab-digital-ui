@@ -1,0 +1,32 @@
+[
+  {
+    "kind": "classic",
+    "triangles": 79004,
+    "primitives": 22,
+    "materials": 10,
+    "bytes": 4102316,
+    "khronosErrors": 0,
+    "khronosWarnings": 18,
+    "sha256": "5b55624a80562862f90af2412e23db565508e165c55ef81c9931ea200b433540"
+  },
+  {
+    "kind": "diamond",
+    "triangles": 79004,
+    "primitives": 22,
+    "materials": 10,
+    "bytes": 4238780,
+    "khronosErrors": 0,
+    "khronosWarnings": 18,
+    "sha256": "6f466b84172050c37d8450e94345fb51e4e825cc9c17a5c3005040838912fcf5"
+  },
+  {
+    "kind": "perforated",
+    "triangles": 79004,
+    "primitives": 22,
+    "materials": 10,
+    "bytes": 3961316,
+    "khronosErrors": 0,
+    "khronosWarnings": 18,
+    "sha256": "312b8179d3beaf908ae13789c80d80296bec62d01eca95c1f923c86a61c08aaf"
+  }
+]

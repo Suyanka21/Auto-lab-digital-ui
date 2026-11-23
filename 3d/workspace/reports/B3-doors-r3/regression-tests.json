@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "tests": [
+    "candidate contract PASS",
+    "old export reproduces four missing-tangent groups",
+    "missing tangent rejected",
+    "renamed material rejected",
+    "missing expansion mesh rejected",
+    "baseline overwrite and workspace escape rejected",
+    "over-budget primitive count rejected"
+  ],
+  "oldMissingTangents": [
+    "MAT_Dashboard_Trim",
+    "MAT_Seat_Secondary",
+    "MAT_Seat_Primary",
+    "MAT_Console_Carbon"
+  ],
+  "baselineHashes": [
+    {
+      "kind": "classic",
+      "sha256": "e5bdde016348df34889ec4c0ff0e406caad7e368504308bd5a4f5b725a55c056",
+      "unchanged": true
+    },
+    {
+      "kind": "diamond",
+      "sha256": "4c217dd00d86d8bae3925d735beddb63b225d24c5f1bafd60726f501bfcba8ad",
+      "unchanged": true
+    },
+    {
+      "kind": "perforated",
+      "sha256": "d53f55546232db473ecadee08be9bff6454b5d3a510ee30e88415f2477ca9f9e",
+      "unchanged": true
+    }
+  ]
+}

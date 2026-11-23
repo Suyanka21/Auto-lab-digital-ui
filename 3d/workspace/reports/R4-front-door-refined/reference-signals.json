@@ -1,0 +1,21 @@
+{
+  "silhouette_iou": 0.774,
+  "edge_overlap_iou": 0.155,
+  "luminance_hist_overlap": 0.781,
+  "mean_colour_delta_rgb": [
+    -0.007,
+    -0.0,
+    0.005
+  ],
+  "edge_density_render_vs_ref": 0.808,
+  "highlight_fraction_render": 0.0015,
+  "highlight_fraction_ref": 0.0057,
+  "notes": [
+    "silhouette_iou: 1.0 = identical outline. Low means proportions or camera are off.",
+    "edge_overlap_iou: where the strong edges fall using shared reference threshold. Low means panel lines or forms are in the wrong places.",
+    "luminance_hist_overlap: tonal range match. Low means flat or blown-out lighting.",
+    "mean_colour_delta_rgb: render minus reference; large values mean wrong colour or exposure.",
+    "edge_density_render_vs_ref: advisory ratio of edge pixels above shared reference threshold (<1 under-detailed, >1 noisy/over-bumped).",
+    "highlight_fraction near 0 on a render means no specular life (a classic CG tell)."
+  ]
+}

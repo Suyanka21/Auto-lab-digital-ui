@@ -1,0 +1,83 @@
+{
+  "views": [
+    "front-reference",
+    "three-quarter",
+    "handle-release-closeup",
+    "pocket-speaker-closeup",
+    "neutral-geometry",
+    "realistic-material",
+    "material-lab"
+  ],
+  "engine": "CYCLES",
+  "threads": 4,
+  "status": "Actual Blender renders; not runtime GLB evidence",
+  "cameraAlignment": "front image uses primary 1200:670 framing; unknown AI perspective remains approximate",
+  "perView": [
+    {
+      "view": "front-reference",
+      "resolution": [
+        1440,
+        804
+      ],
+      "samples": 64,
+      "file": "front-reference.png"
+    },
+    {
+      "view": "three-quarter",
+      "resolution": [
+        1440,
+        1000
+      ],
+      "samples": 64,
+      "file": "three-quarter.png"
+    },
+    {
+      "view": "handle-release-closeup",
+      "resolution": [
+        1440,
+        1000
+      ],
+      "samples": 96,
+      "file": "handle-release-closeup.png"
+    },
+    {
+      "view": "pocket-speaker-closeup",
+      "resolution": [
+        1440,
+        1000
+      ],
+      "samples": 96,
+      "file": "pocket-speaker-closeup.png"
+    },
+    {
+      "view": "neutral-geometry",
+      "resolution": [
+        1440,
+        1000
+      ],
+      "samples": 64,
+      "file": "neutral-geometry.png"
+    },
+    {
+      "view": "realistic-material",
+      "resolution": [
+        1440,
+        1000
+      ],
+      "samples": 64,
+      "file": "realistic-material.png"
+    },
+    {
+      "view": "material-lab",
+      "resolution": [
+        1440,
+        450
+      ],
+      "samples": 64,
+      "file": "material-lab.png"
+    }
+  ],
+  "device": "Cycles CPU; no GPU/runtime measurements",
+  "colourManagement": "AgX / Medium High Contrast / exposure 0",
+  "denoising": true
+}

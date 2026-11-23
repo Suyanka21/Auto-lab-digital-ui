@@ -1,0 +1,14 @@
+{
+  "views": [
+    "front-reference",
+    "three-quarter",
+    "pocket-speaker-closeup",
+    "release-trim-closeup",
+    "handle-release-closeup"
+  ],
+  "samples": 12,
+  "engine": "CYCLES",
+  "threads": 4,
+  "status": "Actual Blender renders; not runtime GLB evidence",
+  "cameraAlignment": "front image uses primary 1200:670 framing; unknown AI perspective remains approximate"
+}

@@ -1,0 +1,27 @@
+19:28:23 | INFO: Data are loaded, start creating Blender stuff
+19:28:23 | INFO: Blender create Mesh node GEO_Console_Armrest
+19:28:23 | INFO: Blender create Mesh node GEO_Console_Body
+19:28:23 | INFO: Blender create Mesh node GEO_Console_Cupholder_Front
+19:28:23 | INFO: Blender create Mesh node GEO_Console_Cupholder_Rear
+19:28:23 | INFO: Blender create Mesh node GEO_Console_Selector
+19:28:23 | INFO: Blender create Mesh node GEO_Dashboard_Lexus.001
+19:28:23 | INFO: Blender create Mesh node GEO_Seat_Front_Driver
+19:28:23 | INFO: Blender create Mesh node GEO_Seat_Front_Passenger.001
+19:28:23 | INFO: Blender create Mesh node GEO_Seat_Stitching_Front
+19:28:23 | INFO: Blender create Mesh node GEO_Seat_Stitching_Front_Passenger.001
+19:28:23 | INFO: Blender create Mesh node GEO_SteeringWheel_Lexus.001
+19:28:24 | INFO: glTF import finished in 0.82s
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\AUTOLAB_3D_WORKSPACE\build_pipeline\isolated\build_cabin_r2.py", line 73, in <module>
+    build_doors(globals())
+    ~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\user\Documents\AUTOLAB_3D_WORKSPACE\build_pipeline\isolated\doors_r2.py", line 37, in build_doors
+    panel(key+'shell',sign,z,length,outline,.823,.032,K,ref,.014)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Documents\AUTOLAB_3D_WORKSPACE\build_pipeline\isolated\doors_r2.py", line 15, in panel
+    ids=[lookup[tuple(v)] for v in t];faces += [tuple(ids),tuple(i+n for i in reversed(ids))]
+                ~~~~~^^^
+TypeError: 'int' object is not iterable
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

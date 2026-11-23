@@ -1,0 +1,7 @@
+00:03.781  blend            | Read blend: "C:\Users\user\Documents\AUTOLAB_3D_WORKSPACE\working_models\R4-front-door-refined.blend"
+00:19.343  render           | Saved: 'C:\Users\user\Documents\AUTOLAB_3D_WORKSPACE\reports\R4-front-door-refined\preview-material-lab.png'
+RENDER_COMPLETE material-lab
+00:47.703  render           | Saved: 'C:\Users\user\Documents\AUTOLAB_3D_WORKSPACE\reports\R4-front-door-refined\preview-front-reference.png'
+RENDER_COMPLETE front-reference
+01:31.828  render           | Saved: 'C:\Users\user\Documents\AUTOLAB_3D_WORKSPACE\reports\R4-front-door-refined\preview-handle-release-closeup.png'
+RENDER_COMPLETE handle-release-closeup

@@ -1,0 +1,68 @@
+[
+  {
+    "material": "MAT_Dashboard_Trim",
+    "semantics": [
+      "POSITION",
+      "NORMAL",
+      "TEXCOORD_0"
+    ],
+    "triangles": 616,
+    "needsTangents": true,
+    "hasTangents": false
+  },
+  {
+    "material": "MAT_Cockpit_Black",
+    "semantics": [
+      "POSITION",
+      "NORMAL",
+      "TEXCOORD_0"
+    ],
+    "triangles": 1448,
+    "needsTangents": false,
+    "hasTangents": false
+  },
+  {
+    "material": "MAT_Seat_Secondary",
+    "semantics": [
+      "POSITION",
+      "NORMAL",
+      "TEXCOORD_0"
+    ],
+    "triangles": 3088,
+    "needsTangents": true,
+    "hasTangents": false
+  },
+  {
+    "material": "MAT_Seat_Primary",
+    "semantics": [
+      "POSITION",
+      "NORMAL",
+      "TEXCOORD_0"
+    ],
+    "triangles": 1344,
+    "needsTangents": true,
+    "hasTangents": false
+  },
+  {
+    "material": "MAT_Console_Metal",
+    "semantics": [
+      "POSITION",
+      "NORMAL",
+      "TEXCOORD_0"
+    ],
+    "triangles": 616,
+    "needsTangents": false,
+    "hasTangents": false
+  },
+  {
+    "material": "MAT_Console_Carbon",
+    "semantics": [
+      "POSITION",
+      "NORMAL",
+      "TEXCOORD_0"
+    ],
+    "triangles": 176,
+    "needsTangents": true,
+    "hasTangents": false
+  }
+]

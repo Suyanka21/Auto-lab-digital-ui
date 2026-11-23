@@ -1,0 +1,980 @@
+{
+  "decodedTotal": 78028,
+  "decodedNodes": [
+    {
+      "node": "GEO_Dashboard_Lexus",
+      "triangles": 8288
+    },
+    {
+      "node": "GEO_Seat_Front_Driver",
+      "triangles": 17367
+    },
+    {
+      "node": "GEO_Seat_Front_Passenger",
+      "triangles": 17367
+    },
+    {
+      "node": "GEO_Seat_Stitching_Front",
+      "triangles": 6718
+    },
+    {
+      "node": "GEO_Seat_Stitching_Front_Passenger",
+      "triangles": 6718
+    },
+    {
+      "node": "GEO_SteeringWheel_Lexus",
+      "triangles": 4404
+    },
+    {
+      "node": "GEO_Console_Assembly",
+      "triangles": 5398
+    },
+    {
+      "node": "GEO_Cabin_Expansion",
+      "triangles": 11768
+    }
+  ],
+  "decodedMaterials": {
+    "MAT_Dashboard_Trim": 2558,
+    "MAT_Console_Carbon": 1624,
+    "MAT_Cockpit_Black": 9548,
+    "MAT_Cockpit_Accent": 2360,
+    "MAT_Seat_Primary": 8772,
+    "MAT_Seat_Secondary": 30318,
+    "MAT_Seat_Stitching": 13436,
+    "MAT_Steering_Leather": 3464,
+    "MAT_Console_Black": 3344,
+    "MAT_Console_Metal": 2604
+  },
+  "authoredGroupsBeforeEncoding": {
+    "Floor/supports": 572,
+    "Rear seating": 3800,
+    "Doors": 7640
+  },
+  "authoredComponentsBeforeEncoding": [
+    {
+      "name": "Floor_connected_shell",
+      "triangles": 44,
+      "material": "MAT_Dashboard_Trim",
+      "group": "Floor/supports"
+    },
+    {
+      "name": "Sill_-1",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Floor/supports"
+    },
+    {
+      "name": "Sill_1",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Floor/supports"
+    },
+    {
+      "name": "Centre_tunnel",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Floor/supports"
+    },
+    {
+      "name": "Front_carpet_-1",
+      "triangles": 44,
+      "material": "MAT_Dashboard_Trim",
+      "group": "Floor/supports"
+    },
+    {
+      "name": "Rear_carpet_-1",
+      "triangles": 44,
+      "material": "MAT_Dashboard_Trim",
+      "group": "Floor/supports"
+    },
+    {
+      "name": "Seat_rail",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Floor/supports"
+    },
+    {
+      "name": "Seat_rail.001",
+      "triangles": 44,
+      "material": null,
+      "group": "Floor/supports"
+    },
+    {
+      "name": "Front_carpet_1",
+      "triangles": 44,
+      "material": "MAT_Dashboard_Trim",
+      "group": "Floor/supports"
+    },
+    {
+      "name": "Rear_carpet_1",
+      "triangles": 44,
+      "material": "MAT_Dashboard_Trim",
+      "group": "Floor/supports"
+    },
+    {
+      "name": "Seat_rail.002",
+      "triangles": 44,
+      "material": null,
+      "group": "Floor/supports"
+    },
+    {
+      "name": "Seat_rail.003",
+      "triangles": 44,
+      "material": null,
+      "group": "Floor/supports"
+    },
+    {
+      "name": "Toe_board",
+      "triangles": 44,
+      "material": "MAT_Dashboard_Trim",
+      "group": "Floor/supports"
+    },
+    {
+      "name": "Rear_bench_plinth",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Rear seating"
+    },
+    {
+      "name": "Rear_cushion_0",
+      "triangles": 224,
+      "material": "MAT_Seat_Secondary",
+      "group": "Rear seating"
+    },
+    {
+      "name": "Rear_insert_0",
+      "triangles": 224,
+      "material": "MAT_Seat_Primary",
+      "group": "Rear seating"
+    },
+    {
+      "name": "Rear_backrest_0",
+      "triangles": 224,
+      "material": "MAT_Seat_Secondary",
+      "group": "Rear seating"
+    },
+    {
+      "name": "Rear_back_insert_0",
+      "triangles": 224,
+      "material": "MAT_Seat_Primary",
+      "group": "Rear seating"
+    },
+    {
+      "name": "Rear_headrest_post",
+      "triangles": 44,
+      "material": "MAT_Console_Metal",
+      "group": "Rear seating"
+    },
+    {
+      "name": "Rear_headrest_post.001",
+      "triangles": 44,
+      "material": null,
+      "group": "Rear seating"
+    },
+    {
+      "name": "Rear_headrest_0",
+      "triangles": 224,
+      "material": "MAT_Seat_Secondary",
+      "group": "Rear seating"
+    },
+    {
+      "name": "Rear_buckle_0",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Rear seating"
+    },
+    {
+      "name": "Rear_cushion_1",
+      "triangles": 224,
+      "material": "MAT_Seat_Secondary",
+      "group": "Rear seating"
+    },
+    {
+      "name": "Rear_insert_1",
+      "triangles": 224,
+      "material": "MAT_Seat_Primary",
+      "group": "Rear seating"
+    },
+    {
+      "name": "Rear_backrest_1",
+      "triangles": 224,
+      "material": "MAT_Seat_Secondary",
+      "group": "Rear seating"
+    },
+    {
+      "name": "Rear_back_insert_1",
+      "triangles": 224,
+      "material": "MAT_Seat_Primary",
+      "group": "Rear seating"
+    },
+    {
+      "name": "Rear_headrest_post.002",
+      "triangles": 44,
+      "material": null,
+      "group": "Rear seating"
+    },
+    {
+      "name": "Rear_headrest_post.003",
+      "triangles": 44,
+      "material": null,
+      "group": "Rear seating"
+    },
+    {
+      "name": "Rear_headrest_1",
+      "triangles": 224,
+      "material": "MAT_Seat_Secondary",
+      "group": "Rear seating"
+    },
+    {
+      "name": "Rear_buckle_1",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Rear seating"
+    },
+    {
+      "name": "Rear_cushion_2",
+      "triangles": 224,
+      "material": "MAT_Seat_Secondary",
+      "group": "Rear seating"
+    },
+    {
+      "name": "Rear_insert_2",
+      "triangles": 224,
+      "material": "MAT_Seat_Primary",
+      "group": "Rear seating"
+    },
+    {
+      "name": "Rear_backrest_2",
+      "triangles": 224,
+      "material": "MAT_Seat_Secondary",
+      "group": "Rear seating"
+    },
+    {
+      "name": "Rear_back_insert_2",
+      "triangles": 224,
+      "material": "MAT_Seat_Primary",
+      "group": "Rear seating"
+    },
+    {
+      "name": "Rear_headrest_post.004",
+      "triangles": 44,
+      "material": null,
+      "group": "Rear seating"
+    },
+    {
+      "name": "Rear_headrest_post.005",
+      "triangles": 44,
+      "material": null,
+      "group": "Rear seating"
+    },
+    {
+      "name": "Rear_headrest_2",
+      "triangles": 224,
+      "material": "MAT_Seat_Secondary",
+      "group": "Rear seating"
+    },
+    {
+      "name": "Rear_buckle_2",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Rear seating"
+    },
+    {
+      "name": "Front_door_-1_shell",
+      "triangles": 184,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_-1_padded_upper",
+      "triangles": 108,
+      "material": "MAT_Dashboard_Trim",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_-1_trim_frame",
+      "triangles": 108,
+      "material": "MAT_Console_Metal",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_-1_decorative_insert",
+      "triangles": 108,
+      "material": "MAT_Console_Carbon",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_-1_upholstered_middle",
+      "triangles": 120,
+      "material": "MAT_Seat_Secondary",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_-1_armrest",
+      "triangles": 44,
+      "material": "MAT_Seat_Secondary",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_-1_grab_handle",
+      "triangles": 108,
+      "material": "MAT_Seat_Secondary",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_-1_handle_recess",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_-1_release_handle",
+      "triangles": 44,
+      "material": "MAT_Console_Metal",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_-1_pocket_floor",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_-1_pocket_lip",
+      "triangles": 120,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_-1_pocket_end",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_-1_pocket_end.001",
+      "triangles": 44,
+      "material": null,
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_-1_speaker_rim",
+      "triangles": 76,
+      "material": "MAT_Console_Metal",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_-1_speaker_grille",
+      "triangles": 76,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_-1_speaker_rib_-5",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_-1_speaker_rib_-4",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_-1_speaker_rib_-3",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_-1_speaker_rib_-2",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_-1_speaker_rib_-1",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_-1_speaker_rib_0",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_-1_speaker_rib_1",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_-1_speaker_rib_2",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_-1_speaker_rib_3",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_-1_speaker_rib_4",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_-1_speaker_rib_5",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_-1_switch_pod",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_-1_window_switch_0",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_-1_shell",
+      "triangles": 212,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_-1_padded_upper",
+      "triangles": 108,
+      "material": "MAT_Dashboard_Trim",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_-1_trim_frame",
+      "triangles": 108,
+      "material": "MAT_Console_Metal",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_-1_decorative_insert",
+      "triangles": 108,
+      "material": "MAT_Console_Carbon",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_-1_upholstered_middle",
+      "triangles": 120,
+      "material": "MAT_Seat_Secondary",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_-1_armrest",
+      "triangles": 44,
+      "material": "MAT_Seat_Secondary",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_-1_grab_handle",
+      "triangles": 108,
+      "material": "MAT_Seat_Secondary",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_-1_handle_recess",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_-1_release_handle",
+      "triangles": 44,
+      "material": "MAT_Console_Metal",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_-1_pocket_floor",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_-1_pocket_lip",
+      "triangles": 120,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_-1_pocket_end",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_-1_pocket_end.001",
+      "triangles": 44,
+      "material": null,
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_-1_speaker_rim",
+      "triangles": 76,
+      "material": "MAT_Console_Metal",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_-1_speaker_grille",
+      "triangles": 76,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_-1_speaker_rib_-5",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_-1_speaker_rib_-4",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_-1_speaker_rib_-3",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_-1_speaker_rib_-2",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_-1_speaker_rib_-1",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_-1_speaker_rib_0",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_-1_speaker_rib_1",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_-1_speaker_rib_2",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_-1_speaker_rib_3",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_-1_speaker_rib_4",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_-1_speaker_rib_5",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_-1_switch_pod",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_-1_window_switch_0",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_shell",
+      "triangles": 184,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_padded_upper",
+      "triangles": 108,
+      "material": "MAT_Dashboard_Trim",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_trim_frame",
+      "triangles": 108,
+      "material": "MAT_Console_Metal",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_decorative_insert",
+      "triangles": 108,
+      "material": "MAT_Console_Carbon",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_upholstered_middle",
+      "triangles": 120,
+      "material": "MAT_Seat_Secondary",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_armrest",
+      "triangles": 44,
+      "material": "MAT_Seat_Secondary",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_grab_handle",
+      "triangles": 108,
+      "material": "MAT_Seat_Secondary",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_handle_recess",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_release_handle",
+      "triangles": 44,
+      "material": "MAT_Console_Metal",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_pocket_floor",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_pocket_lip",
+      "triangles": 120,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_pocket_end",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_pocket_end.001",
+      "triangles": 44,
+      "material": null,
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_speaker_rim",
+      "triangles": 76,
+      "material": "MAT_Console_Metal",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_speaker_grille",
+      "triangles": 76,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_speaker_rib_-5",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_speaker_rib_-4",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_speaker_rib_-3",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_speaker_rib_-2",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_speaker_rib_-1",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_speaker_rib_0",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_speaker_rib_1",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_speaker_rib_2",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_speaker_rib_3",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_speaker_rib_4",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_speaker_rib_5",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_switch_pod",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_window_switch_0",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_window_switch_1",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_window_switch_2",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_window_switch_3",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Front_door_1_mirror_control",
+      "triangles": 76,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_1_shell",
+      "triangles": 212,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_1_padded_upper",
+      "triangles": 108,
+      "material": "MAT_Dashboard_Trim",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_1_trim_frame",
+      "triangles": 108,
+      "material": "MAT_Console_Metal",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_1_decorative_insert",
+      "triangles": 108,
+      "material": "MAT_Console_Carbon",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_1_upholstered_middle",
+      "triangles": 120,
+      "material": "MAT_Seat_Secondary",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_1_armrest",
+      "triangles": 44,
+      "material": "MAT_Seat_Secondary",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_1_grab_handle",
+      "triangles": 108,
+      "material": "MAT_Seat_Secondary",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_1_handle_recess",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_1_release_handle",
+      "triangles": 44,
+      "material": "MAT_Console_Metal",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_1_pocket_floor",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_1_pocket_lip",
+      "triangles": 120,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_1_pocket_end",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_1_pocket_end.001",
+      "triangles": 44,
+      "material": null,
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_1_speaker_rim",
+      "triangles": 76,
+      "material": "MAT_Console_Metal",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_1_speaker_grille",
+      "triangles": 76,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_1_speaker_rib_-5",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_1_speaker_rib_-4",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_1_speaker_rib_-3",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_1_speaker_rib_-2",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_1_speaker_rib_-1",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_1_speaker_rib_0",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_1_speaker_rib_1",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_1_speaker_rib_2",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_1_speaker_rib_3",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_1_speaker_rib_4",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_1_speaker_rib_5",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_1_switch_pod",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    },
+    {
+      "name": "Rear_door_1_window_switch_0",
+      "triangles": 44,
+      "material": "MAT_Cockpit_Black",
+      "group": "Doors"
+    }
+  ]
+}

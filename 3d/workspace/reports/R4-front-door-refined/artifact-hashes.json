@@ -1,0 +1,177 @@
+[
+  {
+    "path": "working_models\\R4-front-door-refined.blend",
+    "bytes": 3777828,
+    "sha256": "15bb8cecfdc0fff9d011bb159792a2076d24bfa67318a4f9198f992b64ec85e2"
+  },
+  {
+    "path": "reports\\STATE.md",
+    "bytes": 1765,
+    "sha256": "d5160823f3e5dbbd2a1f673afbe8f8db967ecfadba73868c4e763799c4bfe77c"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\front-reference.png",
+    "bytes": 1202573,
+    "sha256": "f05291e7a7bd2037f1bc3dfcb7d974ff4335f3b88ac6e4b8a3d7d3168f7d864c"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\three-quarter.png",
+    "bytes": 1492772,
+    "sha256": "33eb600f9391ee3934e324eb65d276ea2e70e45ccdd5f59b2c30073a178c5188"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\handle-release-closeup.png",
+    "bytes": 1863143,
+    "sha256": "90aa2c4bdb8999a0dfac4dd3672a98ad39874df3531777596b6f0c5e9c3f480b"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\pocket-speaker-closeup.png",
+    "bytes": 1755922,
+    "sha256": "e3dfec8aa61e32591744018663b2d9eeb3d2c5b02c458f384536bdf7022538b5"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\release-trim-closeup.png",
+    "bytes": 1668435,
+    "sha256": "71d200617760798eacce9190e6fe4618479b7ea250598a346194a8fd039781f2"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\neutral-geometry.png",
+    "bytes": 1273591,
+    "sha256": "ec873a90d205488c1d1cd1844d205645dd98a793ddad35c689ff7905dd792951"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\realistic-material.png",
+    "bytes": 1462406,
+    "sha256": "38006cf7bfc7ac030d93a9de02db18d3aff1dc36c79e6c9fffd5d3f7b1d34271"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\material-lab.png",
+    "bytes": 832851,
+    "sha256": "dec195a45e7a415b30b269ea9ebfa1bbf5061f73af5c547f2561dd9c621ecf7a"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\before-after.jpg",
+    "bytes": 247572,
+    "sha256": "55cb7502e43391303c22067a49cebe4c3c80885cfc0fd47f9ddadbc567e6dd3f"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\detail-before-after.jpg",
+    "bytes": 454313,
+    "sha256": "160da59c0a4f539596c9bc4fd8cc87307e08ca2032d74cc8096294374cf98463"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\detail-reference-comparison.jpg",
+    "bytes": 325437,
+    "sha256": "d769a9077b2b21acf5ae939099250f5a56d9b56a4722fc82051bc5a5146e2ae1"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\inspection-contact-sheet.jpg",
+    "bytes": 573567,
+    "sha256": "db917dfd98ce4a2f3d692a4534a2789a4ae9b3436ddf881a9368dfb1521d0db5"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\reference-comparison.jpg",
+    "bytes": 298802,
+    "sha256": "f41e6b929198473d4e06ae12315aaa2f0ad0d9212b8934c0cdb9def0c6b7d103"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\COMPONENTS.md",
+    "bytes": 3787,
+    "sha256": "761a3ac53a1f2aa2d740503c080a071c7c118a268a434c5a38dbe30b7f85760e"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\INSPECTION.md",
+    "bytes": 5757,
+    "sha256": "46b370bb97d7d5c00c6f740a4894a4eadcaa35e633473c21bb777f93d98a403d"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\OWNER-REVIEW.md",
+    "bytes": 1287,
+    "sha256": "e14ba758bd2bee778579ffc7671af27bd23586e60cf175180e493f8a87b42749"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\REPRODUCE.md",
+    "bytes": 2730,
+    "sha256": "34557207f1b020783c65c85b7076ea097264966f85e82e4d74cecedd8a1a0844"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\REVIEW.md",
+    "bytes": 7148,
+    "sha256": "48201b1ba8a82cf8ef4555d6aff992f3e09488ebafa0c1d157d0b6ede3d01b76"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\STATE-before-refinement.md",
+    "bytes": 1809,
+    "sha256": "e714e5ba82cc9fe82748a3a4a8a19839e0727c61e0dfd71db39e1e1e718bb1d6"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\index.html",
+    "bytes": 4378,
+    "sha256": "caa787f56c953a71a23513485dd57d6d293b8a790508b02f3460c9dae977603b"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\master-validation.json",
+    "bytes": 19988,
+    "sha256": "2616380943895e7edca57691fc90d4843b45f444e9574059852386129d09d06e"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\master-metrics.json",
+    "bytes": 13104,
+    "sha256": "2ebb43a2c297fb2f086cc2c17fbfc32204027a78f5201e672b4f266390a145b3"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\reference-signals.json",
+    "bytes": 958,
+    "sha256": "5aff947237de2491542b4c733d71559645eaca9a1ad69d6618ba6c980fb2919d"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\final-render.log",
+    "bytes": 1351,
+    "sha256": "f4d7810befc671733caf63c7990ec38d3df2935830ec1b62356638c8bdedb857"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\material-lab-resume.log",
+    "bytes": 376,
+    "sha256": "0488a13d2551f5b18c12fa3e1a061cfa5b9a0b5114f6938079653d2575d9a9f9"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\master-validation.log",
+    "bytes": 1404,
+    "sha256": "ff19b8580115936e1c66cb0169edeb4d5f5120f26cb02d72e92559e368a1024d"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\render-manifest.json",
+    "bytes": 2234,
+    "sha256": "b42e5edf7e728d44e491cc62a0a5c5d99193d12decdc2967b3c029afd857aec1"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\preservation-check.json",
+    "bytes": 101694,
+    "sha256": "755f51aec17dd627f5dd868880eaf3cc9a8dd7548dc5c79c696ca4a06f9f1863"
+  },
+  {
+    "path": "reports\\R4-front-door-refined\\package-validation.json",
+    "bytes": 360,
+    "sha256": "d61af8c9a73b46a2906a7d7844f87a8baa7c73a2804d85a9a02c013a04a285f1"
+  },
+  {
+    "path": "build_pipeline\\isolated\\refine_front_door_r4.py",
+    "bytes": 16865,
+    "sha256": "9338977e7e7a9df4c5f06b53fa77ac827ec2f8f6facbba06700325209412d5e2"
+  },
+  {
+    "path": "build_pipeline\\isolated\\render_front_door_refined.py",
+    "bytes": 3125,
+    "sha256": "2f2263d8fffda8a9ce3eaf0abaef29e4a44c08de4e1e7a218df08f56b25fee8a"
+  },
+  {
+    "path": "build_pipeline\\isolated\\audit_front_door_refined.py",
+    "bytes": 3971,
+    "sha256": "0e6c36cddd86e952942ba8ce006c63605ca692862dbf489130820ffc5bbd709d"
+  },
+  {
+    "path": "build_pipeline\\isolated\\package_front_door_refined.py",
+    "bytes": 12533,
+    "sha256": "f4225dbafcef3cb2c44909a73f3451d9373a927faafedbef6e51f3f7337833ec"
+  }
+]

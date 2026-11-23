@@ -1,0 +1,4 @@
+# Explicitly include the curated immutable evidence tree despite root report/log ignores.
+!workspace/
+!workspace/**
+handover/verification/*.log

@@ -1,0 +1,18 @@
+# REFERENCE_COVERAGE_MATRIX
+
+| Cabin component | Usable visual evidence | Multiple angles | Exact-year evidence | Technical diagrams/catalogue | Reliable dimensions | Sufficient for accurate 3D reconstruction? | Remaining need |
+|---|---|---|---|---|---|---|---|
+| Front seats | Medium; official/edited galleries and dealer views, but not one VIN-confirmed close set | Some gallery angle families; individual pixels need inspection | Model-year yes; exact AWD/grade no | Seat-component catalogue and option branches | No | Broad silhouette/placement: yes. Exact upholstery geometry: no | Donor VIN/build, close seat macro, control geometry, measured references |
+| Rear seats | Medium; gallery labels, dealer/walkaround context | Some; rear bench/armrest context | Model-year/five-seat architecture yes | Owner manual and rear-seat catalogue | No | Layout/operation: mostly yes. Hidden/precise geometry: no | Exact donor photos, cargo-floor interface, dimensions |
+| Dashboard/cockpit | Medium-high at layout level; official media plus exact-year gallery indexes | Yes at category/index level; pixel inspection incomplete | Model-year yes; exact package varies | Dashboard catalogue, HUD/no-HUD branches | No | Major layout: yes. Trim-specific geometry: no | Direct image inspection, VIN package, glovebox/transition close-ups |
+| Centre console | Medium-high for component relationships | Some official/editorial views | Model-year yes; base AWD build not isolated | Console/shifter/courtesy-lamp catalogue | No | Categorical/positional: yes. Precise dimensions: no | Base-AWD close-up, selector/cupholder/armrest dimensions |
+| Door panels | Medium-low visually; medium technically through parts catalogues | Gallery indexes, not complete four-door set | 2020 component/part leads yes; exact build no | Strong variant catalogue and rear trim part | No | Assembly vocabulary: yes. Surface/geometry: no | Four-door donor photo set, speaker/audio package, panel diagrams |
+| Roof/headliner | Low-medium; roof option and upper-control references | Few | 2020 options yes; exact roof build no | Owner-manual references only | No | Broad roof option: partial. Exact headliner: no | VIN roof option, headliner removal/docs, CAD/measurements |
+| Floor/lower cabin | Medium technically, low visually | Few | 2020 mat/parts leads; generation-related procedure | Floor/rail/rocker/seat-track catalogues | No | Component naming/relationships: partial | Bare-cabin photos, rail/pedal/sill dimensions, service manual |
+| Steering/controls | Medium; official/editorial and F SPORT images | Category-level multiple views | 2020 model and F SPORT evidence | Manual/feature/parts paths | No | Control families: yes. Base wheel/cluster exactness: no | Non-F SPORT AWD close-ups, button legends, restraint geometry |
+| Materials/finish | Medium for offered material vocabulary; weak calibration | Generic and package views | 2020 package terminology yes | Brochure/dealer descriptions | No | Material role assignment: yes. Calibrated appearance: no | Physical swatches, controlled photography, rights-cleared samples |
+| Hidden construction | Low | Repair transcript and catalogue leads | Some 2020-specific, much is generation-related | TIS path identified but controlled | No | No | Legitimate TIS/service manual, owner-approved teardown/photogrammetry |
+
+## Overall decision
+
+Evidence is sufficient for a broad, labelled, five-seat 2020 RX 350 AWD scene architecture and for separating package-dependent materials and controls. It is not sufficient for an exact commercial reconstruction of every visible surface or hidden interface.

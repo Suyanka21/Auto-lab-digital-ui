@@ -1,0 +1,865 @@
+{
+  "stage": "B3-doors",
+  "newTriangles": 7288,
+  "components": [
+    {
+      "name": "Floor_connected_shell",
+      "material": "MAT_Dashboard_Trim",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Sill_-1",
+      "material": "MAT_Cockpit_Black",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Sill_1",
+      "material": "MAT_Cockpit_Black",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Centre_tunnel",
+      "material": "MAT_Cockpit_Black",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_carpet_-1",
+      "material": "MAT_Dashboard_Trim",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_carpet_-1",
+      "material": "MAT_Dashboard_Trim",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Seat_rail",
+      "material": "MAT_Cockpit_Black",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Seat_rail",
+      "material": "MAT_Cockpit_Black",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_carpet_1",
+      "material": "MAT_Dashboard_Trim",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_carpet_1",
+      "material": "MAT_Dashboard_Trim",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Seat_rail",
+      "material": "MAT_Cockpit_Black",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Seat_rail",
+      "material": "MAT_Cockpit_Black",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Toe_board",
+      "material": "MAT_Dashboard_Trim",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_bench_plinth",
+      "material": "MAT_Cockpit_Black",
+      "reference": "25/26/31/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_cushion_0",
+      "material": "MAT_Seat_Secondary",
+      "reference": "26/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_insert_0",
+      "material": "MAT_Seat_Primary",
+      "reference": "26/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_backrest_0",
+      "material": "MAT_Seat_Secondary",
+      "reference": "26/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_back_insert_0",
+      "material": "MAT_Seat_Primary",
+      "reference": "26/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_headrest_post",
+      "material": "MAT_Console_Metal",
+      "reference": "26/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_headrest_post",
+      "material": "MAT_Console_Metal",
+      "reference": "26/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_headrest_0",
+      "material": "MAT_Seat_Secondary",
+      "reference": "26/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_buckle_0",
+      "material": "MAT_Cockpit_Black",
+      "reference": "26/32; no unverified release markings",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_cushion_1",
+      "material": "MAT_Seat_Secondary",
+      "reference": "26/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_insert_1",
+      "material": "MAT_Seat_Primary",
+      "reference": "26/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_backrest_1",
+      "material": "MAT_Seat_Secondary",
+      "reference": "26/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_back_insert_1",
+      "material": "MAT_Seat_Primary",
+      "reference": "26/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_headrest_post",
+      "material": "MAT_Console_Metal",
+      "reference": "26/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_headrest_post",
+      "material": "MAT_Console_Metal",
+      "reference": "26/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_headrest_1",
+      "material": "MAT_Seat_Secondary",
+      "reference": "26/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_buckle_1",
+      "material": "MAT_Cockpit_Black",
+      "reference": "26/32; no unverified release markings",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_cushion_2",
+      "material": "MAT_Seat_Secondary",
+      "reference": "26/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_insert_2",
+      "material": "MAT_Seat_Primary",
+      "reference": "26/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_backrest_2",
+      "material": "MAT_Seat_Secondary",
+      "reference": "26/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_back_insert_2",
+      "material": "MAT_Seat_Primary",
+      "reference": "26/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_headrest_post",
+      "material": "MAT_Console_Metal",
+      "reference": "26/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_headrest_post",
+      "material": "MAT_Console_Metal",
+      "reference": "26/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_headrest_2",
+      "material": "MAT_Seat_Secondary",
+      "reference": "26/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_buckle_2",
+      "material": "MAT_Cockpit_Black",
+      "reference": "26/32; no unverified release markings",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_door_shell_-1",
+      "material": "MAT_Dashboard_Trim",
+      "reference": "24",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_door_belt_-1",
+      "material": "MAT_Dashboard_Trim",
+      "reference": "24",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_door_trim_-1",
+      "material": "MAT_Console_Carbon",
+      "reference": "24",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_door_insert_-1",
+      "material": "MAT_Seat_Secondary",
+      "reference": "24",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_door_armrest_-1",
+      "material": "MAT_Seat_Secondary",
+      "reference": "24",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_door_storage_-1",
+      "material": "MAT_Cockpit_Black",
+      "reference": "24",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_door_grab_-1",
+      "material": "MAT_Console_Metal",
+      "reference": "24",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_door_handle_recess_-1",
+      "material": "MAT_Cockpit_Black",
+      "reference": "24",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_door_handle_-1",
+      "material": "MAT_Console_Metal",
+      "reference": "24",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_speaker_-1",
+      "material": "MAT_Cockpit_Black",
+      "reference": "24",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_window_switch_-1_0",
+      "material": "MAT_Cockpit_Black",
+      "reference": "24",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_door_shell_-1",
+      "material": "MAT_Dashboard_Trim",
+      "reference": "25/31/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_door_belt_-1",
+      "material": "MAT_Dashboard_Trim",
+      "reference": "25/31/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_door_trim_-1",
+      "material": "MAT_Console_Carbon",
+      "reference": "25/31/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_door_insert_-1",
+      "material": "MAT_Seat_Secondary",
+      "reference": "25/31/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_door_armrest_-1",
+      "material": "MAT_Seat_Secondary",
+      "reference": "25/31/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_door_storage_-1",
+      "material": "MAT_Cockpit_Black",
+      "reference": "25/31/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_door_grab_-1",
+      "material": "MAT_Console_Metal",
+      "reference": "25/31/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_door_handle_recess_-1",
+      "material": "MAT_Cockpit_Black",
+      "reference": "25/31/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_door_handle_-1",
+      "material": "MAT_Console_Metal",
+      "reference": "25/31/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_speaker_-1",
+      "material": "MAT_Cockpit_Black",
+      "reference": "25/31/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_window_switch_-1_0",
+      "material": "MAT_Cockpit_Black",
+      "reference": "25/31/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_door_shell_1",
+      "material": "MAT_Dashboard_Trim",
+      "reference": "24",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_door_belt_1",
+      "material": "MAT_Dashboard_Trim",
+      "reference": "24",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_door_trim_1",
+      "material": "MAT_Console_Carbon",
+      "reference": "24",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_door_insert_1",
+      "material": "MAT_Seat_Secondary",
+      "reference": "24",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_door_armrest_1",
+      "material": "MAT_Seat_Secondary",
+      "reference": "24",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_door_storage_1",
+      "material": "MAT_Cockpit_Black",
+      "reference": "24",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_door_grab_1",
+      "material": "MAT_Console_Metal",
+      "reference": "24",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_door_handle_recess_1",
+      "material": "MAT_Cockpit_Black",
+      "reference": "24",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_door_handle_1",
+      "material": "MAT_Console_Metal",
+      "reference": "24",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_speaker_1",
+      "material": "MAT_Cockpit_Black",
+      "reference": "24",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_window_switch_1_0",
+      "material": "MAT_Cockpit_Black",
+      "reference": "24",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_window_switch_1_1",
+      "material": "MAT_Cockpit_Black",
+      "reference": "24",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_window_switch_1_2",
+      "material": "MAT_Cockpit_Black",
+      "reference": "24",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_window_switch_1_3",
+      "material": "MAT_Cockpit_Black",
+      "reference": "24",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_door_shell_1",
+      "material": "MAT_Dashboard_Trim",
+      "reference": "25/31/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_door_belt_1",
+      "material": "MAT_Dashboard_Trim",
+      "reference": "25/31/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_door_trim_1",
+      "material": "MAT_Console_Carbon",
+      "reference": "25/31/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_door_insert_1",
+      "material": "MAT_Seat_Secondary",
+      "reference": "25/31/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_door_armrest_1",
+      "material": "MAT_Seat_Secondary",
+      "reference": "25/31/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_door_storage_1",
+      "material": "MAT_Cockpit_Black",
+      "reference": "25/31/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_door_grab_1",
+      "material": "MAT_Console_Metal",
+      "reference": "25/31/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_door_handle_recess_1",
+      "material": "MAT_Cockpit_Black",
+      "reference": "25/31/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_door_handle_1",
+      "material": "MAT_Console_Metal",
+      "reference": "25/31/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_speaker_1",
+      "material": "MAT_Cockpit_Black",
+      "reference": "25/31/32",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_window_switch_1_0",
+      "material": "MAT_Cockpit_Black",
+      "reference": "25/31/32",
+      "dimensionStatus": "provisional"
+    }
+  ],
+  "componentTriangleCounts": [
+    {
+      "name": "Floor_connected_shell",
+      "triangles": 44
+    },
+    {
+      "name": "Sill_-1",
+      "triangles": 44
+    },
+    {
+      "name": "Sill_1",
+      "triangles": 44
+    },
+    {
+      "name": "Centre_tunnel",
+      "triangles": 44
+    },
+    {
+      "name": "Front_carpet_-1",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_carpet_-1",
+      "triangles": 44
+    },
+    {
+      "name": "Seat_rail",
+      "triangles": 44
+    },
+    {
+      "name": "Seat_rail.001",
+      "triangles": 44
+    },
+    {
+      "name": "Front_carpet_1",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_carpet_1",
+      "triangles": 44
+    },
+    {
+      "name": "Seat_rail.002",
+      "triangles": 44
+    },
+    {
+      "name": "Seat_rail.003",
+      "triangles": 44
+    },
+    {
+      "name": "Toe_board",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_bench_plinth",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_cushion_0",
+      "triangles": 224
+    },
+    {
+      "name": "Rear_insert_0",
+      "triangles": 224
+    },
+    {
+      "name": "Rear_backrest_0",
+      "triangles": 224
+    },
+    {
+      "name": "Rear_back_insert_0",
+      "triangles": 224
+    },
+    {
+      "name": "Rear_headrest_post",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_headrest_post.001",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_headrest_0",
+      "triangles": 224
+    },
+    {
+      "name": "Rear_buckle_0",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_cushion_1",
+      "triangles": 224
+    },
+    {
+      "name": "Rear_insert_1",
+      "triangles": 224
+    },
+    {
+      "name": "Rear_backrest_1",
+      "triangles": 224
+    },
+    {
+      "name": "Rear_back_insert_1",
+      "triangles": 224
+    },
+    {
+      "name": "Rear_headrest_post.002",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_headrest_post.003",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_headrest_1",
+      "triangles": 224
+    },
+    {
+      "name": "Rear_buckle_1",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_cushion_2",
+      "triangles": 224
+    },
+    {
+      "name": "Rear_insert_2",
+      "triangles": 224
+    },
+    {
+      "name": "Rear_backrest_2",
+      "triangles": 224
+    },
+    {
+      "name": "Rear_back_insert_2",
+      "triangles": 224
+    },
+    {
+      "name": "Rear_headrest_post.004",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_headrest_post.005",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_headrest_2",
+      "triangles": 224
+    },
+    {
+      "name": "Rear_buckle_2",
+      "triangles": 44
+    },
+    {
+      "name": "Front_door_shell_-1",
+      "triangles": 44
+    },
+    {
+      "name": "Front_door_belt_-1",
+      "triangles": 44
+    },
+    {
+      "name": "Front_door_trim_-1",
+      "triangles": 44
+    },
+    {
+      "name": "Front_door_insert_-1",
+      "triangles": 224
+    },
+    {
+      "name": "Front_door_armrest_-1",
+      "triangles": 44
+    },
+    {
+      "name": "Front_door_storage_-1",
+      "triangles": 44
+    },
+    {
+      "name": "Front_door_grab_-1",
+      "triangles": 44
+    },
+    {
+      "name": "Front_door_handle_recess_-1",
+      "triangles": 44
+    },
+    {
+      "name": "Front_door_handle_-1",
+      "triangles": 44
+    },
+    {
+      "name": "Front_speaker_-1",
+      "triangles": 76
+    },
+    {
+      "name": "Front_window_switch_-1_0",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_door_shell_-1",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_door_belt_-1",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_door_trim_-1",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_door_insert_-1",
+      "triangles": 224
+    },
+    {
+      "name": "Rear_door_armrest_-1",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_door_storage_-1",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_door_grab_-1",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_door_handle_recess_-1",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_door_handle_-1",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_speaker_-1",
+      "triangles": 76
+    },
+    {
+      "name": "Rear_window_switch_-1_0",
+      "triangles": 44
+    },
+    {
+      "name": "Front_door_shell_1",
+      "triangles": 44
+    },
+    {
+      "name": "Front_door_belt_1",
+      "triangles": 44
+    },
+    {
+      "name": "Front_door_trim_1",
+      "triangles": 44
+    },
+    {
+      "name": "Front_door_insert_1",
+      "triangles": 224
+    },
+    {
+      "name": "Front_door_armrest_1",
+      "triangles": 44
+    },
+    {
+      "name": "Front_door_storage_1",
+      "triangles": 44
+    },
+    {
+      "name": "Front_door_grab_1",
+      "triangles": 44
+    },
+    {
+      "name": "Front_door_handle_recess_1",
+      "triangles": 44
+    },
+    {
+      "name": "Front_door_handle_1",
+      "triangles": 44
+    },
+    {
+      "name": "Front_speaker_1",
+      "triangles": 76
+    },
+    {
+      "name": "Front_window_switch_1_0",
+      "triangles": 44
+    },
+    {
+      "name": "Front_window_switch_1_1",
+      "triangles": 44
+    },
+    {
+      "name": "Front_window_switch_1_2",
+      "triangles": 44
+    },
+    {
+      "name": "Front_window_switch_1_3",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_door_shell_1",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_door_belt_1",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_door_trim_1",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_door_insert_1",
+      "triangles": 224
+    },
+    {
+      "name": "Rear_door_armrest_1",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_door_storage_1",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_door_grab_1",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_door_handle_recess_1",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_door_handle_1",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_speaker_1",
+      "triangles": 76
+    },
+    {
+      "name": "Rear_window_switch_1_0",
+      "triangles": 44
+    }
+  ],
+  "gaps": [
+    "all dimensions provisional",
+    "rear-seat upholstery UV layout provisional; fine detailing deferred",
+    "closed roof glazing uses existing opaque material; no new slot",
+    "hidden mechanics not reconstructed",
+    "browser integration and human acceptance not performed"
+  ]
+}

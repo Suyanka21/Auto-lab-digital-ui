@@ -1,0 +1,2076 @@
+{
+  "passed": true,
+  "checkedFiles": 345,
+  "files": [
+    {
+      "path": "build_pipeline\\isolated\\__pycache__\\doors_r2.cpython-313.pyc",
+      "sha256": "1360dc972b4ab41c2307263b2416c1f3e0ddeab8377927e469679900d12a7c2e",
+      "actualSha256": "1360dc972b4ab41c2307263b2416c1f3e0ddeab8377927e469679900d12a7c2e",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\__pycache__\\doors_r3.cpython-313.pyc",
+      "sha256": "f4f407a435e6dea3ffea86d84b4e9441afdb336eb2084f49036149a29e853271",
+      "actualSha256": "f4f407a435e6dea3ffea86d84b4e9441afdb336eb2084f49036149a29e853271",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\allocation_r3.py",
+      "sha256": "783e14ad7199db866c084e391a6bb5e46012fc4ccab4c3e3a2aa64cdeba1fbe2",
+      "actualSha256": "783e14ad7199db866c084e391a6bb5e46012fc4ccab4c3e3a2aa64cdeba1fbe2",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\assembly.mjs",
+      "sha256": "f3225f1a5aa932529f83904152ca985b72c5d54a035904e64ebe7355b5488183",
+      "actualSha256": "f3225f1a5aa932529f83904152ca985b72c5d54a035904e64ebe7355b5488183",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\audit_facing_r3.py",
+      "sha256": "5fa9f1eb1e5f3eac2ce5d2491e0465ffcd27f9d4dd9949183c0e5a5a57d6c154",
+      "actualSha256": "5fa9f1eb1e5f3eac2ce5d2491e0465ffcd27f9d4dd9949183c0e5a5a57d6c154",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\audit_front_door_r4.py",
+      "sha256": "eb380e94e532346e5479bddf47a7fb75aced9085f13a84de5e936a28b2157b1e",
+      "actualSha256": "eb380e94e532346e5479bddf47a7fb75aced9085f13a84de5e936a28b2157b1e",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\build_cabin.py",
+      "sha256": "55b54ad1570e85c2182ffe13028998149bc5a99e2c680dd7a3d0bd8dc644abea",
+      "actualSha256": "55b54ad1570e85c2182ffe13028998149bc5a99e2c680dd7a3d0bd8dc644abea",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\build_cabin_r2.py",
+      "sha256": "5286b31d73ebb1d1d738d7193ef28c22ef565a2954f6389e89eaebf1d0768d8e",
+      "actualSha256": "5286b31d73ebb1d1d738d7193ef28c22ef565a2954f6389e89eaebf1d0768d8e",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\build_cabin_r3.py",
+      "sha256": "68e924e6745aa4b4bbb5180c4a58d65a5d098667ef499095c51970a58af7d340",
+      "actualSha256": "68e924e6745aa4b4bbb5180c4a58d65a5d098667ef499095c51970a58af7d340",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\build_front_door_r4.py",
+      "sha256": "39e6218da9a767c6bfeed38ed236aca7cec090516e3bb9782871f11ff7fe00fe",
+      "actualSha256": "39e6218da9a767c6bfeed38ed236aca7cec090516e3bb9782871f11ff7fe00fe",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\candidate-manifest.json",
+      "sha256": "70cbcb31c5feafb43d1585c77060b02ad47630a69baedb1b945342c6cf313b3f",
+      "actualSha256": "70cbcb31c5feafb43d1585c77060b02ad47630a69baedb1b945342c6cf313b3f",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\common.mjs",
+      "sha256": "7fff5908e2eeed53dbcfcbb9d8b204762d31dae8708025d20c588e6b3c469b20",
+      "actualSha256": "7fff5908e2eeed53dbcfcbb9d8b204762d31dae8708025d20c588e6b3c469b20",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\contract.mjs",
+      "sha256": "1f8c71bacf2d6fdc815ce2abca33f7cacebe8bec3d31e6422c58538dfd513786",
+      "actualSha256": "1f8c71bacf2d6fdc815ce2abca33f7cacebe8bec3d31e6422c58538dfd513786",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\diagnose_tangents.mjs",
+      "sha256": "f52906a410eae55976c9cc718a353508f343b5bb1bb6975435421def256bd181",
+      "actualSha256": "f52906a410eae55976c9cc718a353508f343b5bb1bb6975435421def256bd181",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\doors_r2.py",
+      "sha256": "c71a07413b1d1d1ae08038803310a9b7c874bfd375e7386b0cfdf293cc9f7351",
+      "actualSha256": "c71a07413b1d1d1ae08038803310a9b7c874bfd375e7386b0cfdf293cc9f7351",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\doors_r3.py",
+      "sha256": "af9a52399f8398f9bb0f2e1421d8a0521ac0cc483110f215b992c4ad63eba79d",
+      "actualSha256": "af9a52399f8398f9bb0f2e1421d8a0521ac0cc483110f215b992c4ad63eba79d",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\finalize.mjs",
+      "sha256": "435ccd904a8c168d40351154cf88c9fb64add9a21dd0285e701f4938fd1b4c03",
+      "actualSha256": "435ccd904a8c168d40351154cf88c9fb64add9a21dd0285e701f4938fd1b4c03",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\finalize_r2.mjs",
+      "sha256": "8e57f52f061dc9a03930405c5023270788649d52ff381809e2d83c05397b2aa3",
+      "actualSha256": "8e57f52f061dc9a03930405c5023270788649d52ff381809e2d83c05397b2aa3",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\finalize_r3.mjs",
+      "sha256": "2d51482b4c77e2b4f156d00b57f0ff5578bea31a87f62ee7bd41f8aa86c9b50f",
+      "actualSha256": "2d51482b4c77e2b4f156d00b57f0ff5578bea31a87f62ee7bd41f8aa86c9b50f",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\finish_review_r3.py",
+      "sha256": "2fa49450a487f123cc2e4d3586dcf5e1f8315e283640f67d35b2f2dc1a05a14d",
+      "actualSha256": "2fa49450a487f123cc2e4d3586dcf5e1f8315e283640f67d35b2f2dc1a05a14d",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\make_manifest.py",
+      "sha256": "6ac2f8a1350b18a2e8050aa0a357647d9ccd24f6688709fc0d0a17e8ebf6740b",
+      "actualSha256": "6ac2f8a1350b18a2e8050aa0a357647d9ccd24f6688709fc0d0a17e8ebf6740b",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\package_front_door_r4.py",
+      "sha256": "bcca97952dadc42dfb5ea91c7f23e06c3a767bde0862385a6ddcb061920cd90b",
+      "actualSha256": "bcca97952dadc42dfb5ea91c7f23e06c3a767bde0862385a6ddcb061920cd90b",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\pipeline.mjs",
+      "sha256": "db8ea7a7a60a74c054b807f61ca8d8c86f057469637790eabab2862e45dedb6f",
+      "actualSha256": "db8ea7a7a60a74c054b807f61ca8d8c86f057469637790eabab2862e45dedb6f",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\prepare.mjs",
+      "sha256": "5635329e862221820b88adbfdebdfc78abcec0abffa2259dccc198c960c2460c",
+      "actualSha256": "5635329e862221820b88adbfdebdfc78abcec0abffa2259dccc198c960c2460c",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\render_doors_r3.py",
+      "sha256": "4860335e0f55db43fa9e6ca9279feca05284bd90d6c39a511405890db3974c16",
+      "actualSha256": "4860335e0f55db43fa9e6ca9279feca05284bd90d6c39a511405890db3974c16",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\render_front_door_r4.py",
+      "sha256": "6b06626a69208122977b9ee982e72660b63a394501985f08206ef496a18ff818",
+      "actualSha256": "6b06626a69208122977b9ee982e72660b63a394501985f08206ef496a18ff818",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\render_regions_r2.py",
+      "sha256": "b3ca413e2e27467b09b2115e7b15d09e38c636812ec4ee688a5811f86e920b3a",
+      "actualSha256": "b3ca413e2e27467b09b2115e7b15d09e38c636812ec4ee688a5811f86e920b3a",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\report_r2.py",
+      "sha256": "f4841670dd73457478cdf9c6f5cb4f25423462ea954a76385354e3bbb1611749",
+      "actualSha256": "f4841670dd73457478cdf9c6f5cb4f25423462ea954a76385354e3bbb1611749",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\retrieve_approved_references.py",
+      "sha256": "ecd9e3a57bc50af6ead19ce31284135dd44e48a517932f27dd20b706ec0b5933",
+      "actualSha256": "ecd9e3a57bc50af6ead19ce31284135dd44e48a517932f27dd20b706ec0b5933",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\review_doors_r2.py",
+      "sha256": "21d43aae3490d3e73d3670c774e2577b7d7db9338082753fc258222f9534f07a",
+      "actualSha256": "21d43aae3490d3e73d3670c774e2577b7d7db9338082753fc258222f9534f07a",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\review_pack_r3.py",
+      "sha256": "4377cb05ad8176d307e40910d100e391f9f752947a7e0585c07bd28d841758a6",
+      "actualSha256": "4377cb05ad8176d307e40910d100e391f9f752947a7e0585c07bd28d841758a6",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\tangent_regression.py",
+      "sha256": "505edab55287ea46850d54dc9a0e1d7178b3e3c84cfbd52be780c97dd103640d",
+      "actualSha256": "505edab55287ea46850d54dc9a0e1d7178b3e3c84cfbd52be780c97dd103640d",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\test_r2.mjs",
+      "sha256": "6e1ac81cc6888b5f13987109017ff5f481bff9f80d2b35b1ee6f6b365c78ddae",
+      "actualSha256": "6e1ac81cc6888b5f13987109017ff5f481bff9f80d2b35b1ee6f6b365c78ddae",
+      "unchanged": true
+    },
+    {
+      "path": "build_pipeline\\isolated\\test_r3.mjs",
+      "sha256": "7325645a14a8f6589e6f040dc4d70a337dbe0df97841d6b4489843ea0498280c",
+      "actualSha256": "7325645a14a8f6589e6f040dc4d70a337dbe0df97841d6b4489843ea0498280c",
+      "unchanged": true
+    },
+    {
+      "path": "exports\\A-frame\\classic.glb",
+      "sha256": "48534a6eb1d6069050b4fb7211a577aa57d4140e3886f23067a417b0ca916ebc",
+      "actualSha256": "48534a6eb1d6069050b4fb7211a577aa57d4140e3886f23067a417b0ca916ebc",
+      "unchanged": true
+    },
+    {
+      "path": "exports\\A-frame\\diamond.glb",
+      "sha256": "6ee3a8069d36d30810f621b59e822e951c27918416487746a5c46ed123d34f09",
+      "actualSha256": "6ee3a8069d36d30810f621b59e822e951c27918416487746a5c46ed123d34f09",
+      "unchanged": true
+    },
+    {
+      "path": "exports\\A-frame\\perforated.glb",
+      "sha256": "2c768a6c654227e44681d3b24928f4aecd09606a0b3c6b3c6d6a2a9bf8b9012b",
+      "actualSha256": "2c768a6c654227e44681d3b24928f4aecd09606a0b3c6b3c6d6a2a9bf8b9012b",
+      "unchanged": true
+    },
+    {
+      "path": "exports\\B1-floor\\classic.glb",
+      "sha256": "045b006c141443bdeb6d16545f5b535d11cfe4fe3d5a695401ad52bc60aeecc4",
+      "actualSha256": "045b006c141443bdeb6d16545f5b535d11cfe4fe3d5a695401ad52bc60aeecc4",
+      "unchanged": true
+    },
+    {
+      "path": "exports\\B1-floor\\diamond.glb",
+      "sha256": "d207d41e8ef9c5bcbf6ba17d3ef3fc3ef6e848e310f5365dfbc8fc2e16d7e40f",
+      "actualSha256": "d207d41e8ef9c5bcbf6ba17d3ef3fc3ef6e848e310f5365dfbc8fc2e16d7e40f",
+      "unchanged": true
+    },
+    {
+      "path": "exports\\B1-floor\\perforated.glb",
+      "sha256": "94d8fb4d335ed88eb9bb1d4b587fe44d367b1514bdf149c5360e9563aa60694a",
+      "actualSha256": "94d8fb4d335ed88eb9bb1d4b587fe44d367b1514bdf149c5360e9563aa60694a",
+      "unchanged": true
+    },
+    {
+      "path": "exports\\B2-rear\\classic.glb",
+      "sha256": "e24bc32155db23b01a4ff45db347c7d16aa54484f841fffaf08be0fb630e759a",
+      "actualSha256": "e24bc32155db23b01a4ff45db347c7d16aa54484f841fffaf08be0fb630e759a",
+      "unchanged": true
+    },
+    {
+      "path": "exports\\B2-rear\\diamond.glb",
+      "sha256": "eaadc2fa949805063372a1d99d6a1da42cf1d224fb91e8ccf7fcf53f60262880",
+      "actualSha256": "eaadc2fa949805063372a1d99d6a1da42cf1d224fb91e8ccf7fcf53f60262880",
+      "unchanged": true
+    },
+    {
+      "path": "exports\\B2-rear\\perforated.glb",
+      "sha256": "f457ae33e93c8fa92481a4af701b8846f3865ab3fec38a8cc188e796d0cff21e",
+      "actualSha256": "f457ae33e93c8fa92481a4af701b8846f3865ab3fec38a8cc188e796d0cff21e",
+      "unchanged": true
+    },
+    {
+      "path": "exports\\B3-doors-r2\\classic.glb",
+      "sha256": "b60a638e593f7eae54aecf2a26cd2f775953346ac36438c5d9081f8eaf2f48d6",
+      "actualSha256": "b60a638e593f7eae54aecf2a26cd2f775953346ac36438c5d9081f8eaf2f48d6",
+      "unchanged": true
+    },
+    {
+      "path": "exports\\B3-doors-r2\\diamond.glb",
+      "sha256": "c8ba07d2f49fe5e8a0c56997f6b758372a269599942814a9ea8ccf4808405e8a",
+      "actualSha256": "c8ba07d2f49fe5e8a0c56997f6b758372a269599942814a9ea8ccf4808405e8a",
+      "unchanged": true
+    },
+    {
+      "path": "exports\\B3-doors-r2\\perforated.glb",
+      "sha256": "43601c71be6b5d59faa090b3ede356b0fffc3694b728652c066679dce1ef963f",
+      "actualSha256": "43601c71be6b5d59faa090b3ede356b0fffc3694b728652c066679dce1ef963f",
+      "unchanged": true
+    },
+    {
+      "path": "exports\\B3-doors-r3\\classic.glb",
+      "sha256": "5b55624a80562862f90af2412e23db565508e165c55ef81c9931ea200b433540",
+      "actualSha256": "5b55624a80562862f90af2412e23db565508e165c55ef81c9931ea200b433540",
+      "unchanged": true
+    },
+    {
+      "path": "exports\\B3-doors-r3\\diamond.glb",
+      "sha256": "6f466b84172050c37d8450e94345fb51e4e825cc9c17a5c3005040838912fcf5",
+      "actualSha256": "6f466b84172050c37d8450e94345fb51e4e825cc9c17a5c3005040838912fcf5",
+      "unchanged": true
+    },
+    {
+      "path": "exports\\B3-doors-r3\\perforated.glb",
+      "sha256": "312b8179d3beaf908ae13789c80d80296bec62d01eca95c1f923c86a61c08aaf",
+      "actualSha256": "312b8179d3beaf908ae13789c80d80296bec62d01eca95c1f923c86a61c08aaf",
+      "unchanged": true
+    },
+    {
+      "path": "exports\\consolidation-proof\\classic.glb",
+      "sha256": "7f964459c1aa90a3d95353881009effeccc5e3a5b024dac70b3a1b479b99d24b",
+      "actualSha256": "7f964459c1aa90a3d95353881009effeccc5e3a5b024dac70b3a1b479b99d24b",
+      "unchanged": true
+    },
+    {
+      "path": "exports\\consolidation-proof\\diamond.glb",
+      "sha256": "a9bc52ca7871f4b91f7e685d467952aa5c62d1f7c20b17103adcf11945f51892",
+      "actualSha256": "a9bc52ca7871f4b91f7e685d467952aa5c62d1f7c20b17103adcf11945f51892",
+      "unchanged": true
+    },
+    {
+      "path": "exports\\consolidation-proof\\perforated.glb",
+      "sha256": "fa9ac30de425e79c99e3e0f8a313634e99b60fd06b28e307530512a297de9cc8",
+      "actualSha256": "fa9ac30de425e79c99e3e0f8a313634e99b60fd06b28e307530512a297de9cc8",
+      "unchanged": true
+    },
+    {
+      "path": "exports\\pipeline-probe\\classic.glb",
+      "sha256": "e5bdde016348df34889ec4c0ff0e406caad7e368504308bd5a4f5b725a55c056",
+      "actualSha256": "e5bdde016348df34889ec4c0ff0e406caad7e368504308bd5a4f5b725a55c056",
+      "unchanged": true
+    },
+    {
+      "path": "exports\\pipeline-probe\\diamond.glb",
+      "sha256": "4c217dd00d86d8bae3925d735beddb63b225d24c5f1bafd60726f501bfcba8ad",
+      "actualSha256": "4c217dd00d86d8bae3925d735beddb63b225d24c5f1bafd60726f501bfcba8ad",
+      "unchanged": true
+    },
+    {
+      "path": "exports\\pipeline-probe\\perforated.glb",
+      "sha256": "d53f55546232db473ecadee08be9bff6454b5d3a510ee30e88415f2477ca9f9e",
+      "actualSha256": "d53f55546232db473ecadee08be9bff6454b5d3a510ee30e88415f2477ca9f9e",
+      "unchanged": true
+    },
+    {
+      "path": "production_baseline\\interior-l4-classic.glb",
+      "sha256": "e5bdde016348df34889ec4c0ff0e406caad7e368504308bd5a4f5b725a55c056",
+      "actualSha256": "e5bdde016348df34889ec4c0ff0e406caad7e368504308bd5a4f5b725a55c056",
+      "unchanged": true
+    },
+    {
+      "path": "production_baseline\\interior-l4-diamond.glb",
+      "sha256": "4c217dd00d86d8bae3925d735beddb63b225d24c5f1bafd60726f501bfcba8ad",
+      "actualSha256": "4c217dd00d86d8bae3925d735beddb63b225d24c5f1bafd60726f501bfcba8ad",
+      "unchanged": true
+    },
+    {
+      "path": "production_baseline\\interior-l4-perforated.glb",
+      "sha256": "d53f55546232db473ecadee08be9bff6454b5d3a510ee30e88415f2477ca9f9e",
+      "actualSha256": "d53f55546232db473ecadee08be9bff6454b5d3a510ee30e88415f2477ca9f9e",
+      "unchanged": true
+    },
+    {
+      "path": "references\\approved_ai_design\\00_MASTER_CABIN\\PRIMARY\\AUTOLAB_SUV_MASTER_CABIN_3Q_SIDE_VIEW_01.jpg",
+      "sha256": "b78e068d11506bda311450f487989893cd67d8185246a08bfb66148170cc474d",
+      "actualSha256": "b78e068d11506bda311450f487989893cd67d8185246a08bfb66148170cc474d",
+      "unchanged": true
+    },
+    {
+      "path": "references\\approved_ai_design\\00_MASTER_CABIN\\SECONDARY\\AUTOLAB_SUV_MASTER_CABIN_REAR_FORWARD_VIEW_02.jpg",
+      "sha256": "e90cad8f4833719e371a5ca707bd2b126d2eaaf8bd5c35ad3948f1039bbd8a54",
+      "actualSha256": "e90cad8f4833719e371a5ca707bd2b126d2eaaf8bd5c35ad3948f1039bbd8a54",
+      "unchanged": true
+    },
+    {
+      "path": "references\\approved_ai_design\\01_FRONT_DOOR_PANELS\\ALTERNATES\\AUTOLAB_SUV_FRONT_DOOR_PANEL_ALTERNATE_02.jpg",
+      "sha256": "555801aafb8fb40e7e7d41d4fb82a1c1ba36a7e9710eb79b678a29c3dcfb9fe4",
+      "actualSha256": "555801aafb8fb40e7e7d41d4fb82a1c1ba36a7e9710eb79b678a29c3dcfb9fe4",
+      "unchanged": true
+    },
+    {
+      "path": "references\\approved_ai_design\\01_FRONT_DOOR_PANELS\\PRIMARY\\AUTOLAB_SUV_FRONT_DOOR_PANEL_PRIMARY_01.jpg",
+      "sha256": "3b7e1262e0e91150a48c7baa8acecc217d70f52de2249b5336b48ea488cb8bc5",
+      "actualSha256": "3b7e1262e0e91150a48c7baa8acecc217d70f52de2249b5336b48ea488cb8bc5",
+      "unchanged": true
+    },
+    {
+      "path": "references\\approved_ai_design\\02_REAR_DOOR_PANELS\\ALTERNATES\\AUTOLAB_SUV_REAR_DOOR_PANEL_ALTERNATE_02.jpg",
+      "sha256": "d923595715f591501cc611b39c266939118e472f9ff81998e731fc8e19532e69",
+      "actualSha256": "d923595715f591501cc611b39c266939118e472f9ff81998e731fc8e19532e69",
+      "unchanged": true
+    },
+    {
+      "path": "references\\approved_ai_design\\02_REAR_DOOR_PANELS\\PRIMARY\\AUTOLAB_SUV_REAR_DOOR_PANEL_PRIMARY_01.jpg",
+      "sha256": "70531b1ed2d7a7f82c7414e126f90500b0d1f1a9722e56f0341c853f4043f728",
+      "actualSha256": "70531b1ed2d7a7f82c7414e126f90500b0d1f1a9722e56f0341c853f4043f728",
+      "unchanged": true
+    },
+    {
+      "path": "references\\approved_ai_design\\03_FRONT_SEATS\\ALTERNATES\\AUTOLAB_SUV_FRONT_SEAT_ALTERNATE_02.jpg",
+      "sha256": "d9c91b5d6fc0673f4cb39923bac65ab28d33863a62a8b2ae7a8d98643a565097",
+      "actualSha256": "d9c91b5d6fc0673f4cb39923bac65ab28d33863a62a8b2ae7a8d98643a565097",
+      "unchanged": true
+    },
+    {
+      "path": "references\\approved_ai_design\\03_FRONT_SEATS\\PRIMARY\\AUTOLAB_SUV_FRONT_SEAT_PRIMARY_01.jpg",
+      "sha256": "83cc5d47c43ade02691292f059e871f782e2cebbce9435cdc2e2c60a8fb0a1d4",
+      "actualSha256": "83cc5d47c43ade02691292f059e871f782e2cebbce9435cdc2e2c60a8fb0a1d4",
+      "unchanged": true
+    },
+    {
+      "path": "references\\approved_ai_design\\04_REAR_BENCH\\ALTERNATES\\AUTOLAB_SUV_REAR_BENCH_ALTERNATE_02.jpg",
+      "sha256": "01b7da576a43ff0e60046f86a087f3b43c3303b4de366097bb8f838074f34d38",
+      "actualSha256": "01b7da576a43ff0e60046f86a087f3b43c3303b4de366097bb8f838074f34d38",
+      "unchanged": true
+    },
+    {
+      "path": "references\\approved_ai_design\\04_REAR_BENCH\\PRIMARY\\AUTOLAB_SUV_REAR_BENCH_PRIMARY_01.jpg",
+      "sha256": "b6c9e340fcaa6ba0468dc096f90d7ff84ae99103a1c987118b39b5a44d9bc6db",
+      "actualSha256": "b6c9e340fcaa6ba0468dc096f90d7ff84ae99103a1c987118b39b5a44d9bc6db",
+      "unchanged": true
+    },
+    {
+      "path": "references\\approved_ai_design\\05_DASHBOARD_AND_CONSOLE\\ALTERNATES\\AUTOLAB_SUV_DASHBOARD_CONSOLE_ALTERNATE_02.jpg",
+      "sha256": "d6a9cbe8d006ed65c136ae8810ff59903918fe26bff56dcd21bbb2b9892f0261",
+      "actualSha256": "d6a9cbe8d006ed65c136ae8810ff59903918fe26bff56dcd21bbb2b9892f0261",
+      "unchanged": true
+    },
+    {
+      "path": "references\\approved_ai_design\\05_DASHBOARD_AND_CONSOLE\\PRIMARY\\AUTOLAB_SUV_DASHBOARD_CONSOLE_PRIMARY_01.jpg",
+      "sha256": "49c0c8f1d61e1381e1c6bedc2e1d72cde15391467bd970d353bf621cf2d082e2",
+      "actualSha256": "49c0c8f1d61e1381e1c6bedc2e1d72cde15391467bd970d353bf621cf2d082e2",
+      "unchanged": true
+    },
+    {
+      "path": "references\\approved_ai_design\\06_CABIN_SHELL\\PRIMARY\\AUTOLAB_SUV_CABIN_SHELL_3Q_CUTAWAY_01.jpg",
+      "sha256": "c8dbe6a2f573e6e24eefcfeff219f756b511ce93be2955ca1961a26c327c6f2f",
+      "actualSha256": "c8dbe6a2f573e6e24eefcfeff219f756b511ce93be2955ca1961a26c327c6f2f",
+      "unchanged": true
+    },
+    {
+      "path": "references\\approved_ai_design\\06_CABIN_SHELL\\SECONDARY\\AUTOLAB_SUV_CABIN_SHELL_REAR_FORWARD_02.jpg",
+      "sha256": "9be5876c0b97d6a74dbe6c040f854da4b2c53f429f479caaaaaf53ae7d4638c9",
+      "actualSha256": "9be5876c0b97d6a74dbe6c040f854da4b2c53f429f479caaaaaf53ae7d4638c9",
+      "unchanged": true
+    },
+    {
+      "path": "references\\approved_ai_design\\07_STARLIGHT_HEADLINER\\PRIMARY\\AUTOLAB_STARLIGHT_HEADLINER_CABIN_VIEW_01.jpg",
+      "sha256": "afea10196a4e966400dacbec452024cd28baf34524e9f6385ecd85e31d49a3c1",
+      "actualSha256": "afea10196a4e966400dacbec452024cd28baf34524e9f6385ecd85e31d49a3c1",
+      "unchanged": true
+    },
+    {
+      "path": "references\\approved_ai_design\\07_STARLIGHT_HEADLINER\\SECONDARY\\AUTOLAB_STARLIGHT_HEADLINER_DETAIL_02.jpg",
+      "sha256": "24aa7a50db16329843586f2f0f95ec014ef669aa1a90472305a3ce8ceb4ecf2e",
+      "actualSha256": "24aa7a50db16329843586f2f0f95ec014ef669aa1a90472305a3ce8ceb4ecf2e",
+      "unchanged": true
+    },
+    {
+      "path": "references\\approved_ai_design\\99_EXCLUDED\\SHOWROOM_CONCEPTS\\README.md",
+      "sha256": "80cbcc743292819ab5665cba0dafe4d4d87bb68f46604b358565d9dd2220bbe1",
+      "actualSha256": "80cbcc743292819ab5665cba0dafe4d4d87bb68f46604b358565d9dd2220bbe1",
+      "unchanged": true
+    },
+    {
+      "path": "references\\approved_ai_design\\README.md",
+      "sha256": "3d92ed9fe1b31253490e50fe830301320447e680c8404a76bdddee8dc86b20bf",
+      "actualSha256": "3d92ed9fe1b31253490e50fe830301320447e680c8404a76bdddee8dc86b20bf",
+      "unchanged": true
+    },
+    {
+      "path": "references\\approved_ai_design\\REFERENCE_MANIFEST.md",
+      "sha256": "1a88abd4049a5068ecf1ec60b471720b576b64ca8b8945426f94be608a8886a8",
+      "actualSha256": "1a88abd4049a5068ecf1ec60b471720b576b64ca8b8945426f94be608a8886a8",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_01.jpg",
+      "sha256": "413bcffe905267b6a26cc1f79fc465a326deeba142a83fc68473366f2a306d17",
+      "actualSha256": "413bcffe905267b6a26cc1f79fc465a326deeba142a83fc68473366f2a306d17",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_02.jpg",
+      "sha256": "ffc17ebda3e361cfa0adae28a4b27daa6f9b05962ac7f9bfc82eeb7b0d23f105",
+      "actualSha256": "ffc17ebda3e361cfa0adae28a4b27daa6f9b05962ac7f9bfc82eeb7b0d23f105",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_03.jpg",
+      "sha256": "6760c0c9c2c9ce5add44dae7dae932def0bbf6598f40b71e6bba2d9638ea6ce9",
+      "actualSha256": "6760c0c9c2c9ce5add44dae7dae932def0bbf6598f40b71e6bba2d9638ea6ce9",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_04.jpg",
+      "sha256": "6f0d63a5218d8a838ad3acbd1dce74206b728b8c72602ce5ff713c884d8309a0",
+      "actualSha256": "6f0d63a5218d8a838ad3acbd1dce74206b728b8c72602ce5ff713c884d8309a0",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_05.jpg",
+      "sha256": "2536e2e7a25f4f6d383cc53689087456ecf07c459c6028427cb931e3c9cf9033",
+      "actualSha256": "2536e2e7a25f4f6d383cc53689087456ecf07c459c6028427cb931e3c9cf9033",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_06.jpg",
+      "sha256": "99cc5eeaedeb2c66bb07342e834221f2fe3e92f450f4a5dcc335aeb2e14f38f1",
+      "actualSha256": "99cc5eeaedeb2c66bb07342e834221f2fe3e92f450f4a5dcc335aeb2e14f38f1",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_07.jpg",
+      "sha256": "997e027bc3cc4bbe71d6971b779ba4d6a4de62208a1498c3c4035f79cf3cafd7",
+      "actualSha256": "997e027bc3cc4bbe71d6971b779ba4d6a4de62208a1498c3c4035f79cf3cafd7",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_08.jpg",
+      "sha256": "c4725604a133351ac346c30fde27b1d875d5cfeadf91abfaac508b1e997ae96a",
+      "actualSha256": "c4725604a133351ac346c30fde27b1d875d5cfeadf91abfaac508b1e997ae96a",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_09.jpg",
+      "sha256": "16ca8fb68128486b5298b8eb02f0e15f4f028ee7b30853203f7e0f201ec600ab",
+      "actualSha256": "16ca8fb68128486b5298b8eb02f0e15f4f028ee7b30853203f7e0f201ec600ab",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_10.jpg",
+      "sha256": "3d62699c45fe8101a630d4a3e323267aa6cced8fe7a17907ccf6664e3be24a86",
+      "actualSha256": "3d62699c45fe8101a630d4a3e323267aa6cced8fe7a17907ccf6664e3be24a86",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_11.jpg",
+      "sha256": "4ab332724b25252893d900737e79722abfb70a265c17de9dfcb5a772326d91b4",
+      "actualSha256": "4ab332724b25252893d900737e79722abfb70a265c17de9dfcb5a772326d91b4",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_12.jpg",
+      "sha256": "4bc22692f1090690997663dd61a0d5c1bb129490deee0da2d0c3a185f6005a25",
+      "actualSha256": "4bc22692f1090690997663dd61a0d5c1bb129490deee0da2d0c3a185f6005a25",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_13.jpg",
+      "sha256": "a3c52716efc3870af346b9e01271509cd6ee6e575a846536fe1cdf3defde2cb8",
+      "actualSha256": "a3c52716efc3870af346b9e01271509cd6ee6e575a846536fe1cdf3defde2cb8",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_14.jpg",
+      "sha256": "d65a7037d595388bd424402b8c1a17720d87921a1b930bbb46b662cf9f7e8c90",
+      "actualSha256": "d65a7037d595388bd424402b8c1a17720d87921a1b930bbb46b662cf9f7e8c90",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_15.jpg",
+      "sha256": "7edfed0efd4a2c45bab48d2b8e2a76c4b2353fadd47e0977c8cddef7b295b751",
+      "actualSha256": "7edfed0efd4a2c45bab48d2b8e2a76c4b2353fadd47e0977c8cddef7b295b751",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_16.jpg",
+      "sha256": "8eec4ca40a26db0da68f3beab9200bd9611d70e353e6a9da531ff0a62d676b62",
+      "actualSha256": "8eec4ca40a26db0da68f3beab9200bd9611d70e353e6a9da531ff0a62d676b62",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_17.jpg",
+      "sha256": "645216597c7126334717e371c72ad6854a94c561d2bcfa7b8d8e0be4fa53a7fb",
+      "actualSha256": "645216597c7126334717e371c72ad6854a94c561d2bcfa7b8d8e0be4fa53a7fb",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_18.jpg",
+      "sha256": "332ea1dbeb68624f16f3c40aa823c9ce21708011f2e26e3ba8690a345070e2ef",
+      "actualSha256": "332ea1dbeb68624f16f3c40aa823c9ce21708011f2e26e3ba8690a345070e2ef",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_19.jpg",
+      "sha256": "3cd85178a44420826ed309fb6cc95a6fced8fe408bc7368e23721e8df2a3596e",
+      "actualSha256": "3cd85178a44420826ed309fb6cc95a6fced8fe408bc7368e23721e8df2a3596e",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_20.jpg",
+      "sha256": "aaf5cc8f934b5ade90dc36576c6a54c4e9fae63dbb998ee15e8707bdf365ae9b",
+      "actualSha256": "aaf5cc8f934b5ade90dc36576c6a54c4e9fae63dbb998ee15e8707bdf365ae9b",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_21.jpg",
+      "sha256": "c8247e00eedb25c05b01170f27a5b9b8e1ac6664d9a05d6c1a78614b4db4a05a",
+      "actualSha256": "c8247e00eedb25c05b01170f27a5b9b8e1ac6664d9a05d6c1a78614b4db4a05a",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_22.jpg",
+      "sha256": "65b5d17c75387e4e39d1069ccc8e0d49708cc84a79a6c36c8d8d774eb5824942",
+      "actualSha256": "65b5d17c75387e4e39d1069ccc8e0d49708cc84a79a6c36c8d8d774eb5824942",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_23.jpg",
+      "sha256": "004808143a13d58da1c8cd1f55f1355615c6accae905b59e84c81de2e7deea41",
+      "actualSha256": "004808143a13d58da1c8cd1f55f1355615c6accae905b59e84c81de2e7deea41",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_24.jpg",
+      "sha256": "12a678006c1006c0aa3da39cc41c85774e8913cac90f7eac6ffbe0322f9ca66a",
+      "actualSha256": "12a678006c1006c0aa3da39cc41c85774e8913cac90f7eac6ffbe0322f9ca66a",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_25.jpg",
+      "sha256": "b964563a167b6291a522b6af1d229d6d9a9eb24299fa130840084e7de0cced71",
+      "actualSha256": "b964563a167b6291a522b6af1d229d6d9a9eb24299fa130840084e7de0cced71",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_26.jpg",
+      "sha256": "9dce55e3d31334a90c787eb1183c9af5f92266173d25472993ea2e16bc225d07",
+      "actualSha256": "9dce55e3d31334a90c787eb1183c9af5f92266173d25472993ea2e16bc225d07",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_27.jpg",
+      "sha256": "91c579072e285ace3ead20a98580c277a20cd76b1d5d5a0fca26bd1ab9b9dcb6",
+      "actualSha256": "91c579072e285ace3ead20a98580c277a20cd76b1d5d5a0fca26bd1ab9b9dcb6",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_28.jpg",
+      "sha256": "969296bc1718282f77347a2074c1e823c80401bab58e882d7dfb72cb819d3f97",
+      "actualSha256": "969296bc1718282f77347a2074c1e823c80401bab58e882d7dfb72cb819d3f97",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_29.jpg",
+      "sha256": "a4e31d212ab04b8c0589bdad6029920b1ceb846a2220fe55ae0d1b8ba5deb9db",
+      "actualSha256": "a4e31d212ab04b8c0589bdad6029920b1ceb846a2220fe55ae0d1b8ba5deb9db",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_30.jpg",
+      "sha256": "fb9ea735411ebace6404e6179d85e7213a92072b83d73fd3f0d3bb33f7c7de36",
+      "actualSha256": "fb9ea735411ebace6404e6179d85e7213a92072b83d73fd3f0d3bb33f7c7de36",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_31.jpg",
+      "sha256": "f7749b28eaad163eb7cbecd630f93fcbb797c01be98723c1b19c4c979ce8c285",
+      "actualSha256": "f7749b28eaad163eb7cbecd630f93fcbb797c01be98723c1b19c4c979ce8c285",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_32.jpg",
+      "sha256": "d7af10581626a00d16645fe91f1a067e9e05dfb610a6c812baf3562fc1615b17",
+      "actualSha256": "d7af10581626a00d16645fe91f1a067e9e05dfb610a6c812baf3562fc1615b17",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_33.jpg",
+      "sha256": "a1898622ab00f11032605f76d020c6166379131556821d0d9ca8b50fa325853f",
+      "actualSha256": "a1898622ab00f11032605f76d020c6166379131556821d0d9ca8b50fa325853f",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_34.jpg",
+      "sha256": "d7321d43a973b9beeabdfd02ae4e79d2c33a8822ac14a1dd859f196da4e64db7",
+      "actualSha256": "d7321d43a973b9beeabdfd02ae4e79d2c33a8822ac14a1dd859f196da4e64db7",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\LEXUS_RX_2020_GALLERY_35.jpg",
+      "sha256": "55fee143f8b9b0f962065347b4e9a9565a5b1db2409ffdefd9c96a147b3be5ab",
+      "actualSha256": "55fee143f8b9b0f962065347b4e9a9565a5b1db2409ffdefd9c96a147b3be5ab",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_GALLERY_ORIGINALS\\RIGHTS_AND_USE.md",
+      "sha256": "161df7e2b28acbf2bcd9996e4ba96afa6f1712143fde60ed838592d65550a702",
+      "actualSha256": "161df7e2b28acbf2bcd9996e4ba96afa6f1712143fde60ed838592d65550a702",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_README\\AUTOLAB_AI_3D_GENERATION_TECHNICAL_GUIDE_UPDATED.md",
+      "sha256": "e555c9e1b5c9eabff5d6ca66134812418edad9898f16e67e8b874c3996b56281",
+      "actualSha256": "e555c9e1b5c9eabff5d6ca66134812418edad9898f16e67e8b874c3996b56281",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_README\\COLLECTION_OVERVIEW.md",
+      "sha256": "7046542c416691aeaa225c4ce4c21eb7aa4b3f6b2396d6a5f86c100e99cd819c",
+      "actualSha256": "7046542c416691aeaa225c4ce4c21eb7aa4b3f6b2396d6a5f86c100e99cd819c",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\00_README\\SOURCE_AND_RIGHTS_REGISTER.csv",
+      "sha256": "747cb2d68d19cb8c7cddb4a3bce57c4da1a74389474561fa3f1d8a9ba5d8a7c1",
+      "actualSha256": "747cb2d68d19cb8c7cddb4a3bce57c4da1a74389474561fa3f1d8a9ba5d8a7c1",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\04_TECHNICAL_DOCUMENTATION\\Parts_Diagrams\\2020_Lexus_RX_Europe_Newsroom.md",
+      "sha256": "ec938f2ee75019b77b5e871306e3c7e9b595070fd461fd06a76590556334b091",
+      "actualSha256": "ec938f2ee75019b77b5e871306e3c7e9b595070fd461fd06a76590556334b091",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\04_TECHNICAL_DOCUMENTATION\\Parts_Diagrams\\2020_Lexus_RX_Pressroom.md",
+      "sha256": "41dc5335972725c5527bc145c4f7b0b5265155070d3545c359a9ad2b3529ae58",
+      "actualSha256": "41dc5335972725c5527bc145c4f7b0b5265155070d3545c359a9ad2b3529ae58",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\04_TECHNICAL_DOCUMENTATION\\Parts_Diagrams\\2020_RX350_Door_Components.md",
+      "sha256": "fa8e60e5931753f9fbfb77923924abbd008bd9a60053530c0000523e762908a8",
+      "actualSha256": "fa8e60e5931753f9fbfb77923924abbd008bd9a60053530c0000523e762908a8",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\04_TECHNICAL_DOCUMENTATION\\Parts_Diagrams\\2020_RX350_Rear_Door_Trim.md",
+      "sha256": "fb141a0b6012b56aa61feec900b5bb4c51c75699e7a1bae9368b68dac39949d8",
+      "actualSha256": "fb141a0b6012b56aa61feec900b5bb4c51c75699e7a1bae9368b68dac39949d8",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\04_TECHNICAL_DOCUMENTATION\\Parts_Diagrams\\Lexus_Genuine_RX350_Parts.md",
+      "sha256": "aae56a3756f155ac76993437b59f5281e99a7e74a58a5ab21cf164b8922861e9",
+      "actualSha256": "aae56a3756f155ac76993437b59f5281e99a7e74a58a5ab21cf164b8922861e9",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\04_TECHNICAL_DOCUMENTATION\\Parts_Diagrams\\Lexus_Owners_Manuals_Portal.md",
+      "sha256": "37bc9f684f1c526b8ab8714d011254b7cd7f76159d297ac962065af23e5072ed",
+      "actualSha256": "37bc9f684f1c526b8ab8714d011254b7cd7f76159d297ac962065af23e5072ed",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\05_RESEARCH_NOTES\\PACKAGE_MANIFEST.json",
+      "sha256": "deffb25e22c5bdd4e490b224251122407d0c9d1d6539b8af233b347a0370fb04",
+      "actualSha256": "deffb25e22c5bdd4e490b224251122407d0c9d1d6539b8af233b347a0370fb04",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\05_RESEARCH_NOTES\\REFERENCE_GAPS.md",
+      "sha256": "16996a03e365957008d77b6f58df53897d7eba3ee248d89e74c7a75490b0f864",
+      "actualSha256": "16996a03e365957008d77b6f58df53897d7eba3ee248d89e74c7a75490b0f864",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\05_RESEARCH_NOTES\\TECHNICAL_FINDINGS.md",
+      "sha256": "9aeb4ecca1bb153f02c59ae621ff9451382831404461424bf737183cdb1a6dbf",
+      "actualSha256": "9aeb4ecca1bb153f02c59ae621ff9451382831404461424bf737183cdb1a6dbf",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\05_RESEARCH_NOTES\\VISUAL_REFERENCE_INDEX.md",
+      "sha256": "15a5b28144b6c0ecccfce4df771277eb768525387cc8d0170e874335ef4fb16f",
+      "actualSha256": "15a5b28144b6c0ecccfce4df771277eb768525387cc8d0170e874335ef4fb16f",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\SECOND_RESEARCH_ROUND\\agent_memos\\01-front-seats.md",
+      "sha256": "ad15562173d7d7eff2de96f011fd6aa1fe6db1a5c7314bf455b0cf188e81d324",
+      "actualSha256": "ad15562173d7d7eff2de96f011fd6aa1fe6db1a5c7314bf455b0cf188e81d324",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\SECOND_RESEARCH_ROUND\\agent_memos\\02-rear-seats.md",
+      "sha256": "bc88c8346c9629ab44569858e754cc721248b59daf1b56d19284505b41d8ceca",
+      "actualSha256": "bc88c8346c9629ab44569858e754cc721248b59daf1b56d19284505b41d8ceca",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\SECOND_RESEARCH_ROUND\\agent_memos\\03-dashboard-cockpit.md",
+      "sha256": "7d9cdea8f5b48be0963d9b0930eade592107cdff81c1bc94b8977f6130ff9db5",
+      "actualSha256": "7d9cdea8f5b48be0963d9b0930eade592107cdff81c1bc94b8977f6130ff9db5",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\SECOND_RESEARCH_ROUND\\agent_memos\\04-centre-console.md",
+      "sha256": "8b9ed36eab55fbe175c5ce2af34c455e2d33630b388d13f90b8adcb037e56a7a",
+      "actualSha256": "8b9ed36eab55fbe175c5ce2af34c455e2d33630b388d13f90b8adcb037e56a7a",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\SECOND_RESEARCH_ROUND\\agent_memos\\05-door-panels.md",
+      "sha256": "ee46e2fc790b694bb47f47cba9c1e49281006125c5656dac224c2a95f14bf478",
+      "actualSha256": "ee46e2fc790b694bb47f47cba9c1e49281006125c5656dac224c2a95f14bf478",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\SECOND_RESEARCH_ROUND\\agent_memos\\06-roof-headliner.md",
+      "sha256": "2b464e21664cefc37f99870c16703018427a43c1025715b9a22fd35374c8a685",
+      "actualSha256": "2b464e21664cefc37f99870c16703018427a43c1025715b9a22fd35374c8a685",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\SECOND_RESEARCH_ROUND\\agent_memos\\07-floor-lower-cabin.md",
+      "sha256": "6a5a7a7e3ce998f3926f4d05d7bfdecef2e1e70676bd9bd3e0fc412a153c9eaa",
+      "actualSha256": "6a5a7a7e3ce998f3926f4d05d7bfdecef2e1e70676bd9bd3e0fc412a153c9eaa",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\SECOND_RESEARCH_ROUND\\agent_memos\\08-steering-controls.md",
+      "sha256": "ed010990a22cb3cc43b3bad50681559403276b071d115501f720d46eb32edbe9",
+      "actualSha256": "ed010990a22cb3cc43b3bad50681559403276b071d115501f720d46eb32edbe9",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\SECOND_RESEARCH_ROUND\\agent_memos\\09-technical-documentation.md",
+      "sha256": "cbbc00587f911f593076fd9ad09a43b24ad99596cd1f5b6a59ecc43423e717f6",
+      "actualSha256": "cbbc00587f911f593076fd9ad09a43b24ad99596cd1f5b6a59ecc43423e717f6",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\SECOND_RESEARCH_ROUND\\agent_memos\\10-videos.md",
+      "sha256": "7fb783c15fe9f45a2c4b14c2147e49e21208dfbe46ed052af26367e38b6aee9a",
+      "actualSha256": "7fb783c15fe9f45a2c4b14c2147e49e21208dfbe46ed052af26367e38b6aee9a",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\SECOND_RESEARCH_ROUND\\agent_memos\\11-synthesis.md",
+      "sha256": "6578d95f9f4a5b5bde61eb56bb71f3bcfa2fa16a976f0fdb9d77ec08f8ddc5af",
+      "actualSha256": "6578d95f9f4a5b5bde61eb56bb71f3bcfa2fa16a976f0fdb9d77ec08f8ddc5af",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\SECOND_RESEARCH_ROUND\\NEW_FINDINGS_AND_CORRECTIONS.md",
+      "sha256": "2d3153bc075442197977a97e9c847b8d539c3a36269e544efb436c565767cff0",
+      "actualSha256": "2d3153bc075442197977a97e9c847b8d539c3a36269e544efb436c565767cff0",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\SECOND_RESEARCH_ROUND\\REFERENCE_COVERAGE_MATRIX.md",
+      "sha256": "15d46b326a68cfe069122f7d84f8aff35561e2fef62129722ee6fb9c4a429de4",
+      "actualSha256": "15d46b326a68cfe069122f7d84f8aff35561e2fef62129722ee6fb9c4a429de4",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\SECOND_RESEARCH_ROUND\\REMAINING_EVIDENCE_GAPS.md",
+      "sha256": "4ecd9ca87ca5056488e3ff624de508c1c97e766640e539924b693528c881b5b4",
+      "actualSha256": "4ecd9ca87ca5056488e3ff624de508c1c97e766640e539924b693528c881b5b4",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\SECOND_RESEARCH_ROUND\\SECOND_RESEARCH_REPORT.md",
+      "sha256": "31f14f665eea13685376f11051adb933bfddd0f70490732739064b1c39a627c1",
+      "actualSha256": "31f14f665eea13685376f11051adb933bfddd0f70490732739064b1c39a627c1",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\SECOND_RESEARCH_ROUND\\SECOND_ROUND_MANIFEST.json",
+      "sha256": "6af18bd70711aedc4b388d80edd0fb05797d638fafeaf74def5aa2388f4cc115",
+      "actualSha256": "6af18bd70711aedc4b388d80edd0fb05797d638fafeaf74def5aa2388f4cc115",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\SECOND_RESEARCH_ROUND\\SOURCE_AND_RIGHTS_REGISTER.csv",
+      "sha256": "16697b390aba7903ceaaa359235e4bdd11a72d87f499753574fe6e7861ced100",
+      "actualSha256": "16697b390aba7903ceaaa359235e4bdd11a72d87f499753574fe6e7861ced100",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\SECOND_RESEARCH_ROUND\\TECHNICAL_DOCUMENTATION_INDEX.md",
+      "sha256": "09ac0b5f1dd0490154df22dbb7277a216e9c67bae7a912aa41510df3ca7be608",
+      "actualSha256": "09ac0b5f1dd0490154df22dbb7277a216e9c67bae7a912aa41510df3ca7be608",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\SECOND_RESEARCH_ROUND\\VIDEO_REFERENCE_INDEX.md",
+      "sha256": "f20c221699313b35281818bf022ce2d092923ca7cbfbd1b9b0a91ea2b5453e66",
+      "actualSha256": "f20c221699313b35281818bf022ce2d092923ca7cbfbd1b9b0a91ea2b5453e66",
+      "unchanged": true
+    },
+    {
+      "path": "references\\AUTOLAB_2020_LEXUS_RX350_REFERENCE_LIBRARY\\SECOND_RESEARCH_ROUND\\VISUAL_REFERENCE_INDEX.md",
+      "sha256": "226393803b4ebfc04453ec8d9f1414bf982cfdb233fb18f5f2ca4d6555090007",
+      "actualSha256": "226393803b4ebfc04453ec8d9f1414bf982cfdb233fb18f5f2ca4d6555090007",
+      "unchanged": true
+    },
+    {
+      "path": "references\\docs\\3d-roadmap\\3D-0_REPRODUCIBILITY_REPORT.md",
+      "sha256": "783bfb052c6077238fbba015392742c20fc5e2314be673325ca5e244783b6e82",
+      "actualSha256": "783bfb052c6077238fbba015392742c20fc5e2314be673325ca5e244783b6e82",
+      "unchanged": true
+    },
+    {
+      "path": "references\\docs\\3d-roadmap\\3D_MIGRATION_AND_COMPATIBILITY.md",
+      "sha256": "43c30afe0731bb88f337343487bc34109ee27bb9d1ed8b49d0035da8c2b862fb",
+      "actualSha256": "43c30afe0731bb88f337343487bc34109ee27bb9d1ed8b49d0035da8c2b862fb",
+      "unchanged": true
+    },
+    {
+      "path": "references\\docs\\3d-roadmap\\DEVIN_TRANSITION_AUDIT.md",
+      "sha256": "0efd7fa07fb27cf36467210d6a3e4a43af0ac9f690e9393b7ab461628f67372b",
+      "actualSha256": "0efd7fa07fb27cf36467210d6a3e4a43af0ac9f690e9393b7ab461628f67372b",
+      "unchanged": true
+    },
+    {
+      "path": "references\\docs\\3d-roadmap\\DILUM_3D_TECHNIQUE_RESEARCH.md",
+      "sha256": "7386fb6d51d518e0947d845c09db28784256e9f2284a53b3f6e192e15a786991",
+      "actualSha256": "7386fb6d51d518e0947d845c09db28784256e9f2284a53b3f6e192e15a786991",
+      "unchanged": true
+    },
+    {
+      "path": "references\\docs\\3d-roadmap\\FULL_CABIN_EXPANSION_ROADMAP.md",
+      "sha256": "1cd021c2e074e4a2da97b6b47597f3ca99422ffa2996ecf6a9310ac5d93d4919",
+      "actualSha256": "1cd021c2e074e4a2da97b6b47597f3ca99422ffa2996ecf6a9310ac5d93d4919",
+      "unchanged": true
+    },
+    {
+      "path": "references\\docs\\3d-roadmap\\gallery-model-reconciliation\\COMPONENT_GAP_ASSESSMENT.md",
+      "sha256": "e560d121c9bce3cde995f52361aaaceb7d1a574656db7782b4468dd5279d2698",
+      "actualSha256": "e560d121c9bce3cde995f52361aaaceb7d1a574656db7782b4468dd5279d2698",
+      "unchanged": true
+    },
+    {
+      "path": "references\\docs\\3d-roadmap\\gallery-model-reconciliation\\EXECUTIVE_RECOMMENDATION.md",
+      "sha256": "1327d7143cc84b77c364715156097977262ac26ddc3b31b6ae01be40cdde30e9",
+      "actualSha256": "1327d7143cc84b77c364715156097977262ac26ddc3b31b6ae01be40cdde30e9",
+      "unchanged": true
+    },
+    {
+      "path": "references\\docs\\3d-roadmap\\gallery-model-reconciliation\\FIRST_IMPLEMENTATION_EXPERIMENT.md",
+      "sha256": "852eaed74383d59866adbba2fa20f4f2177e2f8f62b04e7c5505ce9b165dd8a7",
+      "actualSha256": "852eaed74383d59866adbba2fa20f4f2177e2f8f62b04e7c5505ce9b165dd8a7",
+      "unchanged": true
+    },
+    {
+      "path": "references\\docs\\3d-roadmap\\gallery-model-reconciliation\\GALLERY_VISUAL_INDEX.md",
+      "sha256": "70219a428f6c882dc8fc4dff46110c1230d431a92a8cf515eae9139beb339b61",
+      "actualSha256": "70219a428f6c882dc8fc4dff46110c1230d431a92a8cf515eae9139beb339b61",
+      "unchanged": true
+    },
+    {
+      "path": "references\\docs\\3d-roadmap\\gallery-model-reconciliation\\MODEL_TO_PHOTO_RECONCILIATION.md",
+      "sha256": "710066e133a68cf2c67234cf96a3093f9b8babad7f8e3b10f12203f15deb2380",
+      "actualSha256": "710066e133a68cf2c67234cf96a3093f9b8babad7f8e3b10f12203f15deb2380",
+      "unchanged": true
+    },
+    {
+      "path": "references\\docs\\3d-roadmap\\LEXUS_FRONT_CABIN_FIDELITY_PLAN.md",
+      "sha256": "6ae2a6ffa3c2e29a4695d82ace44b25fff554dea252b330b7267f292aaf39f2a",
+      "actualSha256": "6ae2a6ffa3c2e29a4695d82ace44b25fff554dea252b330b7267f292aaf39f2a",
+      "unchanged": true
+    },
+    {
+      "path": "references\\pr6-unmerged\\docs\\evidence\\3d-1\\capture-seat.mjs",
+      "sha256": "3578be3419fe5a144b172dc606578a7ff167cfc12857b5514d928be431525ebf",
+      "actualSha256": "3578be3419fe5a144b172dc606578a7ff167cfc12857b5514d928be431525ebf",
+      "unchanged": true
+    },
+    {
+      "path": "references\\pr6-unmerged\\scripts\\experiments\\3d-1-driver-seat\\build-candidates.mjs",
+      "sha256": "1e89c674a43a7c41d83788434718c66411ed71f877a159d5430311d3d708b663",
+      "actualSha256": "1e89c674a43a7c41d83788434718c66411ed71f877a159d5430311d3d708b663",
+      "unchanged": true
+    },
+    {
+      "path": "references\\pr6-unmerged\\scripts\\experiments\\3d-1-driver-seat\\seat-profile.mjs",
+      "sha256": "3f05382b36d166f1c86e897f8cbc4db53a72f282a19776e0b5711ade60b16e53",
+      "actualSha256": "3f05382b36d166f1c86e897f8cbc4db53a72f282a19776e0b5711ade60b16e53",
+      "unchanged": true
+    },
+    {
+      "path": "references\\pr6-unmerged\\tests\\driver-seat-experiment.test.ts",
+      "sha256": "241bfd0ce76c8c0aa652506094ffc0ddfc6c654aa8041e3e083cd17b23c3226f",
+      "actualSha256": "241bfd0ce76c8c0aa652506094ffc0ddfc6c654aa8041e3e083cd17b23c3226f",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\A-frame\\baseline-hashes.json",
+      "sha256": "d170db15601b4c2f343e4f8f6551a319b8ff2b30c93e6f86333b6f10347d72c5",
+      "actualSha256": "d170db15601b4c2f343e4f8f6551a319b8ff2b30c93e6f86333b6f10347d72c5",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\A-frame\\classic.json",
+      "sha256": "bed38f84dbc24e27c6bbe57847bdc41664f91756568f193dfa980a0da6ffdf72",
+      "actualSha256": "bed38f84dbc24e27c6bbe57847bdc41664f91756568f193dfa980a0da6ffdf72",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\A-frame\\construction.json",
+      "sha256": "65862bb0de02fd0aa6ab2f0f9126f0080580313da5829a3588c8354723e53539",
+      "actualSha256": "65862bb0de02fd0aa6ab2f0f9126f0080580313da5829a3588c8354723e53539",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\A-frame\\context.png",
+      "sha256": "88dba7c9b95337d5528d75e3d2abbbe6c41bffe727d4c7636f2b7328a6b2e901",
+      "actualSha256": "88dba7c9b95337d5528d75e3d2abbbe6c41bffe727d4c7636f2b7328a6b2e901",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\A-frame\\diamond.json",
+      "sha256": "e1369713faaad92044c529b831acc0d2a2b8116da6a82f660b5c73f11bb95597",
+      "actualSha256": "e1369713faaad92044c529b831acc0d2a2b8116da6a82f660b5c73f11bb95597",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\A-frame\\perforated.json",
+      "sha256": "24cd35fd1fa50b3826abb4ada18307ec49adc53ed53bb4ec383995ab16014902",
+      "actualSha256": "24cd35fd1fa50b3826abb4ada18307ec49adc53ed53bb4ec383995ab16014902",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\A-frame-build.log",
+      "sha256": "a6f4bbcc30f44756de9fb1862019265f2c5cb2984b3c3059a1b36fed8102ff5c",
+      "actualSha256": "a6f4bbcc30f44756de9fb1862019265f2c5cb2984b3c3059a1b36fed8102ff5c",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\approved-ai-reference-retrieval.json",
+      "sha256": "fb12b412a911eb4bfc3c7e10502cb6782885ca877ec901d8d9b0ac90502067f6",
+      "actualSha256": "fb12b412a911eb4bfc3c7e10502cb6782885ca877ec901d8d9b0ac90502067f6",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B1-floor\\baseline-hashes.json",
+      "sha256": "d170db15601b4c2f343e4f8f6551a319b8ff2b30c93e6f86333b6f10347d72c5",
+      "actualSha256": "d170db15601b4c2f343e4f8f6551a319b8ff2b30c93e6f86333b6f10347d72c5",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B1-floor\\classic.json",
+      "sha256": "578d1b201f4bbe271bf927a99d830c676680b0ffa5b5ca08a4ed01dc8d0c8af7",
+      "actualSha256": "578d1b201f4bbe271bf927a99d830c676680b0ffa5b5ca08a4ed01dc8d0c8af7",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B1-floor\\construction.json",
+      "sha256": "0308081dcf44a31009066b75ad7939b2ee51bd5ff3fa0aba4e596cfc502d9159",
+      "actualSha256": "0308081dcf44a31009066b75ad7939b2ee51bd5ff3fa0aba4e596cfc502d9159",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B1-floor\\context.png",
+      "sha256": "d2a187ad29a4a45977cc6f41442795d47d64030d80758dd2f5b8423f0a8e10bd",
+      "actualSha256": "d2a187ad29a4a45977cc6f41442795d47d64030d80758dd2f5b8423f0a8e10bd",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B1-floor\\diamond.json",
+      "sha256": "8aec65ed8155bf7b062ae6ba21039d2defaea3b7facfc1cb69b38d3a2ebcb2b3",
+      "actualSha256": "8aec65ed8155bf7b062ae6ba21039d2defaea3b7facfc1cb69b38d3a2ebcb2b3",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B1-floor\\perforated.json",
+      "sha256": "e76b94dba425598b017d967004bd96b74e745a9918a1733eeacc9361f7d7b6c2",
+      "actualSha256": "e76b94dba425598b017d967004bd96b74e745a9918a1733eeacc9361f7d7b6c2",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B1-floor-build.log",
+      "sha256": "1454b846dd5148ae7bd2e5e88cf35ab512dc556ccf12f0ba0d6e523f7855df54",
+      "actualSha256": "1454b846dd5148ae7bd2e5e88cf35ab512dc556ccf12f0ba0d6e523f7855df54",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B2-rear\\baseline-hashes.json",
+      "sha256": "d170db15601b4c2f343e4f8f6551a319b8ff2b30c93e6f86333b6f10347d72c5",
+      "actualSha256": "d170db15601b4c2f343e4f8f6551a319b8ff2b30c93e6f86333b6f10347d72c5",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B2-rear\\classic.json",
+      "sha256": "44d4882b8a80e39c389c12170fb7a76830f23e4b3df12e5aa9f1db1c7506ddda",
+      "actualSha256": "44d4882b8a80e39c389c12170fb7a76830f23e4b3df12e5aa9f1db1c7506ddda",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B2-rear\\construction.json",
+      "sha256": "3359437289e1921bdf01bc4a6cc99406a311a459b0f0f7150c38940f0e459eaf",
+      "actualSha256": "3359437289e1921bdf01bc4a6cc99406a311a459b0f0f7150c38940f0e459eaf",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B2-rear\\context.png",
+      "sha256": "a39b3b4a13580fcd8df38748211d66cec9c3f700d628b9d390e88b04815898cb",
+      "actualSha256": "a39b3b4a13580fcd8df38748211d66cec9c3f700d628b9d390e88b04815898cb",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B2-rear\\diamond.json",
+      "sha256": "86b66e1cbd79894b753fe37d9e5b627b41e861967932b2a42bbb236734662e8e",
+      "actualSha256": "86b66e1cbd79894b753fe37d9e5b627b41e861967932b2a42bbb236734662e8e",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B2-rear\\perforated.json",
+      "sha256": "e960673da74f1c77c17756a460ac9c362fc5df9cef1c400c9ddfc92e17b78f75",
+      "actualSha256": "e960673da74f1c77c17756a460ac9c362fc5df9cef1c400c9ddfc92e17b78f75",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B2-rear-build.log",
+      "sha256": "a1aa5383ef0767b384f429269c6253279c56631df37593fa323f95900428060e",
+      "actualSha256": "a1aa5383ef0767b384f429269c6253279c56631df37593fa323f95900428060e",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors\\classic.json",
+      "sha256": "2cfac33558f5248bc126f246bfc1cd6fd53a8a301a1b6975e5ebd9ad6970606e",
+      "actualSha256": "2cfac33558f5248bc126f246bfc1cd6fd53a8a301a1b6975e5ebd9ad6970606e",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors\\construction.json",
+      "sha256": "e5595fed88df0063633180f6f392f7fad2b3112324123aea9d493b354a09e44b",
+      "actualSha256": "e5595fed88df0063633180f6f392f7fad2b3112324123aea9d493b354a09e44b",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors\\context.png",
+      "sha256": "38c5bf24f9cdd2745c8c66dc80343fd01cf14f9e40129b2bcab6847da80affc8",
+      "actualSha256": "38c5bf24f9cdd2745c8c66dc80343fd01cf14f9e40129b2bcab6847da80affc8",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-build.log",
+      "sha256": "53f0dd9d9fad1c58fcb403fba337cfca4d7b96738b3078c9c3e332e093b0469a",
+      "actualSha256": "53f0dd9d9fad1c58fcb403fba337cfca4d7b96738b3078c9c3e332e093b0469a",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r2\\baseline-hashes.json",
+      "sha256": "d170db15601b4c2f343e4f8f6551a319b8ff2b30c93e6f86333b6f10347d72c5",
+      "actualSha256": "d170db15601b4c2f343e4f8f6551a319b8ff2b30c93e6f86333b6f10347d72c5",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r2\\classic.json",
+      "sha256": "2cf5090ffcf1d4bebc0394e82d9840ddd43a8ec33008082f6948d3f0d73eb772",
+      "actualSha256": "2cf5090ffcf1d4bebc0394e82d9840ddd43a8ec33008082f6948d3f0d73eb772",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r2\\construction.json",
+      "sha256": "d67e5038dcb6701c4f3751dc3f16cb4184e45e2fe5a223987b9aa5b1833a5b83",
+      "actualSha256": "d67e5038dcb6701c4f3751dc3f16cb4184e45e2fe5a223987b9aa5b1833a5b83",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r2\\context.png",
+      "sha256": "9e3b03e3d469b1615eaeac6c3730d2dc378d9438a14e5cf4e16106fe482f41b0",
+      "actualSha256": "9e3b03e3d469b1615eaeac6c3730d2dc378d9438a14e5cf4e16106fe482f41b0",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r2\\diamond.json",
+      "sha256": "60892313ac26d90b773f84753f024c55cff06e48f18af5c1cb84c4c0511bf201",
+      "actualSha256": "60892313ac26d90b773f84753f024c55cff06e48f18af5c1cb84c4c0511bf201",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r2\\door-reference-comparison.jpg",
+      "sha256": "d1e32b0b669730ca4551a7f6fd8c97bce4d2df5f8060d4b82f9a4f8c847237e7",
+      "actualSha256": "d1e32b0b669730ca4551a7f6fd8c97bce4d2df5f8060d4b82f9a4f8c847237e7",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r2\\front-door-colour.png",
+      "sha256": "4424d7446bd06071a3600189393580a83d8530886089a2da929445cc8922ee5d",
+      "actualSha256": "4424d7446bd06071a3600189393580a83d8530886089a2da929445cc8922ee5d",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r2\\front-door.png",
+      "sha256": "5ecc2dcf0236ef0d65e47ff66da862f445b0a4ebc02d195713d47d6ce2723119",
+      "actualSha256": "5ecc2dcf0236ef0d65e47ff66da862f445b0a4ebc02d195713d47d6ce2723119",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r2\\front-material-regions.png",
+      "sha256": "2781a3926fa73a02c14783e99266abc5199f390e8011a95da21e3230d34e45fb",
+      "actualSha256": "2781a3926fa73a02c14783e99266abc5199f390e8011a95da21e3230d34e45fb",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r2\\perforated.json",
+      "sha256": "846e8000fc17bc21a8cc642e7da0efa12751649fb02e418fb6a8706d93a1e163",
+      "actualSha256": "846e8000fc17bc21a8cc642e7da0efa12751649fb02e418fb6a8706d93a1e163",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r2\\rear-door-colour.png",
+      "sha256": "040d5a18ec1d1a440f702bd04cc962a5b30aba6129a0607c77222d3821a2fd6e",
+      "actualSha256": "040d5a18ec1d1a440f702bd04cc962a5b30aba6129a0607c77222d3821a2fd6e",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r2\\rear-door.png",
+      "sha256": "9d75dfc7ba0c950dc896f3ba142ea79e9237c5eaf8f68efc33f79ae9b48b60bb",
+      "actualSha256": "9d75dfc7ba0c950dc896f3ba142ea79e9237c5eaf8f68efc33f79ae9b48b60bb",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r2\\rear-material-regions.png",
+      "sha256": "e0de515b277df86616cdd0e5349a14ed6d1ee48cc05b8a20eb635e459ca58f93",
+      "actualSha256": "e0de515b277df86616cdd0e5349a14ed6d1ee48cc05b8a20eb635e459ca58f93",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r2\\REVIEW.md",
+      "sha256": "1a64f57e91bd257f6dae3ae92a0f68a02792e00f65f3bd7884aca7f329972d18",
+      "actualSha256": "1a64f57e91bd257f6dae3ae92a0f68a02792e00f65f3bd7884aca7f329972d18",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r2-attempt1.log",
+      "sha256": "dc6026b6d187465f6b4ef49288e5ae93694648e0277a36d03266bd5ee7f14ecd",
+      "actualSha256": "dc6026b6d187465f6b4ef49288e5ae93694648e0277a36d03266bd5ee7f14ecd",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r2-build.log",
+      "sha256": "16b0892cc9c33072cb17a9c2bfc5e29c7a94ddb452ba4f17abc17a3244568545",
+      "actualSha256": "16b0892cc9c33072cb17a9c2bfc5e29c7a94ddb452ba4f17abc17a3244568545",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r2-regions.log",
+      "sha256": "04d66082b3532e71fe44e0d6093e44f2b27fc723494205e748cccfb29bb3c899",
+      "actualSha256": "04d66082b3532e71fe44e0d6093e44f2b27fc723494205e748cccfb29bb3c899",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r2-review.log",
+      "sha256": "69848d424787bbeea99180591273be05a2e71d18c6dff075f7fdec352443ba22",
+      "actualSha256": "69848d424787bbeea99180591273be05a2e71d18c6dff075f7fdec352443ba22",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\allocation-after.json",
+      "sha256": "604078d9bdae8bd4e688cc85b94bdff6dc6e0cf932735bc349c45e88efa0462f",
+      "actualSha256": "604078d9bdae8bd4e688cc85b94bdff6dc6e0cf932735bc349c45e88efa0462f",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\allocation-before.json",
+      "sha256": "e5e2cd203e720d247ba4a122d2f380cf60eda4e0bf4dd32ec19951177495d801",
+      "actualSha256": "e5e2cd203e720d247ba4a122d2f380cf60eda4e0bf4dd32ec19951177495d801",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\armrest-handle-trim-closeup.png",
+      "sha256": "9120ea4d5c77f4cec8b4283c5f836f5ae23efb28bb62f0cc355eab2b034d49b7",
+      "actualSha256": "9120ea4d5c77f4cec8b4283c5f836f5ae23efb28bb62f0cc355eab2b034d49b7",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\baseline-hashes.json",
+      "sha256": "d170db15601b4c2f343e4f8f6551a319b8ff2b30c93e6f86333b6f10347d72c5",
+      "actualSha256": "d170db15601b4c2f343e4f8f6551a319b8ff2b30c93e6f86333b6f10347d72c5",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\classic.json",
+      "sha256": "b1052f71225c40767ad1e4ebb884827915420053a05541b8a48768b1b99770c9",
+      "actualSha256": "b1052f71225c40767ad1e4ebb884827915420053a05541b8a48768b1b99770c9",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\component-material-triangles.csv",
+      "sha256": "e2ae01114ddc9b217f33414bc95bddc09b5b747dc4364290c8cf9ed49dfc8d8a",
+      "actualSha256": "e2ae01114ddc9b217f33414bc95bddc09b5b747dc4364290c8cf9ed49dfc8d8a",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\construction.json",
+      "sha256": "8d1867470fc65bfd2311ac8d2606af342dd5685b2fddba9f07a7d153f8871d2f",
+      "actualSha256": "8d1867470fc65bfd2311ac8d2606af342dd5685b2fddba9f07a7d153f8871d2f",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\delivery-verification.json",
+      "sha256": "26dc0f53e516ccb849ca0f160458d42a7d8fa652b53649c90469c64e889ce108",
+      "actualSha256": "26dc0f53e516ccb849ca0f160458d42a7d8fa652b53649c90469c64e889ce108",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\diagnostic-material-regions.png",
+      "sha256": "d674b7152ef4d1d30ae446966bb7e5a159eaad278aa2a78f86d6667de819f2d7",
+      "actualSha256": "d674b7152ef4d1d30ae446966bb7e5a159eaad278aa2a78f86d6667de819f2d7",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\diamond.json",
+      "sha256": "d8e85aecb60dfc9aa3f6a0037f90c053dd1818b55e561a43084088ea82889ee2",
+      "actualSha256": "d8e85aecb60dfc9aa3f6a0037f90c053dd1818b55e561a43084088ea82889ee2",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\facing-audit.json",
+      "sha256": "9875372f68ba8a8ea1d6b1cd79213241b87bc2993c6d8be65aead0b208e7306c",
+      "actualSha256": "9875372f68ba8a8ea1d6b1cd79213241b87bc2993c6d8be65aead0b208e7306c",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\front-straight.png",
+      "sha256": "9d3e4199c96afc19cd31508309ed8453330655c9cb2834e1d74457da75a70720",
+      "actualSha256": "9d3e4199c96afc19cd31508309ed8453330655c9cb2834e1d74457da75a70720",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\front-three-quarter.png",
+      "sha256": "9b5ed9c894d3f9a131d95472f06ff9ccb1d886260cdf19220e9c6bd65450a276",
+      "actualSha256": "9b5ed9c894d3f9a131d95472f06ff9ccb1d886260cdf19220e9c6bd65450a276",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\GEOMETRY_ALLOCATION.md",
+      "sha256": "7ef6bffd5de8356acd746a31e6359c52118e935fcb7ecf4349413f75ebb9c28d",
+      "actualSha256": "7ef6bffd5de8356acd746a31e6359c52118e935fcb7ecf4349413f75ebb9c28d",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\index.html",
+      "sha256": "d6972b1a9b0a05bfea8ce1d2da53243c92e76b7bd141ff51528cb79d51594d13",
+      "actualSha256": "d6972b1a9b0a05bfea8ce1d2da53243c92e76b7bd141ff51528cb79d51594d13",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\inspection-contact-sheet.jpg",
+      "sha256": "211d34ea571203ee2da4a6e6c26fa5ca225740e88505517205a9c2269a58f67d",
+      "actualSha256": "211d34ea571203ee2da4a6e6c26fa5ca225740e88505517205a9c2269a58f67d",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\OPTIMISATION.md",
+      "sha256": "31058380ddd59b9fbbda9d9fc33bb5b74aa7a8cc87e00cb041d2db7c51ff517e",
+      "actualSha256": "31058380ddd59b9fbbda9d9fc33bb5b74aa7a8cc87e00cb041d2db7c51ff517e",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\perforated.json",
+      "sha256": "81e615d93705f9a4318b4dab2d9383fc0613fdb31e9c9047aad367aeabf29bd8",
+      "actualSha256": "81e615d93705f9a4318b4dab2d9383fc0613fdb31e9c9047aad367aeabf29bd8",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\r2-r3-comparison.jpg",
+      "sha256": "50547e7aeb737aa50735bbc058db9d45cb25d45b40e01f38c31c4f9014b6de24",
+      "actualSha256": "50547e7aeb737aa50735bbc058db9d45cb25d45b40e01f38c31c4f9014b6de24",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\rear-straight.png",
+      "sha256": "9c3c17f3f90a9c6c094dc9e420f21384103beb07058ed242ec912e0ea2cd603d",
+      "actualSha256": "9c3c17f3f90a9c6c094dc9e420f21384103beb07058ed242ec912e0ea2cd603d",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\rear-three-quarter.png",
+      "sha256": "55209d17b1a5ec05add50277609d5604514ccc520854b6afdb550084ead5ecbf",
+      "actualSha256": "55209d17b1a5ec05add50277609d5604514ccc520854b6afdb550084ead5ecbf",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\reference-comparison.jpg",
+      "sha256": "77b4b73a435f737aedfaf7613fd44a95daca2aca58277b61bfa6ad88eafee613",
+      "actualSha256": "77b4b73a435f737aedfaf7613fd44a95daca2aca58277b61bfa6ad88eafee613",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\regression-tests.json",
+      "sha256": "c86bc76be81c368693c3b66badca594b8acd1b5d8847a08623b43ca0d78bea36",
+      "actualSha256": "c86bc76be81c368693c3b66badca594b8acd1b5d8847a08623b43ca0d78bea36",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\render-settings.json",
+      "sha256": "be5095ccf19b3405d099d88c6281de421af385d606904f47ef2f5e54d026494b",
+      "actualSha256": "be5095ccf19b3405d099d88c6281de421af385d606904f47ef2f5e54d026494b",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\review-artifact-hashes.json",
+      "sha256": "240d46577ec53d0558c993020071b02c6cb766ddfa93eb0b9c2c97cf1e81e94d",
+      "actualSha256": "240d46577ec53d0558c993020071b02c6cb766ddfa93eb0b9c2c97cf1e81e94d",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\REVIEW.md",
+      "sha256": "8e8bf297713ed589bc8084c29600748eb43a48c1feacdd45c1fe248acf827357",
+      "actualSha256": "8e8bf297713ed589bc8084c29600748eb43a48c1feacdd45c1fe248acf827357",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\rollback-hashes.json",
+      "sha256": "14c4c431673824e4fffd355d42fb1e2ce7f59125cf32bcc577e49c669e84f485",
+      "actualSha256": "14c4c431673824e4fffd355d42fb1e2ce7f59125cf32bcc577e49c669e84f485",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\rollback-verification.json",
+      "sha256": "18093a7321f1b01af7b23e2860693ebfa07aa8a65e4f0a47597bc6db7fb64f34",
+      "actualSha256": "18093a7321f1b01af7b23e2860693ebfa07aa8a65e4f0a47597bc6db7fb64f34",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\STATE-before-r3.md",
+      "sha256": "598f8250d7c1df73ef1805655e761700e7fb2987991127b1d062b8787657c36d",
+      "actualSha256": "598f8250d7c1df73ef1805655e761700e7fb2987991127b1d062b8787657c36d",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\VALIDATION.md",
+      "sha256": "3d786a394e347cd6965172b9ee6a7b28054f88b09302321df5b11d69b44d66f6",
+      "actualSha256": "3d786a394e347cd6965172b9ee6a7b28054f88b09302321df5b11d69b44d66f6",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3\\VISUAL_DISCREPANCIES.md",
+      "sha256": "4fed65c2ddb94a1451174aaa6722666e8fee9a3cd860468357fce6e4aada74f2",
+      "actualSha256": "4fed65c2ddb94a1451174aaa6722666e8fee9a3cd860468357fce6e4aada74f2",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3-budget-stop.log",
+      "sha256": "0d12687066d554d9047a8b446dd4089c023f48adbcd932c0ce25713779b3b2e9",
+      "actualSha256": "0d12687066d554d9047a8b446dd4089c023f48adbcd932c0ce25713779b3b2e9",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3-build.log",
+      "sha256": "e21d022098bc0cf0b8894b403d7995ccde759cf5f698f80a95085d8ff8e11579",
+      "actualSha256": "e21d022098bc0cf0b8894b403d7995ccde759cf5f698f80a95085d8ff8e11579",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3-facing.log",
+      "sha256": "e7e8d7aff65d45f69003f1be6d6064a0c59d4b8b4fa109a455d8c3cfc6b4c4cf",
+      "actualSha256": "e7e8d7aff65d45f69003f1be6d6064a0c59d4b8b4fa109a455d8c3cfc6b4c4cf",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3-render-finish.log",
+      "sha256": "a938ac20d1913761f07aa641599d78b439ccdfa76cb93681044d0b6ede0836e5",
+      "actualSha256": "a938ac20d1913761f07aa641599d78b439ccdfa76cb93681044d0b6ede0836e5",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\B3-doors-r3-render.log",
+      "sha256": "59e0d49a844e4f531efa1e3aceedce2053df1ecb791be365746b312695d610d1",
+      "actualSha256": "59e0d49a844e4f531efa1e3aceedce2053df1ecb791be365746b312695d610d1",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\baseline-inspection.json",
+      "sha256": "2c06c4e755467f18892da2d04c1df548edf5cba12d6dc266ecf0d2663ef3732a",
+      "actualSha256": "2c06c4e755467f18892da2d04c1df548edf5cba12d6dc266ecf0d2663ef3732a",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\blender-probe.txt",
+      "sha256": "5746d096b72d07614ddf2016719b181c765fc5dd0e67356d8d46194b76da8f22",
+      "actualSha256": "5746d096b72d07614ddf2016719b181c765fc5dd0e67356d8d46194b76da8f22",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\CONFIGURATOR_INTERFACES_R2.md",
+      "sha256": "ea1a2be1e383efdec73005b33840512967ad00c1c6ad7cf5f114297d48935aed",
+      "actualSha256": "ea1a2be1e383efdec73005b33840512967ad00c1c6ad7cf5f114297d48935aed",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\consolidation-proof\\baseline-hashes.json",
+      "sha256": "d170db15601b4c2f343e4f8f6551a319b8ff2b30c93e6f86333b6f10347d72c5",
+      "actualSha256": "d170db15601b4c2f343e4f8f6551a319b8ff2b30c93e6f86333b6f10347d72c5",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\consolidation-proof\\classic.json",
+      "sha256": "01eb91c2b24a8c342e74506478af3d400282d81c2990fb59d2f7f6fb8d6a9662",
+      "actualSha256": "01eb91c2b24a8c342e74506478af3d400282d81c2990fb59d2f7f6fb8d6a9662",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\consolidation-proof\\diamond.json",
+      "sha256": "c0318e0ea42fcf78bdd19ceed0a407d0333ebe4aab32f0afa47e562eda4d9329",
+      "actualSha256": "c0318e0ea42fcf78bdd19ceed0a407d0333ebe4aab32f0afa47e562eda4d9329",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\consolidation-proof\\perforated.json",
+      "sha256": "d2b705177a2604d547472ec25708a4df200a50fe3f68c7533c2f078b6ff87200",
+      "actualSha256": "d2b705177a2604d547472ec25708a4df200a50fe3f68c7533c2f078b6ff87200",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\download-inventory.json",
+      "sha256": "059ae73c1485919cbd7e7fb39a8c2d025f03709dfaf9fe9f913f684c79736593",
+      "actualSha256": "059ae73c1485919cbd7e7fb39a8c2d025f03709dfaf9fe9f913f684c79736593",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\FULL_CABIN_ASSESSMENT.md",
+      "sha256": "c6701ffabc0e561ec3d5b25d8dd8a3af96cf2d09fe1bfea2796196d0bd4f998b",
+      "actualSha256": "c6701ffabc0e561ec3d5b25d8dd8a3af96cf2d09fe1bfea2796196d0bd4f998b",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\gallery-contact-sheet.jpg",
+      "sha256": "498e1d6880ea002b56d149fa5c9e3ebbbd7653f2b70165f0669fb830fc762619",
+      "actualSha256": "498e1d6880ea002b56d149fa5c9e3ebbbd7653f2b70165f0669fb830fc762619",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\new-prs.json",
+      "sha256": "f1feef344a2f0a1873993f3a5f9d191d9b63fd68417e0391a2f3cdb96ed57cc5",
+      "actualSha256": "f1feef344a2f0a1873993f3a5f9d191d9b63fd68417e0391a2f3cdb96ed57cc5",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\new-tree.json",
+      "sha256": "bbeb90d63ae87be438d8094dbe3d2e75266a59e6bd3baaba75beddd8337ca9b6",
+      "actualSha256": "bbeb90d63ae87be438d8094dbe3d2e75266a59e6bd3baaba75beddd8337ca9b6",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\original-prs.json",
+      "sha256": "2e537f319b7a5944e17d55982a442f767bb4de27281d0f68db4ad97353e63895",
+      "actualSha256": "2e537f319b7a5944e17d55982a442f767bb4de27281d0f68db4ad97353e63895",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\original-tree.json",
+      "sha256": "feadc60c2621c306344ca884b6cf416de443202baef4c37f1b1f81a0bc0fe9db",
+      "actualSha256": "feadc60c2621c306344ca884b6cf416de443202baef4c37f1b1f81a0bc0fe9db",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\pipeline\\bounds.json",
+      "sha256": "8ece36b69ff5931751e461fc5ff16d28ffd2b7e2d720fd56fa9cb0fd8c59f5c6",
+      "actualSha256": "8ece36b69ff5931751e461fc5ff16d28ffd2b7e2d720fd56fa9cb0fd8c59f5c6",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\pipeline\\classic-baseline.json",
+      "sha256": "a3c151256b966be4f27c05fb4a6f88eecb06876f65d1341c21b9bcf8638e6d91",
+      "actualSha256": "a3c151256b966be4f27c05fb4a6f88eecb06876f65d1341c21b9bcf8638e6d91",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\pipeline\\diamond-baseline.json",
+      "sha256": "9a5a9e9dce11d4996868c454930a02e628ed6ca3cbe4069e1e8e7238bd5ca86b",
+      "actualSha256": "9a5a9e9dce11d4996868c454930a02e628ed6ca3cbe4069e1e8e7238bd5ca86b",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\pipeline\\perforated-baseline.json",
+      "sha256": "ca1ad02af61d99c2021e8d2c26d468b509db1705c44875d84ad4bb1f40156ca4",
+      "actualSha256": "ca1ad02af61d99c2021e8d2c26d468b509db1705c44875d84ad4bb1f40156ca4",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\pipeline\\proof.json",
+      "sha256": "ad86f1606785414f7548efa4d37c3393caa5d99277982e7251c4dd563baad476",
+      "actualSha256": "ad86f1606785414f7548efa4d37c3393caa5d99277982e7251c4dd563baad476",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\pr6-files.json",
+      "sha256": "0eb3e305c10b75866eb88c8626cfb323e56bab4729b22dea58a929b62fdda49a",
+      "actualSha256": "0eb3e305c10b75866eb88c8626cfb323e56bab4729b22dea58a929b62fdda49a",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\advisory-image-comparison.json",
+      "sha256": "863844fb4cf8d197c6f75e87e044b26f2fcea7bfddd921ed6afd71663d22abe8",
+      "actualSha256": "863844fb4cf8d197c6f75e87e044b26f2fcea7bfddd921ed6afd71663d22abe8",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\artifact-hashes.json",
+      "sha256": "c021f5dcf9a2e9d993cd7b78be7f7cee2cedc77faffd89f6ea2a3ada268bfa9c",
+      "actualSha256": "c021f5dcf9a2e9d993cd7b78be7f7cee2cedc77faffd89f6ea2a3ada268bfa9c",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\build.log",
+      "sha256": "17f2e2aeae72cc608ded173e9294b33277dff779c3c9f33d0147d388bae16ba6",
+      "actualSha256": "17f2e2aeae72cc608ded173e9294b33277dff779c3c9f33d0147d388bae16ba6",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\COMPONENTS.md",
+      "sha256": "efef59a250f0dae0a272313bc5aa03d41f2810c021836b356aa9b788dd638415",
+      "actualSha256": "efef59a250f0dae0a272313bc5aa03d41f2810c021836b356aa9b788dd638415",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\CONTRACT.md",
+      "sha256": "80bd71c6023f57d2ec30ab1d47b65a91396a2668014099f5c5e0e11df36851a5",
+      "actualSha256": "80bd71c6023f57d2ec30ab1d47b65a91396a2668014099f5c5e0e11df36851a5",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\detail-comparison.jpg",
+      "sha256": "e6fb2cbacc3b4d5e4c82f6b73c8ceb0057099ae00079cc0f443b4c686702f7f4",
+      "actualSha256": "e6fb2cbacc3b4d5e4c82f6b73c8ceb0057099ae00079cc0f443b4c686702f7f4",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\final-render.log",
+      "sha256": "dd08a64e50425292763ecfbd0977499b3f3ef88648ec9b66f318f7e57a864355",
+      "actualSha256": "dd08a64e50425292763ecfbd0977499b3f3ef88648ec9b66f318f7e57a864355",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\front-reference.png",
+      "sha256": "2cc36349453a129971874c3daf23f26f904ef73ecb5631d3dcb4a56498ec02ac",
+      "actualSha256": "2cc36349453a129971874c3daf23f26f904ef73ecb5631d3dcb4a56498ec02ac",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\handle-release-closeup.png",
+      "sha256": "f63d6441ce8b6e99c62c466cd6156de5ca56eb45b7138892f81b0d8b9cab5443",
+      "actualSha256": "f63d6441ce8b6e99c62c466cd6156de5ca56eb45b7138892f81b0d8b9cab5443",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\index.html",
+      "sha256": "69f2180000edfa702919c9fe3ff45d2f3204402f7f50c4906b7139b65d473745",
+      "actualSha256": "69f2180000edfa702919c9fe3ff45d2f3204402f7f50c4906b7139b65d473745",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\inspection-contact-sheet.jpg",
+      "sha256": "d791862c7f211a19b7cbe1438ca0076a2fe42d83268a98a175e66f8e92033d10",
+      "actualSha256": "d791862c7f211a19b7cbe1438ca0076a2fe42d83268a98a175e66f8e92033d10",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\INSPECTION.md",
+      "sha256": "05efb283d3909b36442da50fdcd0672f59b69742dfac153bfd17c87ea339dfc6",
+      "actualSha256": "05efb283d3909b36442da50fdcd0672f59b69742dfac153bfd17c87ea339dfc6",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\master-metrics.json",
+      "sha256": "172b4074ce6a9cf829ce790bc0de37f7eea595050203234b9798be92ec8dfd2f",
+      "actualSha256": "172b4074ce6a9cf829ce790bc0de37f7eea595050203234b9798be92ec8dfd2f",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\master-validation.json",
+      "sha256": "cade1f0e3609c7dab901a5fde474a250b84b22693d5cf80b6dd77455074b1047",
+      "actualSha256": "cade1f0e3609c7dab901a5fde474a250b84b22693d5cf80b6dd77455074b1047",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\master-validation.log",
+      "sha256": "8a9db26082b1cbc8f9c8b243556446d26bf5ebf3c7f2c0135f2bfad442b6a18a",
+      "actualSha256": "8a9db26082b1cbc8f9c8b243556446d26bf5ebf3c7f2c0135f2bfad442b6a18a",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\material-lab.png",
+      "sha256": "3ebd0759c2f8dd208cef14fd0217244d7e351216a425563f2871de1be7060e1e",
+      "actualSha256": "3ebd0759c2f8dd208cef14fd0217244d7e351216a425563f2871de1be7060e1e",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\neutral-geometry.png",
+      "sha256": "d8747a53d8d5fc8e3446694f2f8fa365c2a52c2f47835c00b0205a46afdf54eb",
+      "actualSha256": "d8747a53d8d5fc8e3446694f2f8fa365c2a52c2f47835c00b0205a46afdf54eb",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\OWNER-REVIEW.md",
+      "sha256": "072f6a65f586163926502095c143e5abca37b3563cdf8358f983b32869d2eac1",
+      "actualSha256": "072f6a65f586163926502095c143e5abca37b3563cdf8358f983b32869d2eac1",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\package-validation.json",
+      "sha256": "3ec826318cf94ce854d44951262769ee91aca40da88f2a6afd33e2ff78b19223",
+      "actualSha256": "3ec826318cf94ce854d44951262769ee91aca40da88f2a6afd33e2ff78b19223",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\pocket-speaker-closeup.png",
+      "sha256": "5e720f9c24ab5e0d0350fc3155a5727d72d0c3ec19537c7590fea22a5eec12fa",
+      "actualSha256": "5e720f9c24ab5e0d0350fc3155a5727d72d0c3ec19537c7590fea22a5eec12fa",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\preservation-check.json",
+      "sha256": "b9f8649ac3213cf6790dca2f6f5a18c75b4228f3fe38105a16aff22165f6b9de",
+      "actualSha256": "b9f8649ac3213cf6790dca2f6f5a18c75b4228f3fe38105a16aff22165f6b9de",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\preserved-before.json",
+      "sha256": "74a8dab9e3b14af07e7445f2d4ee07313338d592cdb8c736b50883482f29e719",
+      "actualSha256": "74a8dab9e3b14af07e7445f2d4ee07313338d592cdb8c736b50883482f29e719",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\preview-front-reference.png",
+      "sha256": "841996d304a91d6b387be188c82464b81062862c5623bc38d4f6463ffc113f3a",
+      "actualSha256": "841996d304a91d6b387be188c82464b81062862c5623bc38d4f6463ffc113f3a",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\preview-handle-release-closeup.png",
+      "sha256": "112c9e31e352f6a6bff89eba0d0229ec22c9f99bc328fbea0688d317e3984ac2",
+      "actualSha256": "112c9e31e352f6a6bff89eba0d0229ec22c9f99bc328fbea0688d317e3984ac2",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\preview-material-lab.png",
+      "sha256": "29811efdde304cb64d7587708ad94f6114e613a32554cacea53bbdd503b5d900",
+      "actualSha256": "29811efdde304cb64d7587708ad94f6114e613a32554cacea53bbdd503b5d900",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\preview-pocket-speaker-closeup.png",
+      "sha256": "8e89af4e4e3b3203bbc609dcfe0ca338adf2e20b16a0f279fdc61d0938ef904e",
+      "actualSha256": "8e89af4e4e3b3203bbc609dcfe0ca338adf2e20b16a0f279fdc61d0938ef904e",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\preview-render-manifest.json",
+      "sha256": "4b3e6d5d102c465e67345a3c5476383ae2632708acec8710cc932774380a6246",
+      "actualSha256": "4b3e6d5d102c465e67345a3c5476383ae2632708acec8710cc932774380a6246",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\preview-render.log",
+      "sha256": "25c48f0a0a3cae27eafacc1ba0df3a37fe5969f4d724564404a72920318e88eb",
+      "actualSha256": "25c48f0a0a3cae27eafacc1ba0df3a37fe5969f4d724564404a72920318e88eb",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\preview-three-quarter.png",
+      "sha256": "3efef10e31076d99725c7e8f00ed866e3f6037195a127c07413e8377bf38b71b",
+      "actualSha256": "3efef10e31076d99725c7e8f00ed866e3f6037195a127c07413e8377bf38b71b",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\realistic-material.png",
+      "sha256": "a9f00f728f92d132bb835d77333748491aa66f9281613bf81096eae239117feb",
+      "actualSha256": "a9f00f728f92d132bb835d77333748491aa66f9281613bf81096eae239117feb",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\reference-comparison.jpg",
+      "sha256": "0f543948dc5146f3a85742b278d8f08b9d3c89d46b3526c20a1b7d14853f2350",
+      "actualSha256": "0f543948dc5146f3a85742b278d8f08b9d3c89d46b3526c20a1b7d14853f2350",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\render-manifest.json",
+      "sha256": "197d1adf4ed80d39546f74e78c009aa1a2c4ab0d971f15d23ff11277c3e21d71",
+      "actualSha256": "197d1adf4ed80d39546f74e78c009aa1a2c4ab0d971f15d23ff11277c3e21d71",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\REPRODUCE.md",
+      "sha256": "e60bcf25c3c7f5f818fe4a8180d275131e9279a75256ee01366f933d0401e3a8",
+      "actualSha256": "e60bcf25c3c7f5f818fe4a8180d275131e9279a75256ee01366f933d0401e3a8",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\REVIEW.md",
+      "sha256": "5a21977a1f37f371b416607ba3eb385bbbfbdc7fa2df1cd5c2ac64c8a479dc42",
+      "actualSha256": "5a21977a1f37f371b416607ba3eb385bbbfbdc7fa2df1cd5c2ac64c8a479dc42",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\round-1\\build_front_door_r4.py",
+      "sha256": "9c45bfb776da6506fc05ad711f85b179a0681694942bebee153b2b5ace1bbcda",
+      "actualSha256": "9c45bfb776da6506fc05ad711f85b179a0681694942bebee153b2b5ace1bbcda",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\round-1\\front-door-master.blend",
+      "sha256": "8fd67641b5b222ab808aa57fff86c51f3e8a017f2b71ce33d01066d0c0938d3b",
+      "actualSha256": "8fd67641b5b222ab808aa57fff86c51f3e8a017f2b71ce33d01066d0c0938d3b",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\round-1\\master-metrics.json",
+      "sha256": "18f6ab417428c2402edbb813e689f11087e0a39285708481210cf733d56a83b3",
+      "actualSha256": "18f6ab417428c2402edbb813e689f11087e0a39285708481210cf733d56a83b3",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\round-1\\preview-front-reference.png",
+      "sha256": "810adf19726341bb99a99a11c5e18c33fb49e7eab95c23603f950432e8f735e1",
+      "actualSha256": "810adf19726341bb99a99a11c5e18c33fb49e7eab95c23603f950432e8f735e1",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\round-1\\preview-material-lab.png",
+      "sha256": "cdfc7523995dd9989431283367f3e1a4296322c2597530055525757b25734afe",
+      "actualSha256": "cdfc7523995dd9989431283367f3e1a4296322c2597530055525757b25734afe",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\round-1\\preview-three-quarter.png",
+      "sha256": "f0512f7283d1a7770d8862909cb2c14c0144638ebb5af89324e5d94cc4533936",
+      "actualSha256": "f0512f7283d1a7770d8862909cb2c14c0144638ebb5af89324e5d94cc4533936",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\round-1\\REVIEW.md",
+      "sha256": "46e05ec3dd90b3de2777ee554900bafcb1ebd0d9f33cf272983749aec55328c8",
+      "actualSha256": "46e05ec3dd90b3de2777ee554900bafcb1ebd0d9f33cf272983749aec55328c8",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\round-2\\build_front_door_r4.py",
+      "sha256": "53da139e2198bfbd7e4ff3ca84161bc3275622ecc838ac22e06a8175ed753995",
+      "actualSha256": "53da139e2198bfbd7e4ff3ca84161bc3275622ecc838ac22e06a8175ed753995",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\round-2\\front-door-master.blend",
+      "sha256": "83c30ed95137137acd4af4e39119f4575e51c112d7d55c38bd55e20ca549a9f5",
+      "actualSha256": "83c30ed95137137acd4af4e39119f4575e51c112d7d55c38bd55e20ca549a9f5",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\round-2\\preview-front-reference.png",
+      "sha256": "3a2e4075d945d320be8b404ed9baab762f637a3bea65f1004046b74172febb10",
+      "actualSha256": "3a2e4075d945d320be8b404ed9baab762f637a3bea65f1004046b74172febb10",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\round-2\\preview-handle-release-closeup.png",
+      "sha256": "645fe40e112fa587d78aba0ef8cba320e09896543d8c3596d50dc49a65d0ffaa",
+      "actualSha256": "645fe40e112fa587d78aba0ef8cba320e09896543d8c3596d50dc49a65d0ffaa",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\round-2\\preview-material-lab.png",
+      "sha256": "cdfc7523995dd9989431283367f3e1a4296322c2597530055525757b25734afe",
+      "actualSha256": "cdfc7523995dd9989431283367f3e1a4296322c2597530055525757b25734afe",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\round-2\\preview-pocket-speaker-closeup.png",
+      "sha256": "8e89af4e4e3b3203bbc609dcfe0ca338adf2e20b16a0f279fdc61d0938ef904e",
+      "actualSha256": "8e89af4e4e3b3203bbc609dcfe0ca338adf2e20b16a0f279fdc61d0938ef904e",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\round-2\\preview-three-quarter.png",
+      "sha256": "3efef10e31076d99725c7e8f00ed866e3f6037195a127c07413e8377bf38b71b",
+      "actualSha256": "3efef10e31076d99725c7e8f00ed866e3f6037195a127c07413e8377bf38b71b",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\round-2\\REVIEW.md",
+      "sha256": "5251ebb0772e8d15d9987eeebde6f53442e666381a49e1f874f12d26e7f64ce5",
+      "actualSha256": "5251ebb0772e8d15d9987eeebde6f53442e666381a49e1f874f12d26e7f64ce5",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\STATE-before-R4.md",
+      "sha256": "c45f42b92379c60d9bf528f8bf72a4b225af6d7d20c8a82b497b368fe8cb258a",
+      "actualSha256": "c45f42b92379c60d9bf528f8bf72a4b225af6d7d20c8a82b497b368fe8cb258a",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\R4-front-door-master\\three-quarter.png",
+      "sha256": "ae30f89f6e43a64062060946d833bc3fd4324bad8f584163709c50bbad961055",
+      "actualSha256": "ae30f89f6e43a64062060946d833bc3fd4324bad8f584163709c50bbad961055",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\reference-r2\\all16-contact.jpg",
+      "sha256": "3e1cc1189d3f063d90c36eaf30ad326ec102cebf83f8559326bc80344a610c6f",
+      "actualSha256": "3e1cc1189d3f063d90c36eaf30ad326ec102cebf83f8559326bc80344a610c6f",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\reference-r2\\AUTOLAB_SUV_FRONT_DOOR_PANEL_ALTERNATE_02.jpg",
+      "sha256": "a703cc7748306d40aa2bef924682055d0a6872dddebe3a1c18e0b1865d3720ca",
+      "actualSha256": "a703cc7748306d40aa2bef924682055d0a6872dddebe3a1c18e0b1865d3720ca",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\reference-r2\\AUTOLAB_SUV_FRONT_DOOR_PANEL_PRIMARY_01.jpg",
+      "sha256": "8805c6458ca4f9e4aa5407355489ae47729b1c9815fc6f817f70119c4ba73306",
+      "actualSha256": "8805c6458ca4f9e4aa5407355489ae47729b1c9815fc6f817f70119c4ba73306",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\reference-r2\\AUTOLAB_SUV_REAR_DOOR_PANEL_ALTERNATE_02.jpg",
+      "sha256": "4f417e2c1761472a350559d58df3646caafbb49966d7632b985e59fd09b4efbf",
+      "actualSha256": "4f417e2c1761472a350559d58df3646caafbb49966d7632b985e59fd09b4efbf",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\reference-r2\\AUTOLAB_SUV_REAR_DOOR_PANEL_PRIMARY_01.jpg",
+      "sha256": "7900af71aa0dfaa105b16c992e8b1fc28840e56894cf29e7586d931ebbe54fee",
+      "actualSha256": "7900af71aa0dfaa105b16c992e8b1fc28840e56894cf29e7586d931ebbe54fee",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\reference-r2\\regression-tests.json",
+      "sha256": "c86bc76be81c368693c3b66badca594b8acd1b5d8847a08623b43ca0d78bea36",
+      "actualSha256": "c86bc76be81c368693c3b66badca594b8acd1b5d8847a08623b43ca0d78bea36",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\reference-r2\\tangent-before.json",
+      "sha256": "7ee15149ce4507821103f042ee301037bf62a9f21ac90e00484b5f50cc1ebefd",
+      "actualSha256": "7ee15149ce4507821103f042ee301037bf62a9f21ac90e00484b5f50cc1ebefd",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\reference-r2\\tangent-regression.json",
+      "sha256": "073d25bebd370baa6d389e54b4c404c12c4ef05334462ef95a2218f567096858",
+      "actualSha256": "073d25bebd370baa6d389e54b4c404c12c4ef05334462ef95a2218f567096858",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\STATE-before-reference-r2.md",
+      "sha256": "16b1f1934afb98b669d3299c24f1c706155e5a76af7cde5b278cb26656a00198",
+      "actualSha256": "16b1f1934afb98b669d3299c24f1c706155e5a76af7cde5b278cb26656a00198",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\toktx-probe.txt",
+      "sha256": "b6735e71bf557b6f1f98eb953f8e11f77ba2ec8d6b04f37826c0fcd0167b6e76",
+      "actualSha256": "b6735e71bf557b6f1f98eb953f8e11f77ba2ec8d6b04f37826c0fcd0167b6e76",
+      "unchanged": true
+    },
+    {
+      "path": "reports\\WORKSPACE_INVENTORY_AND_DEPENDENCIES.md",
+      "sha256": "3232fcdbd67a2bc5bdf2fce171e119df6b20dd264adbe1ea5b561a03f519e149",
+      "actualSha256": "3232fcdbd67a2bc5bdf2fce171e119df6b20dd264adbe1ea5b561a03f519e149",
+      "unchanged": true
+    },
+    {
+      "path": "working_models\\A-frame-additions.glb",
+      "sha256": "0012cc4f307c41cd4de1257c280438bbdf9e98e5b7c845aa03e8a79a36eddd4e",
+      "actualSha256": "0012cc4f307c41cd4de1257c280438bbdf9e98e5b7c845aa03e8a79a36eddd4e",
+      "unchanged": true
+    },
+    {
+      "path": "working_models\\A-frame.blend",
+      "sha256": "2eb5549484a2bb5122c47bb44611a24a479e66db9a020f400a2bc8b504718d8a",
+      "actualSha256": "2eb5549484a2bb5122c47bb44611a24a479e66db9a020f400a2bc8b504718d8a",
+      "unchanged": true
+    },
+    {
+      "path": "working_models\\A-frame.blend1",
+      "sha256": "bc4224ccc4b78b642d0488b823e44156f2835ce4da60ded41eca473998ddaef0",
+      "actualSha256": "bc4224ccc4b78b642d0488b823e44156f2835ce4da60ded41eca473998ddaef0",
+      "unchanged": true
+    },
+    {
+      "path": "working_models\\B1-floor-additions.glb",
+      "sha256": "c6f05230534b44932eca82ed79faf8c4eefeba6ef27bd47796e99ab0790fe3e6",
+      "actualSha256": "c6f05230534b44932eca82ed79faf8c4eefeba6ef27bd47796e99ab0790fe3e6",
+      "unchanged": true
+    },
+    {
+      "path": "working_models\\B1-floor.blend",
+      "sha256": "f5038d25925396423ce9727ef70bd03f62efa55618a26c6b904f272c368e684b",
+      "actualSha256": "f5038d25925396423ce9727ef70bd03f62efa55618a26c6b904f272c368e684b",
+      "unchanged": true
+    },
+    {
+      "path": "working_models\\B2-rear-additions.glb",
+      "sha256": "03f87fb3d8f28a0c316e704a465a98b8cd2a55422bd5cd6062626dc23ac60bd9",
+      "actualSha256": "03f87fb3d8f28a0c316e704a465a98b8cd2a55422bd5cd6062626dc23ac60bd9",
+      "unchanged": true
+    },
+    {
+      "path": "working_models\\B2-rear.blend",
+      "sha256": "454a3d65154bada439735f4f3bfde0119b7dc4a5296e26bb9ac25d31c807a0c0",
+      "actualSha256": "454a3d65154bada439735f4f3bfde0119b7dc4a5296e26bb9ac25d31c807a0c0",
+      "unchanged": true
+    },
+    {
+      "path": "working_models\\B3-doors-additions.glb",
+      "sha256": "ed1598622f5bb64961f1fc8ccb4eb3e9025143eac29063a85239f0e962c1b52f",
+      "actualSha256": "ed1598622f5bb64961f1fc8ccb4eb3e9025143eac29063a85239f0e962c1b52f",
+      "unchanged": true
+    },
+    {
+      "path": "working_models\\B3-doors-r2-additions.glb",
+      "sha256": "9f6078c1bfb0b3615d9100f3604f895f7c60abe5df181e3e6e3833bc180f9bae",
+      "actualSha256": "9f6078c1bfb0b3615d9100f3604f895f7c60abe5df181e3e6e3833bc180f9bae",
+      "unchanged": true
+    },
+    {
+      "path": "working_models\\B3-doors-r2-review.blend",
+      "sha256": "673c60aeacc60063e5530e705b0fce72aff69db310f94b2b5586100af8ebf127",
+      "actualSha256": "673c60aeacc60063e5530e705b0fce72aff69db310f94b2b5586100af8ebf127",
+      "unchanged": true
+    },
+    {
+      "path": "working_models\\B3-doors-r2.blend",
+      "sha256": "55627072c0a5b4662769fadeb8eb93f644cb74564ce5f2d21e2d17c7537713da",
+      "actualSha256": "55627072c0a5b4662769fadeb8eb93f644cb74564ce5f2d21e2d17c7537713da",
+      "unchanged": true
+    },
+    {
+      "path": "working_models\\B3-doors-r3-additions.glb",
+      "sha256": "91cf61ad91e21d56648add26a0269e5e9d2750a64164bcae493dc9c33543fb8b",
+      "actualSha256": "91cf61ad91e21d56648add26a0269e5e9d2750a64164bcae493dc9c33543fb8b",
+      "unchanged": true
+    },
+    {
+      "path": "working_models\\B3-doors-r3-master.blend",
+      "sha256": "b95d5d5fb65cb5762cdef291f34219c28d349c27e5da127e469334356e84d455",
+      "actualSha256": "b95d5d5fb65cb5762cdef291f34219c28d349c27e5da127e469334356e84d455",
+      "unchanged": true
+    },
+    {
+      "path": "working_models\\B3-doors-r3.blend",
+      "sha256": "cc726f93b876c65ab65ab367e00a750635d17732cdfedbe9da0433ce1a3c7a29",
+      "actualSha256": "cc726f93b876c65ab65ab367e00a750635d17732cdfedbe9da0433ce1a3c7a29",
+      "unchanged": true
+    },
+    {
+      "path": "working_models\\B3-doors-r3.blend1",
+      "sha256": "cb96c2425b1adc639f08563e926523f61c8e23c5148631f871d4f34d8c918d2f",
+      "actualSha256": "cb96c2425b1adc639f08563e926523f61c8e23c5148631f871d4f34d8c918d2f",
+      "unchanged": true
+    },
+    {
+      "path": "working_models\\B3-doors.blend",
+      "sha256": "f421da3d25a653f7a565396248758e6e8137d8af5dbacbf7195310c789e6c2a2",
+      "actualSha256": "f421da3d25a653f7a565396248758e6e8137d8af5dbacbf7195310c789e6c2a2",
+      "unchanged": true
+    },
+    {
+      "path": "working_models\\baseline-render.glb",
+      "sha256": "d2b456b2b4e51616eca3af468071d970e2e54fab71d41ca26ce678c791b55c9e",
+      "actualSha256": "d2b456b2b4e51616eca3af468071d970e2e54fab71d41ca26ce678c791b55c9e",
+      "unchanged": true
+    },
+    {
+      "path": "working_models\\pipeline-probe-classic.glb",
+      "sha256": "4bc3893fa38752fe80f131f9a8d3d6c78c7b1a02ba3ff295f6f4afe61e0049ed",
+      "actualSha256": "4bc3893fa38752fe80f131f9a8d3d6c78c7b1a02ba3ff295f6f4afe61e0049ed",
+      "unchanged": true
+    },
+    {
+      "path": "working_models\\pipeline-probe-diamond.glb",
+      "sha256": "f7788e8e872df1cb38f50e6e4521c0e2e9c620498681542d1760a16a528d07e6",
+      "actualSha256": "f7788e8e872df1cb38f50e6e4521c0e2e9c620498681542d1760a16a528d07e6",
+      "unchanged": true
+    },
+    {
+      "path": "working_models\\pipeline-probe-perforated.glb",
+      "sha256": "f6f3eecf089c1613379e0bab51eb28ca0d6a873e216872078f8cb903686bed83",
+      "actualSha256": "f6f3eecf089c1613379e0bab51eb28ca0d6a873e216872078f8cb903686bed83",
+      "unchanged": true
+    },
+    {
+      "path": "working_models\\R4-front-door-master.blend",
+      "sha256": "22e916bd897c6a5164ef19c6f0cac50ed631534346d58067ae2fd60b47b2285f",
+      "actualSha256": "22e916bd897c6a5164ef19c6f0cac50ed631534346d58067ae2fd60b47b2285f",
+      "unchanged": true
+    },
+    {
+      "path": "working_models\\R4-front-door-master.blend1",
+      "sha256": "83c30ed95137137acd4af4e39119f4575e51c112d7d55c38bd55e20ca549a9f5",
+      "actualSha256": "83c30ed95137137acd4af4e39119f4575e51c112d7d55c38bd55e20ca549a9f5",
+      "unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "engine": "Cycles",
+  "samples": 48,
+  "resolution": [
+    1280,
+    900
+  ],
+  "view": "AgX",
+  "exposure": 0,
+  "lights": "neutral area softboxes",
+  "materialStatus": "MASTER lookdev procedural leather, walnut and microperforation; runtime GLB retains baseline KTX2/carbon; no parity claim",
+  "views": [
+    "front-straight",
+    "front-three-quarter",
+    "rear-straight",
+    "rear-three-quarter",
+    "armrest-handle-trim-closeup"
+  ],
+  "diagnostic": "separate flat-colour image"
+}

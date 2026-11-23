@@ -1,0 +1,1383 @@
+{
+  "passed": true,
+  "errors": [],
+  "bytes": 4107344,
+  "sha256": "6ee3a8069d36d30810f621b59e822e951c27918416487746a5c46ed123d34f09",
+  "nodes": [
+    {
+      "name": "GEO_Dashboard_Lexus",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "primitives": [
+        {
+          "material": "MAT_Dashboard_Trim",
+          "triangles": 1926,
+          "attributes": {
+            "POSITION": "7f98d6b826a2dc9a7da050824b08461933a534f0ccb79e26a0930992ca6a0f55",
+            "NORMAL": "1adfdf7de969c3e128ecaa226a485da3b4be955160c81173de7930b7eefecc9b",
+            "TEXCOORD_0": "a5a0d9c45d2e7c093694974218d805d395c4841fdba01edd6da0e94923b84657",
+            "TANGENT": "1d53dc5ce8852f00a75e11619fa27659386e3b7f105e05fde0187271a355b81b"
+          },
+          "indices": "ea0ab13ce6c90ad281003b23ff99c8659c13557b55232ee237bc39e97bcb3244"
+        },
+        {
+          "material": "MAT_Console_Carbon",
+          "triangles": 566,
+          "attributes": {
+            "POSITION": "697bc5765c9a452803b0af72286579e6f9866caf16dcf396907558bfe137e6dc",
+            "NORMAL": "3d1db31b0bc5758e944d18e47668d37b26dec9b527317a1609b3ec5c04081d5f",
+            "TEXCOORD_0": "e864e3bc52626dfd357b34eaf718570463aa6a8054ed93d2335b66c13732c76d",
+            "TANGENT": "caff1b1b2d3cd6d61afae8f4c9e2aba2c486aea45154d6cd0dc914cb938ed429"
+          },
+          "indices": "b8e41274897488b9c386810d9d6486bcd05a957a93f3dff165e4b14989efe723"
+        },
+        {
+          "material": "MAT_Cockpit_Black",
+          "triangles": 3928,
+          "attributes": {
+            "POSITION": "e1eb9b08c13ad580fe434f822c2e197502e28abe3bcc79b6df391bfaa2bdf13e",
+            "NORMAL": "188b3505a0c38549c721d7318701ecd6b7584276b91bc3e9cd813609f0b79b67",
+            "TEXCOORD_0": "0be65c4b5c6ce73c20be931ba38e9c49940d7fa730f40cb4115a83dac79f1533",
+            "TANGENT": "789db13da2e2f46f9a7df25052b4854df5c078a98e640a9d34b50980fc2bb3c4"
+          },
+          "indices": "342b459797686fd1cf4400ef1c85ee099ca0f5dcede7823d7a658ba8a6eec8d1"
+        },
+        {
+          "material": "MAT_Cockpit_Accent",
+          "triangles": 1868,
+          "attributes": {
+            "POSITION": "a70611124b51b43321ab1a94f239c6a3e76efdb32f4a8f07010e4584334f1ba8",
+            "NORMAL": "5690862107cc1277617998fe83406d1965ecfab4550fcbca164ddfbc0ad6d2a0",
+            "TEXCOORD_0": "aa02096b489a71e418f4d8a58950b523992ed6c230d06c6ffab9b5d3ee99d8a7",
+            "TANGENT": "766578702456e5d5636b0f67f4027d26d460158ce85dabf91af95c6bddf1a68a"
+          },
+          "indices": "c3aff123c2bb1332f5f82117c65a9747a64fa1e5b5605a5481b9b42fdc4df578"
+        }
+      ]
+    },
+    {
+      "name": "GEO_Seat_Front_Driver",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "primitives": [
+        {
+          "material": "MAT_Seat_Primary",
+          "triangles": 3714,
+          "attributes": {
+            "POSITION": "f70e926acc67a33321c8f7053aaba1c37e9d18b2c3761dec9c688ecc99e0f062",
+            "NORMAL": "d9676003cb123baaf549f5b1aea6146e45b1fb3a519933bedbceacad50a9aeeb",
+            "TEXCOORD_0": "cc55aa6d6c98c1dd6ee2d9b8ccfdeb9fc707b91e6214c16d9226ca7a03ac6e2e",
+            "TANGENT": "335da153ebc2ccc72d966f6807b8affa6844f7e2d6d7e99dc560a79fdfd6d9f9",
+            "COLOR_0": "c703fba6d6f8201827033c1ece5eef5d6c3ff2eb18f1cf73f133201134a949ff",
+            "COLOR_1": "8841bf13c816630671d440a112b63cf94dd09d36d44282c2168e8320658f1917"
+          },
+          "indices": "fc074123f0fcfbb978b6e5685f3bac75d70b1fb0d1c53b305daaeff4994d5761"
+        },
+        {
+          "material": "MAT_Seat_Secondary",
+          "triangles": 13653,
+          "attributes": {
+            "POSITION": "96ca6429c3e07dee790e163dcd045784ce6b360b98e99cd65ece54133a72d450",
+            "NORMAL": "e4494a879e71c14c618c6f65f8380f475973c6dff4d1e7ae964d68c2a4cee175",
+            "TEXCOORD_0": "44c8bed332a6d3f3efa22bd162d5224beaa2fd8d5cde20a65c986e5560ba9235",
+            "TANGENT": "17de8313cc23a2f691aea77aefd821abf19878c30c008ec39ac5bf61fd59343b",
+            "COLOR_0": "50b8b06bf05a2187a9249b6e218ab1cf9be9f25d8e93a2c7dd7c0574fa8638e8",
+            "COLOR_1": "c41174ed14c563907173a50922d0339f5e14d83b6fbb9bd5c288c1623d52e412"
+          },
+          "indices": "ee1e366a310ed2cbf975816286d67dc538061e40a83ea953a3d5b0f0af7cc277"
+        }
+      ]
+    },
+    {
+      "name": "GEO_Seat_Front_Passenger",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "primitives": [
+        {
+          "material": "MAT_Seat_Primary",
+          "triangles": 3714,
+          "attributes": {
+            "POSITION": "758f6380dc12c44de369e26ec1ade498f3988e5200e15ca026ec106257ffdaa2",
+            "NORMAL": "b985992714541796a4e226d822ae1f76da91dac0bb4a80630ba011e15b00dc15",
+            "TEXCOORD_0": "fcdf854b2f3e4a0a7f456ca5a9136d859b878e0a0cf0b5c69f1175b5e489f474",
+            "TANGENT": "cd37fcd6a077990aef4e0f018afe7429ea09846d987c2c0202cce88467fae906",
+            "COLOR_0": "c703fba6d6f8201827033c1ece5eef5d6c3ff2eb18f1cf73f133201134a949ff",
+            "COLOR_1": "8841bf13c816630671d440a112b63cf94dd09d36d44282c2168e8320658f1917"
+          },
+          "indices": "d94a2989328ee52c410d38f178d625ba68042465181a81dc7ce4087a85cd0a75"
+        },
+        {
+          "material": "MAT_Seat_Secondary",
+          "triangles": 13653,
+          "attributes": {
+            "POSITION": "ef3a76e1e34e6080e335c7da83314789333bfc0ac912cb02ff16366b4ac27180",
+            "NORMAL": "2b337fff3745afb7d1a9905bd8650a9acaf44e0167bf75b95316dd5d97b550ae",
+            "TEXCOORD_0": "0531b4def1d50dadddf5f538701226e7dc75f6baac8a6c9018d5bf4aecef50ef",
+            "TANGENT": "a4437d2cb2b35841f6af0d9fc8d38066579826b6a22661b74219a6a816d56110",
+            "COLOR_0": "50b8b06bf05a2187a9249b6e218ab1cf9be9f25d8e93a2c7dd7c0574fa8638e8",
+            "COLOR_1": "c41174ed14c563907173a50922d0339f5e14d83b6fbb9bd5c288c1623d52e412"
+          },
+          "indices": "89d72b248647b987b89eddbdedb0864bacec0981f0ac806835651edfbe71470d"
+        }
+      ]
+    },
+    {
+      "name": "GEO_Seat_Stitching_Front",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "primitives": [
+        {
+          "material": "MAT_Seat_Stitching",
+          "triangles": 6718,
+          "attributes": {
+            "POSITION": "ba40aa949febb65dbe1050c7c7744c80c26d43aa2d1f07e3603ff26fee2709fb",
+            "NORMAL": "459b29cb54c8e0a7cb4a3dd6051e59a535452ce829db217934b268507527d216",
+            "TEXCOORD_0": "a01936d904c527c439a5b859da532a6f445bc239072a5b25ef68507ba74ef17e",
+            "TANGENT": "fe6c140aeb275dcd9c00aaee915b187f59e7137b13ef2c9051cc663f8f8b226b"
+          },
+          "indices": "d4f3f5127d83bd140945298ee3a1de3316b6c00645296d6ac254982740e52ee5"
+        }
+      ]
+    },
+    {
+      "name": "GEO_Seat_Stitching_Front_Passenger",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "primitives": [
+        {
+          "material": "MAT_Seat_Stitching",
+          "triangles": 6718,
+          "attributes": {
+            "POSITION": "92fb4670f8b0173717ae9ac360c2ccadad68c58cbbd25368243fea4dd2f2644b",
+            "NORMAL": "791acd0cb57929dfe59aea66c05cc29a63fd1644c2804a0f65b273f702bb71bd",
+            "TEXCOORD_0": "75875bd82da11304704a7a2042e9df905610b1e04c78cac7155589c8c87aba9f",
+            "TANGENT": "9a7a8a38d29974783be47c11af7b9c4b4281a207c52ebc7427f13803522f1be2"
+          },
+          "indices": "8015b629a681103fa291655f857d5f8691074a37e74687418af26fb779779b03"
+        }
+      ]
+    },
+    {
+      "name": "GEO_SteeringWheel_Lexus",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "primitives": [
+        {
+          "material": "MAT_Steering_Leather",
+          "triangles": 3464,
+          "attributes": {
+            "POSITION": "d7c2e89f688068355af39f2b2707549bd330f7c692eb7623a8d57b1233913a0e",
+            "NORMAL": "a3d62f0a3890040f07ad68bb6c20fca82cefc2f99a52acfba4a8246118f28d96",
+            "TEXCOORD_0": "dfdabc9946b46c68a70811ab69bb4a6c3b89b8545e8a743eb955ca5ff02b752f",
+            "TANGENT": "4d4f73b116bcfa5de3e411af041d4df035d2d81ccde39eb25e937f13100d7ca0"
+          },
+          "indices": "56a80ba5bef84ded0a1ee01b780d70fe35d3b0b43e03239c2caee3f29a281e7b"
+        },
+        {
+          "material": "MAT_Cockpit_Accent",
+          "triangles": 492,
+          "attributes": {
+            "POSITION": "ebcea69f02a68487a1ac19a55b5ebaa795a383817d0b75152cddef66b64f25d4",
+            "NORMAL": "8a0a469933ca94e23a455d3cf07823c8eb925b5dafb41e1e70ebfcf071506692",
+            "TEXCOORD_0": "1d0e241df1deb754df8655b9bc8b9697c1a10aedf40315e179110d8386ce694c",
+            "TANGENT": "5342352238142e78bad6212b61c569880f1f8e5d68d6a63c38e6750e089cb146"
+          },
+          "indices": "dc4eaf1ac038d3eeddb2705c9296e9c105d7fc159c85699ce367505bf10ea4d7"
+        },
+        {
+          "material": "MAT_Cockpit_Black",
+          "triangles": 448,
+          "attributes": {
+            "POSITION": "62bb95574a0dc9cf8ab006d665eda09c8bafe50de87472063df1be53860ee6b0",
+            "NORMAL": "be4d4eaa22854c0c613e9822eaa0e50f5589fda9ebae3c7668c91e08986a22c0",
+            "TEXCOORD_0": "bd7b093669503c5ffcc8daeb90452e60a8f1cb7d1e1ae322be0e39a76ca0ee4c",
+            "TANGENT": "54511b8fd7d5e4aed4826178af806947ced99e11d54dcd1640949782a3c22375"
+          },
+          "indices": "4e035a3cc52249283e377b083d6332fded4a85593ee0a83d381ec33929728110"
+        }
+      ]
+    },
+    {
+      "name": "GEO_Console_Assembly",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "primitives": [
+        {
+          "material": "MAT_Console_Black",
+          "triangles": 3344,
+          "attributes": {
+            "NORMAL": "8651a512ed0e6aaab151fa10e1a826b334778e06f8cd452a9a93fecb0563da76",
+            "POSITION": "cafe4a0978ebe3200030ca05c6c4f1cfc5b75c0a0ec4c8f3b5a7e0480368f519",
+            "TANGENT": "944e0a88e0993fdd110560f89a7d80e9e75de642331b040beea15af5b475158a",
+            "TEXCOORD_0": "82f050d4a1ccf198fceec69fd6ded36b61cc54d3ed7da7a2e880063ef34746ae"
+          },
+          "indices": "ef32532ab3c3b32d9abdc489ba060a43a822ee787ba1d9a2ede6cfec4d1885e9"
+        },
+        {
+          "material": "MAT_Console_Carbon",
+          "triangles": 626,
+          "attributes": {
+            "NORMAL": "9371f4a79981266ea980ebebebe2af3412038d0196b073e4fe79eb9d94012e38",
+            "POSITION": "d28b4bac82bfe9d4a7b1d52b3a963a9e5d31646053c68b39bbf613bd818016d2",
+            "TANGENT": "0e1b4d8fa0ed3602832773b7367291354244dbade3296307e82fb510b3a40e2a",
+            "TEXCOORD_0": "973e6212a63172e3358a0eb6856d69e483a182af3993f86ca39071d74952b700"
+          },
+          "indices": "37723d1afe7b09eef1898c8fb3bc3ba2117a9728043723f483b300960d456abb"
+        },
+        {
+          "material": "MAT_Console_Metal",
+          "triangles": 1428,
+          "attributes": {
+            "NORMAL": "94ef94097d1fc10901935c525f4ba248a9b8fa1666c959ad07c48b487f4fc792",
+            "POSITION": "7ad684f700ccc55726de3f86fdc4f6a51285f9dc67e4de5deb0dba8ab208c64a",
+            "TANGENT": "d33252ce04446d5507c1e1ee0a068ea3d681c065deee9df7b8223d79ec517197",
+            "TEXCOORD_0": "7612e604994a88e33d05450c76a57daee7b8aeed024e901793d264eead89a7c3"
+          },
+          "indices": "dc1678bfcfdf3e92e128bdcc5334bb1a0efb6c65a4b3849a4ab887afee054c69"
+        }
+      ]
+    },
+    {
+      "name": "GEO_Cabin_Expansion",
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "primitives": [
+        {
+          "material": "MAT_Dashboard_Trim",
+          "triangles": 44,
+          "attributes": {
+            "POSITION": "e885ccb6f6ffad99e28686c906f6db6eb31bbfdb2bdad8c2f3b45877955bb555",
+            "NORMAL": "5f213e26ff94e457799ae29dc9781a124d0ccac3e6fae08d7f7a75b3af810606",
+            "TEXCOORD_0": "0c2f7b8cbb6c767091030193a6ea08b968958548b02907e4a5bff272300b844d",
+            "TANGENT": "2f1e0a7017bdac667e498f8d32f38bbc3a224cb039c2bd6b0db1444974572695"
+          },
+          "indices": "bd53410a7bdbc2dd317c3b0622c6d1e315c6cc1d404ddb15acbc364d1e6108c5"
+        },
+        {
+          "material": "MAT_Cockpit_Black",
+          "triangles": 88,
+          "attributes": {
+            "POSITION": "2f07a4d76de5ad584cd8f5911b12c3e5e3061c74a4c20669faf7dc7004dc3046",
+            "NORMAL": "d0de135e10984e2e1dd97cc3503729081680bf1d3d31252e9af346c47752eeb4",
+            "TEXCOORD_0": "404e18a4ca169df6c6056fb2af0e59f901df4732174c6f960496631a9c821894",
+            "TANGENT": "2351e0518807e23154be2a9fe10ff70dfc39467e903b1aa7cede1d2a9efc28ce"
+          },
+          "indices": "202c992d24c9652131f371b05151b62dbc940ca4335e695c57ee3eced36d909e"
+        }
+      ]
+    }
+  ],
+  "triangles": 66392,
+  "primitives": 18,
+  "materials": [
+    "MAT_Console_Black",
+    "MAT_Console_Carbon",
+    "MAT_Console_Metal",
+    "MAT_Dashboard_Trim",
+    "MAT_Cockpit_Black",
+    "MAT_Cockpit_Accent",
+    "MAT_Seat_Primary",
+    "MAT_Seat_Secondary",
+    "MAT_Seat_Stitching",
+    "MAT_Steering_Leather"
+  ],
+  "textures": [
+    {
+      "name": "front-cabin-carbon-normal",
+      "mime": "image/ktx2",
+      "sha256": "b3f872b8345697a314481b268b7990048ce497cb2ecdfc87b979573b0c670f9e"
+    },
+    {
+      "name": "front-cabin-carbon-base",
+      "mime": "image/ktx2",
+      "sha256": "66436641ebbdf0a4fc3bb668811cb78096370b555d06a82a7d910bf56f386b56"
+    },
+    {
+      "name": "front-cabin-carbon-roughness",
+      "mime": "image/ktx2",
+      "sha256": "232922b6a1df52e40d58c3ff373b422348a0c0f5eb7ff539bfdd6c5cc2d211ee"
+    },
+    {
+      "name": "lexus-bolster-normal",
+      "mime": "image/ktx2",
+      "sha256": "3e10e7367715abefdc2b03e6a2421121ffd42e2eee560cbfea99ac0408d43314"
+    },
+    {
+      "name": "lexus-insert-normal",
+      "mime": "image/ktx2",
+      "sha256": "db4c30d40f1fdc11c60e094e0abab8e4bbca9fdd4b07d070cbfa0dd6254a74b3"
+    },
+    {
+      "name": "lexus-insert-orm",
+      "mime": "image/ktx2",
+      "sha256": "2501164c8e591859d719c5aaf05b08503a7537c80398ae7bd2b664b1d1d847fc"
+    },
+    {
+      "name": "lexus-insert-base",
+      "mime": "image/ktx2",
+      "sha256": "c9109ae85538a2bb0da2d26bcc7fada354cf15d47da0f7378a342a082282d475"
+    },
+    {
+      "name": "lexus-bolster-orm",
+      "mime": "image/ktx2",
+      "sha256": "2e1537b6e051e093577e0e2663c81ddad20a9d0cc1c6641e3b7fcc931ab2847b"
+    },
+    {
+      "name": "lexus-bolster-base",
+      "mime": "image/ktx2",
+      "sha256": "8299545b0abf473f0f042ac0bc871a5d403c2ecc16b6096d87ce4dade4f25f00"
+    }
+  ],
+  "khronos": {
+    "mimeType": "model/gltf-binary",
+    "validatorVersion": "2.0.0-dev.3.10",
+    "validatedAt": "2026-11-18T16:05:14.715Z",
+    "issues": {
+      "numErrors": 0,
+      "numWarnings": 18,
+      "numInfos": 102,
+      "numHints": 0,
+      "messages": [
+        {
+          "code": "UNSUPPORTED_EXTENSION",
+          "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_draco_mesh_compression'.",
+          "severity": 2,
+          "pointer": "/extensionsUsed/0"
+        },
+        {
+          "code": "UNSUPPORTED_EXTENSION",
+          "message": "Cannot validate an extension as it is not supported by the validator: 'KHR_texture_basisu'.",
+          "severity": 2,
+          "pointer": "/extensionsUsed/3"
+        },
+        {
+          "code": "VALUE_NOT_IN_LIST",
+          "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+          "severity": 1,
+          "pointer": "/images/0/mimeType"
+        },
+        {
+          "code": "VALUE_NOT_IN_LIST",
+          "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+          "severity": 1,
+          "pointer": "/images/1/mimeType"
+        },
+        {
+          "code": "VALUE_NOT_IN_LIST",
+          "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+          "severity": 1,
+          "pointer": "/images/2/mimeType"
+        },
+        {
+          "code": "VALUE_NOT_IN_LIST",
+          "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+          "severity": 1,
+          "pointer": "/images/3/mimeType"
+        },
+        {
+          "code": "VALUE_NOT_IN_LIST",
+          "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+          "severity": 1,
+          "pointer": "/images/4/mimeType"
+        },
+        {
+          "code": "VALUE_NOT_IN_LIST",
+          "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+          "severity": 1,
+          "pointer": "/images/5/mimeType"
+        },
+        {
+          "code": "VALUE_NOT_IN_LIST",
+          "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+          "severity": 1,
+          "pointer": "/images/6/mimeType"
+        },
+        {
+          "code": "VALUE_NOT_IN_LIST",
+          "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+          "severity": 1,
+          "pointer": "/images/7/mimeType"
+        },
+        {
+          "code": "VALUE_NOT_IN_LIST",
+          "message": "Invalid value 'image/ktx2'. Valid values are ('image/jpeg', 'image/png').",
+          "severity": 1,
+          "pointer": "/images/8/mimeType"
+        },
+        {
+          "code": "UNUSED_MESH_TANGENT",
+          "message": "Tangents are not used because the material has no normal texture.",
+          "severity": 2,
+          "pointer": "/meshes/0/primitives/2/attributes/TANGENT"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/0/primitives/2/attributes/TEXCOORD_0"
+        },
+        {
+          "code": "UNUSED_MESH_TANGENT",
+          "message": "Tangents are not used because the material has no normal texture.",
+          "severity": 2,
+          "pointer": "/meshes/0/primitives/3/attributes/TANGENT"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/0/primitives/3/attributes/TEXCOORD_0"
+        },
+        {
+          "code": "UNUSED_MESH_TANGENT",
+          "message": "Tangents are not used because the material has no normal texture.",
+          "severity": 2,
+          "pointer": "/meshes/3/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/3/primitives/0/attributes/TEXCOORD_0"
+        },
+        {
+          "code": "UNUSED_MESH_TANGENT",
+          "message": "Tangents are not used because the material has no normal texture.",
+          "severity": 2,
+          "pointer": "/meshes/4/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/4/primitives/0/attributes/TEXCOORD_0"
+        },
+        {
+          "code": "UNUSED_MESH_TANGENT",
+          "message": "Tangents are not used because the material has no normal texture.",
+          "severity": 2,
+          "pointer": "/meshes/5/primitives/1/attributes/TANGENT"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/5/primitives/1/attributes/TEXCOORD_0"
+        },
+        {
+          "code": "UNUSED_MESH_TANGENT",
+          "message": "Tangents are not used because the material has no normal texture.",
+          "severity": 2,
+          "pointer": "/meshes/5/primitives/2/attributes/TANGENT"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/5/primitives/2/attributes/TEXCOORD_0"
+        },
+        {
+          "code": "UNUSED_MESH_TANGENT",
+          "message": "Tangents are not used because the material has no normal texture.",
+          "severity": 2,
+          "pointer": "/meshes/6/primitives/0/attributes/TANGENT"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/6/primitives/0/attributes/TEXCOORD_0"
+        },
+        {
+          "code": "UNUSED_MESH_TANGENT",
+          "message": "Tangents are not used because the material has no normal texture.",
+          "severity": 2,
+          "pointer": "/meshes/6/primitives/2/attributes/TANGENT"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/6/primitives/2/attributes/TEXCOORD_0"
+        },
+        {
+          "code": "UNUSED_MESH_TANGENT",
+          "message": "Tangents are not used because the material has no normal texture.",
+          "severity": 2,
+          "pointer": "/meshes/7/primitives/1/attributes/TANGENT"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/meshes/7/primitives/1/attributes/TEXCOORD_0"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/98"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/99"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/100"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/101"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/102"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/103"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/104"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/105"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/106"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/107"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/108"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/109"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/110"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/111"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/112"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/113"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/114"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/115"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/116"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/117"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/118"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/119"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/120"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/121"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/122"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/123"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/124"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/125"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/126"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/127"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/128"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/129"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/130"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/131"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/132"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/133"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/134"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/135"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/136"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/137"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/138"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/139"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/140"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/141"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/142"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/143"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/144"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/145"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/146"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/147"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/148"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/149"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/150"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/151"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/accessors/152"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/bufferViews/21"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/bufferViews/22"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/bufferViews/23"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/bufferViews/24"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/bufferViews/25"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/bufferViews/26"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/bufferViews/27"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/bufferViews/28"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/bufferViews/29"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/bufferViews/30"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/bufferViews/31"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/bufferViews/32"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/bufferViews/33"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/bufferViews/34"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/bufferViews/35"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/bufferViews/36"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/bufferViews/37"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/bufferViews/38"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/images/0"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/images/1"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/images/2"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/images/3"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/images/4"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/images/5"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/images/6"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/images/7"
+        },
+        {
+          "code": "UNUSED_OBJECT",
+          "message": "This object may be unused.",
+          "severity": 2,
+          "pointer": "/images/8"
+        },
+        {
+          "code": "IMAGE_UNRECOGNIZED_FORMAT",
+          "message": "Image format not recognized.",
+          "severity": 1,
+          "pointer": "/images/0"
+        },
+        {
+          "code": "IMAGE_UNRECOGNIZED_FORMAT",
+          "message": "Image format not recognized.",
+          "severity": 1,
+          "pointer": "/images/1"
+        },
+        {
+          "code": "IMAGE_UNRECOGNIZED_FORMAT",
+          "message": "Image format not recognized.",
+          "severity": 1,
+          "pointer": "/images/2"
+        },
+        {
+          "code": "IMAGE_UNRECOGNIZED_FORMAT",
+          "message": "Image format not recognized.",
+          "severity": 1,
+          "pointer": "/images/3"
+        },
+        {
+          "code": "IMAGE_UNRECOGNIZED_FORMAT",
+          "message": "Image format not recognized.",
+          "severity": 1,
+          "pointer": "/images/4"
+        },
+        {
+          "code": "IMAGE_UNRECOGNIZED_FORMAT",
+          "message": "Image format not recognized.",
+          "severity": 1,
+          "pointer": "/images/5"
+        },
+        {
+          "code": "IMAGE_UNRECOGNIZED_FORMAT",
+          "message": "Image format not recognized.",
+          "severity": 1,
+          "pointer": "/images/6"
+        },
+        {
+          "code": "IMAGE_UNRECOGNIZED_FORMAT",
+          "message": "Image format not recognized.",
+          "severity": 1,
+          "pointer": "/images/7"
+        },
+        {
+          "code": "IMAGE_UNRECOGNIZED_FORMAT",
+          "message": "Image format not recognized.",
+          "severity": 1,
+          "pointer": "/images/8"
+        }
+      ],
+      "truncated": false
+    },
+    "info": {
+      "version": "2.0",
+      "generator": "glTF-Transform v4.5.1",
+      "extensionsUsed": [
+        "KHR_draco_mesh_compression",
+        "KHR_materials_clearcoat",
+        "KHR_materials_specular",
+        "KHR_texture_basisu"
+      ],
+      "extensionsRequired": [
+        "KHR_draco_mesh_compression",
+        "KHR_texture_basisu"
+      ],
+      "resources": [
+        {
+          "pointer": "/buffers/0",
+          "mimeType": "application/gltf-buffer",
+          "storage": "glb",
+          "byteLength": 4078084
+        },
+        {
+          "pointer": "/images/0",
+          "storage": "buffer-view"
+        },
+        {
+          "pointer": "/images/1",
+          "storage": "buffer-view"
+        },
+        {
+          "pointer": "/images/2",
+          "storage": "buffer-view"
+        },
+        {
+          "pointer": "/images/3",
+          "storage": "buffer-view"
+        },
+        {
+          "pointer": "/images/4",
+          "storage": "buffer-view"
+        },
+        {
+          "pointer": "/images/5",
+          "storage": "buffer-view"
+        },
+        {
+          "pointer": "/images/6",
+          "storage": "buffer-view"
+        },
+        {
+          "pointer": "/images/7",
+          "storage": "buffer-view"
+        },
+        {
+          "pointer": "/images/8",
+          "storage": "buffer-view"
+        }
+      ],
+      "animationCount": 0,
+      "materialCount": 10,
+      "hasMorphTargets": false,
+      "hasSkins": false,
+      "hasTextures": true,
+      "hasDefaultScene": true,
+      "drawCallCount": 18,
+      "totalVertexCount": 67915,
+      "totalTriangleCount": 66392,
+      "maxUVs": 1,
+      "maxInfluences": 0,
+      "maxAttributes": 6
+    }
+  },
+  "contract": {
+    "passed": true,
+    "errors": [],
+    "bounds": {
+      "min": [
+        -0.8325000405311584,
+        0.2175000011920929,
+        -1.7699999809265137
+      ],
+      "max": [
+        0.8324896693229675,
+        1.305000901222229,
+        0.9646984338760376
+      ]
+    },
+    "notes": [
+      "Primitive count is a draw-call proxy, not measured GPU performance",
+      "Marker nodes preserve static console provenance; original front-cabin node gate is superseded only for these offline candidates"
+    ]
+  },
+  "stage": "A-frame",
+  "consolidation": {
+    "before": 11,
+    "after": 3,
+    "savedPrimitives": 8,
+    "exactAttributeConcatenation": true,
+    "exactRebasedIndices": true,
+    "provenance": [
+      {
+        "component": "GEO_Console_Armrest",
+        "material": "MAT_Console_Black",
+        "indexStart": 0,
+        "indexCount": 1464,
+        "vertexStart": 0,
+        "vertexCount": 470
+      },
+      {
+        "component": "GEO_Console_Body",
+        "material": "MAT_Console_Black",
+        "indexStart": 1464,
+        "indexCount": 4188,
+        "vertexStart": 470,
+        "vertexCount": 1772
+      },
+      {
+        "component": "GEO_Console_Cupholder_Front",
+        "material": "MAT_Console_Black",
+        "indexStart": 5652,
+        "indexCount": 1398,
+        "vertexStart": 2242,
+        "vertexCount": 445
+      },
+      {
+        "component": "GEO_Console_Cupholder_Rear",
+        "material": "MAT_Console_Black",
+        "indexStart": 7050,
+        "indexCount": 1398,
+        "vertexStart": 2687,
+        "vertexCount": 445
+      },
+      {
+        "component": "GEO_Console_Selector",
+        "material": "MAT_Console_Black",
+        "indexStart": 8448,
+        "indexCount": 1584,
+        "vertexStart": 3132,
+        "vertexCount": 517
+      },
+      {
+        "component": "GEO_Console_Body",
+        "material": "MAT_Console_Carbon",
+        "indexStart": 0,
+        "indexCount": 1746,
+        "vertexStart": 0,
+        "vertexCount": 746
+      },
+      {
+        "component": "GEO_Console_Selector",
+        "material": "MAT_Console_Carbon",
+        "indexStart": 1746,
+        "indexCount": 132,
+        "vertexStart": 746,
+        "vertexCount": 64
+      },
+      {
+        "component": "GEO_Console_Body",
+        "material": "MAT_Console_Metal",
+        "indexStart": 0,
+        "indexCount": 696,
+        "vertexStart": 0,
+        "vertexCount": 292
+      },
+      {
+        "component": "GEO_Console_Cupholder_Front",
+        "material": "MAT_Console_Metal",
+        "indexStart": 696,
+        "indexCount": 1728,
+        "vertexStart": 292,
+        "vertexCount": 550
+      },
+      {
+        "component": "GEO_Console_Cupholder_Rear",
+        "material": "MAT_Console_Metal",
+        "indexStart": 2424,
+        "indexCount": 1728,
+        "vertexStart": 842,
+        "vertexCount": 550
+      },
+      {
+        "component": "GEO_Console_Selector",
+        "material": "MAT_Console_Metal",
+        "indexStart": 4152,
+        "indexCount": 132,
+        "vertexStart": 1392,
+        "vertexCount": 72
+      }
+    ]
+  },
+  "texturePayloadsUnchanged": true,
+  "preEncodeNonConsoleBaselineExact": true
+}

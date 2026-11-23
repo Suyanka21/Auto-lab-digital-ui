@@ -1,0 +1,4 @@
+interface:
+  display_name: "AutoLab Premium Cabin Modelling"
+  short_description: "Reference-led Blender masters and review discipline"
+  default_prompt: "Use $autolab-premium-cabin-modeling to build the authorised cabin component from its approved primary reference and deliver an editable master with honest review evidence."

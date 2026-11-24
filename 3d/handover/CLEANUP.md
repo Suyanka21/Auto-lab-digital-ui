@@ -4,7 +4,7 @@
 
 Proposed future scope is strictly `C:\Users\user\Documents\AUTOLAB_3D_WORKSPACE` and its inventoried contents. `workspace-inventory.json` lists all 1,243 files, 359,515,335 bytes, with SHA-256, size, essential status and destination or exclusion reason. It includes 474 essential files and 769 reproducible dependency/cache/derived-intermediate files. Empty directories contain no unique content.
 
-After remote retrieval succeeds, `remote-verification.json` and `cleanup-inventory.json` will record the verified commit and per-file copy status. A successful push or local hash check alone is insufficient. Any missing essential file or new/changed local file blocks deletion.
+Remote retrieval PASSED on 2026-11-24. `remote-verification.json` and `cleanup-inventory.json` record verified core commit `27dd28d` and per-file copy status. All 474 essential paths have independently retrieved matching bytes, all 1,243 original files are unchanged, and no reparse points were found. A successful push or local hash check alone is insufficient. Any missing essential file or new/changed local file blocks deletion.
 
 Before any later deletion:
 

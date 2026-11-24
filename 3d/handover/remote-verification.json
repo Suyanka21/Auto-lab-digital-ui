@@ -1,0 +1,27 @@
+{
+  "verifiedAt": "2026-11-24",
+  "passed": true,
+  "repository": "https://github.com/Suyanka21/Auto-lab-digital-ui.git",
+  "branch": "chore/autolab-r4-devin-handover",
+  "verifiedCoreCommit": "27dd28d1eaa910e3492f1b8d02b6a17b05db1bb8",
+  "independentClone": "C:\\Users\\user\\AppData\\Local\\Temp\\autolab-r4-remote-verify",
+  "cloneSource": "HTTPS GitHub clone, no local reference or shared LFS cache",
+  "lfsFsck": "Git LFS fsck OK",
+  "lfsFiles": 37,
+  "essentialSourcePaths": 474,
+  "uniqueRepositoryCopies": 461,
+  "openedBlenderMasters": 16,
+  "rebuild": "Original R4 and refinement rebuilt from remote-only restored scratch; audit passed",
+  "protectedApplicationAndReferenceTreesUnchanged": true,
+  "applicationTests": "NOT RUN: no application or runtime-asset changes",
+  "linuxDevinEnvironment": "NOT TESTED",
+  "gpuPhoneRuntime": "NOT TESTED: master handover only",
+  "checks": [
+    "remote-transfer",
+    "remote-handover",
+    "remote-masters",
+    "remote-helper-tests",
+    "remote-rebuilt-audit"
+  ],
+  "deletionPerformed": false
+}

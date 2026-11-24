@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "case": "valid cube with UV and material",
+      "expectedPass": true,
+      "actualPass": true,
+      "errors": []
+    },
+    {
+      "case": "missing UV fails",
+      "expectedPass": false,
+      "actualPass": false,
+      "errors": [
+        "Cube: missing UV layer"
+      ]
+    },
+    {
+      "case": "missing material fails",
+      "expectedPass": false,
+      "actualPass": false,
+      "errors": [
+        "Cube: missing material",
+        "Cube: invalid material index"
+      ]
+    },
+    {
+      "case": "empty collection fails",
+      "expectedPass": false,
+      "actualPass": false,
+      "errors": [
+        "No mesh components in selected collection"
+      ]
+    },
+    {
+      "case": "unknown collection fails",
+      "expectedPass": false,
+      "actualPass": false
+    }
+  ]
+}

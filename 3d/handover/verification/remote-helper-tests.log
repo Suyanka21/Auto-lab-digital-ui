@@ -1,0 +1,41 @@
+[
+  {
+    "case": "valid cube with UV and material",
+    "expectedPass": true,
+    "actualPass": true,
+    "errors": []
+  },
+  {
+    "case": "missing UV fails",
+    "expectedPass": false,
+    "actualPass": false,
+    "errors": [
+      "Cube: missing UV layer"
+    ]
+  },
+  {
+    "case": "missing material fails",
+    "expectedPass": false,
+    "actualPass": false,
+    "errors": [
+      "Cube: missing material",
+      "Cube: invalid material index"
+    ]
+  },
+  {
+    "case": "empty collection fails",
+    "expectedPass": false,
+    "actualPass": false,
+    "errors": [
+      "No mesh components in selected collection"
+    ]
+  },
+  {
+    "case": "unknown collection fails",
+    "expectedPass": false,
+    "actualPass": false
+  }
+]
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

@@ -13,3 +13,4 @@ Primary AI design governs visible form; alternate depth and original photo evide
 Runtime ceilings unchanged: 80,000 decoded triangles / 24 primitives / 5,242,880 bytes per complete-cabin GLB.
 No new modelling, production replacement, application changes, merge or deployment.
 Publication/retrieval status: handover/PUBLICATION.md. Cleanup awaits final explicit owner confirmation.
+2026-11-24: published core 27dd28d; independent GitHub/LFS retrieval, 16 master opens and remote-only R4 rebuild PASS. Draft PR #8; cleanup inventory complete, final owner confirmation pending.

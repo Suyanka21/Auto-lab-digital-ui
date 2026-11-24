@@ -1,0 +1,23 @@
+00:05.687  blend            | Read blend: "C:\Users\user\AppData\Local\Temp\autolab-r4-remote-verify\3d\workspace\reports\R4-front-door-master\round-1\front-door-master.blend"
+00:06.062  blend            | Read blend: "C:\Users\user\AppData\Local\Temp\autolab-r4-remote-verify\3d\workspace\reports\R4-front-door-master\round-2\front-door-master.blend"
+00:06.422  blend            | Read blend: "C:\Users\user\AppData\Local\Temp\autolab-r4-remote-verify\3d\workspace\reports\R4-front-door-refined\pilot-1\R4-front-door-refined.blend"
+00:06.890  blend            | Read blend: "C:\Users\user\AppData\Local\Temp\autolab-r4-remote-verify\3d\workspace\reports\R4-front-door-refined\pilot-2\R4-front-door-refined.blend"
+00:07.437  blend            | Read blend: "C:\Users\user\AppData\Local\Temp\autolab-r4-remote-verify\3d\workspace\working_models\A-frame.blend"
+00:07.578  blend            | Read blend: "C:\Users\user\AppData\Local\Temp\autolab-r4-remote-verify\3d\workspace\working_models\A-frame.blend1"
+00:07.797  blend            | Read blend: "C:\Users\user\AppData\Local\Temp\autolab-r4-remote-verify\3d\workspace\working_models\B1-floor.blend"
+00:07.953  blend            | Read blend: "C:\Users\user\AppData\Local\Temp\autolab-r4-remote-verify\3d\workspace\working_models\B2-rear.blend"
+00:08.078  blend            | Read blend: "C:\Users\user\AppData\Local\Temp\autolab-r4-remote-verify\3d\workspace\working_models\B3-doors-r2-review.blend"
+00:08.234  blend            | Read blend: "C:\Users\user\AppData\Local\Temp\autolab-r4-remote-verify\3d\workspace\working_models\B3-doors-r2.blend"
+00:08.312  blend            | Read blend: "C:\Users\user\AppData\Local\Temp\autolab-r4-remote-verify\3d\workspace\working_models\B3-doors-r3-master.blend"
+00:08.406  blend            | Read blend: "C:\Users\user\AppData\Local\Temp\autolab-r4-remote-verify\3d\workspace\working_models\B3-doors-r3.blend"
+00:08.484  blend            | Read blend: "C:\Users\user\AppData\Local\Temp\autolab-r4-remote-verify\3d\workspace\working_models\B3-doors-r3.blend1"
+00:08.562  blend            | Read blend: "C:\Users\user\AppData\Local\Temp\autolab-r4-remote-verify\3d\workspace\working_models\B3-doors.blend"
+00:08.640  blend            | Read blend: "C:\Users\user\AppData\Local\Temp\autolab-r4-remote-verify\3d\workspace\working_models\R4-front-door-master.blend"
+00:08.968  blend            | Read blend: "C:\Users\user\AppData\Local\Temp\autolab-r4-remote-verify\3d\workspace\working_models\R4-front-door-refined.blend"
+{
+  "passed": true,
+  "distinctMasters": 16
+}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

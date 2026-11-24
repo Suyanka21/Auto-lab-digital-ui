@@ -13,3 +13,5 @@ These are authoring/transfer checks, not a runtime GLB gate, visual reapproval, 
 
 - Handover consistency: PASS; 12 local links, 8 Python scripts, 10 readable refined PNGs, all essential canonical paths tracked; protected application and reference trees unchanged.
 - Whitespace gate applies to newly authored files. Frozen historical bytes are preserved exactly; full-archive whitespace warnings are inherited and intentionally not rewritten.
+
+- Relative-output regression: corrected the portable renderer to resolve output paths before passing them to Blender and verify the PNG exists. PASS: actual 320x179 PNG, 2 samples, 14.068 seconds (2026-11-24); the initial smoke log had written its PNG outside the requested relative directory. Use the relative-check PNG as the published smoke evidence.

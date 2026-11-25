@@ -1,0 +1,5 @@
+# R5-C starting point
+
+On 2026-11-25 the owner approved **R5-B's 14-panel upholstery construction as the working design**, including the curved yoke joint, independent bolsters and four-channel shape key. This supersedes the open status of the historical R5-B inspection; neither approved file is edited. The input SHA-256 is `5119f1a97a4c15ed5bf5c7cc66acf66d3700b6e83438b6ac962183014ab7cb74`.
+
+The [approved AI primary](../../AUTOLAB_INTERIOR_3D_REFERENCE_PACK/03_FRONT_SEATS/PRIMARY/AUTOLAB_SUV_FRONT_SEAT_PRIMARY_01.jpg) shows fine, regular perforation on both centre back panels and the centre cushion waterfall, not on the headrest, bolster faces or side boxing. The cognac colour and gloss are visual targets, not measured hide properties. The neutral geometry pass modifies four original objects in place: two bolster faces, the lumbar draw key and the cushion centre. All cut edges stay fixed. The rails remain approximately 66 mm lower than the previous digital seat; floor fit is unresolved.

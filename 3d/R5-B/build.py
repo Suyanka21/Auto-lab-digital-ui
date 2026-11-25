@@ -11,8 +11,8 @@ from form import correct
 
 
 def knots(n, extra=()):
-    return np.unique(np.round([*np.linspace(0, 1, n), .005, .014, .032,
-                               .968, .986, .995, *extra], 7))
+    return np.unique(np.round([*np.linspace(0, 1, n), .0018,.0045,.010,.018,.032,
+                               .968,.982,.990,.9955,.9982, *extra], 7))
 
 
 class Envelope:
@@ -63,7 +63,7 @@ def make_mesh(name, verts, faces, mat, uv, group, tag):
 
 def tailored_patch(name, uvals, vvals, mapper, mat, tag, cap_edges=None):
     u, v = np.meshgrid(uvals, vvals)
-    env,s,t,loft,flutes = mapper(u,v)
+    env,s,t,loft,flutes,turn = mapper(u,v)
     co, normal = env.frame(s,t)
     coords = co + normal*loft[...,None]
     rows, cols = u.shape
@@ -71,6 +71,13 @@ def tailored_patch(name, uvals, vvals, mapper, mat, tag, cap_edges=None):
              for i in range(j*cols,(j+1)*cols-1)]
     obj = make_mesh(name, coords.reshape(-1,3), faces, mat,
                     np.stack((u,v),axis=-1).reshape(-1,2), panels, tag)
+    # A narrow strip of the actual folded-down faces, not a dark line over
+    # a flat patch. Keep the return independently selectable with the panel.
+    obj.data.materials.append(fold)
+    face_turn = np.minimum((turn[:-1,:-1]+turn[1:,1:])/2,
+                           (turn[1:,:-1]+turn[:-1,1:])/2)
+    obj.data.polygons.foreach_set("material_index",
+                                  np.asarray(face_turn < .00076, dtype=np.int32).ravel())
     if flutes is not None:
         obj.shape_key_add(name="Plain foundation")
         key = obj.shape_key_add(name="Drawn lumbar channels")
@@ -97,8 +104,9 @@ def back_map(region, u, h):
         a = 2*u-1
         # Keep samples attached to the curving draw lines rather than cutting
         # diagonal grooves across a coarse rectangular grid.
-        bend = .105*np.sin(h*pi/.56)*np.sin(pi*a)
-        s = (a+bend)*inner
+        bend = .057*np.sin(h*pi/.56)*np.sin(pi*a)
+        ax = .51*a+.49*np.sign(a)*abs(a)**2.35
+        s = (ax+bend)*inner
         split = 6.60-.78*(s/inner)**2
     elif region == "out":
         s = inner+(outer-inner)*u
@@ -113,17 +121,25 @@ def back_map(region, u, h):
                  split+(12.6-split)*(h-.56)/.44)
     edge = np.minimum(u,1-u)
     width = {"upper":.30,"lower":.30,"out":.097,"in":.097,"boxing":.66}[region]
-    ex = 1-np.exp(-(edge*width/.009)**1.28)
-    ey = 1-np.exp(-(abs(h-.56)*.69/.008)**1.3) if region in ("lower","upper") else 1
+    dx = edge*width
+    dy = abs(h-.56)*.76 if region in ("lower","upper") else np.full_like(dx,1)
+    turn = np.minimum(dx,dy)
+    ex = 1-np.exp(-(dx/.007)**1.28)
+    ey = 1-np.exp(-(dy/.0048)**1.25)
     cap_fade = np.minimum(1, np.minimum(h,1-h)*28)
     crown = {"upper":.0105,"lower":.009,"out":.013,"in":.013,"boxing":.001}[region]
-    loft = cap_fade*(-.0028 + ex*ey*(.003 + crown*np.sin(pi*u)**.70))
+    loft = cap_fade*(-.0024 + ex*ey*(.0026 + crown*np.sin(pi*u)**.86)
+                     -.0026*np.exp(-(turn/.00165)**2))
+    if region in ("in","out"):
+        outer_distance = u if region=="in" else 1-u
+        loft -= .0035*ex*cap_fade*np.exp(-(outer_distance/.40)**2
+                                         -((h-.67-.070*outer_distance)/.018)**2)
     flute = None
     if region == "lower":
         a = np.abs(2*u-1)
         valleys = np.exp(-((a-.47)/.026)**2)+.93*np.exp(-((a-.71)/.026)**2)
-        flute = -.0046*valleys*ey*cap_fade*ex
-    return back_env, s,t,loft,flute
+        flute = -.0049*valleys*ey*cap_fade*ex
+    return back_env, s,t,loft,flute,turn
 
 
 def cap(name, boundary, reverse, mat):
@@ -161,20 +177,23 @@ def back_cover():
 def pan_map(region,u,v):
     t = -1.4+17*v
     # Widen the centre towards the nose, then pinch it beside the hip.
-    inner = 2.86+.33*np.exp(-((t-2)/2.4)**2)-.40*np.exp(-((t-7)/1.95)**2)
-    outer = 6.24-.37*np.exp(-((t-5)/2.8)**2)
+    top = np.clip(np.minimum((t+1.4)/1.6,(12-t)/1.6),0,1)
+    inner = 2.86+top*(.33*np.exp(-((t-2)/2.4)**2)-.40*np.exp(-((t-7)/1.95)**2))
+    outer = 6.24-top*.37*np.exp(-((t-5)/2.8)**2)
     ends = (-.60, 9-outer,9-inner,9+inner,9+outer,18.60)
     s = ends[region]+u*(ends[region+1]-ends[region])
     edge = np.minimum(u,1-u)
     width = (.043,.084,.32,.084,.043)[region]
     ex = 1-np.exp(-(edge*width/.007)**1.4)
     # Seam take-up and padding fade on the underside, beneath the cradle.
-    top = np.clip(np.minimum((t+1.4)/1.6,(12-t)/1.6),0,1)
     crown = (.001,.014,.0045,.014,.001)[region]
-    loft = top*(-.0025+ex*(.0028+crown*np.sin(pi*u)**.83))
+    turn = edge*width
+    loft = top*(-.0025+ex*(.0028+crown*np.sin(pi*u)**.83)
+               -.0024*np.exp(-(turn/.0015)**2))
     if region in (0,4):
         loft *= np.clip((u if region==0 else 1-u)*6,0,1)
-    return pan_env,s,t,loft,None
+        turn = (1-u if region==0 else u)*width
+    return pan_env,s,t,loft,None,np.where(top>.05,turn,1)
 
 
 def pan_cover():
@@ -199,6 +218,11 @@ if __name__ == "__main__":
     back_env = Envelope(back,(13,26),True)
     pan_env = Envelope(pan,(19,17),False)
     primary, secondary = back.data.materials[:]
+    fold = secondary.copy()
+    fold.name = "Study • recessed turn-in"
+    col = tuple(c*.75 for c in secondary.diffuse_color[:3])+(1,)
+    fold.diffuse_color = col
+    fold.node_tree.nodes["Principled BSDF"].inputs["Base Color"].default_value=col
     panels = back.users_collection[0]
     panels.name = "01 • Tailored upholstery panels"
     guides = bpy.data.collections.new("CONSTRUCTION_ONLY • corrected section cages")

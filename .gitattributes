@@ -5,3 +5,4 @@
 3d/R5-A/*.blend filter=lfs diff=lfs merge=lfs -text
 3d/R5-A/review/*.png filter=lfs diff=lfs merge=lfs -text
 3d/R5-A/review/*.jpg filter=lfs diff=lfs merge=lfs -text
+3d/R5-B/*.blend filter=lfs diff=lfs merge=lfs -text

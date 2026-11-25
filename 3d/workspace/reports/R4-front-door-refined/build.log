@@ -1,0 +1,64 @@
+00:06.328  blend            | Read blend: "C:\Users\user\Documents\AUTOLAB_3D_WORKSPACE\working_models\R4-front-door-master.blend"
+Info: No new files have been packed
+Info: Saved as "R4-front-door-refined.blend"
+{
+  "checkpoint": "R4-front-door-refined",
+  "sourceMasterSha256": "22e916bd897c6a5164ef19c6f0cac50ed631534346d58067ae2fd60b47b2285f",
+  "runtimeExport": false,
+  "originalBaseGeometryRetained": [
+    "Leading_side_sculpted_molding",
+    "Upper_padded_roll",
+    "Upper_roll_lower_welt",
+    "Integrated_fascia_base",
+    "Walnut_decorative_insert",
+    "Thin_decorative_reveal",
+    "Memory_control_recess",
+    "Memory_button_1",
+    "Memory_button_2",
+    "Memory_button_3",
+    "Insert_top_rolled_seam",
+    "Switch_deck",
+    "Driver_switch_tray",
+    "Window_switch_1",
+    "Window_switch_mark_1",
+    "Window_switch_2",
+    "Window_switch_mark_2",
+    "Window_switch_3",
+    "Window_switch_mark_3",
+    "Window_switch_4",
+    "Window_switch_mark_4",
+    "Speaker_satin_ring",
+    "Speaker_seal",
+    "Acoustic_backing",
+    "Speaker_perforated_screen",
+    "Courtesy_lamp_recess",
+    "Courtesy_lamp_lens"
+  ],
+  "replacedComponents": [
+    "Continuous_grip_and_armrest_upholstery",
+    "Supported_under_grip_return",
+    "Armrest_rear_support",
+    "Armrest_upper_double_stitch_A",
+    "Armrest_upper_double_stitch_B",
+    "Armrest_front_join",
+    "Insert_double_stitch_A",
+    "Insert_double_stitch_B",
+    "Pocket_interior_back",
+    "Pocket_front_moulded_wall",
+    "Pocket_open_mouth_lip",
+    "Pocket_inner_floor_and_front_return",
+    "Pocket_Leading_end_wall",
+    "Pocket_Trailing_end_wall",
+    "Integrated_speaker_shoulder",
+    "Release_housing_satin_bezel",
+    "Release_recess_walls_and_back",
+    "Sculpted_release_lever",
+    "Window_weatherseal"
+  ],
+  "evaluatedTriangles": 719424,
+  "dimensionStatus": "AI design alignment and inferred depth; not manufacturer dimensions",
+  "cameraStatus": "Existing front/overview cameras and studio lighting retained; one new trim close-up"
+}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

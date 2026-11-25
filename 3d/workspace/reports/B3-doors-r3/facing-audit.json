@@ -1,0 +1,552 @@
+{
+  "passed": true,
+  "objects": [
+    {
+      "name": "Front_door_-1_sculpted_shell",
+      "areaWeightedNormalX": 5.5460243010628586e-08,
+      "faces": 121,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_-1_upper_padded_roll",
+      "areaWeightedNormalX": 0.7536133417880306,
+      "faces": 45,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_-1_window_seal",
+      "areaWeightedNormalX": -1.4308707521457044e-08,
+      "faces": 18,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_-1_fascia_recess",
+      "areaWeightedNormalX": 0.9427160659010402,
+      "faces": 45,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_-1_fascia_metal_reveal",
+      "areaWeightedNormalX": -2.652493705008638e-07,
+      "faces": 42,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_-1_decorative_trim",
+      "areaWeightedNormalX": 0.9092686106488057,
+      "faces": 45,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_-1_release_bowl",
+      "areaWeightedNormalX": 0.8832652024788689,
+      "faces": 45,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_-1_release_surround",
+      "areaWeightedNormalX": 4.763975042175813e-07,
+      "faces": 42,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_-1_release_lever",
+      "areaWeightedNormalX": 0.6396716538652283,
+      "faces": 36,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_-1_leather_insert",
+      "areaWeightedNormalX": 0.9689958071942628,
+      "faces": 81,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_-1_armrest_saddle",
+      "areaWeightedNormalX": 0.7667771624853061,
+      "faces": 81,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_-1_integrated_pull_and_palmrest",
+      "areaWeightedNormalX": 1.9404127075287576e-09,
+      "faces": 146,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_-1_insert_seam",
+      "areaWeightedNormalX": 2.8408109603785395e-07,
+      "faces": 34,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_-1_armrest_seam",
+      "areaWeightedNormalX": -6.504699369222075e-07,
+      "faces": 42,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_-1_lower_bin_face",
+      "areaWeightedNormalX": 0.965136439428884,
+      "faces": 54,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_-1_pocket_upper_lip",
+      "areaWeightedNormalX": 2.463329209527543e-08,
+      "faces": 34,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_-1_pocket_inner_floor",
+      "areaWeightedNormalX": 0.0,
+      "faces": 1,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_-1_speaker_metal_rim",
+      "areaWeightedNormalX": 0.7456906777853487,
+      "faces": 80,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_-1_speaker_perforated_face",
+      "areaWeightedNormalX": 0.9999213784933111,
+      "faces": 40,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_-1_switch_recess",
+      "areaWeightedNormalX": 0.7600931558035599,
+      "faces": 36,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_-1_window_switch_0",
+      "areaWeightedNormalX": 0.4594119083775778,
+      "faces": 36,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_-1_lower_courtesy_lens",
+      "areaWeightedNormalX": 0.5516372742229763,
+      "faces": 36,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_-1_sculpted_shell",
+      "areaWeightedNormalX": -1.0811909036680791e-07,
+      "faces": 121,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_-1_upper_padded_roll",
+      "areaWeightedNormalX": 0.7534498154810028,
+      "faces": 45,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_-1_window_seal",
+      "areaWeightedNormalX": -2.103764351792146e-08,
+      "faces": 18,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_-1_fascia_recess",
+      "areaWeightedNormalX": 0.9426327068616459,
+      "faces": 45,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_-1_fascia_metal_reveal",
+      "areaWeightedNormalX": 1.9730682439115492e-07,
+      "faces": 42,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_-1_decorative_trim",
+      "areaWeightedNormalX": 0.9091068883505432,
+      "faces": 45,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_-1_release_bowl",
+      "areaWeightedNormalX": 0.8825624554495314,
+      "faces": 45,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_-1_release_surround",
+      "areaWeightedNormalX": 2.3096303537712183e-07,
+      "faces": 42,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_-1_release_lever",
+      "areaWeightedNormalX": 0.6388289750153734,
+      "faces": 36,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_-1_leather_insert",
+      "areaWeightedNormalX": 0.9687903052520902,
+      "faces": 81,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_-1_armrest_saddle",
+      "areaWeightedNormalX": 0.7661175951635593,
+      "faces": 81,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_-1_integrated_pull_and_palmrest",
+      "areaWeightedNormalX": -1.5173906301949505e-08,
+      "faces": 146,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_-1_insert_seam",
+      "areaWeightedNormalX": -5.50828366407565e-07,
+      "faces": 34,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_-1_armrest_seam",
+      "areaWeightedNormalX": -2.1957343021226297e-06,
+      "faces": 42,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_-1_lower_bin_face",
+      "areaWeightedNormalX": 0.9635358585567232,
+      "faces": 54,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_-1_pocket_upper_lip",
+      "areaWeightedNormalX": -7.354307297557169e-08,
+      "faces": 34,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_-1_pocket_inner_floor",
+      "areaWeightedNormalX": 0.0,
+      "faces": 1,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_-1_speaker_metal_rim",
+      "areaWeightedNormalX": 0.7456905262161263,
+      "faces": 80,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_-1_speaker_perforated_face",
+      "areaWeightedNormalX": 0.9999213784933113,
+      "faces": 40,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_-1_switch_recess",
+      "areaWeightedNormalX": 0.7593793777062485,
+      "faces": 36,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_-1_window_switch_0",
+      "areaWeightedNormalX": 0.45608308866229424,
+      "faces": 36,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_-1_lower_courtesy_lens",
+      "areaWeightedNormalX": 0.5495216489183664,
+      "faces": 36,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_1_sculpted_shell",
+      "areaWeightedNormalX": -1.0198879030264463e-07,
+      "faces": 121,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_1_upper_padded_roll",
+      "areaWeightedNormalX": -0.7536133346036575,
+      "faces": 45,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_1_window_seal",
+      "areaWeightedNormalX": 1.1639566251778404e-08,
+      "faces": 18,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_1_fascia_recess",
+      "areaWeightedNormalX": -0.9427161120575759,
+      "faces": 45,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_1_fascia_metal_reveal",
+      "areaWeightedNormalX": 4.2144196322714996e-07,
+      "faces": 42,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_1_decorative_trim",
+      "areaWeightedNormalX": -0.9092686186437402,
+      "faces": 45,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_1_release_bowl",
+      "areaWeightedNormalX": -0.8832652443323182,
+      "faces": 45,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_1_release_surround",
+      "areaWeightedNormalX": -1.5701955445254803e-07,
+      "faces": 42,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_1_release_lever",
+      "areaWeightedNormalX": -0.6396717576272091,
+      "faces": 36,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_1_leather_insert",
+      "areaWeightedNormalX": -0.9689958194548737,
+      "faces": 81,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_1_armrest_saddle",
+      "areaWeightedNormalX": -0.7667771440154991,
+      "faces": 81,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_1_integrated_pull_and_palmrest",
+      "areaWeightedNormalX": 1.1542557268883825e-08,
+      "faces": 146,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_1_insert_seam",
+      "areaWeightedNormalX": 6.6075431715161815e-09,
+      "faces": 34,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_1_armrest_seam",
+      "areaWeightedNormalX": 2.9736412425184215e-07,
+      "faces": 42,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_1_lower_bin_face",
+      "areaWeightedNormalX": -0.9651364405994944,
+      "faces": 54,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_1_pocket_upper_lip",
+      "areaWeightedNormalX": -1.1217896498197112e-07,
+      "faces": 34,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_1_pocket_inner_floor",
+      "areaWeightedNormalX": 0.0,
+      "faces": 1,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_1_speaker_metal_rim",
+      "areaWeightedNormalX": -0.7456906806555312,
+      "faces": 80,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_1_speaker_perforated_face",
+      "areaWeightedNormalX": -0.9999213784933111,
+      "faces": 40,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_1_switch_recess",
+      "areaWeightedNormalX": -0.7600931996658192,
+      "faces": 36,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_1_window_switch_0",
+      "areaWeightedNormalX": -0.45941208821295154,
+      "faces": 36,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_1_window_switch_1",
+      "areaWeightedNormalX": -0.4594120204561752,
+      "faces": 36,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_1_window_switch_2",
+      "areaWeightedNormalX": -0.4594119484361859,
+      "faces": 36,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_1_window_switch_3",
+      "areaWeightedNormalX": -0.459411745773288,
+      "faces": 36,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Front_door_1_lower_courtesy_lens",
+      "areaWeightedNormalX": -0.5516372642369138,
+      "faces": 36,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_1_sculpted_shell",
+      "areaWeightedNormalX": 4.1173993232447906e-08,
+      "faces": 121,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_1_upper_padded_roll",
+      "areaWeightedNormalX": -0.7534498238183192,
+      "faces": 45,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_1_window_seal",
+      "areaWeightedNormalX": 7.087215521189444e-09,
+      "faces": 18,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_1_fascia_recess",
+      "areaWeightedNormalX": -0.9426326722819482,
+      "faces": 45,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_1_fascia_metal_reveal",
+      "areaWeightedNormalX": -3.678983871536429e-07,
+      "faces": 42,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_1_decorative_trim",
+      "areaWeightedNormalX": -0.9091069038506002,
+      "faces": 45,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_1_release_bowl",
+      "areaWeightedNormalX": -0.8825624641327497,
+      "faces": 45,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_1_release_surround",
+      "areaWeightedNormalX": -1.9752927874619584e-07,
+      "faces": 42,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_1_release_lever",
+      "areaWeightedNormalX": -0.638829012677867,
+      "faces": 36,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_1_leather_insert",
+      "areaWeightedNormalX": -0.9687902982957183,
+      "faces": 81,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_1_armrest_saddle",
+      "areaWeightedNormalX": -0.7661175956588259,
+      "faces": 81,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_1_integrated_pull_and_palmrest",
+      "areaWeightedNormalX": -1.2569757465463017e-08,
+      "faces": 146,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_1_insert_seam",
+      "areaWeightedNormalX": 8.711135412772761e-07,
+      "faces": 34,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_1_armrest_seam",
+      "areaWeightedNormalX": 2.3082633672000164e-06,
+      "faces": 42,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_1_lower_bin_face",
+      "areaWeightedNormalX": -0.9635358632480682,
+      "faces": 54,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_1_pocket_upper_lip",
+      "areaWeightedNormalX": 1.1009860268727499e-07,
+      "faces": 34,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_1_pocket_inner_floor",
+      "areaWeightedNormalX": 0.0,
+      "faces": 1,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_1_speaker_metal_rim",
+      "areaWeightedNormalX": -0.7456905328271135,
+      "faces": 80,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_1_speaker_perforated_face",
+      "areaWeightedNormalX": -0.9999213784933113,
+      "faces": 40,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_1_switch_recess",
+      "areaWeightedNormalX": -0.7593794150109726,
+      "faces": 36,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_1_window_switch_0",
+      "areaWeightedNormalX": -0.45608327603162574,
+      "faces": 36,
+      "inwardOrClosed": true
+    },
+    {
+      "name": "Rear_door_1_lower_courtesy_lens",
+      "areaWeightedNormalX": -0.5495216430160911,
+      "faces": 36,
+      "inwardOrClosed": true
+    }
+  ],
+  "scope": "Area-weighted orientation of door source surfaces; not a manifold or browser rasterisation test"
+}

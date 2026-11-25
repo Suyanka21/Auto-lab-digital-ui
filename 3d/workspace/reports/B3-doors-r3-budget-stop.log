@@ -1,0 +1,23 @@
+19:50:07 | INFO: Data are loaded, start creating Blender stuff
+19:50:07 | INFO: Blender create Mesh node GEO_Console_Armrest
+19:50:07 | INFO: Blender create Mesh node GEO_Console_Body
+19:50:07 | INFO: Blender create Mesh node GEO_Console_Cupholder_Front
+19:50:07 | INFO: Blender create Mesh node GEO_Console_Cupholder_Rear
+19:50:07 | INFO: Blender create Mesh node GEO_Console_Selector
+19:50:07 | INFO: Blender create Mesh node GEO_Dashboard_Lexus.001
+19:50:07 | INFO: Blender create Mesh node GEO_Seat_Front_Driver
+19:50:07 | INFO: Blender create Mesh node GEO_Seat_Front_Passenger.001
+19:50:08 | INFO: Blender create Mesh node GEO_Seat_Stitching_Front
+19:50:08 | INFO: Blender create Mesh node GEO_Seat_Stitching_Front_Passenger.001
+19:50:08 | INFO: Blender create Mesh node GEO_SteeringWheel_Lexus.001
+19:50:08 | INFO: glTF import finished in 0.56s
+Traceback (most recent call last):
+  File "C:\Users\user\Documents\AUTOLAB_3D_WORKSPACE\build_pipeline\isolated\build_cabin_r3.py", line 114, in <module>
+    if triangles+66260>80000:raise RuntimeError('STOP triangle budget before export: '+str(triangles+66260))
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: STOP triangle budget before export: 82844
+
+Error: script failed, file: 'C:\Users\user\Documents\AUTOLAB_3D_WORKSPACE\build_pipeline\isolated\build_cabin_r3.py', exiting.
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

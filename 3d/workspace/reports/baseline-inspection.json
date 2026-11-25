@@ -1,0 +1,383 @@
+[
+  {
+    "file": "interior-l4-classic.glb",
+    "sha256": "e5bdde016348df34889ec4c0ff0e406caad7e368504308bd5a4f5b725a55c056",
+    "bytes": 3650764,
+    "materials": [
+      "MAT_Console_Black",
+      "MAT_Console_Carbon",
+      "MAT_Console_Metal",
+      "MAT_Dashboard_Trim",
+      "MAT_Cockpit_Black",
+      "MAT_Cockpit_Accent",
+      "MAT_Seat_Primary",
+      "MAT_Seat_Secondary",
+      "MAT_Seat_Stitching",
+      "MAT_Steering_Leather"
+    ],
+    "nodes": [
+      {
+        "name": "GEO_Console_Armrest",
+        "slots": [
+          "MAT_Console_Black"
+        ],
+        "triangles": 488,
+        "primitives": 1
+      },
+      {
+        "name": "GEO_Console_Body",
+        "slots": [
+          "MAT_Console_Black",
+          "MAT_Console_Carbon",
+          "MAT_Console_Metal"
+        ],
+        "triangles": 2210,
+        "primitives": 3
+      },
+      {
+        "name": "GEO_Console_Cupholder_Front",
+        "slots": [
+          "MAT_Console_Black",
+          "MAT_Console_Metal"
+        ],
+        "triangles": 1042,
+        "primitives": 2
+      },
+      {
+        "name": "GEO_Console_Cupholder_Rear",
+        "slots": [
+          "MAT_Console_Black",
+          "MAT_Console_Metal"
+        ],
+        "triangles": 1042,
+        "primitives": 2
+      },
+      {
+        "name": "GEO_Console_Selector",
+        "slots": [
+          "MAT_Console_Carbon",
+          "MAT_Console_Black",
+          "MAT_Console_Metal"
+        ],
+        "triangles": 616,
+        "primitives": 3
+      },
+      {
+        "name": "GEO_Dashboard_Lexus",
+        "slots": [
+          "MAT_Dashboard_Trim",
+          "MAT_Console_Carbon",
+          "MAT_Cockpit_Black",
+          "MAT_Cockpit_Accent"
+        ],
+        "triangles": 8288,
+        "primitives": 4
+      },
+      {
+        "name": "GEO_Seat_Front_Driver",
+        "slots": [
+          "MAT_Seat_Primary",
+          "MAT_Seat_Secondary"
+        ],
+        "triangles": 17367,
+        "primitives": 2
+      },
+      {
+        "name": "GEO_Seat_Front_Passenger",
+        "slots": [
+          "MAT_Seat_Primary",
+          "MAT_Seat_Secondary"
+        ],
+        "triangles": 17367,
+        "primitives": 2
+      },
+      {
+        "name": "GEO_Seat_Stitching_Front",
+        "slots": [
+          "MAT_Seat_Stitching"
+        ],
+        "triangles": 6718,
+        "primitives": 1
+      },
+      {
+        "name": "GEO_Seat_Stitching_Front_Passenger",
+        "slots": [
+          "MAT_Seat_Stitching"
+        ],
+        "triangles": 6718,
+        "primitives": 1
+      },
+      {
+        "name": "GEO_SteeringWheel_Lexus",
+        "slots": [
+          "MAT_Steering_Leather",
+          "MAT_Cockpit_Accent",
+          "MAT_Cockpit_Black"
+        ],
+        "triangles": 4404,
+        "primitives": 3
+      }
+    ],
+    "triangles": 66260,
+    "primitives": 24,
+    "extensions": [
+      "KHR_draco_mesh_compression",
+      "KHR_texture_basisu"
+    ],
+    "inspection": "JSON metadata only; compressed geometry not decoded; NOT an asset-gate pass"
+  },
+  {
+    "file": "interior-l4-diamond.glb",
+    "sha256": "4c217dd00d86d8bae3925d735beddb63b225d24c5f1bafd60726f501bfcba8ad",
+    "bytes": 3787228,
+    "materials": [
+      "MAT_Console_Black",
+      "MAT_Console_Carbon",
+      "MAT_Console_Metal",
+      "MAT_Dashboard_Trim",
+      "MAT_Cockpit_Black",
+      "MAT_Cockpit_Accent",
+      "MAT_Seat_Primary",
+      "MAT_Seat_Secondary",
+      "MAT_Seat_Stitching",
+      "MAT_Steering_Leather"
+    ],
+    "nodes": [
+      {
+        "name": "GEO_Console_Armrest",
+        "slots": [
+          "MAT_Console_Black"
+        ],
+        "triangles": 488,
+        "primitives": 1
+      },
+      {
+        "name": "GEO_Console_Body",
+        "slots": [
+          "MAT_Console_Black",
+          "MAT_Console_Carbon",
+          "MAT_Console_Metal"
+        ],
+        "triangles": 2210,
+        "primitives": 3
+      },
+      {
+        "name": "GEO_Console_Cupholder_Front",
+        "slots": [
+          "MAT_Console_Black",
+          "MAT_Console_Metal"
+        ],
+        "triangles": 1042,
+        "primitives": 2
+      },
+      {
+        "name": "GEO_Console_Cupholder_Rear",
+        "slots": [
+          "MAT_Console_Black",
+          "MAT_Console_Metal"
+        ],
+        "triangles": 1042,
+        "primitives": 2
+      },
+      {
+        "name": "GEO_Console_Selector",
+        "slots": [
+          "MAT_Console_Carbon",
+          "MAT_Console_Black",
+          "MAT_Console_Metal"
+        ],
+        "triangles": 616,
+        "primitives": 3
+      },
+      {
+        "name": "GEO_Dashboard_Lexus",
+        "slots": [
+          "MAT_Dashboard_Trim",
+          "MAT_Console_Carbon",
+          "MAT_Cockpit_Black",
+          "MAT_Cockpit_Accent"
+        ],
+        "triangles": 8288,
+        "primitives": 4
+      },
+      {
+        "name": "GEO_Seat_Front_Driver",
+        "slots": [
+          "MAT_Seat_Primary",
+          "MAT_Seat_Secondary"
+        ],
+        "triangles": 17367,
+        "primitives": 2
+      },
+      {
+        "name": "GEO_Seat_Front_Passenger",
+        "slots": [
+          "MAT_Seat_Primary",
+          "MAT_Seat_Secondary"
+        ],
+        "triangles": 17367,
+        "primitives": 2
+      },
+      {
+        "name": "GEO_Seat_Stitching_Front",
+        "slots": [
+          "MAT_Seat_Stitching"
+        ],
+        "triangles": 6718,
+        "primitives": 1
+      },
+      {
+        "name": "GEO_Seat_Stitching_Front_Passenger",
+        "slots": [
+          "MAT_Seat_Stitching"
+        ],
+        "triangles": 6718,
+        "primitives": 1
+      },
+      {
+        "name": "GEO_SteeringWheel_Lexus",
+        "slots": [
+          "MAT_Steering_Leather",
+          "MAT_Cockpit_Accent",
+          "MAT_Cockpit_Black"
+        ],
+        "triangles": 4404,
+        "primitives": 3
+      }
+    ],
+    "triangles": 66260,
+    "primitives": 24,
+    "extensions": [
+      "KHR_draco_mesh_compression",
+      "KHR_texture_basisu"
+    ],
+    "inspection": "JSON metadata only; compressed geometry not decoded; NOT an asset-gate pass"
+  },
+  {
+    "file": "interior-l4-perforated.glb",
+    "sha256": "d53f55546232db473ecadee08be9bff6454b5d3a510ee30e88415f2477ca9f9e",
+    "bytes": 3509764,
+    "materials": [
+      "MAT_Console_Black",
+      "MAT_Console_Carbon",
+      "MAT_Console_Metal",
+      "MAT_Dashboard_Trim",
+      "MAT_Cockpit_Black",
+      "MAT_Cockpit_Accent",
+      "MAT_Seat_Primary",
+      "MAT_Seat_Secondary",
+      "MAT_Seat_Stitching",
+      "MAT_Steering_Leather"
+    ],
+    "nodes": [
+      {
+        "name": "GEO_Console_Armrest",
+        "slots": [
+          "MAT_Console_Black"
+        ],
+        "triangles": 488,
+        "primitives": 1
+      },
+      {
+        "name": "GEO_Console_Body",
+        "slots": [
+          "MAT_Console_Black",
+          "MAT_Console_Carbon",
+          "MAT_Console_Metal"
+        ],
+        "triangles": 2210,
+        "primitives": 3
+      },
+      {
+        "name": "GEO_Console_Cupholder_Front",
+        "slots": [
+          "MAT_Console_Black",
+          "MAT_Console_Metal"
+        ],
+        "triangles": 1042,
+        "primitives": 2
+      },
+      {
+        "name": "GEO_Console_Cupholder_Rear",
+        "slots": [
+          "MAT_Console_Black",
+          "MAT_Console_Metal"
+        ],
+        "triangles": 1042,
+        "primitives": 2
+      },
+      {
+        "name": "GEO_Console_Selector",
+        "slots": [
+          "MAT_Console_Carbon",
+          "MAT_Console_Black",
+          "MAT_Console_Metal"
+        ],
+        "triangles": 616,
+        "primitives": 3
+      },
+      {
+        "name": "GEO_Dashboard_Lexus",
+        "slots": [
+          "MAT_Dashboard_Trim",
+          "MAT_Console_Carbon",
+          "MAT_Cockpit_Black",
+          "MAT_Cockpit_Accent"
+        ],
+        "triangles": 8288,
+        "primitives": 4
+      },
+      {
+        "name": "GEO_Seat_Front_Driver",
+        "slots": [
+          "MAT_Seat_Primary",
+          "MAT_Seat_Secondary"
+        ],
+        "triangles": 17367,
+        "primitives": 2
+      },
+      {
+        "name": "GEO_Seat_Front_Passenger",
+        "slots": [
+          "MAT_Seat_Primary",
+          "MAT_Seat_Secondary"
+        ],
+        "triangles": 17367,
+        "primitives": 2
+      },
+      {
+        "name": "GEO_Seat_Stitching_Front",
+        "slots": [
+          "MAT_Seat_Stitching"
+        ],
+        "triangles": 6718,
+        "primitives": 1
+      },
+      {
+        "name": "GEO_Seat_Stitching_Front_Passenger",
+        "slots": [
+          "MAT_Seat_Stitching"
+        ],
+        "triangles": 6718,
+        "primitives": 1
+      },
+      {
+        "name": "GEO_SteeringWheel_Lexus",
+        "slots": [
+          "MAT_Steering_Leather",
+          "MAT_Cockpit_Accent",
+          "MAT_Cockpit_Black"
+        ],
+        "triangles": 4404,
+        "primitives": 3
+      }
+    ],
+    "triangles": 66260,
+    "primitives": 24,
+    "extensions": [
+      "KHR_draco_mesh_compression",
+      "KHR_texture_basisu"
+    ],
+    "inspection": "JSON metadata only; compressed geometry not decoded; NOT an asset-gate pass"
+  }
+]

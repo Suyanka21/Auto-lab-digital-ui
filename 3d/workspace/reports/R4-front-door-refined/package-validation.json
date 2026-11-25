@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "scope": "Offline review packaging only",
+  "finalImagesVerified": 8,
+  "comparisonSheetsVerified": 5,
+  "localLinksChecked": 30,
+  "missingLinks": [],
+  "stateLines": 19,
+  "protectedFilesUnchanged": 345,
+  "masterStructuralCheck": true,
+  "browserTested": false,
+  "runtimeExported": false,
+  "humanVisualApproval": false
+}

@@ -1,0 +1,14 @@
+00:05.500  blend            | Read blend: "C:\Users\user\Documents\AUTOLAB_3D_WORKSPACE\working_models\R4-front-door-refined.blend"
+00:38.235  render           | Saved: 'C:\Users\user\Documents\AUTOLAB_3D_WORKSPACE\reports\R4-front-door-refined\preview-front-reference.png'
+RENDER_COMPLETE front-reference
+01:15.219  render           | Saved: 'C:\Users\user\Documents\AUTOLAB_3D_WORKSPACE\reports\R4-front-door-refined\preview-three-quarter.png'
+RENDER_COMPLETE three-quarter
+01:57.703  render           | Saved: 'C:\Users\user\Documents\AUTOLAB_3D_WORKSPACE\reports\R4-front-door-refined\preview-pocket-speaker-closeup.png'
+RENDER_COMPLETE pocket-speaker-closeup
+02:42.531  render           | Saved: 'C:\Users\user\Documents\AUTOLAB_3D_WORKSPACE\reports\R4-front-door-refined\preview-release-trim-closeup.png'
+RENDER_COMPLETE release-trim-closeup
+03:26.156  render           | Saved: 'C:\Users\user\Documents\AUTOLAB_3D_WORKSPACE\reports\R4-front-door-refined\preview-handle-release-closeup.png'
+RENDER_COMPLETE handle-release-closeup
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

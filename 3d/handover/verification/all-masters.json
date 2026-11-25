@@ -1,0 +1,136 @@
+{
+  "passed": true,
+  "blender": "5.2.2 LTS",
+  "distinctMasters": 16,
+  "masters": [
+    {
+      "path": "3d/workspace/reports/R4-front-door-master/round-1/front-door-master.blend",
+      "opened": true,
+      "objects": 66,
+      "meshes": 49,
+      "unpackedImages": [],
+      "unpackedLibraries": []
+    },
+    {
+      "path": "3d/workspace/reports/R4-front-door-master/round-2/front-door-master.blend",
+      "opened": true,
+      "objects": 66,
+      "meshes": 49,
+      "unpackedImages": [],
+      "unpackedLibraries": []
+    },
+    {
+      "path": "3d/workspace/reports/R4-front-door-refined/pilot-1/R4-front-door-refined.blend",
+      "opened": true,
+      "objects": 67,
+      "meshes": 49,
+      "unpackedImages": [],
+      "unpackedLibraries": []
+    },
+    {
+      "path": "3d/workspace/reports/R4-front-door-refined/pilot-2/R4-front-door-refined.blend",
+      "opened": true,
+      "objects": 67,
+      "meshes": 49,
+      "unpackedImages": [],
+      "unpackedLibraries": []
+    },
+    {
+      "path": "3d/workspace/working_models/A-frame.blend",
+      "opened": true,
+      "objects": 16,
+      "meshes": 12,
+      "unpackedImages": [],
+      "unpackedLibraries": []
+    },
+    {
+      "path": "3d/workspace/working_models/A-frame.blend1",
+      "opened": true,
+      "objects": 16,
+      "meshes": 12,
+      "unpackedImages": [],
+      "unpackedLibraries": []
+    },
+    {
+      "path": "3d/workspace/working_models/B1-floor.blend",
+      "opened": true,
+      "objects": 16,
+      "meshes": 12,
+      "unpackedImages": [],
+      "unpackedLibraries": []
+    },
+    {
+      "path": "3d/workspace/working_models/B2-rear.blend",
+      "opened": true,
+      "objects": 16,
+      "meshes": 12,
+      "unpackedImages": [],
+      "unpackedLibraries": []
+    },
+    {
+      "path": "3d/workspace/working_models/B3-doors-r2-review.blend",
+      "opened": true,
+      "objects": 169,
+      "meshes": 165,
+      "unpackedImages": [],
+      "unpackedLibraries": []
+    },
+    {
+      "path": "3d/workspace/working_models/B3-doors-r2.blend",
+      "opened": true,
+      "objects": 169,
+      "meshes": 165,
+      "unpackedImages": [],
+      "unpackedLibraries": []
+    },
+    {
+      "path": "3d/workspace/working_models/B3-doors-r3-master.blend",
+      "opened": true,
+      "objects": 144,
+      "meshes": 140,
+      "unpackedImages": [],
+      "unpackedLibraries": []
+    },
+    {
+      "path": "3d/workspace/working_models/B3-doors-r3.blend",
+      "opened": true,
+      "objects": 140,
+      "meshes": 140,
+      "unpackedImages": [],
+      "unpackedLibraries": []
+    },
+    {
+      "path": "3d/workspace/working_models/B3-doors-r3.blend1",
+      "opened": true,
+      "objects": 140,
+      "meshes": 140,
+      "unpackedImages": [],
+      "unpackedLibraries": []
+    },
+    {
+      "path": "3d/workspace/working_models/B3-doors.blend",
+      "opened": true,
+      "objects": 16,
+      "meshes": 12,
+      "unpackedImages": [],
+      "unpackedLibraries": []
+    },
+    {
+      "path": "3d/workspace/working_models/R4-front-door-master.blend",
+      "opened": true,
+      "objects": 66,
+      "meshes": 49,
+      "unpackedImages": [],
+      "unpackedLibraries": []
+    },
+    {
+      "path": "3d/workspace/working_models/R4-front-door-refined.blend",
+      "opened": true,
+      "objects": 67,
+      "meshes": 49,
+      "unpackedImages": [],
+      "unpackedLibraries": []
+    }
+  ],
+  "scope": "Open/read and packed-resource audit; no visual or runtime acceptance"
+}

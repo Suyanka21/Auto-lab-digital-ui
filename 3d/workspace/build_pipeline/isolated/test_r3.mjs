@@ -1,0 +1,15 @@
+import {root,createIO,validate,guard,save,outputPath} from './common.mjs';
+import {checkContract} from './contract.mjs';
+import {readFile} from 'node:fs/promises';
+import {resolve} from 'node:path';
+import assert from 'node:assert/strict';
+const io=await createIO();const bytes=await readFile(resolve(root,'exports/B3-doors-r3/classic.glb'));const rows=[];
+const good=await io.readBinary(bytes);assert.equal((await checkContract(good,'B3-doors-r3')).passed,true);rows.push('candidate contract PASS');
+const old=await io.read(resolve(root,'working_models/B3-doors-additions.glb'));const missing=old.getRoot().listMeshes().flatMap(m=>m.listPrimitives()).filter(p=>p.getMaterial().getNormalTexture()&&!p.getAttribute('TANGENT')).map(p=>p.getMaterial().getName());assert.equal(missing.length,4);rows.push('old export reproduces four missing-tangent groups');
+let d=await io.readBinary(bytes);const p=d.getRoot().listMeshes().flatMap(m=>m.listPrimitives()).find(p=>p.getMaterial().getNormalTexture());p.setAttribute('TANGENT',null);assert.ok((await checkContract(d,'B3-doors-r3')).errors.some(e=>e.includes('Missing tangents')));rows.push('missing tangent rejected');
+d=await io.readBinary(bytes);d.getRoot().listMaterials()[0].setName('UNAPPROVED_SLOT');assert.ok(!(await checkContract(d,'B3-doors-r3')).passed);rows.push('renamed material rejected');
+d=await io.readBinary(bytes);d.getRoot().listNodes().find(n=>n.getName()==='GEO_Cabin_Expansion').dispose();assert.ok((await checkContract(d,'B3-doors-r3')).errors.some(e=>e.includes('Missing node')));rows.push('missing expansion mesh rejected');
+await assert.rejects(()=>outputPath('production_baseline/forbidden.glb'));await assert.rejects(()=>outputPath('../outside.glb'));rows.push('baseline overwrite and workspace escape rejected');
+d=await io.readBinary(bytes);const mesh=d.getRoot().listMeshes()[0];for(let i=0;i<25;i++)mesh.addPrimitive(mesh.listPrimitives()[0].clone());const over=await validate(await io.writeBinary(d),io);assert.ok(over.errors.includes('primitives exceeds 24'));rows.push('over-budget primitive count rejected');
+await save('reports/B3-doors-r3/regression-tests.json',{passed:true,tests:rows,oldMissingTangents:missing,baselineHashes:await guard()});console.log(JSON.stringify(rows,null,2));
+

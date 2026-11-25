@@ -1,0 +1,145 @@
+{
+  "stage": "B1-floor",
+  "newTriangles": 572,
+  "components": [
+    {
+      "name": "Floor_connected_shell",
+      "material": "MAT_Dashboard_Trim",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Sill_-1",
+      "material": "MAT_Cockpit_Black",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Sill_1",
+      "material": "MAT_Cockpit_Black",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Centre_tunnel",
+      "material": "MAT_Cockpit_Black",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_carpet_-1",
+      "material": "MAT_Dashboard_Trim",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_carpet_-1",
+      "material": "MAT_Dashboard_Trim",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Seat_rail",
+      "material": "MAT_Cockpit_Black",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Seat_rail",
+      "material": "MAT_Cockpit_Black",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Front_carpet_1",
+      "material": "MAT_Dashboard_Trim",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Rear_carpet_1",
+      "material": "MAT_Dashboard_Trim",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Seat_rail",
+      "material": "MAT_Cockpit_Black",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Seat_rail",
+      "material": "MAT_Cockpit_Black",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Toe_board",
+      "material": "MAT_Dashboard_Trim",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    }
+  ],
+  "componentTriangleCounts": [
+    {
+      "name": "Floor_connected_shell",
+      "triangles": 44
+    },
+    {
+      "name": "Sill_-1",
+      "triangles": 44
+    },
+    {
+      "name": "Sill_1",
+      "triangles": 44
+    },
+    {
+      "name": "Centre_tunnel",
+      "triangles": 44
+    },
+    {
+      "name": "Front_carpet_-1",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_carpet_-1",
+      "triangles": 44
+    },
+    {
+      "name": "Seat_rail",
+      "triangles": 44
+    },
+    {
+      "name": "Seat_rail.001",
+      "triangles": 44
+    },
+    {
+      "name": "Front_carpet_1",
+      "triangles": 44
+    },
+    {
+      "name": "Rear_carpet_1",
+      "triangles": 44
+    },
+    {
+      "name": "Seat_rail.002",
+      "triangles": 44
+    },
+    {
+      "name": "Seat_rail.003",
+      "triangles": 44
+    },
+    {
+      "name": "Toe_board",
+      "triangles": 44
+    }
+  ],
+  "gaps": [
+    "all dimensions provisional",
+    "rear-seat upholstery UV layout provisional; fine detailing deferred",
+    "closed roof glazing uses existing opaque material; no new slot",
+    "hidden mechanics not reconstructed",
+    "browser integration and human acceptance not performed"
+  ]
+}

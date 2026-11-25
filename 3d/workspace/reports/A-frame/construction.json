@@ -1,0 +1,45 @@
+{
+  "stage": "A-frame",
+  "newTriangles": 132,
+  "components": [
+    {
+      "name": "Floor_connected_shell",
+      "material": "MAT_Dashboard_Trim",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Sill_-1",
+      "material": "MAT_Cockpit_Black",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    },
+    {
+      "name": "Sill_1",
+      "material": "MAT_Cockpit_Black",
+      "reference": "07/23/29/31; provisional",
+      "dimensionStatus": "provisional"
+    }
+  ],
+  "componentTriangleCounts": [
+    {
+      "name": "Floor_connected_shell",
+      "triangles": 44
+    },
+    {
+      "name": "Sill_-1",
+      "triangles": 44
+    },
+    {
+      "name": "Sill_1",
+      "triangles": 44
+    }
+  ],
+  "gaps": [
+    "all dimensions provisional",
+    "rear-seat upholstery UV layout provisional; fine detailing deferred",
+    "closed roof glazing uses existing opaque material; no new slot",
+    "hidden mechanics not reconstructed",
+    "browser integration and human acceptance not performed"
+  ]
+}

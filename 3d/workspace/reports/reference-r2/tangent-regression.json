@@ -1,0 +1,10 @@
+{
+  "beforeNgons": 8,
+  "beforeTangentFailure": "Error: Tangent space can only be computed for tris/quads, aborting\n",
+  "afterTangentCalculation": "PASS",
+  "positionsUnchanged": true,
+  "cornerUVPairsPreserved": true,
+  "triangles": 7288,
+  "tangentLoopCount": 21864,
+  "normalNote": "Triangulate modifier requests custom-normal preservation where supported; baseline untouched; no claim of bit-exact new door shading."
+}

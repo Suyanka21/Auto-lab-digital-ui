@@ -1,0 +1,759 @@
+{
+  "passed": true,
+  "errors": [],
+  "meshComponents": 48,
+  "evaluatedTriangles": 925924,
+  "objects": [
+    {
+      "object": "Structural_carrier",
+      "sourceVertices": 192,
+      "sourceFaces": 98,
+      "evaluatedTriangles": 1788,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Textured_Structural_Plastic"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Leading_side_sculpted_molding",
+      "sourceVertices": 1368,
+      "sourceFaces": 1278,
+      "evaluatedTriangles": 21160,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Textured_Structural_Plastic"
+      ],
+      "modifiers": [
+        "SUBSURF",
+        "SOLIDIFY"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Upper_padded_roll",
+      "sourceVertices": 2016,
+      "sourceFaces": 1900,
+      "evaluatedTriangles": 123440,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Black_Padded_Leather"
+      ],
+      "modifiers": [
+        "SUBSURF",
+        "SOLIDIFY"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Window_weatherseal",
+      "sourceVertices": 1152,
+      "sourceFaces": 1142,
+      "evaluatedTriangles": 9168,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Soft_Black_Recess"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Upper_roll_lower_welt",
+      "sourceVertices": 800,
+      "sourceFaces": 794,
+      "evaluatedTriangles": 6368,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Black_Padded_Leather"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Integrated_fascia_base",
+      "sourceVertices": 1200,
+      "sourceFaces": 1106,
+      "evaluatedTriangles": 18440,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Black_Padded_Leather"
+      ],
+      "modifiers": [
+        "SUBSURF",
+        "SOLIDIFY"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Walnut_decorative_insert",
+      "sourceVertices": 1320,
+      "sourceFaces": 1218,
+      "evaluatedTriangles": 79568,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Walnut_Trim"
+      ],
+      "modifiers": [
+        "SUBSURF",
+        "SOLIDIFY"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Thin_decorative_reveal",
+      "sourceVertices": 1400,
+      "sourceFaces": 1392,
+      "evaluatedTriangles": 11160,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Satin_Aluminium"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Release_housing_satin_bezel",
+      "sourceVertices": 168,
+      "sourceFaces": 84,
+      "evaluatedTriangles": 2016,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Satin_Aluminium"
+      ],
+      "modifiers": [
+        "SUBSURF",
+        "SOLIDIFY"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Release_recess_walls_and_back",
+      "sourceVertices": 168,
+      "sourceFaces": 85,
+      "evaluatedTriangles": 840,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Soft_Black_Recess"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Sculpted_release_lever",
+      "sourceVertices": 192,
+      "sourceFaces": 98,
+      "evaluatedTriangles": 1564,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Satin_Aluminium"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Memory_control_recess",
+      "sourceVertices": 192,
+      "sourceFaces": 98,
+      "evaluatedTriangles": 1532,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Soft_Black_Recess"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Memory_button_1",
+      "sourceVertices": 192,
+      "sourceFaces": 98,
+      "evaluatedTriangles": 1532,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Textured_Structural_Plastic"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Memory_button_2",
+      "sourceVertices": 192,
+      "sourceFaces": 98,
+      "evaluatedTriangles": 1532,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Textured_Structural_Plastic"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Memory_button_3",
+      "sourceVertices": 192,
+      "sourceFaces": 98,
+      "evaluatedTriangles": 1532,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Textured_Structural_Plastic"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Sculpted_upholstery_insert",
+      "sourceVertices": 2800,
+      "sourceFaces": 2664,
+      "evaluatedTriangles": 172656,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Cognac_Padded_Leather"
+      ],
+      "modifiers": [
+        "SUBSURF",
+        "SOLIDIFY"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Insert_top_rolled_seam",
+      "sourceVertices": 1800,
+      "sourceFaces": 1792,
+      "evaluatedTriangles": 14360,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Cognac_Padded_Leather"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Insert_double_stitch_A",
+      "sourceVertices": 3060,
+      "sourceFaces": 1530,
+      "evaluatedTriangles": 3060,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Cognac_Thread"
+      ],
+      "modifiers": [],
+      "projectedStitches": 255,
+      "skippedStitches": 0
+    },
+    {
+      "object": "Insert_double_stitch_B",
+      "sourceVertices": 3060,
+      "sourceFaces": 1530,
+      "evaluatedTriangles": 3060,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Cognac_Thread"
+      ],
+      "modifiers": [],
+      "projectedStitches": 255,
+      "skippedStitches": 0
+    },
+    {
+      "object": "Continuous_grip_and_armrest_upholstery",
+      "sourceVertices": 5760,
+      "sourceFaces": 5730,
+      "evaluatedTriangles": 45952,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Cognac_Padded_Leather"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Supported_under_grip_return",
+      "sourceVertices": 2688,
+      "sourceFaces": 2666,
+      "evaluatedTriangles": 21408,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Cognac_Padded_Leather"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Armrest_rear_support",
+      "sourceVertices": 1368,
+      "sourceFaces": 1278,
+      "evaluatedTriangles": 83216,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Cognac_Padded_Leather"
+      ],
+      "modifiers": [
+        "SUBSURF",
+        "SOLIDIFY"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Armrest_upper_double_stitch_A",
+      "sourceVertices": 2688,
+      "sourceFaces": 1344,
+      "evaluatedTriangles": 2688,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Cognac_Thread"
+      ],
+      "modifiers": [],
+      "projectedStitches": 224,
+      "skippedStitches": 0
+    },
+    {
+      "object": "Armrest_upper_double_stitch_B",
+      "sourceVertices": 2688,
+      "sourceFaces": 1344,
+      "evaluatedTriangles": 2688,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Cognac_Thread"
+      ],
+      "modifiers": [],
+      "projectedStitches": 224,
+      "skippedStitches": 0
+    },
+    {
+      "object": "Armrest_front_join",
+      "sourceVertices": 192,
+      "sourceFaces": 188,
+      "evaluatedTriangles": 1512,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Cognac_Thread"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Switch_deck",
+      "sourceVertices": 528,
+      "sourceFaces": 470,
+      "evaluatedTriangles": 7976,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Cognac_Padded_Leather"
+      ],
+      "modifiers": [
+        "SUBSURF",
+        "SOLIDIFY"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Driver_switch_tray",
+      "sourceVertices": 192,
+      "sourceFaces": 98,
+      "evaluatedTriangles": 1532,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Soft_Black_Recess"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Window_switch_1",
+      "sourceVertices": 192,
+      "sourceFaces": 98,
+      "evaluatedTriangles": 1532,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Textured_Structural_Plastic"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Window_switch_mark_1",
+      "sourceVertices": 16,
+      "sourceFaces": 14,
+      "evaluatedTriangles": 112,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Satin_Aluminium"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Window_switch_2",
+      "sourceVertices": 192,
+      "sourceFaces": 98,
+      "evaluatedTriangles": 1532,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Textured_Structural_Plastic"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Window_switch_mark_2",
+      "sourceVertices": 16,
+      "sourceFaces": 14,
+      "evaluatedTriangles": 112,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Satin_Aluminium"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Window_switch_3",
+      "sourceVertices": 192,
+      "sourceFaces": 98,
+      "evaluatedTriangles": 1532,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Textured_Structural_Plastic"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Window_switch_mark_3",
+      "sourceVertices": 16,
+      "sourceFaces": 14,
+      "evaluatedTriangles": 112,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Satin_Aluminium"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Window_switch_4",
+      "sourceVertices": 192,
+      "sourceFaces": 98,
+      "evaluatedTriangles": 1532,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Textured_Structural_Plastic"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Window_switch_mark_4",
+      "sourceVertices": 16,
+      "sourceFaces": 14,
+      "evaluatedTriangles": 112,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Satin_Aluminium"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Pocket_interior_back",
+      "sourceVertices": 1080,
+      "sourceFaces": 994,
+      "evaluatedTriangles": 16584,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Soft_Black_Recess"
+      ],
+      "modifiers": [
+        "SUBSURF",
+        "SOLIDIFY"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Pocket_front_moulded_wall",
+      "sourceVertices": 2700,
+      "sourceFaces": 2574,
+      "evaluatedTriangles": 166736,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Textured_Structural_Plastic"
+      ],
+      "modifiers": [
+        "SUBSURF",
+        "SOLIDIFY"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Pocket_open_mouth_lip",
+      "sourceVertices": 2080,
+      "sourceFaces": 2066,
+      "evaluatedTriangles": 16576,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Textured_Structural_Plastic"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Pocket_inner_floor_and_front_return",
+      "sourceVertices": 152,
+      "sourceFaces": 75,
+      "evaluatedTriangles": 1808,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Soft_Black_Recess"
+      ],
+      "modifiers": [
+        "SUBSURF",
+        "SOLIDIFY"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Pocket_Leading_end_wall",
+      "sourceVertices": 64,
+      "sourceFaces": 31,
+      "evaluatedTriangles": 752,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Textured_Structural_Plastic"
+      ],
+      "modifiers": [
+        "SUBSURF",
+        "SOLIDIFY"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Pocket_Trailing_end_wall",
+      "sourceVertices": 64,
+      "sourceFaces": 31,
+      "evaluatedTriangles": 752,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Textured_Structural_Plastic"
+      ],
+      "modifiers": [
+        "SUBSURF",
+        "SOLIDIFY"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Integrated_speaker_shoulder",
+      "sourceVertices": 640,
+      "sourceFaces": 512,
+      "evaluatedTriangles": 16384,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Textured_Structural_Plastic"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Speaker_satin_ring",
+      "sourceVertices": 3072,
+      "sourceFaces": 3062,
+      "evaluatedTriangles": 24528,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Satin_Aluminium"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Speaker_seal",
+      "sourceVertices": 3072,
+      "sourceFaces": 3062,
+      "evaluatedTriangles": 24528,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Soft_Black_Recess"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Acoustic_backing",
+      "sourceVertices": 1537,
+      "sourceFaces": 1536,
+      "evaluatedTriangles": 2944,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Soft_Black_Recess"
+      ],
+      "modifiers": [],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Speaker_perforated_screen",
+      "sourceVertices": 1537,
+      "sourceFaces": 1536,
+      "evaluatedTriangles": 2944,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Perforated_Speaker_Metal"
+      ],
+      "modifiers": [],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Courtesy_lamp_recess",
+      "sourceVertices": 192,
+      "sourceFaces": 98,
+      "evaluatedTriangles": 1532,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Soft_Black_Recess"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    },
+    {
+      "object": "Courtesy_lamp_lens",
+      "sourceVertices": 192,
+      "sourceFaces": 98,
+      "evaluatedTriangles": 1532,
+      "uvLayer": "Surface_Metres",
+      "materials": [
+        "R4_MASTER_Courtesy_Diffuser"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ],
+      "projectedStitches": null,
+      "skippedStitches": null
+    }
+  ],
+  "images": [
+    {
+      "name": "AUTOLAB_SUV_FRONT_DOOR_PANEL_PRIMARY_01.jpg",
+      "packed": true,
+      "size": [
+        2752,
+        1536
+      ]
+    }
+  ],
+  "scope": "Fresh-open master structural/data checks only; not watertightness, visual acceptance, runtime or browser validation",
+  "runtimeExportProduced": false,
+  "settings": {
+    "blender": "5.2.2 LTS",
+    "units": "METRIC",
+    "look": "AgX - Medium High Contrast"
+  }
+}

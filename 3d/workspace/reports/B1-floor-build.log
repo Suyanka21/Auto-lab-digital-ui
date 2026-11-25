@@ -1,0 +1,28 @@
+19:03:35 | INFO: Data are loaded, start creating Blender stuff
+19:03:35 | INFO: Blender create Mesh node GEO_Console_Armrest
+19:03:35 | INFO: Blender create Mesh node GEO_Console_Body
+19:03:35 | INFO: Blender create Mesh node GEO_Console_Cupholder_Front
+19:03:35 | INFO: Blender create Mesh node GEO_Console_Cupholder_Rear
+19:03:35 | INFO: Blender create Mesh node GEO_Console_Selector
+19:03:35 | INFO: Blender create Mesh node GEO_Dashboard_Lexus.001
+19:03:35 | INFO: Blender create Mesh node GEO_Seat_Front_Driver
+19:03:35 | INFO: Blender create Mesh node GEO_Seat_Front_Passenger.001
+19:03:35 | INFO: Blender create Mesh node GEO_Seat_Stitching_Front
+19:03:35 | INFO: Blender create Mesh node GEO_Seat_Stitching_Front_Passenger.001
+19:03:35 | INFO: Blender create Mesh node GEO_SteeringWheel_Lexus.001
+19:03:35 | INFO: glTF import finished in 0.35s
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+19:03:36 | INFO: Starting glTF 2.0 export
+19:03:36 | INFO: Extracting primitive: Cube
+19:03:36 | INFO: Primitives created: 2
+19:03:36 | INFO: Finished glTF 2.0 export in 0.25130796432495117 s
+C:\Users\user\Documents\AUTOLAB_3D_WORKSPACE\build_pipeline\isolated\build_cabin.py:159: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  scene.world=bpy.data.worlds.new('Review studio');scene.world.use_nodes=True;scene.world.node_tree.nodes['Background'].inputs[0].default_value=(.18,.20,.23,1);scene.world.node_tree.nodes['Background'].inputs[1].default_value=.45
+00:21.781  render           | Saved: 'C:\Users\user\Documents\AUTOLAB_3D_WORKSPACE\reports\B1-floor\context.png'
+
+Info: Saved as "B1-floor.blend"
+MILESTONE B1-floor NEW_TRIANGLES 572
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

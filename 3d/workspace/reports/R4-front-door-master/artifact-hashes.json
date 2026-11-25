@@ -1,0 +1,162 @@
+[
+  {
+    "path": "working_models\\R4-front-door-master.blend",
+    "bytes": 3919869,
+    "sha256": "22e916bd897c6a5164ef19c6f0cac50ed631534346d58067ae2fd60b47b2285f"
+  },
+  {
+    "path": "reports\\STATE.md",
+    "bytes": 1809,
+    "sha256": "e714e5ba82cc9fe82748a3a4a8a19839e0727c61e0dfd71db39e1e1e718bb1d6"
+  },
+  {
+    "path": "reports\\R4-front-door-master\\front-reference.png",
+    "bytes": 1205610,
+    "sha256": "2cc36349453a129971874c3daf23f26f904ef73ecb5631d3dcb4a56498ec02ac"
+  },
+  {
+    "path": "reports\\R4-front-door-master\\handle-release-closeup.png",
+    "bytes": 1898610,
+    "sha256": "f63d6441ce8b6e99c62c466cd6156de5ca56eb45b7138892f81b0d8b9cab5443"
+  },
+  {
+    "path": "reports\\R4-front-door-master\\material-lab.png",
+    "bytes": 844291,
+    "sha256": "3ebd0759c2f8dd208cef14fd0217244d7e351216a425563f2871de1be7060e1e"
+  },
+  {
+    "path": "reports\\R4-front-door-master\\neutral-geometry.png",
+    "bytes": 1284363,
+    "sha256": "d8747a53d8d5fc8e3446694f2f8fa365c2a52c2f47835c00b0205a46afdf54eb"
+  },
+  {
+    "path": "reports\\R4-front-door-master\\pocket-speaker-closeup.png",
+    "bytes": 1735376,
+    "sha256": "5e720f9c24ab5e0d0350fc3155a5727d72d0c3ec19537c7590fea22a5eec12fa"
+  },
+  {
+    "path": "reports\\R4-front-door-master\\preview-front-reference.png",
+    "bytes": 483018,
+    "sha256": "841996d304a91d6b387be188c82464b81062862c5623bc38d4f6463ffc113f3a"
+  },
+  {
+    "path": "reports\\R4-front-door-master\\preview-handle-release-closeup.png",
+    "bytes": 713176,
+    "sha256": "112c9e31e352f6a6bff89eba0d0229ec22c9f99bc328fbea0688d317e3984ac2"
+  },
+  {
+    "path": "reports\\R4-front-door-master\\preview-material-lab.png",
+    "bytes": 422612,
+    "sha256": "29811efdde304cb64d7587708ad94f6114e613a32554cacea53bbdd503b5d900"
+  },
+  {
+    "path": "reports\\R4-front-door-master\\preview-pocket-speaker-closeup.png",
+    "bytes": 640558,
+    "sha256": "8e89af4e4e3b3203bbc609dcfe0ca338adf2e20b16a0f279fdc61d0938ef904e"
+  },
+  {
+    "path": "reports\\R4-front-door-master\\preview-three-quarter.png",
+    "bytes": 623133,
+    "sha256": "3efef10e31076d99725c7e8f00ed866e3f6037195a127c07413e8377bf38b71b"
+  },
+  {
+    "path": "reports\\R4-front-door-master\\realistic-material.png",
+    "bytes": 1456239,
+    "sha256": "a9f00f728f92d132bb835d77333748491aa66f9281613bf81096eae239117feb"
+  },
+  {
+    "path": "reports\\R4-front-door-master\\three-quarter.png",
+    "bytes": 1500859,
+    "sha256": "ae30f89f6e43a64062060946d833bc3fd4324bad8f584163709c50bbad961055"
+  },
+  {
+    "path": "reports\\R4-front-door-master\\detail-comparison.jpg",
+    "bytes": 311273,
+    "sha256": "e6fb2cbacc3b4d5e4c82f6b73c8ceb0057099ae00079cc0f443b4c686702f7f4"
+  },
+  {
+    "path": "reports\\R4-front-door-master\\inspection-contact-sheet.jpg",
+    "bytes": 462175,
+    "sha256": "d791862c7f211a19b7cbe1438ca0076a2fe42d83268a98a175e66f8e92033d10"
+  },
+  {
+    "path": "reports\\R4-front-door-master\\reference-comparison.jpg",
+    "bytes": 305315,
+    "sha256": "0f543948dc5146f3a85742b278d8f08b9d3c89d46b3526c20a1b7d14853f2350"
+  },
+  {
+    "path": "reports\\R4-front-door-master\\COMPONENTS.md",
+    "bytes": 3780,
+    "sha256": "efef59a250f0dae0a272313bc5aa03d41f2810c021836b356aa9b788dd638415"
+  },
+  {
+    "path": "reports\\R4-front-door-master\\CONTRACT.md",
+    "bytes": 1550,
+    "sha256": "80bd71c6023f57d2ec30ab1d47b65a91396a2668014099f5c5e0e11df36851a5"
+  },
+  {
+    "path": "reports\\R4-front-door-master\\INSPECTION.md",
+    "bytes": 3499,
+    "sha256": "05efb283d3909b36442da50fdcd0672f59b69742dfac153bfd17c87ea339dfc6"
+  },
+  {
+    "path": "reports\\R4-front-door-master\\OWNER-REVIEW.md",
+    "bytes": 963,
+    "sha256": "072f6a65f586163926502095c143e5abca37b3563cdf8358f983b32869d2eac1"
+  },
+  {
+    "path": "reports\\R4-front-door-master\\REPRODUCE.md",
+    "bytes": 1858,
+    "sha256": "e60bcf25c3c7f5f818fe4a8180d275131e9279a75256ee01366f933d0401e3a8"
+  },
+  {
+    "path": "reports\\R4-front-door-master\\REVIEW.md",
+    "bytes": 8693,
+    "sha256": "5a21977a1f37f371b416607ba3eb385bbbfbdc7fa2df1cd5c2ac64c8a479dc42"
+  },
+  {
+    "path": "reports\\R4-front-door-master\\STATE-before-R4.md",
+    "bytes": 1630,
+    "sha256": "c45f42b92379c60d9bf528f8bf72a4b225af6d7d20c8a82b497b368fe8cb258a"
+  },
+  {
+    "path": "reports\\R4-front-door-master\\index.html",
+    "bytes": 3739,
+    "sha256": "69f2180000edfa702919c9fe3ff45d2f3204402f7f50c4906b7139b65d473745"
+  },
+  {
+    "path": "reports\\R4-front-door-master\\master-validation.json",
+    "bytes": 19044,
+    "sha256": "cade1f0e3609c7dab901a5fde474a250b84b22693d5cf80b6dd77455074b1047"
+  },
+  {
+    "path": "reports\\R4-front-door-master\\render-manifest.json",
+    "bytes": 1798,
+    "sha256": "197d1adf4ed80d39546f74e78c009aa1a2c4ab0d971f15d23ff11277c3e21d71"
+  },
+  {
+    "path": "reports\\R4-front-door-master\\package-validation.json",
+    "bytes": 321,
+    "sha256": "3ec826318cf94ce854d44951262769ee91aca40da88f2a6afd33e2ff78b19223"
+  },
+  {
+    "path": "build_pipeline\\isolated\\audit_front_door_r4.py",
+    "bytes": 2347,
+    "sha256": "eb380e94e532346e5479bddf47a7fb75aced9085f13a84de5e936a28b2157b1e"
+  },
+  {
+    "path": "build_pipeline\\isolated\\build_front_door_r4.py",
+    "bytes": 24507,
+    "sha256": "39e6218da9a767c6bfeed38ed236aca7cec090516e3bb9782871f11ff7fe00fe"
+  },
+  {
+    "path": "build_pipeline\\isolated\\package_front_door_r4.py",
+    "bytes": 9945,
+    "sha256": "bcca97952dadc42dfb5ea91c7f23e06c3a767bde0862385a6ddcb061920cd90b"
+  },
+  {
+    "path": "build_pipeline\\isolated\\render_front_door_r4.py",
+    "bytes": 3121,
+    "sha256": "6b06626a69208122977b9ee982e72660b63a394501985f08206ef496a18ff818"
+  }
+]

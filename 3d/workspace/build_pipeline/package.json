@@ -1,0 +1,1 @@
+{"name":"autolab-isolated-cabin-tools","private":true,"type":"module","scripts":{"verify":"node isolated/pipeline.mjs"},"dependencies":{"@gltf-transform/core":"4.5.1","@gltf-transform/extensions":"4.5.1","draco3dgltf":"1.5.9","gltf-validator":"2.0.0-dev.3.10","ajv":"8.20.0"}}

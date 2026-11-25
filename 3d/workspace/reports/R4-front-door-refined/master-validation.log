@@ -1,0 +1,52 @@
+00:27.844  blend            | Read blend: "C:\Users\user\Documents\AUTOLAB_3D_WORKSPACE\working_models\R4-front-door-refined.blend"
+{
+  "passed": true,
+  "errors": [],
+  "meshComponents": 48,
+  "evaluatedTriangles": 719424,
+  "scope": "Fresh-open master structural/data checks only; not watertightness, visual acceptance, runtime or browser validation",
+  "runtimeExportProduced": false,
+  "settings": {
+    "blender": "5.2.2 LTS",
+    "units": "METRIC",
+    "look": "AgX - Medium High Contrast"
+  }
+}
+{
+  "gripOpening": {
+    "analyticalPixel": [
+      610,
+      397
+    ],
+    "firstHits": [
+      {
+        "object": "Structural_carrier",
+        "depthMetres": 0.018,
+        "distance": 1.9819999933242798
+      }
+    ]
+  },
+  "pocketOpening": {
+    "analyticalPixel": [
+      570,
+      485
+    ],
+    "firstHits": [
+      {
+        "object": "Pocket_interior_back",
+        "depthMetres": 0.027929,
+        "distance": 1.9720709323883057
+      },
+      {
+        "object": "Structural_carrier",
+        "depthMetres": 0.018,
+        "distance": 1.9820001125335693
+      }
+    ]
+  },
+  "lipToGrilleTriangleOverlapPairs": 0,
+  "note": "Local geometry probes at chosen image-space landmarks; no global watertightness, hidden construction or visual-acceptance claim."
+}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

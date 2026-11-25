@@ -1,0 +1,29 @@
+{
+  "source": "C:\\Users\\user\\Documents\\AUTOLAB_HANDOVER_PUBLISH\\3d\\workspace\\working_models\\R4-front-door-refined.blend",
+  "blender": "5.2.2 LTS",
+  "camera": "CAM_front-reference",
+  "position": [
+    -0.029200000688433647,
+    -3.0399999618530273,
+    0.43362000584602356
+  ],
+  "rotation": [
+    1.5707964897155762,
+    -0.0,
+    0.0
+  ],
+  "samples": 2,
+  "resolution": [
+    320,
+    179
+  ],
+  "engine": "CYCLES",
+  "device": "CPU",
+  "denoising": true,
+  "viewTransform": "AgX",
+  "look": "AgX - Medium High Contrast",
+  "exposure": 0.0,
+  "neutralOverride": false,
+  "wallSeconds": 14.288,
+  "sourceSaved": false
+}

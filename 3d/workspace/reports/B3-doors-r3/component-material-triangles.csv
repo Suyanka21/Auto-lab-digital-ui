@@ -1,0 +1,130 @@
+name,triangles,material,group
+Floor_connected_shell,44,MAT_Dashboard_Trim,Floor/supports
+Sill_-1,44,MAT_Cockpit_Black,Floor/supports
+Sill_1,44,MAT_Cockpit_Black,Floor/supports
+Centre_tunnel,44,MAT_Cockpit_Black,Floor/supports
+Front_carpet_-1,44,MAT_Dashboard_Trim,Floor/supports
+Rear_carpet_-1,44,MAT_Dashboard_Trim,Floor/supports
+Seat_rail,44,MAT_Cockpit_Black,Floor/supports
+Seat_rail.001,44,,Floor/supports
+Front_carpet_1,44,MAT_Dashboard_Trim,Floor/supports
+Rear_carpet_1,44,MAT_Dashboard_Trim,Floor/supports
+Seat_rail.002,44,,Floor/supports
+Seat_rail.003,44,,Floor/supports
+Toe_board,44,MAT_Dashboard_Trim,Floor/supports
+Rear_bench_plinth,44,MAT_Cockpit_Black,Rear seating
+Rear_cushion_0,224,MAT_Seat_Secondary,Rear seating
+Rear_insert_0,224,MAT_Seat_Primary,Rear seating
+Rear_backrest_0,224,MAT_Seat_Secondary,Rear seating
+Rear_back_insert_0,224,MAT_Seat_Primary,Rear seating
+Rear_headrest_post,44,MAT_Console_Metal,Rear seating
+Rear_headrest_post.001,44,,Rear seating
+Rear_headrest_0,224,MAT_Seat_Secondary,Rear seating
+Rear_buckle_0,44,MAT_Cockpit_Black,Rear seating
+Rear_cushion_1,224,MAT_Seat_Secondary,Rear seating
+Rear_insert_1,224,MAT_Seat_Primary,Rear seating
+Rear_backrest_1,224,MAT_Seat_Secondary,Rear seating
+Rear_back_insert_1,224,MAT_Seat_Primary,Rear seating
+Rear_headrest_post.002,44,,Rear seating
+Rear_headrest_post.003,44,,Rear seating
+Rear_headrest_1,224,MAT_Seat_Secondary,Rear seating
+Rear_buckle_1,44,MAT_Cockpit_Black,Rear seating
+Rear_cushion_2,224,MAT_Seat_Secondary,Rear seating
+Rear_insert_2,224,MAT_Seat_Primary,Rear seating
+Rear_backrest_2,224,MAT_Seat_Secondary,Rear seating
+Rear_back_insert_2,224,MAT_Seat_Primary,Rear seating
+Rear_headrest_post.004,44,,Rear seating
+Rear_headrest_post.005,44,,Rear seating
+Rear_headrest_2,224,MAT_Seat_Secondary,Rear seating
+Rear_buckle_2,44,MAT_Cockpit_Black,Rear seating
+Front_door_-1_sculpted_shell,238,MAT_Cockpit_Black,Doors
+Front_door_-1_upper_padded_roll,75,MAT_Dashboard_Trim,Doors
+Front_door_-1_window_seal,36,MAT_Cockpit_Black,Doors
+Front_door_-1_fascia_recess,75,MAT_Cockpit_Black,Doors
+Front_door_-1_fascia_metal_reveal,84,MAT_Console_Metal,Doors
+Front_door_-1_decorative_trim,75,MAT_Console_Carbon,Doors
+Front_door_-1_release_bowl,75,MAT_Cockpit_Black,Doors
+Front_door_-1_release_surround,84,MAT_Console_Metal,Doors
+Front_door_-1_release_lever,60,MAT_Console_Metal,Doors
+Front_door_-1_leather_insert,135,MAT_Seat_Secondary,Doors
+Front_door_-1_armrest_saddle,135,MAT_Seat_Secondary,Doors
+Front_door_-1_integrated_pull_and_palmrest,300,MAT_Seat_Secondary,Doors
+Front_door_-1_insert_seam,68,MAT_Seat_Secondary,Doors
+Front_door_-1_armrest_seam,84,MAT_Seat_Secondary,Doors
+Front_door_-1_lower_bin_face,90,MAT_Cockpit_Black,Doors
+Front_door_-1_pocket_upper_lip,68,MAT_Cockpit_Black,Doors
+Front_door_-1_pocket_inner_floor,2,MAT_Cockpit_Black,Doors
+Front_door_-1_speaker_metal_rim,160,MAT_Console_Metal,Doors
+Front_door_-1_speaker_perforated_face,40,MAT_Cockpit_Black,Doors
+Front_door_-1_switch_recess,60,MAT_Cockpit_Black,Doors
+Front_door_-1_window_switch_0,60,MAT_Cockpit_Black,Doors
+Front_door_-1_lower_courtesy_lens,60,MAT_Console_Metal,Doors
+Rear_door_-1_sculpted_shell,238,MAT_Cockpit_Black,Doors
+Rear_door_-1_upper_padded_roll,75,MAT_Dashboard_Trim,Doors
+Rear_door_-1_window_seal,36,MAT_Cockpit_Black,Doors
+Rear_door_-1_fascia_recess,75,MAT_Cockpit_Black,Doors
+Rear_door_-1_fascia_metal_reveal,84,MAT_Console_Metal,Doors
+Rear_door_-1_decorative_trim,75,MAT_Console_Carbon,Doors
+Rear_door_-1_release_bowl,75,MAT_Cockpit_Black,Doors
+Rear_door_-1_release_surround,84,MAT_Console_Metal,Doors
+Rear_door_-1_release_lever,60,MAT_Console_Metal,Doors
+Rear_door_-1_leather_insert,135,MAT_Seat_Secondary,Doors
+Rear_door_-1_armrest_saddle,135,MAT_Seat_Secondary,Doors
+Rear_door_-1_integrated_pull_and_palmrest,300,MAT_Seat_Secondary,Doors
+Rear_door_-1_insert_seam,68,MAT_Seat_Secondary,Doors
+Rear_door_-1_armrest_seam,84,MAT_Seat_Secondary,Doors
+Rear_door_-1_lower_bin_face,90,MAT_Cockpit_Black,Doors
+Rear_door_-1_pocket_upper_lip,68,MAT_Cockpit_Black,Doors
+Rear_door_-1_pocket_inner_floor,2,MAT_Cockpit_Black,Doors
+Rear_door_-1_speaker_metal_rim,160,MAT_Console_Metal,Doors
+Rear_door_-1_speaker_perforated_face,40,MAT_Cockpit_Black,Doors
+Rear_door_-1_switch_recess,60,MAT_Cockpit_Black,Doors
+Rear_door_-1_window_switch_0,60,MAT_Cockpit_Black,Doors
+Rear_door_-1_lower_courtesy_lens,60,MAT_Console_Metal,Doors
+Front_door_1_sculpted_shell,238,MAT_Cockpit_Black,Doors
+Front_door_1_upper_padded_roll,75,MAT_Dashboard_Trim,Doors
+Front_door_1_window_seal,36,MAT_Cockpit_Black,Doors
+Front_door_1_fascia_recess,75,MAT_Cockpit_Black,Doors
+Front_door_1_fascia_metal_reveal,84,MAT_Console_Metal,Doors
+Front_door_1_decorative_trim,75,MAT_Console_Carbon,Doors
+Front_door_1_release_bowl,75,MAT_Cockpit_Black,Doors
+Front_door_1_release_surround,84,MAT_Console_Metal,Doors
+Front_door_1_release_lever,60,MAT_Console_Metal,Doors
+Front_door_1_leather_insert,135,MAT_Seat_Secondary,Doors
+Front_door_1_armrest_saddle,135,MAT_Seat_Secondary,Doors
+Front_door_1_integrated_pull_and_palmrest,300,MAT_Seat_Secondary,Doors
+Front_door_1_insert_seam,68,MAT_Seat_Secondary,Doors
+Front_door_1_armrest_seam,84,MAT_Seat_Secondary,Doors
+Front_door_1_lower_bin_face,90,MAT_Cockpit_Black,Doors
+Front_door_1_pocket_upper_lip,68,MAT_Cockpit_Black,Doors
+Front_door_1_pocket_inner_floor,2,MAT_Cockpit_Black,Doors
+Front_door_1_speaker_metal_rim,160,MAT_Console_Metal,Doors
+Front_door_1_speaker_perforated_face,40,MAT_Cockpit_Black,Doors
+Front_door_1_switch_recess,60,MAT_Cockpit_Black,Doors
+Front_door_1_window_switch_0,60,MAT_Cockpit_Black,Doors
+Front_door_1_window_switch_1,60,MAT_Cockpit_Black,Doors
+Front_door_1_window_switch_2,60,MAT_Cockpit_Black,Doors
+Front_door_1_window_switch_3,60,MAT_Cockpit_Black,Doors
+Front_door_1_lower_courtesy_lens,60,MAT_Console_Metal,Doors
+Rear_door_1_sculpted_shell,238,MAT_Cockpit_Black,Doors
+Rear_door_1_upper_padded_roll,75,MAT_Dashboard_Trim,Doors
+Rear_door_1_window_seal,36,MAT_Cockpit_Black,Doors
+Rear_door_1_fascia_recess,75,MAT_Cockpit_Black,Doors
+Rear_door_1_fascia_metal_reveal,84,MAT_Console_Metal,Doors
+Rear_door_1_decorative_trim,75,MAT_Console_Carbon,Doors
+Rear_door_1_release_bowl,75,MAT_Cockpit_Black,Doors
+Rear_door_1_release_surround,84,MAT_Console_Metal,Doors
+Rear_door_1_release_lever,60,MAT_Console_Metal,Doors
+Rear_door_1_leather_insert,135,MAT_Seat_Secondary,Doors
+Rear_door_1_armrest_saddle,135,MAT_Seat_Secondary,Doors
+Rear_door_1_integrated_pull_and_palmrest,300,MAT_Seat_Secondary,Doors
+Rear_door_1_insert_seam,68,MAT_Seat_Secondary,Doors
+Rear_door_1_armrest_seam,84,MAT_Seat_Secondary,Doors
+Rear_door_1_lower_bin_face,90,MAT_Cockpit_Black,Doors
+Rear_door_1_pocket_upper_lip,68,MAT_Cockpit_Black,Doors
+Rear_door_1_pocket_inner_floor,2,MAT_Cockpit_Black,Doors
+Rear_door_1_speaker_metal_rim,160,MAT_Console_Metal,Doors
+Rear_door_1_speaker_perforated_face,40,MAT_Cockpit_Black,Doors
+Rear_door_1_switch_recess,60,MAT_Cockpit_Black,Doors
+Rear_door_1_window_switch_0,60,MAT_Cockpit_Black,Doors
+Rear_door_1_lower_courtesy_lens,60,MAT_Console_Metal,Doors

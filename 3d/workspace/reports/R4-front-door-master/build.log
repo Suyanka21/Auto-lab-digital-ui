@@ -1,0 +1,8 @@
+C:\Users\user\Documents\AUTOLAB_3D_WORKSPACE\build_pipeline\isolated\build_front_door_r4.py:206: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  S.world=bpy.data.worlds.new('R4_neutral_world');S.world.use_nodes=True;S.world.node_tree.nodes['Background'].inputs[0].default_value=(.43,.43,.43,1);S.world.node_tree.nodes['Background'].inputs[1].default_value=.32
+Info: Packed 1 file(s)
+Info: Saved as "R4-front-door-master.blend"
+MASTER_SAVED 48 components 925924 evaluated triangles; no runtime asset produced
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

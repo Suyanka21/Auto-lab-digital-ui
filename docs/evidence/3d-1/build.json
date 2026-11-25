@@ -1,0 +1,98 @@
+[
+  {
+    "kind": "classic",
+    "source": "public/assets/3d/lexus-rx350/interior-l4-classic.glb",
+    "sourceSha256": "e5bdde016348df34889ec4c0ff0e406caad7e368504308bd5a4f5b725a55c056",
+    "sourceBytes": 3650764,
+    "candidate": "reports/3d-1/candidates/interior-l4-classic.glb",
+    "candidateSha256": "a101d3f378d13874432560c17c3db0bbcea1f77aeb2538d0927de16218509454",
+    "candidateBytes": 3651324,
+    "stats": [
+      {
+        "node": "GEO_Seat_Front_Driver",
+        "material": "MAT_Seat_Primary",
+        "vertices": 1999,
+        "moved": 214,
+        "maxMove": 0.005238330282559378
+      },
+      {
+        "node": "GEO_Seat_Front_Driver",
+        "material": "MAT_Seat_Secondary",
+        "vertices": 8040,
+        "moved": 1769,
+        "maxMove": 0.022919034838011138
+      },
+      {
+        "node": "GEO_Seat_Stitching_Front",
+        "material": "MAT_Seat_Stitching",
+        "vertices": 14020,
+        "moved": 3599,
+        "maxMove": 0.006842823200741588
+      }
+    ]
+  },
+  {
+    "kind": "diamond",
+    "source": "public/assets/3d/lexus-rx350/interior-l4-diamond.glb",
+    "sourceSha256": "4c217dd00d86d8bae3925d735beddb63b225d24c5f1bafd60726f501bfcba8ad",
+    "sourceBytes": 3787228,
+    "candidate": "reports/3d-1/candidates/interior-l4-diamond.glb",
+    "candidateSha256": "5d230de58d2c195dafb1c239749b0e179dc3e43cc1baa741142b98df25b659d9",
+    "candidateBytes": 3787788,
+    "stats": [
+      {
+        "node": "GEO_Seat_Front_Driver",
+        "material": "MAT_Seat_Primary",
+        "vertices": 1999,
+        "moved": 214,
+        "maxMove": 0.005238330282559378
+      },
+      {
+        "node": "GEO_Seat_Front_Driver",
+        "material": "MAT_Seat_Secondary",
+        "vertices": 8040,
+        "moved": 1769,
+        "maxMove": 0.022919034838011138
+      },
+      {
+        "node": "GEO_Seat_Stitching_Front",
+        "material": "MAT_Seat_Stitching",
+        "vertices": 14020,
+        "moved": 3599,
+        "maxMove": 0.006842823200741588
+      }
+    ]
+  },
+  {
+    "kind": "perforated",
+    "source": "public/assets/3d/lexus-rx350/interior-l4-perforated.glb",
+    "sourceSha256": "d53f55546232db473ecadee08be9bff6454b5d3a510ee30e88415f2477ca9f9e",
+    "sourceBytes": 3509764,
+    "candidate": "reports/3d-1/candidates/interior-l4-perforated.glb",
+    "candidateSha256": "3b4c806b3757d18bde695b162fb85f662308a189f1ac7150f18a007ff0df1a09",
+    "candidateBytes": 3510324,
+    "stats": [
+      {
+        "node": "GEO_Seat_Front_Driver",
+        "material": "MAT_Seat_Primary",
+        "vertices": 1999,
+        "moved": 214,
+        "maxMove": 0.005238330282559378
+      },
+      {
+        "node": "GEO_Seat_Front_Driver",
+        "material": "MAT_Seat_Secondary",
+        "vertices": 8040,
+        "moved": 1769,
+        "maxMove": 0.022919034838011138
+      },
+      {
+        "node": "GEO_Seat_Stitching_Front",
+        "material": "MAT_Seat_Stitching",
+        "vertices": 14020,
+        "moved": 3599,
+        "maxMove": 0.006842823200741588
+      }
+    ]
+  }
+]

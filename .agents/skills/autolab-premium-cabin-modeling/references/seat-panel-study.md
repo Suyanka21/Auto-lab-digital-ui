@@ -1,0 +1,9 @@
+# Tailoring the shared seat: R5-B construction example
+
+[Reproducible scripts and evidence](../../../../3d/R5-B/README.md). R5-A is approved for form; this upholstery study still requires its own owner decision.
+
+1. Correct the **support** first. Ease in the waist below the shoulder without moving the headrest; take height out of the middle of the thigh roll while retaining the outboard crest and apron meeting line. Keep the original cage in its own file.
+2. Cut a continuous surface instead of laying a thin patch over finished foam. Sample the same periodic cubic section envelope for both sides of every join. Backrest sections cycle around the back; the cushion section cycles over the nose and underneath it. Share the arch and longitudinal boundaries and close their returns. Otherwise a convincing frontal join can split when seen along it.
+3. Don't place lumbar channels at equal increments of **cage index**. The first intervals span much more of the physical width. In the pilot both pairs bunched against the edges. Remap the centre field, concentrate samples beside the draw lines, and apply the inward displacement along the local surface normal. Fade it into the yoke and perimeter. Put the displacement on a reversible shape key so a plain foundation survives.
+4. A wide hollow reads as a stripe, not a turned seam. Use a narrow lower trough inside the broader compression falloff, give it supporting sample rows, and use a restrained material change only on already recessed faces. Inspect it in a macro with the original studio lighting. Perforation and thread are not substitutes for this construction.
+5. Test the seams as boundaries. Every directed edge of a sewn piece should have an opposite-facing partner on the adjacent piece; a count of matching vertices alone won't detect a reversed patch. Check the optional detail does not move the seam edges. These checks say nothing about installation tolerances or real sewing allowances.

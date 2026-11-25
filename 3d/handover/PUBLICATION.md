@@ -39,3 +39,5 @@ New authored files pass the whitespace check. Immutable archive files retain ori
 ## Cleanup checkpoint
 
 **No deletion performed.** `cleanup-inventory.json` accounts for the entire isolated workspace, including 769 reproducible dependency/cache/intermediate files omitted from publication. The only proposed deletion root is `C:/Users/user/Documents/AUTOLAB_3D_WORKSPACE`. Final owner confirmation and a fresh unchanged-inventory check are required before deletion. Publication worktree, temporary verification directories, application repositories and global tools are outside that scope.
+
+Final packaging correction (2026-11-25): removed generated Python bytecode from the skill's tracked files and ignored its __pycache__ directory. No master, modelling script, runtime asset or essential inventory entry changed. The original workspace remains intact.

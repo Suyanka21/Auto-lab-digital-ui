@@ -1,0 +1,29 @@
+{
+  "source": "/home/ubuntu/repos/Auto-lab-digital-ui/3d/R5-A/R5-front-seat-master.blend",
+  "blender": "5.2.2 LTS",
+  "camera": "CAM_side",
+  "position": [
+    3.625,
+    0.05999999865889549,
+    0.753000020980835
+  ],
+  "rotation": [
+    1.570796251296997,
+    -0.0,
+    1.570796251296997
+  ],
+  "samples": 32,
+  "resolution": [
+    1040,
+    1040
+  ],
+  "engine": "CYCLES",
+  "device": "CPU",
+  "denoising": true,
+  "viewTransform": "AgX",
+  "look": "AgX - Medium High Contrast",
+  "exposure": 0.0,
+  "neutralOverride": false,
+  "wallSeconds": 19.645,
+  "sourceSaved": false
+}

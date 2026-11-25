@@ -1,0 +1,398 @@
+{
+  "passed": true,
+  "blender": "5.2.2 LTS",
+  "source": "/home/ubuntu/repos/Auto-lab-digital-ui/3d/R5-A/R5-front-seat-master.blend",
+  "collection": "R5_FRONT_SEAT_MASTER",
+  "meshComponents": 26,
+  "evaluatedTriangles": 89920,
+  "baseVertices": 3705,
+  "objects": [
+    {
+      "name": "Apron \u2022 under-cushion cradle",
+      "baseVertices": 180,
+      "evaluatedTriangles": 5440,
+      "materials": [
+        "Study \u2022 structural graphite"
+      ],
+      "uvLayers": [
+        "Draft_face_metres"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ]
+    },
+    {
+      "name": "Backrest \u2022 lumbar to shoulder",
+      "baseVertices": 338,
+      "evaluatedTriangles": 10400,
+      "materials": [
+        "Study \u2022 centre \u2192 Primary",
+        "Study \u2022 surrounds \u2192 Secondary"
+      ],
+      "uvLayers": [
+        "Draft_face_metres"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ]
+    },
+    {
+      "name": "Cushion \u2022 dished pan and thigh roll",
+      "baseVertices": 323,
+      "evaluatedTriangles": 10064,
+      "materials": [
+        "Study \u2022 centre \u2192 Primary",
+        "Study \u2022 surrounds \u2192 Secondary"
+      ],
+      "uvLayers": [
+        "Draft_face_metres"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ]
+    },
+    {
+      "name": "Foot \u2022 inboard front",
+      "baseVertices": 16,
+      "evaluatedTriangles": 380,
+      "materials": [
+        "Study \u2022 runner metal"
+      ],
+      "uvLayers": [
+        "Draft_face_metres"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Foot \u2022 inboard rear",
+      "baseVertices": 16,
+      "evaluatedTriangles": 380,
+      "materials": [
+        "Study \u2022 runner metal"
+      ],
+      "uvLayers": [
+        "Draft_face_metres"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Foot \u2022 outboard front",
+      "baseVertices": 16,
+      "evaluatedTriangles": 380,
+      "materials": [
+        "Study \u2022 runner metal"
+      ],
+      "uvLayers": [
+        "Draft_face_metres"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Foot \u2022 outboard rear",
+      "baseVertices": 16,
+      "evaluatedTriangles": 380,
+      "materials": [
+        "Study \u2022 runner metal"
+      ],
+      "uvLayers": [
+        "Draft_face_metres"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Guide \u2022 in",
+      "baseVertices": 128,
+      "evaluatedTriangles": 896,
+      "materials": [
+        "Study \u2022 structural graphite"
+      ],
+      "uvLayers": [
+        "Draft_face_metres"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ]
+    },
+    {
+      "name": "Guide \u2022 out",
+      "baseVertices": 128,
+      "evaluatedTriangles": 896,
+      "materials": [
+        "Study \u2022 structural graphite"
+      ],
+      "uvLayers": [
+        "Draft_face_metres"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ]
+    },
+    {
+      "name": "Lumbar dial",
+      "baseVertices": 160,
+      "evaluatedTriangles": 1152,
+      "materials": [
+        "Study \u2022 controls"
+      ],
+      "uvLayers": [
+        "Draft_face_metres"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ]
+    },
+    {
+      "name": "Position paddle",
+      "baseVertices": 160,
+      "evaluatedTriangles": 1152,
+      "materials": [
+        "Study \u2022 controls"
+      ],
+      "uvLayers": [
+        "Draft_face_metres"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ]
+    },
+    {
+      "name": "Post \u2022 in",
+      "baseVertices": 128,
+      "evaluatedTriangles": 896,
+      "materials": [
+        "Study \u2022 runner metal"
+      ],
+      "uvLayers": [
+        "Draft_face_metres"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ]
+    },
+    {
+      "name": "Post \u2022 out",
+      "baseVertices": 128,
+      "evaluatedTriangles": 896,
+      "materials": [
+        "Study \u2022 runner metal"
+      ],
+      "uvLayers": [
+        "Draft_face_metres"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ]
+    },
+    {
+      "name": "Rear \u2022 molded lower carrier",
+      "baseVertices": 1056,
+      "evaluatedTriangles": 33728,
+      "materials": [
+        "Study \u2022 structural graphite"
+      ],
+      "uvLayers": [
+        "Draft_face_metres"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ]
+    },
+    {
+      "name": "Recline paddle",
+      "baseVertices": 160,
+      "evaluatedTriangles": 1152,
+      "materials": [
+        "Study \u2022 controls"
+      ],
+      "uvLayers": [
+        "Draft_face_metres"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ]
+    },
+    {
+      "name": "Restraint \u2022 adjustable pad",
+      "baseVertices": 288,
+      "evaluatedTriangles": 8704,
+      "materials": [
+        "Study \u2022 headrest \u2192 Secondary"
+      ],
+      "uvLayers": [
+        "Draft_face_metres"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ]
+    },
+    {
+      "name": "Riser \u2022 inboard front",
+      "baseVertices": 12,
+      "evaluatedTriangles": 284,
+      "materials": [
+        "Study \u2022 dark steel"
+      ],
+      "uvLayers": [
+        "Draft_face_metres"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Riser \u2022 inboard rear",
+      "baseVertices": 12,
+      "evaluatedTriangles": 284,
+      "materials": [
+        "Study \u2022 dark steel"
+      ],
+      "uvLayers": [
+        "Draft_face_metres"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Riser \u2022 outboard front",
+      "baseVertices": 12,
+      "evaluatedTriangles": 284,
+      "materials": [
+        "Study \u2022 dark steel"
+      ],
+      "uvLayers": [
+        "Draft_face_metres"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Riser \u2022 outboard rear",
+      "baseVertices": 12,
+      "evaluatedTriangles": 284,
+      "materials": [
+        "Study \u2022 dark steel"
+      ],
+      "uvLayers": [
+        "Draft_face_metres"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Runner \u2022 inboard",
+      "baseVertices": 24,
+      "evaluatedTriangles": 572,
+      "materials": [
+        "Study \u2022 runner metal"
+      ],
+      "uvLayers": [
+        "Draft_face_metres"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Runner \u2022 outboard",
+      "baseVertices": 24,
+      "evaluatedTriangles": 572,
+      "materials": [
+        "Study \u2022 runner metal"
+      ],
+      "uvLayers": [
+        "Draft_face_metres"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Shield \u2022 inboard plain",
+      "baseVertices": 160,
+      "evaluatedTriangles": 4800,
+      "materials": [
+        "Study \u2022 structural graphite"
+      ],
+      "uvLayers": [
+        "Draft_face_metres"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ]
+    },
+    {
+      "name": "Shield \u2022 outboard control carrier",
+      "baseVertices": 160,
+      "evaluatedTriangles": 4800,
+      "materials": [
+        "Study \u2022 structural graphite"
+      ],
+      "uvLayers": [
+        "Draft_face_metres"
+      ],
+      "modifiers": [
+        "SUBSURF"
+      ]
+    },
+    {
+      "name": "Slider \u2022 inboard",
+      "baseVertices": 24,
+      "evaluatedTriangles": 572,
+      "materials": [
+        "Study \u2022 dark steel"
+      ],
+      "uvLayers": [
+        "Draft_face_metres"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    },
+    {
+      "name": "Slider \u2022 outboard",
+      "baseVertices": 24,
+      "evaluatedTriangles": 572,
+      "materials": [
+        "Study \u2022 dark steel"
+      ],
+      "uvLayers": [
+        "Draft_face_metres"
+      ],
+      "modifiers": [
+        "BEVEL",
+        "WEIGHTED_NORMAL"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "AUTOLAB_SUV_FRONT_SEAT_PRIMARY_01.jpg",
+      "packed": true,
+      "externalFilePresent": false
+    }
+  ],
+  "errors": [],
+  "scope": "Data integrity only; no visual acceptance, manifoldness, cabin fit or runtime equivalence"
+}

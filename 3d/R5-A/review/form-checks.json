@@ -1,0 +1,65 @@
+{
+  "passed": true,
+  "checks": {
+    "backCoverFollowsFoamAtNineSamples": true,
+    "post_in_enters_headrest": true,
+    "post_in_enters_backrest": true,
+    "post_out_enters_headrest": true,
+    "post_out_enters_backrest": true,
+    "Position paddle_seatedInOutboardShield": true,
+    "Recline paddle_seatedInOutboardShield": true,
+    "Lumbar dial_seatedInOutboardShield": true,
+    "Backrest \u2022 lumbar to shoulder_bothUpholsteryZones": true,
+    "Cushion \u2022 dished pan and thigh roll_bothUpholsteryZones": true
+  },
+  "rearCoverSamples": [
+    {
+      "xFromCentre": -0.16,
+      "z": 0.55,
+      "outerOffsetM": 0.01006
+    },
+    {
+      "xFromCentre": -0.16,
+      "z": 0.7,
+      "outerOffsetM": 0.01024
+    },
+    {
+      "xFromCentre": -0.16,
+      "z": 0.85,
+      "outerOffsetM": 0.00972
+    },
+    {
+      "xFromCentre": 0,
+      "z": 0.55,
+      "outerOffsetM": 0.01229
+    },
+    {
+      "xFromCentre": 0,
+      "z": 0.7,
+      "outerOffsetM": 0.01223
+    },
+    {
+      "xFromCentre": 0,
+      "z": 0.85,
+      "outerOffsetM": 0.01182
+    },
+    {
+      "xFromCentre": 0.16,
+      "z": 0.55,
+      "outerOffsetM": 0.01005
+    },
+    {
+      "xFromCentre": 0.16,
+      "z": 0.7,
+      "outerOffsetM": 0.01024
+    },
+    {
+      "xFromCentre": 0.16,
+      "z": 0.85,
+      "outerOffsetM": 0.00972
+    }
+  ],
+  "evaluatedGeometryDigest": "dc9fdfcc9803e3b2ec3ce9b807a4d44e158b838423c328b8e69fd8a23e5fe69e",
+  "digestScope": "Sorted object names, evaluated world coordinates, triangle indices and material indices; same Blender build.",
+  "excluded": "Whole-assembly clearance, load paths, travel, installed dimensions and visual acceptance."
+}

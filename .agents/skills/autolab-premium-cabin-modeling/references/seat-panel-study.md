@@ -1,6 +1,6 @@
 # Tailoring the shared seat: R5-B construction example
 
-[Reproducible scripts and evidence](../../../../3d/R5-B/README.md). R5-A is approved for form; this upholstery study still requires its own owner decision.
+[Reproducible scripts and evidence](../../../../3d/R5-B/README.md). R5-A is approved for form; the owner subsequently [approved the R5-B 14-panel construction as the working design](../../../../3d/R5-C/APPROVAL-BASE.md).
 
 1. Correct the **support** first. Ease in the waist below the shoulder without moving the headrest; take height out of the middle of the thigh roll while retaining the outboard crest and apron meeting line. Keep the original cage in its own file.
 2. Cut a continuous surface instead of laying a thin patch over finished foam. Sample the same periodic cubic section envelope for both sides of every join. Backrest sections cycle around the back; the cushion section cycles over the nose and underneath it. Share the arch and longitudinal boundaries and close their returns. Otherwise a convincing frontal join can split when seen along it.

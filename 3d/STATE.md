@@ -15,4 +15,4 @@ No new modelling, production replacement, application changes, merge or deployme
 Publication/retrieval status: handover/PUBLICATION.md. Cleanup awaits final explicit owner confirmation.
 2026-11-24: published core 27dd28d; independent GitHub/LFS retrieval, 16 master opens and remote-only R4 rebuild PASS. Draft PR #8; cleanup inventory complete, final owner confirmation pending.
 
-R5-A approved for overall form and proportions only; [approval](R5-B/APPROVAL-BASE.md). [R5-B upholstery checkpoint](R5-B/README.md) pending owner review on the same development branch. Floor fit unresolved. No passenger derivative, runtime export or production changes.
+R5-A approved for overall form and proportions; [R5-B's 14-panel working design approved](R5-C/APPROVAL-BASE.md). [R5-C leather study](R5-C/README.md) pending owner visual review on the same development branch. Floor fit unresolved. No passenger derivative, runtime export or production changes.

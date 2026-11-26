@@ -101,12 +101,13 @@ def pan(name, xmin, xmax, central, group, mats):
         x = (xmin+xmax)/2 + t*span/2
         h = exp(-((abs(t)-.80)/.22)**2)
         edge = abs(t)**12
-        well = exp(-((abs(x)-INNER)/.054)**4)
+        well = exp(-((abs(x)-INNER)/.069)**4)
         row = []
         for y,z,lift in profile:
             # Round the door-side plan corners more than the shared boundaries.
             nose = (.020 + .053*(abs(x)/.718)**5) * edge * max(0, (1.0-y)/.25)**2
-            tuck = well*.085*max(0, min(1, (y-1.07)/.14))**2
+            at = max(0, min(1, (y-.930)/.297))
+            tuck = well*.123*at*at*(3-2*at)
             zz = .47+(z-.47)*(1-.17*edge) + h*lift*(.25 if central else 1)
             row.append((x,y+nose-tuck,zz))
         rows.append(row)
@@ -213,9 +214,9 @@ def structure(group, plastic, felt, steel):
 def receivers(group, plastic, button):
     # Three visible receptacles in the two rear cushion wells; only the
     # envelope and release surface are represented in this form study.
-    for i,(x,y) in enumerate(((-.183,1.157),(-.148,1.156),(.166,1.157)),1):
+    for i,(x,y) in enumerate(((-.183,1.121),(-.148,1.115),(.166,1.121)),1):
         rounded_volume(f"Receiver • {i}",[(z,x,y+offset,w,d) for z,offset,w,d in (
-            (.443,.020,.009,.015),(.464,.016,.012,.018),(.486,.009,.014,.019),
+            (.431,.020,.009,.015),(.455,.016,.012,.018),(.486,.009,.014,.019),
             (.509,0,.014,.019),(.515,-.002,.012,.016))],plastic,group,.42,1)
         rounded_volume(f"Release • {i}",[(z,x,y+offset,w,d) for z,offset,w,d in (
             (.511,-.004,.009,.011),(.516,-.006,.010,.011),(.519,-.006,.009,.010))],

@@ -1,0 +1,37 @@
+{
+  "approvedPairSHA256": "821b2a5695caad7dc71e7e80124c8984f77ac5298f912d4c11c524dae2d1d619",
+  "benchMeshes": 43,
+  "benchBoundsM": [
+    [
+      -0.7178459763526917,
+      0.7478539943695068,
+      0.2549999952316284
+    ],
+    [
+      0.7178459763526917,
+      1.5237690210342407,
+      1.328940987586975
+    ]
+  ],
+  "outerCushionWidthDepthHeightMM": [
+    551.6900024414062,
+    477.0199890136719,
+    136.9199981689453
+  ],
+  "centreCushionWidthDepthHeightMM": [
+    325.82000732421875,
+    477.010009765625,
+    126.70999908447266
+  ],
+  "armrestWidthMM": 283.3900146484375,
+  "centreHeadrestTopDropMM": 84.9800033569336,
+  "foreAftEnvelopeGapMM": {
+    "R5_FRONT_SEAT_MASTER": 246.42,
+    "R5_D_PASSENGER": 246.42,
+    "PLACEMENT ONLY \u2022 dashboard and console": 353.78
+  },
+  "visibleReleaseFacesClearOfFoam": 3,
+  "feetMeetingSplitBase": 4,
+  "scope": "Static model space. Studio floor, installed fit, occupant clearance and folding travel are unverified.",
+  "passed": true
+}

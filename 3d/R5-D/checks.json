@@ -1,0 +1,50 @@
+{
+  "approvedDriverSHA256": "c2674a427043db534e2408c447a7800dc3718a36aa40d33fff6ed7a3695c00f8",
+  "componentsPerSeat": 45,
+  "panelsPerSeat": 14,
+  "threadObjectsPerSeat": 7,
+  "productionCentresXMetres": {
+    "Driver": 0.42501,
+    "Passenger": -0.425
+  },
+  "pairBoundsMetres": {
+    "Driver": [
+      [
+        0.154029,
+        -0.321,
+        0.244
+      ],
+      [
+        0.706961,
+        0.50143,
+        1.30494
+      ]
+    ],
+    "Passenger": [
+      [
+        -0.706961,
+        -0.321,
+        0.244
+      ],
+      [
+        -0.154029,
+        0.50143,
+        1.30494
+      ]
+    ]
+  },
+  "betweenSeatEnvelopeGapMM": 308.06,
+  "mountVsProductionMM": {
+    "Driver": -66.0,
+    "Passenger": -66.0
+  },
+  "sampledSeatVertexToReferenceSurfaceMM": {
+    "Driver console": 34.12,
+    "Driver dashboard": 135.65,
+    "Passenger console": 34.12,
+    "Passenger dashboard": 135.65
+  },
+  "staticIntersectionsWithDashboardOrConsole": [],
+  "scope": "Static pose only. Floor anchorage, adjustment travel and installed fit remain unverified.",
+  "passed": true
+}

@@ -3,28 +3,28 @@
   "benchMeshes": 43,
   "benchBoundsM": [
     [
-      -0.7178459763526917,
-      0.7478539943695068,
-      0.2549999952316284
+      -0.717846,
+      0.747854,
+      0.255
     ],
     [
-      0.7178459763526917,
-      1.5237690210342407,
-      1.328940987586975
+      0.717846,
+      1.523769,
+      1.328941
     ]
   ],
   "outerCushionWidthDepthHeightMM": [
-    551.6900024414062,
-    477.0199890136719,
-    136.9199981689453
+    551.69,
+    477.02,
+    136.92
   ],
   "centreCushionWidthDepthHeightMM": [
-    325.82000732421875,
-    477.010009765625,
-    126.70999908447266
+    325.82,
+    477.01,
+    126.71
   ],
-  "armrestWidthMM": 283.3900146484375,
-  "centreHeadrestTopDropMM": 84.9800033569336,
+  "armrestWidthMM": 283.39,
+  "centreHeadrestTopDropMM": 84.98,
   "foreAftEnvelopeGapMM": {
     "R5_FRONT_SEAT_MASTER": 246.42,
     "R5_D_PASSENGER": 246.42,

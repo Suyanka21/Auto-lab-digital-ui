@@ -1,5 +1,4 @@
 """Check evaluated bench forms and static placement from a fresh Blender open."""
-from hashlib import sha256
 import itertools
 import json
 from pathlib import Path
@@ -85,15 +84,16 @@ def run(out):
     # Disjoint longitudinal envelopes prove separation of every included
     # triangle. These are static axis gaps, not distances to occupant knees.
     gaps = {}
+    assert set(pair.children.keys()) == {"R5_FRONT_SEAT_MASTER", "R5_D_PASSENGER"}
     for coll in (*pair.children,cabin):
         context_box = bounds(np.concatenate([bounds(surface(o,deps)[0]) for o in coll.all_objects]))
         gap = float(extent[0,1] - context_box[1,1])
         assert gap > 0, (coll.name, gap)
         gaps[coll.name] = round(gap*1000, 2)
-    mm = lambda a: (np.asarray(a)*1000).round(2).tolist()
+    mm = lambda a: (np.asarray(a,dtype=float)*1000).round(2).tolist()
     report = {
         "approvedPairSHA256": PAIR_HASH, "benchMeshes": len(parts),
-        "benchBoundsM": extent.round(6).tolist(), "outerCushionWidthDepthHeightMM": mm(outer),
+        "benchBoundsM": extent.astype(float).round(6).tolist(), "outerCushionWidthDepthHeightMM": mm(outer),
         "centreCushionWidthDepthHeightMM": mm(middle), "armrestWidthMM": mm(dims(leaf)[0]),
         "centreHeadrestTopDropMM": mm(drop), "foreAftEnvelopeGapMM": gaps,
         "visibleReleaseFacesClearOfFoam": 3, "feetMeetingSplitBase": 4,

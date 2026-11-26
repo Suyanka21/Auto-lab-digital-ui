@@ -17,4 +17,4 @@ Publication/retrieval status: handover/PUBLICATION.md. Cleanup awaits final expl
 
 R5-A is approved for overall form and proportions. The owner accepted [R5-B's 14-panel construction](R5-C/APPROVAL-BASE.md) and [R5-C's geometry and modelling direction](R5-C/README.md). On 2026-11-26 the owner visually approved [R5-C-refined](R5-C-refined/README.md) as the front-seat modelling benchmark and [R5-D](R5-D/README.md) as the matched front-seat master. The approximately 66 mm mounting-floor question remains open for both seats.
 
-[R6-A](R6-A/README.md) is the editable rear-bench overall form with a stowed centre armrest. The five-seat assembly uses R5-D for static positioning. Rear-bench form approval is pending.
+The owner approved [R6-A](R6-A/README.md) for overall form, proportions and three-seat arrangement. [R6-B](R6-B/README.md) adds editable upholstery; visual review is pending. R5-D is used only for static positioning. Rear floor anchorage remains unresolved.

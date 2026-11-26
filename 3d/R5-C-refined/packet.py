@@ -13,7 +13,7 @@ D = Path(__file__).resolve().parent
 sys.path.insert(0, str(D.parent / "R5-C"))
 from package import REF, plate, encode
 
-VIEWS = ("before", "refined", "plain", "lumbar", "cushion")
+VIEWS = ("before", "refined", "plain", "lumbar", "cushion", "leather")
 SHEETS = ("comparison", "primary", "details")
 
 

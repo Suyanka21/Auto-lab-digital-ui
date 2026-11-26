@@ -11,7 +11,7 @@ from render import rig, camera
 from leather import FINISH
 
 OVERVIEWS = ("before", "refined", "plain")
-DETAILS = ("lumbar", "cushion")
+DETAILS = ("lumbar", "cushion", "leather")
 
 
 def render(out, views):
@@ -37,6 +37,8 @@ def render(out, views):
         else:
             if view == "lumbar":
                 camera(view, *rig.MACROS["channels"])
+            elif view == "leather":
+                camera(view, (.632, .245, .913), (.73, -.69, .24), .125)
             rig.render(out, [view], 36, 880)
         for socket, value in saved:
             socket.default_value = value

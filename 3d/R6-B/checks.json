@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "formSHA256": "b4706f65ec7bb8437b724552892d8fd97909817e1e0cc1f469178bd0701422b9",
+  "leatherSourceSHA256": "c2674a427043db534e2408c447a7800dc3718a36aa40d33fff6ed7a3695c00f8",
+  "separateCoverPieces": 44,
+  "directedPairedBoundaryEdges": 9928,
+  "unchangedEvaluatedMeshes": 36,
+  "perforationControls": 6,
+  "threadObjects": 29,
+  "separateStitches": 5721,
+  "maxThreadMidpointGapMM": 0.351,
+  "envelopeDeltaMinMaxXYZmm": [
+    [
+      -0.837,
+      -0.759,
+      0.0
+    ],
+    [
+      0.837,
+      0.0,
+      0.0
+    ]
+  ],
+  "clearBuckleReleaseFaces": 3,
+  "cushionFrontCentreLoweringAtY792mm": {
+    "LH": 7.22,
+    "centre": 7.22,
+    "RH": 7.22
+  },
+  "evaluatedGeometrySHA256": "7a9b6aec81dd565d743d938007def3ccbeb2bd9fc2c62ebb8f2be73df5330c1e",
+  "foreAftEnvelopeGapMM": {
+    "R5_FRONT_SEAT_MASTER": 245.67,
+    "R5_D_PASSENGER": 245.67,
+    "PLACEMENT ONLY \u2022 dashboard and console": 353.02
+  },
+  "scope": "Static geometry and material controls, not visual acceptance, working mechanisms or installed fit."
+}
